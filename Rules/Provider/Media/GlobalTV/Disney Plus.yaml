@@ -1,6 +1,4 @@
-payload:  
-  # > Disney Plus
-  # - User-Agent,Disney*
+payload: 
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,bam.nr-date.net
   - DOMAIN-SUFFIX,bamgrid.com

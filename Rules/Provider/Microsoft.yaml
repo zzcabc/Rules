@@ -1,6 +1,4 @@
-payload:  
-  # > Microsoft
-  # - User-Agent,OneDrive*
+payload: 
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,aadrm.com
