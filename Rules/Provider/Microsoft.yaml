@@ -1,6 +1,10 @@
 payload: 
+  - #DOMAIN-SUFFIX,aria.microsoft.com
+  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.com
   - DOMAIN-SUFFIX,acompli.net
@@ -20,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,lync.com
   - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,msauth.net
@@ -42,22 +47,32 @@ payload:
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
   - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,outlookmobile.com
   - DOMAIN-SUFFIX,phonefactor.net
+  - DOMAIN-SUFFIX,photos.live.com
   - DOMAIN-SUFFIX,public-trust.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,staffhub.ms
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,sway-cdn.com
   - DOMAIN-SUFFIX,sway-extensions.com
@@ -78,18 +93,3 @@ payload:
   - PROCESS-NAME,OneDriveUpdater
   - USER-AGENT,OneDrive*
   - USER-AGENT,OneDriveiOSApp*
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,skydrive
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,oneclient.sfx.ms
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,photos.live.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,storage.msn.com
-  - #DOMAIN-SUFFIX,aria.microsoft.com

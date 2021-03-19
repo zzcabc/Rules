@@ -1,4 +1,4 @@
-payload:  
+payload: 
   # > ViuTV
   # - User-Agent,ViuTV*
   - DOMAIN-SUFFIX,bootstrapcdn.com
@@ -10,5 +10,5 @@ payload:
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,viu.com
-  - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,viu.now.com
+  - DOMAIN-SUFFIX,viu.tv

@@ -1,4 +1,4 @@
-payload:  
+payload: 
   # > Spotify
   # - User-Agent,Spotify*
   - DOMAIN-SUFFIX,pscdn.co

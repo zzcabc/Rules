@@ -1,4 +1,4 @@
-payload:  
+payload: 
   # > Hulu
   - DOMAIN-SUFFIX,cws-hulu.conviva.com
   - DOMAIN-SUFFIX,hulu.com

@@ -1,4 +1,4 @@
-payload:  
+payload: 
   # > Niconico
   # - USER-AGENT,Niconico*
   - DOMAIN-SUFFIX,dmc.nico

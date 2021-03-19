@@ -1,8 +1,7 @@
-payload:  
+payload: 
   # > Bilibili
   # - User-Agent,bili*
   # - User-Agent,Bilibili*
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -18,3 +17,4 @@ payload:
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net
