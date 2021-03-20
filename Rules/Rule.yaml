@@ -303,7 +303,7 @@ rule-providers:
   Fox+:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/Fox.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/Fox%2B.yaml'
     path: ./Rules/Media/GlobalTV/Fox+
     interval: 86400
   HBO:
