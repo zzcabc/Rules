@@ -309,7 +309,7 @@ rule-providers:
   HBO:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalT/VHBO.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/HBO.yaml'
     path: ./Rules/Media/GlobalTV/HBO
     interval: 86400
   Hulu Japan:
