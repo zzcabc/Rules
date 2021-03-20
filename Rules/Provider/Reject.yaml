@@ -561,10 +561,16 @@ payload:
   - DOMAIN-SUFFIX,35d59588f15966.com
   - DOMAIN-SUFFIX,35jd5gql9m.monster
   - DOMAIN-SUFFIX,35kds.com
+  - DOMAIN-SUFFIX,360.cn
+  - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,3600.com
   - DOMAIN-SUFFIX,360640.com
   - DOMAIN-SUFFIX,360baidus.com
+  - DOMAIN-SUFFIX,360buy.com
+  - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,360jiaquan.com
+  - DOMAIN-SUFFIX,360kuai.com
+  - DOMAIN-SUFFIX,360safe.com
   - DOMAIN-SUFFIX,360safego.com
   - DOMAIN-SUFFIX,360shopping.com.cn
   - DOMAIN-SUFFIX,360vip.front99.com
@@ -9760,6 +9766,7 @@ payload:
   - DOMAIN-SUFFIX,hao.qquu8.com
   - DOMAIN-SUFFIX,hao.tiandi.com
   - DOMAIN-SUFFIX,hao.uc.cn
+  - DOMAIN-SUFFIX,hao123.com
   - DOMAIN-SUFFIX,hao123.xywy.com
   - DOMAIN-SUFFIX,hao123rt.com
   - DOMAIN-SUFFIX,hao549.com
@@ -9771,6 +9778,7 @@ payload:
   - DOMAIN-SUFFIX,haolew.com
   - DOMAIN-SUFFIX,haomaojin.com
   - DOMAIN-SUFFIX,haoshengtoys.com
+  - DOMAIN-SUFFIX,haosou.com
   - DOMAIN-SUFFIX,haostat.qihoo.com
   - DOMAIN-SUFFIX,haotyxhbv.com
   - DOMAIN-SUFFIX,haoxianyangrouye.com

@@ -1,5 +1,4 @@
 payload: 
-  # > Apple TV
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com

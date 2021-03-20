@@ -1,8 +1,4 @@
 payload: 
-  # > Youtube
-  # - User-Agent,*youtube*
-  # - User-Agent,YouTube*
-  # - USER-AGENT,com.google.ios.youtube*
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,googlevideo.com

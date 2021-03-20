@@ -1,6 +1,4 @@
 payload: 
-  # > DAZN
-  # - USER-AGENT,DAZN*
   - DOMAIN-KEYWORD,livedazn
   - DOMAIN-KEYWORD,voddazn
   - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net

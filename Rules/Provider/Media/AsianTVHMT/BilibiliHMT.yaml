@@ -1,6 +1,4 @@
 payload: 
-  # 内容：BilibiliHMT 哔哩哔哩 港澳台番剧
-  # 数量：13条
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net

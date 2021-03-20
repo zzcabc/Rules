@@ -1,23 +1,15 @@
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
-
-
 - RULE-SET,BilibiliHMT,HMT
 - RULE-SET,Bilibili,AsianTV
 - RULE-SET,iQiyi,AsianTV
 - RULE-SET,Letv,AsianTV
-# - RULE-SET,MOO,AsianTV
 - RULE-SET,Netease Music,AsianTV
 - RULE-SET,Tencent Video,AsianTV
-- RULE-SET,Youku,AsianTV
 - RULE-SET,WeTV,AsianTV
+- RULE-SET,Youku,AsianTV
 
-- RULE-SET,Netflix,GlobalTV
-- RULE-SET,Spotify,GlobalTV
-# - RULE-SET,YouTube Music,YouTube
-- RULE-SET,YouTube,GlobalTV
-- RULE-SET,Disney Plus,GlobalTV
 - RULE-SET,ABC,GlobalTV
 - RULE-SET,Abema TV,GlobalTV
 - RULE-SET,Amazon,GlobalTV
@@ -27,6 +19,7 @@
 - RULE-SET,BBC iPlayer,GlobalTV
 - RULE-SET,DAZN,GlobalTV
 - RULE-SET,Discovery Plus,GlobalTV
+- RULE-SET,Disney Plus,GlobalTV
 - RULE-SET,encoreTVB,GlobalTV
 - RULE-SET,Fox Now,GlobalTV
 - RULE-SET,Fox+,GlobalTV
@@ -39,11 +32,15 @@
 - RULE-SET,KKTV,GlobalTV
 - RULE-SET,Line TV,GlobalTV
 - RULE-SET,myTV SUPER,GlobalTV
+- RULE-SET,Netflix,GlobalTV
+- RULE-SET,Niconico,GlobalTV
 - RULE-SET,Pandora,GlobalTV
 - RULE-SET,PBS,GlobalTV
 - RULE-SET,Pornhub,GlobalTV
 - RULE-SET,Soundcloud,GlobalTV
+- RULE-SET,Spotify,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
+- RULE-SET,YouTube,GlobalTV
 
 
 - RULE-SET,Steam,SteamAndPayPal
@@ -104,6 +101,7 @@ script:
             "Line TV": "GlobalTV",
             "myTV SUPER": "GlobalTV",
             "Netflix": "GlobalTV",
+            "Niconico": "GlobalTV"
             "Pandora": "GlobalTV",
             "PBS": "GlobalTV",
             "Pornhub": "GlobalTV",
@@ -173,12 +171,6 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/AsianTV/Letv.yaml'
     path: ./Rules/Media/AsianTV/Letv
     interval: 86400
-  # MOO:
-  #   type: http
-  #   behavior: classical
-  #   url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/MOO.yaml'
-  #   path: ./Rules/Media/MOO
-  #   interval: 86400
   Netease Music:
     type: http
     behavior: classical
@@ -209,19 +201,18 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/Netflix.yaml'
     path: ./Rules/Media/GlobalTV/Netflix
     interval: 86400
+  Niconico:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/Niconico.yaml'
+    path: ./Rules/Media/GlobalTV/Niconico
+    interval: 86400
   Spotify:
     type: http
     behavior: classical
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/GlobalTV/Spotify.yaml'
     path: ./Rules/Media/GlobalTV/Spotify
     interval: 86400
-  # YouTube Music:
-  #   type: http
-  #   behavior: classical
-  # url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/.yaml'
-  #       url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/.yaml'
-  #   path: ./Rules/Media/YouTube_Music
-  #   interval: 86400
   YouTube:
     type: http
     behavior: classical
