@@ -423,7 +423,7 @@ rule-providers:
   PROXY:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/PROXY.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
   Domestic:
