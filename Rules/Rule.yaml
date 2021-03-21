@@ -1,7 +1,6 @@
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
-- RULE-SET,BilibiliHMT,HMT
 - RULE-SET,Bilibili,AsianTV
 - RULE-SET,iQiyi,AsianTV
 - RULE-SET,Letv,AsianTV
@@ -70,7 +69,6 @@ script:
         ruleset_action = {
             "Reject": "AdBlock",
             "Special": "DIRECT",
-            "BilibiliHMT": "HMT",
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
@@ -146,12 +144,6 @@ rule-providers:
     behavior: classical
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Special.yaml'
     path: ./Rules/Special
-    interval: 86400
-  BilibiliHMT:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Media/AsianTVHMT/BilibiliHMT.yaml'
-    path: ./Rules/Media/AsianTVHMT/BilibiliHMT
     interval: 86400
   Bilibili:
     type: http
