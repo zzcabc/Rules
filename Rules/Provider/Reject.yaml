@@ -566,8 +566,6 @@ payload:
   - DOMAIN-SUFFIX,3600.com
   - DOMAIN-SUFFIX,360640.com
   - DOMAIN-SUFFIX,360baidus.com
-  - DOMAIN-SUFFIX,360buy.com
-  - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,360jiaquan.com
   - DOMAIN-SUFFIX,360kuai.com
   - DOMAIN-SUFFIX,360safe.com
