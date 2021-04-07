@@ -1,5 +1,6 @@
 payload:  
   - DOMAIN-KEYWORD,beplay
+  - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,12306.com
   - DOMAIN-SUFFIX,126.net

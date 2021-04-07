@@ -1,9 +1,0 @@
-payload: 
-  - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
