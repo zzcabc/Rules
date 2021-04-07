@@ -1,0 +1,143 @@
+# 本地HTTP(S)端口
+port: 7890
+
+# 本地SOCKS5端口
+socks-port: 7891
+
+# 透明代理端口Linux and macOS (Redirect TCP and TProxy UDP)
+redir-port: 7892
+
+# 透明代理端口Linux (TProxy TCP and TProxy UDP)
+tproxy-port: 7893
+
+# HTTP(S)和SOCKS5同一端口
+mixed-port: 7890
+
+# 允许LAN上的其他设备通过Clash访问Internet。
+allow-lan: true
+
+# 通过具有特定IP地址的lan访问
+# "*": 绑定所有IP地址
+# 192.168.122.11: 绑定单个IPv4地址
+# "[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
+bind-address: "*"
+
+# 本地SOCKS5/HTTP（S）服务器的身份验证
+# authentication: 
+#   - "user1:password1"
+#   - "user2:word2"
+
+# rule / global / direct / script (default is rule)
+mode: rule
+
+# Clash核心的日志级别 
+# Debug 将显示所有DNS查询和提供程序更新日志
+# Debug 不会引起任何性能问题
+# silent / error / warning / info / debug
+log-level: debug
+
+# 外部控制器可以通过 RESTful API 从外部控制冲突
+external-controller: 127.0.0.1:9090
+# RESTful API的密码（可选）
+secret: ''
+
+# 您可以将静态web资源（如clash dashboard）放到一个目录中,clash将在${API}/ui中提供服务
+# 输入是配置目录的相对路径或绝对路径
+# external-ui: folder
+
+# 出站接口名称
+# interface-name: en0
+
+# 实验性选择
+experimental:
+# 将忽略dns解析失败,继续匹配规则,默认值为true
+  ignore-resolve-fail: true
+
+# 将在启动请求时连接到ipv6地址
+# 默认值为false,它只建立到v4地址的连接。
+ipv6: false
+
+# 开启系统代理时将忽略这些域(或ip地址)
+cfw-bypass:
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+
+# Proxies module latency test settings
+
+cfw-latency-timeout: 3000 # seconds
+cfw-latency-url: http://www.gstatic.com/generate_204
+
+# Identify strategy of breaking connections after switching to a new proxy/profile/mode
+# Options for proxy: none, chain(proxy group in connection chains), all
+# Options for profile: true, false
+# Options for mode: true, false
+cfw-conn-break-strategy:
+  proxy: none
+  profile: true
+  mode: false
+
+
+
+# Sort proxies in Proxies module by default/latency/alphabet
+cfw-proxies-order: default
+# DNS服务器
+dns:
+# 开启Clash 内置DNS服务器
+  enable: true
+# 不使用ipv6解析
+  ipv6: false
+# 用这些DNS解析nameserver和fallback的DNS域名服务器
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+# 国内用下列DNS解析
+  nameserver:
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://233.5.5.5/dns-query'
+    - 'https://233.6.6.6/dns-query'
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.pub/dns-query'
+    - 'https://doh.360.cn/dns-query'
+    - 'https://dns.cfiec.net/dns-query'
+    - 'https://rubyfish.cn/dns-query'
+    - 'https://dns.rubyfish.cn/dns-quer'
+# 国外用下列DNS解析
+  fallback:
+    - 'https://dns.google/dns-query'
+    - 'https://dns.google/resolve'
+    - 'https://dns.quad9.net/dns-query'
+    - 'https://doh.opendns.com/dns-query'
+    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://1.1.1.1/dns-query'
+    - 'https://1.0.0.1/dns-query'
+    - 'https://dns.adguard.com/dns-query'
+    - 'https://doh.dns.sb/dns-query'
+  fallback-filter:
+    # 默认为true 当Geoip为中国是使用nameserver,否则为fallback
+    geoip: true
+    # 下列子网默认使用fallback
+    ipcidr: 
+      - 240.0.0.0/4
+    
+# clash-for-android: 
+  # append-system-dns: true # 追加系统 DNS 到 nameserver 
+  # ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
