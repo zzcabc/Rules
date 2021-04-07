@@ -136,7 +136,7 @@ rule-providers:
   Reject:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules/Provider/Reject.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Reject.yaml'
     path: ./Rules/Reject
     interval: 86400
   Special:
