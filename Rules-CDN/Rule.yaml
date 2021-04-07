@@ -136,306 +136,306 @@ rule-providers:
   Reject:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Reject.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Reject.yaml'
     path: ./Rules/Reject
     interval: 86400
   Special:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Special.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Special.yaml'
     path: ./Rules/Special
     interval: 86400
   Bilibili:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/Bilibili.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/Bilibili.yaml'
     path: ./Rules/Media/AsianTV/Bilibili
     interval: 86400
   iQiyi:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/iQiyi.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/iQiyi.yaml'
     path: ./Rules/Media/AsianTV/iQiyi
     interval: 86400
   Letv:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/Letv.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/Letv.yaml'
     path: ./Rules/Media/AsianTV/Letv
     interval: 86400
   Netease Music:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/Netease%20Music.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/Netease%20Music.yaml'
     path: ./Rules/Media/AsianTV/Netease_Music
     interval: 86400
   Tencent Video:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/Tencent%20Video.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/Tencent%20Video.yaml'
     path: ./Rules/Media/AsianTV/Tencent_Video
     interval: 86400
   Youku:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/Youku.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/Youku.yaml'
     path: ./Rules/Media/AsianTV/Youku
     interval: 86400
   WeTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/AsianTV/WeTV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/AsianTV/WeTV.yaml'
     path: ./Rules/Media/AsianTV/WeTV
     interval: 86400
   Netflix:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Netflix.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Netflix.yaml'
     path: ./Rules/Media/GlobalTV/Netflix
     interval: 86400
   Niconico:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Niconico.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Niconico.yaml'
     path: ./Rules/Media/GlobalTV/Niconico
     interval: 86400
   Spotify:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Spotify.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Spotify.yaml'
     path: ./Rules/Media/GlobalTV/Spotify
     interval: 86400
   YouTube:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/YouTube.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/YouTube.yaml'
     path: ./Rules/Media/GlobalTV/YouTube
     interval: 86400
   ABC:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/ABC.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/ABC.yaml'
     path: ./Rules/Media/GlobalTV/ABC
     interval: 86400
   Abema TV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Abema%20TV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Abema%20TV.yaml'
     path: ./Rules/Media/GlobalTV/Abema_TV
     interval: 86400
   Amazon:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Amazon.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Amazon.yaml'
     path: ./Rules/Media/GlobalTV/Amazon
     interval: 86400
   Apple News:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Apple%20News.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Apple%20News.yaml'
     path: ./Rules/Media/GlobalTV/Apple_News
     interval: 86400
   Apple TV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Apple%20TV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Apple%20TV.yaml'
     path: ./Rules/Media/GlobalTV/Apple_TV
     interval: 86400
   Bahamut:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Bahamut.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Bahamut.yaml'
     path: ./Rules/Media/GlobalTV/Bahamut
     interval: 86400
   BBC iPlayer:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/BBC%20iPlayer.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/BBC%20iPlayer.yaml'
     path: ./Rules/Media/GlobalTV/BBC_iPlayer
     interval: 86400
   DAZN:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/DAZN.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/DAZN.yaml'
     path: ./Rules/Media/GlobalTV/DAZN
     interval: 86400
   Discovery Plus:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Discovery%20Plus.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Discovery%20Plus.yaml'
     path: ./Rules/Media/GlobalTV/Discovery_Plus
     interval: 86400
   Disney Plus:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Disney%20Plus.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Disney%20Plus.yaml'
     path: ./Rules/Media/GlobalTV/Disney_Plus
     interval: 86400
   encoreTVB:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/encoreTVB.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/encoreTVB.yaml'
     path: ./Rules/Media/GlobalTV/encoreTVB
     interval: 86400
   Fox Now:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Fox%20Now.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Fox%20Now.yaml'
     path: ./Rules/Media/GlobalTV/Fox_Now
     interval: 86400
   Fox+:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Fox%2B.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Fox%2B.yaml'
     path: ./Rules/Media/GlobalTV/Fox+
     interval: 86400
   HBO:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/HBO.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/HBO.yaml'
     path: ./Rules/Media/GlobalTV/HBO
     interval: 86400
   Hulu Japan:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Hulu%20Japan.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Hulu%20Japan.yaml'
     path: ./Rules/Media/GlobalTV/Hulu_Japan
     interval: 86400
   Hulu:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Hulu.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Hulu.yaml'
     path: ./Rules/Media/GlobalTV/Hulu
     interval: 86400
   Japonx:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Japonx.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Japonx.yaml'
     path: ./Rules/Media/GlobalTV/Japonx
     interval: 86400
   JOOX:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/JOOX.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/JOOX.yaml'
     path: ./Rules/Media/GlobalTV/JOOX
     interval: 86400
   KKBOX:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/KKBOX.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/KKBOX.yaml'
     path: ./Rules/Media/GlobalTV/KKBOX
     interval: 86400
   KKTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/KKTV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/KKTV.yaml'
     path: ./Rules/Media/GlobalTV/KKTV
     interval: 86400
   Line TV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Line%20TV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Line%20TV.yaml'
     path: ./Rules/Media/GlobalTV/Line_TV
     interval: 86400
   myTV SUPER:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/myTV%20SUPER.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/myTV%20SUPER.yaml'
     path: ./Rules/Media/GlobalTV/myTV_SUPER
     interval: 86400
   Pandora:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Pandora.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Pandora.yaml'
     path: ./Rules/Media/GlobalTV/Pandora
     interval: 86400
   PBS:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/PBS.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/PBS.yaml'
     path: ./Rules/Media/GlobalTV/PBS
     interval: 86400
   Pornhub:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Pornhub.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Pornhub.yaml'
     path: ./Rules/Media/GlobalTV/Pornhub
     interval: 86400
   Soundcloud:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/Soundcloud.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/Soundcloud.yaml'
     path: ./Rules/Media/GlobalTV/Soundcloud
     interval: 86400
   ViuTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Media/GlobalTV/ViuTV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Media/GlobalTV/ViuTV.yaml'
     path: ./Rules/Media/GlobalTV/ViuTV
     interval: 86400
   Telegram:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Telegram.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Telegram.yaml'
     path: ./Rules/Telegram
     interval: 86400
   Steam:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Steam.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Steam.yaml'
     path: ./Rules/Steam
     interval: 86400
   Speedtest:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Speedtest.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Speedtest.yaml'
     path: ./Rules/Speedtest
     interval: 86400
   PayPal:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/PayPal.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/PayPal.yaml'
     path: ./Rules/PayPal
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Microsoft.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
   PROXY:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Proxy.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
   Domestic:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Domestic.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Domestic.yaml'
     path: ./Rules/Domestic
     interval: 86400
   Apple:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Apple.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Apple.yaml'
     path: ./Rules/Apple
     interval: 86400
   Scholar:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Scholar.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Scholar.yaml'
     path: ./Rules/Scholar
     interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/Domestic%20IPs.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
   LAN:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules/Provider/LAN.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-CDN/Provider/LAN.yaml'
     path: ./Rules/LAN
     interval: 86400
