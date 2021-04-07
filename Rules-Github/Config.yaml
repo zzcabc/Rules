@@ -27,7 +27,11 @@ bind-address: "*"
 #   - "user1:password1"
 #   - "user2:word2"
 
-# rule / global / direct / script (default is rule)
+# Clash 模式选择
+# global 全局模式
+# rule 规则模式 (默认) 
+# direct 直连模式
+# script 
 mode: rule
 
 # Clash核心的日志级别 
@@ -36,17 +40,17 @@ mode: rule
 # silent / error / warning / info / debug
 log-level: debug
 
-# 外部控制器可以通过 RESTful API 从外部控制冲突
-external-controller: 127.0.0.1:9090
-# RESTful API的密码（可选）
-secret: ''
+# 外部控制器可以通过 RESTful API 从外部控制Clash
+external-controller: 0.0.0.0:9090
+# RESTful API的密码 (可选)
+secret: '123456'
 
-# 您可以将静态web资源（如clash dashboard）放到一个目录中,clash将在${API}/ui中提供服务
+# 您可以将静态web资源(如clash dashboar)放到一个目录中,clash将在${API}/ui中提供服务
 # 输入是配置目录的相对路径或绝对路径
 # external-ui: folder
 
 # 出站接口名称
-# interface-name: en0
+# interface-name: eth0
 
 # 实验性选择
 experimental:
@@ -79,37 +83,44 @@ cfw-bypass:
   - 172.30.*
   - 172.31.*
   - 192.168.*
-  - <local>
+  - "<local>"
 
-# Proxies module latency test settings
-
-cfw-latency-timeout: 3000 # seconds
+# 延迟测试设置
+# 超时时间 单位秒
+cfw-latency-timeout: 3000
+# 测试网址
 cfw-latency-url: http://www.gstatic.com/generate_204
 
-# Identify strategy of breaking connections after switching to a new proxy/profile/mode
-# Options for proxy: none, chain(proxy group in connection chains), all
-# Options for profile: true, false
-# Options for mode: true, false
+# 更换节点 配置文件 模式 是否打断连接
+# proxy none(不切换) chain(连接链中的代理组) all(全部)
+# profile true(文件切换断开连接) false(不断开连接)
+# mode true(切换模式断开连接) false(不断开连接)
 cfw-conn-break-strategy:
-  proxy: none
-  profile: true
+  proxy: all
+  profile: false
   mode: false
 
-
-
-# Sort proxies in Proxies module by default/latency/alphabet
+# 排序规则
+# default 默认
+# latency 延迟
+# alphabet 字母
 cfw-proxies-order: default
+
 # DNS服务器
 dns:
-# 开启Clash 内置DNS服务器
+  # 开启Clash 内置DNS服务器
   enable: true
-# 不使用ipv6解析
+  # 不使用ipv6解析
   ipv6: false
-# 用这些DNS解析nameserver和fallback的DNS域名服务器
-  default-nameserver:
-    - 114.114.114.114
-    - 8.8.8.8
-# 国内用下列DNS解析
+  # 模式fake-ip  or  redir-host
+  enhanced—mode: fake-ip
+  # DNS监听端口
+  listen: 127.0.0.1:7874
+  # fake-ip 模式仅有
+  fake-ip-range: 198.18.0.1/16
+  # 使用本地hosts文件
+  use-hosts: true
+  # 国内用下列DNS解析
   nameserver:
     - 'https://dns.alidns.com/dns-query'
     - 'https://233.5.5.5/dns-query'
@@ -120,7 +131,7 @@ dns:
     - 'https://dns.cfiec.net/dns-query'
     - 'https://rubyfish.cn/dns-query'
     - 'https://dns.rubyfish.cn/dns-quer'
-# 国外用下列DNS解析
+  # 国内用下列DNS解析
   fallback:
     - 'https://dns.google/dns-query'
     - 'https://dns.google/resolve'
@@ -131,13 +142,107 @@ dns:
     - 'https://1.0.0.1/dns-query'
     - 'https://dns.adguard.com/dns-query'
     - 'https://doh.dns.sb/dns-query'
+  # fake-ip
+  fake-ip-filter:
+  - "*.lan"
+  - time.windows.com
+  - time.nist.gov
+  - time.apple.com
+  - time.asia.apple.com
+  - "*.ntp.org.cn"
+  - "*.openwrt.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - time.ustc.edu.cn
+  - pool.ntp.org
+  - ntp.ubuntu.com
+  - ntp.aliyun.com
+  - ntp1.aliyun.com
+  - ntp2.aliyun.com
+  - ntp3.aliyun.com
+  - ntp4.aliyun.com
+  - ntp5.aliyun.com
+  - ntp6.aliyun.com
+  - ntp7.aliyun.com
+  - time1.aliyun.com
+  - time2.aliyun.com
+  - time3.aliyun.com
+  - time4.aliyun.com
+  - time5.aliyun.com
+  - time6.aliyun.com
+  - time7.aliyun.com
+  - "*.time.edu.cn"
+  - time1.apple.com
+  - time2.apple.com
+  - time3.apple.com
+  - time4.apple.com
+  - time5.apple.com
+  - time6.apple.com
+  - time7.apple.com
+  - time1.google.com
+  - time2.google.com
+  - time3.google.com
+  - time4.google.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "*.msftconnecttest.com"
+  - "*.msftncsi.com"
+  - localhost.ptlogin2.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - "+.xboxlive.com"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "+.battlenet.com.cn"
   fallback-filter:
-    # 默认为true 当Geoip为中国是使用nameserver,否则为fallback
-    geoip: true
-    # 下列子网默认使用fallback
-    ipcidr: 
-      - 240.0.0.0/4
-    
+    geoip: false
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+  
 # clash-for-android: 
   # append-system-dns: true # 追加系统 DNS 到 nameserver 
   # ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
