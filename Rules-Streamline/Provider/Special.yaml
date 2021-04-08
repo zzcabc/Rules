@@ -1,43 +1,39 @@
-payload: 
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,epicgames
-  - DOMAIN-KEYWORD,mtalk.google.com
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-SUFFIX,awesome-hd.me
-  - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,chdbits.co
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,dler.cloud
-  - DOMAIN-SUFFIX,empornium.me
-  - DOMAIN-SUFFIX,gazellegames.net
-  - DOMAIN-SUFFIX,hdchina.org
-  - DOMAIN-SUFFIX,hdsky.me
-  - DOMAIN-SUFFIX,icetorrent.org
-  - DOMAIN-SUFFIX,jpopsuki.eu
-  - DOMAIN-SUFFIX,keepfrds.com
-  - DOMAIN-SUFFIX,ls.apple.com
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,madsrevolution.net
-  - DOMAIN-SUFFIX,msftconnecttest.com
+payload:
+  # > Apple API
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,nanyangpt.com
-  - DOMAIN-SUFFIX,ncore.cc
-  - DOMAIN-SUFFIX,open.cd
-  - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,passthepopcorn.me
-  - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,privatehd.to
-  - DOMAIN-SUFFIX,redacted.ch
-  - DOMAIN-SUFFIX,smtp
-  - DOMAIN-SUFFIX,springsunday.net
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
-  - DOMAIN-SUFFIX,tesla.cn
-  - DOMAIN-SUFFIX,tjupt.org
-  - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,xunlei.com
+  - IP-CIDR,139.178.128.0/18,no-resolve
+  - IP-CIDR,144.178.0.0/19,no-resolve
+  - IP-CIDR,144.178.36.0/22,no-resolve
+  - IP-CIDR,144.178.48.0/20,no-resolve
+  - IP-CIDR,17.0.0.0/8,no-resolve
+  - IP-CIDR,192.35.50.0/24,no-resolve
+  - IP-CIDR,198.183.17.0/24,no-resolve
+  - IP-CIDR,205.180.175.0/24,no-resolve
+  - IP-CIDR,63.92.224.0/19,no-resolve
+  - IP-CIDR,65.199.22.0/23,no-resolve
+
+  # > Apple News
+  - DOMAIN-SUFFIX,apple.news
+
+  # > Apple Maps
+  - PROCESS-NAME,com.apple.geod
+
+  # > Apple CDN
+  - PROCESS-NAME,storedownloadd
+  # - User-Agent,com.apple.appstored*
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,appldnld.apple.com
@@ -47,22 +43,47 @@ payload:
   - DOMAIN,music.apple.com
   - DOMAIN,mvod.itunes.apple.com
   - DOMAIN,osxapps.itunes.apple.com
-  - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,supportdownload.apple.com
   - DOMAIN,swcdn.apple.com
   - DOMAIN,updates-http.cdn-apple.com
-  - PROCESS-NAME,aria2c
+
+
+  # > Dler Cloud
+  - DOMAIN-SUFFIX,dler.cloud
+
+    # > Epic
+  - DOMAIN-KEYWORD,epicgames
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
+
+  # > Proxy plugin
+  - PROCESS-NAME,v2ray
+  - PROCESS-NAME,ss-local
+
+  # > Tesla
+  - DOMAIN-SUFFIX,tesla.cn
+  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
+
+  # > UUBooster
+  - PROCESS-NAME,UUBooster
+
+  # > Xunlei
+  # - User-Agent,%E8%BF%85%E9%9B%B7
+  - DOMAIN-SUFFIX,xunlei.com
+
+  # > Download
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,BitComet.exe
-  - PROCESS-NAME,fdm
   - PROCESS-NAME,fdm.exe
+  # - PROCESS-NAME,IDMan.exe
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
   - PROCESS-NAME,NetTransport
   - PROCESS-NAME,NetTransport.exe
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,ss-local
-  - PROCESS-NAME,storedownloadd
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
@@ -71,8 +92,169 @@ payload:
   - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
-  - PROCESS-NAME,UUBooster
-  - PROCESS-NAME,v2ray
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
   - PROCESS-NAME,WebTorrent.exe
+
+  # > PayPal
+  # - User-Agent,PayPal*
+  - DOMAIN-KEYWORD,paypal
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+
+  # > Private Tracker
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im
+  # - URL-REGEX,(Subject|HELO|SMTP)
+
+  # > Sony
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+  # > Steam
+  # - User-Agent,Steam*
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+
+  # > Speedtest by Ookla
+  # - User-Agent,SpeedTest*
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,ooklaserver.net
+
+  # > Speed Test by Cloudflare
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+
+  # > Microsoft
+  # - User-Agent,OneDrive*
+  # - DOMAIN-SUFFIX,aria.microsoft.com
+  # - USER-AGENT,OneDriveiOSApp*
+  # - PROCESS-NAME,OneDrive
+  # - PROCESS-NAME,OneDriveUpdater
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,aadrm.com
+  - DOMAIN-SUFFIX,acompli.com
+  - DOMAIN-SUFFIX,acompli.net
+  - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,aspnetcdn.com
+  - DOMAIN-SUFFIX,assets-yammer.com
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,azure.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,azurerms.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,cloudapp.net
+  - DOMAIN-SUFFIX,cloudappsecurity.com
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,fabric.io
+  - DOMAIN-SUFFIX,files.1drv.com
+  - DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,lync.com
+  - DOMAIN-SUFFIX,mesh.com
+  - DOMAIN-SUFFIX,microsoft-tst.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,msappproxy.net
+  - DOMAIN-SUFFIX,msauth.net
+  - DOMAIN-SUFFIX,msauthimages.net
+  - DOMAIN-SUFFIX,msecnd.net
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,msft.net
+  - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,msftidentity.com
+  - DOMAIN-SUFFIX,msidentity.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,msocdn.com
+  - DOMAIN-SUFFIX,msocsp.com
+  - DOMAIN-SUFFIX,mstea.ms
+  - DOMAIN-SUFFIX,o365weve.com
+  - DOMAIN-SUFFIX,oaspapps.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,office365.com
+  - DOMAIN-SUFFIX,officeppe.net
+  - DOMAIN-SUFFIX,omniroot.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,onenote.com
+  - DOMAIN-SUFFIX,onenote.net
+  - DOMAIN-SUFFIX,onestore.ms
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,outlookmobile.com
+  - DOMAIN-SUFFIX,p.sfx.ms
+  - DOMAIN-SUFFIX,phonefactor.net
+  - DOMAIN-SUFFIX,photos.live.com
+  - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN-SUFFIX,sfbassets.com
+  - DOMAIN-SUFFIX,sfx.ms
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
+  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,skypeassets.com
+  - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  - DOMAIN-SUFFIX,staffhub.ms
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-SUFFIX,svc.ms
+  - DOMAIN-SUFFIX,sway-cdn.com
+  - DOMAIN-SUFFIX,sway-extensions.com
+  - DOMAIN-SUFFIX,sway.com
+  - DOMAIN-SUFFIX,trafficmanager.net
+  - DOMAIN-SUFFIX,uservoice.com
+  - DOMAIN-SUFFIX,virtualearth.net
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,windows-ppe.net
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,windowsazure.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,wunderlist.com
+  - DOMAIN-SUFFIX,yammer.com
+  - DOMAIN-SUFFIX,yammerusercontent.com
