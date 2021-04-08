@@ -1,29 +1,11 @@
 rules: 
+- RULE-SET,AsianTV,AsianTV
+- RULE-SET,Domestic IPs,Domestic
+- RULE-SET,Domestic,Domestic
+- RULE-SET,GlobalTV,GlobalTV
+- RULE-SET,PROXY,Proxy
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
-
-- RULE-SET,AsianTV,AsianTV
-
-
-- RULE-SET,GlobalTV,GlobalTV
-
-
-- RULE-SET,Steam,SteamAndPayPal
-- RULE-SET,PayPal,SteamAndPayPal
-
-- RULE-SET,Speedtest,Speedtest
-
-- RULE-SET,PROXY,Proxy
-- RULE-SET,Telegram,Proxy
-
-- RULE-SET,Apple,AppleAndMicrosoft
-- RULE-SET,Microsoft,AppleAndMicrosoft
-
-- RULE-SET,Scholar,Scholar
-
-- RULE-SET,Domestic,Domestic
-- RULE-SET,Domestic IPs,Domestic
-
 - RULE-SET,LAN,DIRECT
 - GEOIP,CN,Domestic
 - MATCH,Others
@@ -37,15 +19,7 @@ script:
             "Special": "DIRECT",
             "AsianTV": "AsianTV",
             "GlobalTV": "GlobalTV",
-
             "PROXY": "Proxy",
-
-            "Steam": "SteamAndPayPal",
-            "PayPal": "SteamAndPayPal",
-
-            "Microsoft": "AppleAndMicrosoft",
-            "Apple": "AppleAndMicrosoft",
-
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
@@ -63,8 +37,6 @@ script:
         if code == "CN":
           return "Domestic"
         return "Others"
-
-
 rule-providers:
   Special:
     type: http
@@ -75,52 +47,21 @@ rule-providers:
   AsianTV:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/AsianTV/AsianTV.yaml'
-    path: ./Rules/Media/AsianTV/AsianTV
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/AsianTV.yaml'
+    path: ./Rules/Media/AsianTV
     interval: 86400
-
   GlobalTV:
     type: http
     behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Media/GlobalTV/GlobalTV.yaml'
-    path: ./Rules/Media/GlobalTV/GlobalTV
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Media/GlobalTV.yaml'
+    path: ./Rules/Media/GlobalTV
     interval: 86400
-
-
-  Steam:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Steam.yaml'
-    path: ./Rules/Steam
-    interval: 86400
-  PayPal:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/PayPal.yaml'
-    path: ./Rules/PayPal
-    interval: 86400
-
-
   PROXY:
     type: http
     behavior: classical
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
-
-  Microsoft:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Microsoft.yaml'
-    path: ./Rules/Microsoft
-    interval: 86400
-  Apple:
-    type: http
-    behavior: classical
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Apple.yaml'
-    path: ./Rules/Apple
-    interval: 86400
-
   Domestic:
     type: http
     behavior: classical
@@ -132,6 +73,18 @@ rule-providers:
     behavior: ipcidr
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
+    interval: 86400
+  LAN:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/LAN.yaml'
+    path: ./Rules/LAN
+    interval: 86400
+  Reject:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Reject.yaml'
+    path: ./Rules/Reject
     interval: 86400
   LAN:
     type: http
