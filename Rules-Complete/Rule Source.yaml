@@ -18,6 +18,7 @@ rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
+  - RULE-SET,MOO,GlobalTV
   - RULE-SET,Epic,Proxy
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
@@ -100,6 +101,7 @@ script:
             "KKBOX": "GlobalTV",
             "KKTV": "GlobalTV",
             "Line TV": "GlobalTV",
+            "MOO": "GlobalTV",
             "myTV SUPER": "GlobalTV",
             "Netflix": "GlobalTV",
             "Niconico": "GlobalTV",
