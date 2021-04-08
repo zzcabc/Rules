@@ -27,6 +27,7 @@ rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
+  # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Pandora,GlobalTV
@@ -35,7 +36,7 @@ rules:
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Spotify,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
-  - RULE-SET,YouTube Music,GlobalTV
+  # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
   # HMTTV
   - RULE-SET,Bahamut,GlobalTV
@@ -332,12 +333,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/Line_TV
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml'
-  MOO:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/GlobalTV/MOO
-    type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml'    
+  # MOO:
+  #   behavior: classical
+  #   interval: 86400
+  #   path: ./Rules/Media/GlobalTV/MOO
+  #   type: http
+  #   url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml'    
   Microsoft:
     behavior: classical
     interval: 86400
@@ -470,12 +471,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/YouTube
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml'
-  YouTube Music:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/GlobalTV/YouTube
-    type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
+  # YouTube Music:
+  #   behavior: classical
+  #   interval: 86400
+  #   path: ./Rules/Media/GlobalTV/YouTube
+  #   type: http
+  #   url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
   Youku:
     behavior: classical
     interval: 86400

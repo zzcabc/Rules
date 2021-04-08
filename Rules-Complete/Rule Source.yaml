@@ -18,7 +18,6 @@ rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
-  - RULE-SET,MOO,GlobalTV
   - RULE-SET,Epic,Proxy
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
@@ -28,6 +27,7 @@ rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
+  # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Pandora,GlobalTV
@@ -36,7 +36,7 @@ rules:
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Spotify,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
-  - RULE-SET,YouTube Music,GlobalTV
+  # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
   # HMTTV
   - RULE-SET,Bahamut,GlobalTV
@@ -101,7 +101,6 @@ script:
             "KKBOX": "GlobalTV",
             "KKTV": "GlobalTV",
             "Line TV": "GlobalTV",
-            "MOO": "GlobalTV",
             "myTV SUPER": "GlobalTV",
             "Netflix": "GlobalTV",
             "Niconico": "GlobalTV",
@@ -334,12 +333,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/Line_TV
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml'
-  MOO:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/GlobalTV/MOO
-    type: http
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml'    
+  # MOO:
+  #   behavior: classical
+  #   interval: 86400
+  #   path: ./Rules/Media/GlobalTV/MOO
+  #   type: http
+  #   url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml'    
   Microsoft:
     behavior: classical
     interval: 86400
@@ -472,12 +471,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/YouTube
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml'
-  YouTube Music:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/GlobalTV/YouTube
-    type: http
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
+  # YouTube Music:
+  #   behavior: classical
+  #   interval: 86400
+  #   path: ./Rules/Media/GlobalTV/YouTube
+  #   type: http
+  #   url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
   Youku:
     behavior: classical
     interval: 86400
