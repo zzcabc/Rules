@@ -1,4 +1,8 @@
-payload: 
+payload:
+  # > Steam
+  # - User-Agent,Steam*
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,steam-chat.com

@@ -1,7 +1,8 @@
-rules: 
+rules:
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
+# AsianTV
 - RULE-SET,Bilibili,AsianTV
 - RULE-SET,iQiyi,AsianTV
 - RULE-SET,Letv,AsianTV
@@ -10,12 +11,12 @@ rules:
 - RULE-SET,WeTV,AsianTV
 - RULE-SET,Youku,AsianTV
 
+# GlobalTV
 - RULE-SET,ABC,GlobalTV
 - RULE-SET,Abema TV,GlobalTV
 - RULE-SET,Amazon,GlobalTV
 - RULE-SET,Apple News,GlobalTV
 - RULE-SET,Apple TV,GlobalTV
-- RULE-SET,Bahamut,GlobalTV
 - RULE-SET,BBC iPlayer,GlobalTV
 - RULE-SET,DAZN,GlobalTV
 - RULE-SET,Discovery Plus,GlobalTV
@@ -24,42 +25,60 @@ rules:
 - RULE-SET,Fox Now,GlobalTV
 - RULE-SET,Fox+,GlobalTV
 - RULE-SET,HBO,GlobalTV
-- RULE-SET,Hulu Japan,GlobalTV
 - RULE-SET,Hulu,GlobalTV
 - RULE-SET,Japonx,GlobalTV
 - RULE-SET,JOOX,GlobalTV
-- RULE-SET,KKBOX,GlobalTV
-- RULE-SET,KKTV,GlobalTV
 - RULE-SET,Line TV,GlobalTV
+- RULE-SET,MOO,GlobalTV
 - RULE-SET,myTV SUPER,GlobalTV
 - RULE-SET,Netflix,GlobalTV
-- RULE-SET,Niconico,GlobalTV
 - RULE-SET,Pandora,GlobalTV
 - RULE-SET,PBS,GlobalTV
 - RULE-SET,Pornhub,GlobalTV
 - RULE-SET,Soundcloud,GlobalTV
 - RULE-SET,Spotify,GlobalTV
 - RULE-SET,ViuTV,GlobalTV
+- RULE-SET,YouTube Music,GlobalTV
 - RULE-SET,YouTube,GlobalTV
 
-- RULE-SET,Steam,SteamAndPayPal
-- RULE-SET,PayPal,SteamAndPayPal
+# HMTTV
+- RULE-SET,Bahamut,GlobalTV
+- RULE-SET,KKBOX,GlobalTV
+- RULE-SET,KKTV,GlobalTV
 
-- RULE-SET,Speedtest,Speedtest
+# JPTV
+- RULE-SET,Hulu Japan,GlobalTV
+- RULE-SET,Niconico,GlobalTV
 
-- RULE-SET,PROXY,Proxy
-- RULE-SET,Telegram,Proxy
-
+# AppleAndMicrosoft
 - RULE-SET,Apple,AppleAndMicrosoft
 - RULE-SET,Microsoft,AppleAndMicrosoft
 
-- RULE-SET,Scholar,Scholar
+# SteamAndPayPal
+- RULE-SET,PayPal,SteamAndPayPal
+- RULE-SET,Steam,SteamAndPayPal
 
+# Proxy
+- RULE-SET,Developer,Proxy
+- RULE-SET,EHantai,Proxy
+- RULE-SET,Epic,Proxy
+- RULE-SET,Google,Proxy
+- RULE-SET,PROXY,Proxy
+- RULE-SET,Scholar,Proxy
+- RULE-SET,Sony,Proxy
+- RULE-SET,Telegram,Proxy
+
+# Speedtest
+- RULE-SET,Speedtest,Speedtest
+
+# Domestic
 - RULE-SET,Domestic,Domestic
 - RULE-SET,Domestic IPs,Domestic
+- GEOIP,CN,Domestic
 
 - RULE-SET,LAN,DIRECT
-- GEOIP,CN,Domestic
+
+# Others
 - MATCH,Others
 
 script:
@@ -69,6 +88,7 @@ script:
         ruleset_action = {
             "Reject": "AdBlock",
             "Special": "DIRECT",
+
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
@@ -76,12 +96,12 @@ script:
             "Tencent Video": "AsianTV",
             "WeTV": "AsianTV",
             "Youku": "AsianTV",
+
             "ABC": "GlobalTV",
             "Abema TV": "GlobalTV",
             "Amazon": "GlobalTV",
             "Apple News": "GlobalTV",
             "Apple TV": "GlobalTV",
-            "Bahamut": "GlobalTV",
             "BBC iPlayer": "GlobalTV",
             "DAZN": "GlobalTV",
             "Discovery Plus": "GlobalTV",
@@ -90,26 +110,28 @@ script:
             "Fox Now": "GlobalTV",
             "Fox+": "GlobalTV",
             "HBO": "GlobalTV",
-            "Hulu Japan": "GlobalTV",
             "Hulu": "GlobalTV",
             "Japonx": "GlobalTV",
             "JOOX": "GlobalTV",
-            "KKBOX": "GlobalTV",
-            "KKTV": "GlobalTV",
             "Line TV": "GlobalTV",
+            "MOO": "GlobalTV",
             "myTV SUPER": "GlobalTV",
             "Netflix": "GlobalTV",
-            "Niconico": "GlobalTV",
             "Pandora": "GlobalTV",
             "PBS": "GlobalTV",
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "Spotify": "GlobalTV",
             "ViuTV": "GlobalTV",
+            "YouTube Music": "GlobalTV",
             "YouTube": "GlobalTV",
 
-            "Telegram": "Proxy",
-            "PROXY": "Proxy",
+            "Bahamut": "GlobalTV",
+            "KKBOX": "GlobalTV",
+            "KKTV": "GlobalTV",
+
+            "Hulu Japan": "GlobalTV",
+            "Niconico": "GlobalTV",
 
             "Steam": "SteamAndPayPal",
             "PayPal": "SteamAndPayPal",
@@ -119,7 +141,14 @@ script:
             "Microsoft": "AppleAndMicrosoft",
             "Apple": "AppleAndMicrosoft",
 
-            "Scholar": "Scholar",
+            "Developer": "Proxy",
+            "EHantai": "Proxy",
+            "Epic": "Proxy",
+            "Google": "Proxy",
+            "PROXY": "Proxy",
+            "Scholar": "Proxy",
+            "Sony": "Proxy",
+            "Telegram": "Proxy",
 
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
@@ -153,6 +182,7 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Special.yaml'
     path: ./Rules/Special
     interval: 86400
+  # AsiaTV
   Bilibili:
     type: http
     behavior: classical
@@ -195,7 +225,7 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/AsianTV/Youku.yaml'
     path: ./Rules/Media/AsianTV/Youku
     interval: 86400
-
+  # GlobalTV
   ABC:
     type: http
     behavior: classical

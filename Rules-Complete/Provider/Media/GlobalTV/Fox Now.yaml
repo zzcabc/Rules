@@ -1,5 +1,6 @@
-payload: 
+payload:  
+  # > Fox Now
+  # - User-Agent,FOX%20NOW*
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
-  - DOMAIN-SUFFIX,theplatform.com
   - DOMAIN-SUFFIX,uplynk.com

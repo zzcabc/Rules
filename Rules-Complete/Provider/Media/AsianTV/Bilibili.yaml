@@ -1,4 +1,7 @@
-payload: 
+payload:
+  # > Bilibili
+  # - User-Agent,bili*
+  # - User-Agent,Bilibili*
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -15,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net  
   - IP-CIDR,119.29.29.29/32
   - IP-CIDR,128.1.62.200/32
   - IP-CIDR,128.1.62.201/32

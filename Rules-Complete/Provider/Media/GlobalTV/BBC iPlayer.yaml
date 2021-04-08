@@ -1,4 +1,6 @@
-payload: 
+payload:
+  # > BBC iPlayer
+  # - User-Agent,BBCiPlayer*
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk

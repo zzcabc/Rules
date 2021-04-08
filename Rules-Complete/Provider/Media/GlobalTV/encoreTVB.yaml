@@ -1,7 +1,6 @@
-payload: 
+payload:  
+  # > encoreTVB
+  # - User-Agent,encoreTVB*
   - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,content.jwplatform.com
-  - DOMAIN,edge.api.brightcove.com
   - DOMAIN,videos-f.jwpsrv.com

@@ -1,4 +1,6 @@
 payload: 
+  # > AbemaTV
+  # - User-Agent,AbemaTV*
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv

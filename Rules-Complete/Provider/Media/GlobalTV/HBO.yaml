@@ -1,12 +1,17 @@
-payload: 
+payload:
+  # > HBO Max
+  # - USER-AGENT,HBOMAX*
   - DOMAIN-SUFFIX,hbo.com
-  - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbonow.com
+
+  # > HBO GO
+  # - USER-AGENT,HBO%20NOW*
+  # - USER-AGENT,HBO%20GO%20PROD%20HKG*
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
