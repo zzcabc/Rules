@@ -69,20 +69,20 @@ rule-providers:
   Special:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Special.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Special.yaml'
     path: ./Rules/Special
     interval: 86400
   AsianTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/AsianTV/AsianTV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/AsianTV/AsianTV.yaml'
     path: ./Rules/Media/AsianTV/AsianTV
     interval: 86400
 
   GlobalTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Media/GlobalTV/GlobalTV.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Media/GlobalTV/GlobalTV.yaml'
     path: ./Rules/Media/GlobalTV/GlobalTV
     interval: 86400
 
@@ -90,13 +90,13 @@ rule-providers:
   Steam:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Steam.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Steam.yaml'
     path: ./Rules/Steam
     interval: 86400
   PayPal:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/PayPal.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/PayPal.yaml'
     path: ./Rules/PayPal
     interval: 86400
 
@@ -104,38 +104,38 @@ rule-providers:
   PROXY:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Proxy.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
 
   Microsoft:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Microsoft.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
   Apple:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Apple.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Apple.yaml'
     path: ./Rules/Apple
     interval: 86400
 
   Domestic:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Domestic.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Domestic.yaml'
     path: ./Rules/Domestic
     interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/Domestic%20IPs.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
   LAN:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@release/Rules-Streamline/Provider/LAN.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/LAN.yaml'
     path: ./Rules/LAN
     interval: 86400
