@@ -48,13 +48,13 @@ rule-providers:
     type: http
     behavior: classical
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/AsianTV.yaml'
-    path: ./Rules/Media/AsianTV
+    path: ./Rules/AsianTV
     interval: 86400
   GlobalTV:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Media/GlobalTV.yaml'
-    path: ./Rules/Media/GlobalTV
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/GlobalTV.yaml'
+    path: ./Rules/GlobalTV
     interval: 86400
   PROXY:
     type: http
