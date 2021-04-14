@@ -3,7 +3,7 @@ payload:
   - User-Agent,*youtube*
   - User-Agent,YouTube*
   - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com

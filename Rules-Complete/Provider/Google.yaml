@@ -1,7 +1,6 @@
 payload:
   # > Google
   - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,mtalk.google.com
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,265.com
