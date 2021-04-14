@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net

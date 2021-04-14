@@ -8,7 +8,6 @@ payload:
   - DOMAIN-KEYWORD,appzapp
   - DOMAIN-KEYWORD,baidupcs
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,ccgslb
   - DOMAIN-KEYWORD,chinacache
   - DOMAIN-KEYWORD,duobao
@@ -35,12 +34,6 @@ payload:
   - DOMAIN-SUFFIX,178.com
   - DOMAIN-SUFFIX,17k.com
   - DOMAIN-SUFFIX,21cn.com
-  - DOMAIN-SUFFIX,360.com
-  - DOMAIN-SUFFIX,360buy.com
-  - DOMAIN-SUFFIX,360buyimg.com
-  - DOMAIN-SUFFIX,360doc.com
-  - DOMAIN-SUFFIX,360kuai.com
-  - DOMAIN-SUFFIX,360safe.com
   - DOMAIN-SUFFIX,36kr.com
   - DOMAIN-SUFFIX,3dmgame.com
   - DOMAIN-SUFFIX,423down.com
@@ -67,7 +60,6 @@ payload:
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
-  - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,algocasts.io
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
@@ -104,7 +96,6 @@ payload:
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,baidupcs.com
-  - DOMAIN-SUFFIX,baidustatic.com
   - DOMAIN-SUFFIX,baike.com
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,battle.net
@@ -115,7 +106,6 @@ payload:
   - DOMAIN-SUFFIX,bdurl.net
   - DOMAIN-SUFFIX,beatsbydre.com
   - DOMAIN-SUFFIX,beitai.pt
-  - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,biqudu.com
   - DOMAIN-SUFFIX,biquge.com
   - DOMAIN-SUFFIX,bitauto.com
@@ -235,9 +225,6 @@ payload:
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,gzlzfm.com
   - DOMAIN-SUFFIX,haibian.com
-  - DOMAIN-SUFFIX,hao123.com
-  - DOMAIN-SUFFIX,hao123img.com
-  - DOMAIN-SUFFIX,haosou.com
   - DOMAIN-SUFFIX,hc-cdn.com
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hdchina.org
@@ -297,7 +284,6 @@ payload:
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,jianshuapi.com
   - DOMAIN-SUFFIX,jiasule.com
-  - DOMAIN-SUFFIX,jiathis.com
   - DOMAIN-SUFFIX,jmstatic.com
   - DOMAIN-SUFFIX,jomodns.com
   - DOMAIN-SUFFIX,jpopsuki.eu
@@ -310,7 +296,6 @@ payload:
   - DOMAIN-SUFFIX,kaola.com
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,knewone.com
-  - DOMAIN-SUFFIX,koowo.com
   - DOMAIN-SUFFIX,ksosoft.com
   - DOMAIN-SUFFIX,kspkg.com
   - DOMAIN-SUFFIX,ksyun.com
@@ -393,7 +378,6 @@ payload:
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,onedns.net
-  - DOMAIN-SUFFIX,onlinedown.net
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,oschina.net
@@ -405,12 +389,8 @@ payload:
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,passthepopcorn.me
-  - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pinduoduo.com
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,pniao.com
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,pplive.com
@@ -480,8 +460,6 @@ payload:
   - DOMAIN-SUFFIX,sohuno.com
   - DOMAIN-SUFFIX,sohurdc.com
   - DOMAIN-SUFFIX,soku.com
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,soso.com
   - DOMAIN-SUFFIX,soufunimg.com
   - DOMAIN-SUFFIX,springsunday.net
@@ -491,15 +469,8 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,staticfile.org
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamusercontent.com
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,suning.com
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,taihe.com
@@ -512,7 +483,6 @@ payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,tencentmind.com
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,th-sjy.com
   - DOMAIN-SUFFIX,thundercdn.com
@@ -578,7 +548,6 @@ payload:
   - DOMAIN-SUFFIX,womai.com
   - DOMAIN-SUFFIX,wscdns.com
   - DOMAIN-SUFFIX,wukong.com
-  - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xhostfire.com
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiachufang.com

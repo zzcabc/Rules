@@ -561,7 +561,6 @@ payload:
   - DOMAIN-SUFFIX,bestvpnserver.com
   - DOMAIN-SUFFIX,bestvpnservice.com
   - DOMAIN-SUFFIX,bestvpnusa.com
-  - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,betfair.com
   - DOMAIN-SUFFIX,betternet.co
   - DOMAIN-SUFFIX,bettervpn.com
@@ -1156,7 +1155,6 @@ payload:
   - DOMAIN-SUFFIX,cnet.com
   - DOMAIN-SUFFIX,cnex.org.cn
   - DOMAIN-SUFFIX,cnineu.com
-  - DOMAIN-SUFFIX,cnki.net
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,cnnews.chosun.com
   - DOMAIN-SUFFIX,cnpolitics.org
@@ -2146,7 +2144,6 @@ payload:
   - DOMAIN-SUFFIX,gnci.org.hk
   - DOMAIN-SUFFIX,gnews.org
   - DOMAIN-SUFFIX,go-pki.com
-  - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,go.jp
   - DOMAIN-SUFFIX,go.nesnode.com
   - DOMAIN-SUFFIX,go141.com
@@ -2426,7 +2423,6 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googleweblight.com
   - DOMAIN-SUFFIX,googlezip.net
   - DOMAIN-SUFFIX,gopetition.com
@@ -2497,10 +2493,6 @@ payload:
   - DOMAIN-SUFFIX,gutteruncensored.com
   - DOMAIN-SUFFIX,gvlib.com
   - DOMAIN-SUFFIX,gvm.com.tw
-  - DOMAIN-SUFFIX,gvt0.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,gyalwarinpoche.com
   - DOMAIN-SUFFIX,gyatsostudio.com
@@ -2712,7 +2704,6 @@ payload:
   - DOMAIN-SUFFIX,hrcir.com
   - DOMAIN-SUFFIX,hrea.org
   - DOMAIN-SUFFIX,hrichina.org
-  - DOMAIN-SUFFIX,hrtsea.com
   - DOMAIN-SUFFIX,hrw.org
   - DOMAIN-SUFFIX,hrweb.org
   - DOMAIN-SUFFIX,hsjp.net
@@ -3256,7 +3247,6 @@ payload:
   - DOMAIN-SUFFIX,linglingfa.com
   - DOMAIN-SUFFIX,lingvodics.com
   - DOMAIN-SUFFIX,link-o-rama.com
-  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linkideo.com
   - DOMAIN-SUFFIX,linkuswell.com
   - DOMAIN-SUFFIX,linode.com
@@ -3347,7 +3337,6 @@ payload:
   - DOMAIN-SUFFIX,madewithcode.com
   - DOMAIN-SUFFIX,madonna-av.com
   - DOMAIN-SUFFIX,madrau.com
-  - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,madthumbs.com
   - DOMAIN-SUFFIX,magazines.sina.com.tw
   - DOMAIN-SUFFIX,magic-net.info
@@ -3835,7 +3824,6 @@ payload:
   - DOMAIN-SUFFIX,ns3.name
   - DOMAIN-SUFFIX,nsc.gov.tw
   - DOMAIN-SUFFIX,nsstatic.net
-  - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,ntbk.gov.tw
   - DOMAIN-SUFFIX,ntbna.gov.tw
   - DOMAIN-SUFFIX,ntbt.gov.tw
@@ -3980,7 +3968,6 @@ payload:
   - DOMAIN-SUFFIX,oursteps.com.au
   - DOMAIN-SUFFIX,oursweb.net
   - DOMAIN-SUFFIX,ourtv.hk
-  - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,overplay.net
   - DOMAIN-SUFFIX,oversea.istarshine.com
   - DOMAIN-SUFFIX,ovid.com
@@ -4014,7 +4001,6 @@ payload:
   - DOMAIN-SUFFIX,pandapow.co
   - DOMAIN-SUFFIX,pandapow.net
   - DOMAIN-SUFFIX,pandavpn-jp.com
-  - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,pandora.tv
   - DOMAIN-SUFFIX,panluan.net
   - DOMAIN-SUFFIX,panoramio.com
@@ -4036,7 +4022,6 @@ payload:
   - DOMAIN-SUFFIX,paste.ee
   - DOMAIN-SUFFIX,pastebin.com
   - DOMAIN-SUFFIX,pastie.org
-  - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,pbwiki.com
   - DOMAIN-SUFFIX,pbworks.com
   - DOMAIN-SUFFIX,pbxes.com
@@ -4685,7 +4670,6 @@ payload:
   - DOMAIN-SUFFIX,smyxy.org
   - DOMAIN-SUFFIX,snapchat.com
   - DOMAIN-SUFFIX,snaptu.com
-  - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sneakme.net
   - DOMAIN-SUFFIX,snowlionpub.com
   - DOMAIN-SUFFIX,sobees.com
@@ -4729,7 +4713,6 @@ payload:
   - DOMAIN-SUFFIX,soul-plus.net
   - DOMAIN-SUFFIX,soulcaliburhentai.net
   - DOMAIN-SUFFIX,soumo.info
-  - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,soundofhope.kr
   - DOMAIN-SUFFIX,soundofhope.org
   - DOMAIN-SUFFIX,soup.io
@@ -4828,7 +4811,6 @@ payload:
   - DOMAIN-SUFFIX,stoporganharvesting.org
   - DOMAIN-SUFFIX,stoptibetcrisis.net
   - DOMAIN-SUFFIX,storagenewsletter.com
-  - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,stories.google
   - DOMAIN-SUFFIX,storify.com
   - DOMAIN-SUFFIX,storm.mg
@@ -4892,7 +4874,6 @@ payload:
   - DOMAIN-SUFFIX,sylfoundation.org
   - DOMAIN-SUFFIX,symauth.com
   - DOMAIN-SUFFIX,symcb.com
-  - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,syncback.com
   - DOMAIN-SUFFIX,synergyse.com
   - DOMAIN-SUFFIX,sysresccd.org
@@ -4985,7 +4966,6 @@ payload:
   - DOMAIN-SUFFIX,tdm.com.mo
   - DOMAIN-SUFFIX,teachparentstech.org
   - DOMAIN-SUFFIX,teamamericany.com
-  - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tech2.in.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technews.tw
@@ -5246,7 +5226,6 @@ payload:
   - DOMAIN-SUFFIX,trans.wenweipo.com
   - DOMAIN-SUFFIX,transparency.org
   - DOMAIN-SUFFIX,treemall.com.tw
-  - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,trendsmap.com
   - DOMAIN-SUFFIX,trialofccp.org
   - DOMAIN-SUFFIX,trickip.net
@@ -6139,19 +6118,12 @@ payload:
   - DOMAIN-SUFFIX,youshun12.com
   - DOMAIN-SUFFIX,youthforfreechina.org
   - DOMAIN-SUFFIX,youthnetradio.org
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtubecn.com
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubegaming.com
   - DOMAIN-SUFFIX,youversion.com
   - DOMAIN-SUFFIX,youwin.com
   - DOMAIN-SUFFIX,youxu.info
   - DOMAIN-SUFFIX,yoyo.org
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytht.net
-  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,ytn.co.kr
   - DOMAIN-SUFFIX,yuanming.net
   - DOMAIN-SUFFIX,yuanzhengtang.org
@@ -6279,7 +6251,6 @@ payload:
   - IP-CIDR,13.251.41.203/24,no-resolve
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
   - IP-CIDR,142.250.10.188/32,no-resolve
   - IP-CIDR,142.250.31.188/32,no-resolve
   - IP-CIDR,142.250.4.188/32,no-resolve
@@ -6300,10 +6271,6 @@ payload:
   - IP-CIDR,173.252.96.0/19,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,179.60.192.0/22,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
   - IP-CIDR,185.60.216.0/22,no-resolve
   - IP-CIDR,2001:67c:4e8::/48,no-resolve
   - IP-CIDR,2001:b28:f23d::/48,no-resolve
@@ -6319,15 +6286,6 @@ payload:
   - IP-CIDR,31.13.24.0/21,no-resolve
   - IP-CIDR,31.13.64.0/18,no-resolve
   - IP-CIDR,45.64.40.0/22,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
   - IP-CIDR,64.233.187.188/32,no-resolve

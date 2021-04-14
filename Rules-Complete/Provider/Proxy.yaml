@@ -86,7 +86,6 @@ payload:
   - DOMAIN-SUFFIX,4chan.com
   - DOMAIN-SUFFIX,4dq.com
   - DOMAIN-SUFFIX,4everproxy.com
-  - DOMAIN-SUFFIX,4everProxy.com
   - DOMAIN-SUFFIX,4irc.com
   - DOMAIN-SUFFIX,4mydomain.com
   - DOMAIN-SUFFIX,4pu.com
@@ -2383,7 +2382,6 @@ payload:
   - DOMAIN-SUFFIX,hrcir.com
   - DOMAIN-SUFFIX,hrea.org
   - DOMAIN-SUFFIX,hrichina.org
-  - DOMAIN-SUFFIX,hrtsea.com
   - DOMAIN-SUFFIX,hrw.org
   - DOMAIN-SUFFIX,hrweb.org
   - DOMAIN-SUFFIX,hsjp.net
@@ -2914,7 +2912,6 @@ payload:
   - DOMAIN-SUFFIX,linglingfa.com
   - DOMAIN-SUFFIX,lingvodics.com
   - DOMAIN-SUFFIX,link-o-rama.com
-  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linkideo.com
   - DOMAIN-SUFFIX,linkuswell.com
   - DOMAIN-SUFFIX,linode.com
@@ -3481,7 +3478,6 @@ payload:
   - DOMAIN-SUFFIX,ns3.name
   - DOMAIN-SUFFIX,nsc.gov.tw
   - DOMAIN-SUFFIX,nsstatic.net
-  - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,ntbk.gov.tw
   - DOMAIN-SUFFIX,ntbna.gov.tw
   - DOMAIN-SUFFIX,ntbt.gov.tw
@@ -3621,7 +3617,6 @@ payload:
   - DOMAIN-SUFFIX,oursteps.com.au
   - DOMAIN-SUFFIX,oursweb.net
   - DOMAIN-SUFFIX,ourtv.hk
-  - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,overplay.net
   - DOMAIN-SUFFIX,oversea.istarshine.com
   - DOMAIN-SUFFIX,ow.ly
@@ -4432,7 +4427,6 @@ payload:
   - DOMAIN-SUFFIX,stoporganharvesting.org
   - DOMAIN-SUFFIX,stoptibetcrisis.net
   - DOMAIN-SUFFIX,storagenewsletter.com
-  - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,storify.com
   - DOMAIN-SUFFIX,storm.mg
   - DOMAIN-SUFFIX,stormmediagroup.com
@@ -4494,7 +4488,6 @@ payload:
   - DOMAIN-SUFFIX,sylfoundation.org
   - DOMAIN-SUFFIX,symauth.com
   - DOMAIN-SUFFIX,symcb.com
-  - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,syncback.com
   - DOMAIN-SUFFIX,synergyse.com
   - DOMAIN-SUFFIX,sysresccd.org
@@ -4584,7 +4577,6 @@ payload:
   - DOMAIN-SUFFIX,tdm.com.mo
   - DOMAIN-SUFFIX,teachparentstech.org
   - DOMAIN-SUFFIX,teamamericany.com
-  - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tech2.in.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technews.tw
@@ -4834,7 +4826,6 @@ payload:
   - DOMAIN-SUFFIX,trans.wenweipo.com
   - DOMAIN-SUFFIX,transparency.org
   - DOMAIN-SUFFIX,treemall.com.tw
-  - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,trendsmap.com
   - DOMAIN-SUFFIX,trialofccp.org
   - DOMAIN-SUFFIX,trickip.net
