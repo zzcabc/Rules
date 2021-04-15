@@ -1,7 +1,7 @@
 payload:
   # > Bilibili
-  - User-Agent,bili*
-  - User-Agent,Bilibili*
+  # - User-Agent,bili*
+  # - User-Agent,Bilibili*
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
