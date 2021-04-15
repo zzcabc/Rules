@@ -1,7 +1,7 @@
 payload:  
   # > Youtube
-  - User-Agent,*youtube*
-  - User-Agent,YouTube*
+  # - User-Agent,*youtube*
+  # - User-Agent,YouTube*
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-SUFFIX,gvt0.com
