@@ -122,9 +122,12 @@ dns:
   use-hosts: true
   # 国内用下列DNS解析
   nameserver:
+    - 'tls://dns.alidns.com'
+    - 'tls://doh.pub'
+    - 'tls://dns.pub'
+    - 'tls://dot.360.cn'
+    - 'tls://dns.cfiec.net'
     - 'https://dns.alidns.com/dns-query'
-    - 'https://233.5.5.5/dns-query'
-    - 'https://233.6.6.6/dns-query'
     - 'https://doh.pub/dns-query'
     - 'https://dns.pub/dns-query'
     - 'https://doh.360.cn/dns-query'
@@ -133,15 +136,23 @@ dns:
     - 'https://dns.rubyfish.cn/dns-quer'
   # 国内用下列DNS解析
   fallback:
+    - 'tls://dns.google'
     - 'https://dns.google/dns-query'
     - 'https://dns.google/resolve'
     - 'https://dns.quad9.net/dns-query'
+    - 'https://dns11.quad9.net/dns-query'
     - 'https://doh.opendns.com/dns-query'
+    - 'https://doh.familyshield.opendns.com/dns-query'
     - 'https://cloudflare-dns.com/dns-query'
     - 'https://1.1.1.1/dns-query'
     - 'https://1.0.0.1/dns-query'
     - 'https://dns.adguard.com/dns-query'
+    - 'https://dns-family.adguard.com/dns-query'
     - 'https://doh.dns.sb/dns-query'
+    - 'https://doh.cleanbrowsing.org/doh/family-filter/'
+    - 'https://doh.powerdns.org'
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://doh-jp.blahdns.com/dns-query'
   # fake-ip
   fake-ip-filter:
   - "*.lan"
