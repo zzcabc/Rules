@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,mvnrepository.com
   - DOMAIN-SUFFIX,oracle.com
+  - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,quay.io
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redhat.com

@@ -7,7 +7,6 @@ payload:
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,marshmallow-qa.com
@@ -3943,6 +3942,7 @@ payload:
   - DOMAIN-SUFFIX,opml.radiotime.com
   - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,opus-gaming.com
+  - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,organcare.org.tw
   - DOMAIN-SUFFIX,organharvestinvestigation.net
   - DOMAIN-SUFFIX,organiccrap.com
@@ -4251,6 +4251,7 @@ payload:
   - DOMAIN-SUFFIX,pximg.net
   - DOMAIN-SUFFIX,python.com
   - DOMAIN-SUFFIX,python.com.tw
+  - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,pythonhackers.com
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,qanote.com
