@@ -1,4 +1,4 @@
-payload:
+payload: 
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
@@ -342,8 +342,8 @@ payload:
   - DOMAIN-SUFFIX,app.smartmailcloud.com
   - DOMAIN-SUFFIX,app.tutanota.com
   - DOMAIN-SUFFIX,appbrain.com
+  - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,appdownloader.net
-  - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appledaily.com
   - DOMAIN-SUFFIX,appledaily.com.hk
   - DOMAIN-SUFFIX,appledaily.com.tw
