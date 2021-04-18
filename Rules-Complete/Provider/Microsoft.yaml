@@ -1,9 +1,9 @@
 payload:
   # > Microsoft
-  # - PROCESS-NAME,OneDrive*
   # - DOMAIN-SUFFIX,aria.microsoft.com
-  # - PROCESS-NAME,OneDriveiOSApp*
   # - PROCESS-NAME,OneDrive
+  # - PROCESS-NAME,OneDrive*
+  # - PROCESS-NAME,OneDriveiOSApp*
   # - PROCESS-NAME,OneDriveUpdater
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
@@ -69,6 +69,7 @@ payload:
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
