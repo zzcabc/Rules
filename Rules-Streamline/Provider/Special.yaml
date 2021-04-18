@@ -51,7 +51,7 @@ payload:
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
-    # > Epic
+  # > Epic
   - DOMAIN-KEYWORD,epicgames
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
