@@ -50,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,google.ac
   - DOMAIN-SUFFIX,google.ad
   - DOMAIN-SUFFIX,google.ae
+  - DOMAIN-SUFFIX,google.af
   - DOMAIN-SUFFIX,google.al
   - DOMAIN-SUFFIX,google.am
   - DOMAIN-SUFFIX,google.as
@@ -172,6 +173,7 @@ payload:
   - DOMAIN-SUFFIX,google.dz
   - DOMAIN-SUFFIX,google.ee
   - DOMAIN-SUFFIX,google.es
+  - DOMAIN-SUFFIX,google.eu
   - DOMAIN-SUFFIX,google.fi
   - DOMAIN-SUFFIX,google.fm
   - DOMAIN-SUFFIX,google.fr
@@ -184,6 +186,7 @@ payload:
   - DOMAIN-SUFFIX,google.gp
   - DOMAIN-SUFFIX,google.gr
   - DOMAIN-SUFFIX,google.gy
+  - DOMAIN-SUFFIX,google.hk
   - DOMAIN-SUFFIX,google.hn
   - DOMAIN-SUFFIX,google.hr
   - DOMAIN-SUFFIX,google.ht
@@ -194,6 +197,7 @@ payload:
   - DOMAIN-SUFFIX,google.iq
   - DOMAIN-SUFFIX,google.is
   - DOMAIN-SUFFIX,google.it
+  - DOMAIN-SUFFIX,google.it.ao
   - DOMAIN-SUFFIX,google.je
   - DOMAIN-SUFFIX,google.jo
   - DOMAIN-SUFFIX,google.jp
@@ -216,6 +220,7 @@ payload:
   - DOMAIN-SUFFIX,google.mu
   - DOMAIN-SUFFIX,google.mv
   - DOMAIN-SUFFIX,google.mw
+  - DOMAIN-SUFFIX,google.mx
   - DOMAIN-SUFFIX,google.ne
   - DOMAIN-SUFFIX,google.net
   - DOMAIN-SUFFIX,google.ng
@@ -253,7 +258,9 @@ payload:
   - DOMAIN-SUFFIX,google.to
   - DOMAIN-SUFFIX,google.tt
   - DOMAIN-SUFFIX,google.uk
+  - DOMAIN-SUFFIX,google.us
   - DOMAIN-SUFFIX,google.vg
+  - DOMAIN-SUFFIX,google.vn
   - DOMAIN-SUFFIX,google.vu
   - DOMAIN-SUFFIX,google.ws
   - DOMAIN-SUFFIX,googleapis.cn
@@ -286,6 +293,7 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googleweblight.com
   - DOMAIN-SUFFIX,googlezip.net
   - DOMAIN-SUFFIX,groups.google.cn
@@ -293,6 +301,7 @@ payload:
   - DOMAIN-SUFFIX,gstatic.cn
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gtm.oasisfeng.com
+  - DOMAIN-SUFFIX,igoogle.com
   - DOMAIN-SUFFIX,imasdk.googleapis.com
   - DOMAIN-SUFFIX,lers.google
   - DOMAIN-SUFFIX,mail.google.com
@@ -312,15 +321,21 @@ payload:
   - DOMAIN-SUFFIX,ssl.gstatic.com
   - DOMAIN-SUFFIX,stories.google
   - DOMAIN-SUFFIX,sustainability.google
+  - DOMAIN-SUFFIX,thinkwithgoogle.com
   - DOMAIN-SUFFIX,toolbarqueries.google.com
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com
   - DOMAIN-SUFFIX,update.googleapis.com
   - DOMAIN-SUFFIX,withgoogle.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
-  - DOMAIN-SUFFIX,www.gstatic.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - IP-CIDR,108.177.125.188/32,no-resolve
+  - IP-CIDR,120.232.181.162/32,no-resolve
+  - IP-CIDR,120.241.147.226/32,no-resolve
+  - IP-CIDR,120.253.253.226/32,no-resolve
+  - IP-CIDR,120.253.255.162/32,no-resolve
+  - IP-CIDR,120.253.255.34/32,no-resolve
+  - IP-CIDR,120.253.255.98/32,no-resolve
   - IP-CIDR,142.250.10.188/32,no-resolve
   - IP-CIDR,142.250.31.188/32,no-resolve
   - IP-CIDR,142.250.4.188/32,no-resolve
@@ -333,7 +348,19 @@ payload:
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR,173.194.175.188/32,no-resolve
   - IP-CIDR,173.194.218.188/32,no-resolve
+  - IP-CIDR,180.163.150.162/32,no-resolve
+  - IP-CIDR,180.163.150.34/32,no-resolve
+  - IP-CIDR,180.163.151.162/32,no-resolve
+  - IP-CIDR,180.163.151.34/32,no-resolve
+  - IP-CIDR,203.208.39.0/24,no-resolve
+  - IP-CIDR,203.208.40.0/24,no-resolve
+  - IP-CIDR,203.208.41.0/24,no-resolve
+  - IP-CIDR,203.208.43.0/24,no-resolve
+  - IP-CIDR,203.208.50.0/24,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
+  - IP-CIDR,220.181.174.162/32,no-resolve
+  - IP-CIDR,220.181.174.226/32,no-resolve
+  - IP-CIDR,220.181.174.34/32,no-resolve
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
   - IP-CIDR,64.233.187.188/32,no-resolve
