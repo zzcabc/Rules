@@ -1,4 +1,6 @@
 rules:
+  - RULE-SET,Reject,AdBlock
+
   # AsianTV
   - RULE-SET,Bilibili,AsianTV
   - RULE-SET,iQiyi,AsianTV
@@ -35,6 +37,7 @@ rules:
   - RULE-SET,Pornhub,GlobalTV
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Spotify,GlobalTV
+  - RULE-SET,Twitch,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
   # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
@@ -46,25 +49,30 @@ rules:
   - RULE-SET,Hulu Japan,GlobalTV
   - RULE-SET,Niconico,GlobalTV
 
-  - RULE-SET,Apple,AppleAndMicrosoft
+
   - RULE-SET,Developer,Proxy
-  - RULE-SET,Domestic IPs,Domestic
+
   - RULE-SET,Domestic,Domestic
   - RULE-SET,EHantai,Proxy
   - RULE-SET,Epic,Proxy
   - RULE-SET,Google,Proxy
-  - RULE-SET,LAN,DIRECT
-  - RULE-SET,Microsoft,AppleAndMicrosoft
-  - RULE-SET,PayPal,SteamAndPayPal
   - RULE-SET,PROXY,Proxy
-  - RULE-SET,Reject,AdBlock
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Sony,Proxy
-  - RULE-SET,Special,DIRECT
-  - RULE-SET,Speedtest,Speedtest
-  - RULE-SET,Steam,SteamAndPayPal
   - RULE-SET,Telegram,Proxy
+
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,SteamAndPayPal
+  - RULE-SET,Steam,SteamAndPayPal
+
+  - RULE-SET,Speedtest,Speedtest
+
+  - RULE-SET,Domestic IPs,Domestic
+  - RULE-SET,Special,DIRECT
+  - RULE-SET,LAN,DIRECT
   - GEOIP,CN,Domestic
+
   - MATCH,Others
 script:
   code: |
@@ -73,6 +81,7 @@ script:
         ruleset_action = {
             "Reject": "AdBlock",
             "Special": "DIRECT",
+
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
@@ -80,6 +89,7 @@ script:
             "Tencent Video": "AsianTV",
             "WeTV": "AsianTV",
             "Youku": "AsianTV",
+
             "ABC": "GlobalTV",
             "Abema TV": "GlobalTV",
             "Amazon": "GlobalTV",
@@ -109,6 +119,7 @@ script:
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "Spotify": "GlobalTV",
+            "Twitch","GlobalTV",
             "ViuTV": "GlobalTV",
             "YouTube": "GlobalTV",
 
@@ -453,6 +464,12 @@ rule-providers:
     path: ./Rules/Media/AsianTV/Tencent_Video
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/AsianTV/Tencent%20Video.yaml'
+  Twitch:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/Twitch
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Twitch.yaml'
   ViuTV:
     behavior: classical
     interval: 86400
