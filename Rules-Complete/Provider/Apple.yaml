@@ -31,7 +31,7 @@ payload:
 
   # > Apple CDN
   - PROCESS-NAME,storedownloadd
-  # - User-Agent,com.apple.appstored*
+  # - PROCESS-NAME,com.apple.appstored*
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN,aod.itunes.apple.com

@@ -1,12 +1,10 @@
 payload:
   # > Microsoft
-  # - User-Agent,OneDrive*
+  # - PROCESS-NAME,OneDrive*
   # - DOMAIN-SUFFIX,aria.microsoft.com
-  # - USER-AGENT,OneDriveiOSApp*
+  # - PROCESS-NAME,OneDriveiOSApp*
   # - PROCESS-NAME,OneDrive
   # - PROCESS-NAME,OneDriveUpdater
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,onedrive
@@ -27,7 +25,6 @@ payload:
   - DOMAIN-SUFFIX,cloudappsecurity.com
   - DOMAIN-SUFFIX,edgesuite.net
   - DOMAIN-SUFFIX,fabric.io
-  - DOMAIN-SUFFIX,files.1drv.com
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,live.com
@@ -35,8 +32,6 @@ payload:
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,lync.com
   - DOMAIN-SUFFIX,mesh.com
-  - DOMAIN-SUFFIX,microsoft-tst.com
-  - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,msauth.net
@@ -46,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,msft.net
   - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftidentity.com
   - DOMAIN-SUFFIX,msidentity.com
   - DOMAIN-SUFFIX,msn.com
@@ -60,8 +56,6 @@ payload:
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
@@ -71,12 +65,10 @@ payload:
   - DOMAIN-SUFFIX,phonefactor.net
   - DOMAIN-SUFFIX,photos.live.com
   - DOMAIN-SUFFIX,public-trust.com
-  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com

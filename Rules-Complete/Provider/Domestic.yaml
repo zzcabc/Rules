@@ -62,16 +62,10 @@ payload:
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,algocasts.io
   - DOMAIN-SUFFIX,aliapp.org
-  - DOMAIN-SUFFIX,alibaba.com
-  - DOMAIN-SUFFIX,alibabacloud.com
-  - DOMAIN-SUFFIX,alibabausercontent.com
-  - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,aliexpress.com
   - DOMAIN-SUFFIX,aliimg.com
   - DOMAIN-SUFFIX,alikunlun.com
-  - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,alisoft.com
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncdn.com
@@ -95,7 +89,6 @@ payload:
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupan.com
-  - DOMAIN-SUFFIX,baidupcs.com
   - DOMAIN-SUFFIX,baike.com
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,battle.net
@@ -191,7 +184,6 @@ payload:
   - DOMAIN-SUFFIX,eastmoney.com
   - DOMAIN-SUFFIX,ecitic.com
   - DOMAIN-SUFFIX,ecitic.net
-  - DOMAIN-SUFFIX,eclipse.org
   - DOMAIN-SUFFIX,edu.cn
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,empornium.me
@@ -468,8 +460,6 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,staticfile.org
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
   - DOMAIN-SUFFIX,suning.com
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,taihe.com
@@ -542,7 +532,7 @@ payload:
   - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,weiyun.com
   - DOMAIN-SUFFIX,wenku8.net
-  - DOMAIN-SUFFIX,werewolf.53site.com
+  - DOMAIN,werewolf.53site.com
   - DOMAIN-SUFFIX,wkcdn.com
   - DOMAIN-SUFFIX,womai.com
   - DOMAIN-SUFFIX,wscdns.com

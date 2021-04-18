@@ -1,7 +1,6 @@
 payload:
   # > Google
   - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,mtalk.google.com
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
@@ -15,11 +14,23 @@ payload:
   - DOMAIN-SUFFIX,alt6-mtalk.google.com
   - DOMAIN-SUFFIX,alt7-mtalk.google.com
   - DOMAIN-SUFFIX,alt8-mtalk.google.com
+  - DOMAIN-SUFFIX,android-x86.org
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidapksfree.com
+  - DOMAIN-SUFFIX,androidify.com
+  - DOMAIN-SUFFIX,androidplus.co
+  - DOMAIN-SUFFIX,androidtv.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,app-measurement.net
   - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,c.android.clients.google.com
   - DOMAIN-SUFFIX,cache.pack.google.com
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromecast.com
+  - DOMAIN-SUFFIX,chromeexperiments.com
+  - DOMAIN-SUFFIX,chromercise.com
+  - DOMAIN-SUFFIX,chromestatus.com
+  - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   - DOMAIN-SUFFIX,com.google
@@ -284,6 +295,7 @@ payload:
   - DOMAIN-SUFFIX,gtm.oasisfeng.com
   - DOMAIN-SUFFIX,imasdk.googleapis.com
   - DOMAIN-SUFFIX,lers.google
+  - DOMAIN-SUFFIX,mail.google.com
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,nic.google
   - DOMAIN-SUFFIX,ocsp.pki.goog
@@ -308,16 +320,6 @@ payload:
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
   - DOMAIN-SUFFIX,www.gstatic.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN,alt1-mtalk.google.com
-  - DOMAIN,alt2-mtalk.google.com
-  - DOMAIN,alt3-mtalk.google.com
-  - DOMAIN,alt4-mtalk.google.com
-  - DOMAIN,alt5-mtalk.google.com
-  - DOMAIN,alt6-mtalk.google.com
-  - DOMAIN,alt7-mtalk.google.com
-  - DOMAIN,alt8-mtalk.google.com
-  - DOMAIN,mtalk.google.com
-  - DOMAIN,safebrowsing.googleapis.com
   - IP-CIDR,108.177.125.188/32,no-resolve
   - IP-CIDR,142.250.10.188/32,no-resolve
   - IP-CIDR,142.250.31.188/32,no-resolve

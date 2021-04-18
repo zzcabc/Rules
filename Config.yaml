@@ -1,14 +1,14 @@
 # 本地HTTP(S)端口
-port: 7890
+# port: 7890
 
 # 本地SOCKS5端口
-socks-port: 7891
+# socks-port: 7891
 
 # 透明代理端口Linux and macOS (Redirect TCP and TProxy UDP)
-redir-port: 7892
+# redir-port: 7892
 
 # 透明代理端口Linux (TProxy TCP and TProxy UDP)
-tproxy-port: 7893
+# tproxy-port: 7893
 
 # HTTP(S)和SOCKS5同一端口
 mixed-port: 7890
@@ -29,15 +29,19 @@ bind-address: "*"
 
 # Clash 模式选择
 # global 全局模式
-# rule 规则模式 (默认) 
+# rule   规则模式 (默认) 
 # direct 直连模式
-# script 
+# script 脚本模式
 mode: rule
 
 # Clash核心的日志级别 
 # Debug 将显示所有DNS查询和提供程序更新日志
 # Debug 不会引起任何性能问题
-# silent / error / warning / info / debug
+# silent   静默
+# error    错误
+# warning  警告
+# info     信息
+# debug    调试
 log-level: debug
 
 # 外部控制器可以通过 RESTful API 从外部控制Clash
@@ -92,30 +96,38 @@ cfw-latency-timeout: 3000
 cfw-latency-url: http://www.gstatic.com/generate_204
 
 # 更换节点 配置文件 模式 是否打断连接
-# proxy none(不切换) chain(连接链中的代理组) all(全部)
+# proxy   none(不切换) chain(连接中的代理组) all(全部)
 # profile true(文件切换断开连接) false(不断开连接)
-# mode true(切换模式断开连接) false(不断开连接)
+# mode    true(切换模式断开连接) false(不断开连接)
 cfw-conn-break-strategy:
   proxy: all
-  profile: false
-  mode: false
+  profile: true
+  mode: true
 
 # 排序规则
-# default 默认
-# latency 延迟
+# default  默认
+# latency  延迟
 # alphabet 字母
 cfw-proxies-order: default
 
 # DNS服务器
 dns:
-  # 开启Clash 内置DNS服务器
+  # 开启Clash内置DNS服务器
+  # 默认为false
   enable: true
   # 不使用ipv6解析
+  # 默认为false
   ipv6: false
+  # DNS监听端口
+  listen: 0.0.0.0:7874
+  # 解析nameserver和fallback的DNS服务器
+  # 填入纯IP的DNS服务器
+  default-nameserver:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 8.8.8.8
   # 模式fake-ip  or  redir-host
   enhanced—mode: fake-ip
-  # DNS监听端口
-  listen: 127.0.0.1:7874
   # fake-ip 模式仅有
   fake-ip-range: 198.18.0.1/16
   # 使用本地hosts文件
@@ -153,107 +165,109 @@ dns:
     - 'https://doh.powerdns.org'
     - 'https://public.dns.iij.jp/dns-query'
     - 'https://doh-jp.blahdns.com/dns-query'
-  # fake-ip
+  # fake-ip仅有
   fake-ip-filter:
-  - "*.lan"
-  - time.windows.com
-  - time.nist.gov
-  - time.apple.com
-  - time.asia.apple.com
-  - "*.ntp.org.cn"
-  - "*.openwrt.pool.ntp.org"
-  - time1.cloud.tencent.com
-  - time.ustc.edu.cn
-  - pool.ntp.org
-  - ntp.ubuntu.com
-  - ntp.aliyun.com
-  - ntp1.aliyun.com
-  - ntp2.aliyun.com
-  - ntp3.aliyun.com
-  - ntp4.aliyun.com
-  - ntp5.aliyun.com
-  - ntp6.aliyun.com
-  - ntp7.aliyun.com
-  - time1.aliyun.com
-  - time2.aliyun.com
-  - time3.aliyun.com
-  - time4.aliyun.com
-  - time5.aliyun.com
-  - time6.aliyun.com
-  - time7.aliyun.com
-  - "*.time.edu.cn"
-  - time1.apple.com
-  - time2.apple.com
-  - time3.apple.com
-  - time4.apple.com
-  - time5.apple.com
-  - time6.apple.com
-  - time7.apple.com
-  - time1.google.com
-  - time2.google.com
-  - time3.google.com
-  - time4.google.com
-  - music.163.com
-  - "*.music.163.com"
-  - "*.126.net"
-  - musicapi.taihe.com
-  - music.taihe.com
-  - songsearch.kugou.com
-  - trackercdn.kugou.com
-  - "*.kuwo.cn"
-  - api-jooxtt.sanook.com
-  - api.joox.com
-  - joox.com
-  - y.qq.com
-  - "*.y.qq.com"
-  - streamoc.music.tc.qq.com
-  - mobileoc.music.tc.qq.com
-  - isure.stream.qqmusic.qq.com
-  - dl.stream.qqmusic.qq.com
-  - aqqmusic.tc.qq.com
-  - amobile.music.tc.qq.com
-  - "*.xiami.com"
-  - "*.music.migu.cn"
-  - music.migu.cn
-  - "*.msftconnecttest.com"
-  - "*.msftncsi.com"
-  - localhost.ptlogin2.qq.com
-  - "+.srv.nintendo.net"
-  - "+.stun.playstation.net"
-  - xbox.*.microsoft.com
-  - "+.xboxlive.com"
-  - proxy.golang.org
-  - stun.*.*
-  - stun.*.*.*
-  - heartbeat.belkin.com
-  - "*.linksys.com"
-  - "*.linksyssmartwifi.com"
-  - "+.battlenet.com.cn"
+    - '*.lan'
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - ntp.aliyun.com
+    - ntp1.aliyun.com
+    - ntp2.aliyun.com
+    - ntp3.aliyun.com
+    - ntp4.aliyun.com
+    - ntp5.aliyun.com
+    - ntp6.aliyun.com
+    - ntp7.aliyun.com
+    - time1.aliyun.com
+    - time2.aliyun.com
+    - time3.aliyun.com
+    - time4.aliyun.com
+    - time5.aliyun.com
+    - time6.aliyun.com
+    - time7.aliyun.com
+    - '*.time.edu.cn'
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - xbox.*.microsoft.com
+    - '+.xboxlive.com'
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - heartbeat.belkin.com
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '+.battlenet.com.cn'
+  # fake-ip仅有
   fallback-filter:
     geoip: false
     ipcidr:
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
-    - 127.0.0.0/8
-    - 169.254.0.0/16
-    - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
-    - 192.168.0.0/16
-    - 198.18.0.0/15
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/4
-    - 240.0.0.0/4
-    - 255.255.255.255/32
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
     domain:
-    - "+.google.com"
-    - "+.facebook.com"
-    - "+.youtube.com"
-    - "+.githubusercontent.com"
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+      - '+.githubusercontent.com'
   
 # clash-for-android: 
-  # append-system-dns: true # 追加系统 DNS 到 nameserver 
+  # 追加系统 DNS 到 nameserver 
+  # append-system-dns: true 
   # ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
