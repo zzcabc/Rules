@@ -119,7 +119,7 @@ script:
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
             "Spotify": "GlobalTV",
-            "Twitch","GlobalTV",
+            "Twitch": "GlobalTV",
             "ViuTV": "GlobalTV",
             "YouTube": "GlobalTV",
 
@@ -141,7 +141,6 @@ script:
             "Apple": "AppleAndMicrosoft",
 
             "Domestic": "Domestic",
-            "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
             }
         port = int(metadata["dst_port"])
@@ -242,12 +241,6 @@ rule-providers:
     path: ./Rules/Domestic
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Domestic.yaml'
-  Domestic IPs:
-    behavior: ipcidr
-    interval: 86400
-    path: ./Rules/Domestic_IPs
-    type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Domestic%20IPs.yaml'
   encoreTVB:
     behavior: classical
     interval: 86400
