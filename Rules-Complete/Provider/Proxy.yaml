@@ -1679,6 +1679,8 @@ payload:
   - DOMAIN-SUFFIX,falungong.org.uk
   - DOMAIN-SUFFIX,falunhr.org
   - DOMAIN-SUFFIX,faluninfo.de
+  - DOMAIN-SUFFIX,potplayer.daum.net
+  - DOMAIN-SUFFIX,daumcdn.net
   - DOMAIN-SUFFIX,faluninfo.net
   - DOMAIN-SUFFIX,falunpilipinas.net
   - DOMAIN-SUFFIX,falunworld.net
