@@ -1,4 +1,4 @@
-name: Refresh cache
+name: Refresh cache Other
 on:
   push:
     branches: [ main ]

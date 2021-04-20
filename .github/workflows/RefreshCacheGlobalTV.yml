@@ -1,4 +1,4 @@
-name: Refresh cache
+name: Refresh cache GlobalTV
 on:
   push:
     branches: [ main ]
@@ -27,6 +27,7 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Japonx.yaml            && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/JOOX.yaml              && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml         && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml               && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/myTV%20SUPER.yaml      && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Netflix.yaml           && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Pandora.yaml           && \
@@ -36,11 +37,10 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Spotify.yaml           && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Twitch.yaml            && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/ViuTV.yaml             && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml   && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml           && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/Bahamut.yaml              && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/KKBOX.yaml                && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/KKTV.yaml                 && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Hulu%20Japan.yaml          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Niconico.yaml              && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml               && \    
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml  
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Niconico.yaml
