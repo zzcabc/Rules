@@ -293,7 +293,6 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googleweblight.com
   - DOMAIN-SUFFIX,googlezip.net
   - DOMAIN-SUFFIX,groups.google.cn
