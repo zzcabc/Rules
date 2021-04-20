@@ -68,12 +68,6 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Domestic.yaml'
     path: ./Rules/Domestic
     interval: 86400
-  Domestic IPs:
-    type: http
-    behavior: ipcidr
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Streamline/Provider/Domestic%20IPs.yaml'
-    path: ./Rules/Domestic_IPs
-    interval: 86400
   LAN:
     type: http
     behavior: classical
