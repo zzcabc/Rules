@@ -1,0 +1,34 @@
+name: Refresh cache
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh cache
+        run: |
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Special.yaml                        && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Proxy.yaml                          && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Domestic.yaml                       && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/LAN.yaml                            && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Reject.yaml                         && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Proxy.yaml                          && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Apple.yaml                            && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Developer.yaml                        && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Domestic.yaml                         && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/EHantai.yaml                          && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Epic.yaml                             && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Google.yaml                           && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/LAN.yaml                              && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Microsoft.yaml                        && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/PayPal.yaml                           && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Proxy.yaml                            && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Reject.yaml                           && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Scholar.yaml                          && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Sony.yaml                             && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Special.yaml                          && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Speedtest.yaml                        && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Steam.yaml                            && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Telegram.yaml                         

@@ -9,28 +9,7 @@ jobs:
     steps:
       - name: Refresh cache
         run: |
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Special.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/AsianTV.yaml                        && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/GlobalTV.yaml                       && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Proxy.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Domestic.yaml                       && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/LAN.yaml                            && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Reject.yaml                         && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/Proxy.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Apple.yaml                            && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Developer.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Domestic.yaml                         && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/EHantai.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Epic.yaml                             && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Google.yaml                           && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/LAN.yaml                              && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Bilibili.yaml           && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/iQiyi.yaml              && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Letv.yaml               && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Netease%20Music.yaml    && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Tencent%20Video.yaml    && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/WeTV.yaml               && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Youku.yaml              && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/ABC.yaml               && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Abema%20TV.yaml        && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Amazon.yaml            && \
@@ -63,15 +42,5 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/KKTV.yaml                 && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Hulu%20Japan.yaml          && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Niconico.yaml              && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Microsoft.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/PayPal.yaml                           && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Proxy.yaml                            && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Reject.yaml                           && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Scholar.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Sony.yaml                             && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Special.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Speedtest.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Steam.yaml                            && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Telegram.yaml                         && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml               && \    
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml  
