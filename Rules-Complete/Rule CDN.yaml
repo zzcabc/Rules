@@ -219,7 +219,7 @@ rule-providers:
   Developer:
     behavior: classical
     interval: 86400
-    path: ./Rules/Media/GlobalTV/Developer
+    path: ./Rules/Developer
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Developer.yaml'
   Discovery Plus:
