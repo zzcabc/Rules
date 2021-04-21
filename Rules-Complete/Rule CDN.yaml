@@ -68,7 +68,6 @@ rules:
 
   - RULE-SET,Speedtest,Speedtest
 
-  - RULE-SET,Domestic IPs,Domestic
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
   - GEOIP,CN,Domestic
