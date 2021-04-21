@@ -6319,6 +6319,7 @@ payload:
   - IP-CIDR,125.6.149.0/24,no-resolve
   - IP-CIDR,125.6.190.0/24,no-resolve
   - IP-CIDR,129.134.0.0/17,no-resolve
+  - IP-CIDR,13.225.93.44/32,no-resolve
   - IP-CIDR,13.251.24.157/24,no-resolve
   - IP-CIDR,13.251.41.203/24,no-resolve
   - IP-CIDR,13.32.0.0/16,no-resolve
