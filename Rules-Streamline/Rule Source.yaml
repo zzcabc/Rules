@@ -1,6 +1,5 @@
 rules: 
 - RULE-SET,AsianTV,AsianTV
-- RULE-SET,Domestic IPs,Domestic
 - RULE-SET,Domestic,Domestic
 - RULE-SET,GlobalTV,GlobalTV
 - RULE-SET,PROXY,Proxy
@@ -21,7 +20,6 @@ script:
             "GlobalTV": "GlobalTV",
             "PROXY": "Proxy",
             "Domestic": "Domestic",
-            "Domestic IPs": "Domestic",
             "LAN": "DIRECT"
             }
         port = int(metadata["dst_port"])
