@@ -1,6 +1,7 @@
 payload:
   # > Developer 开发者常用国外网站、镜像和论坛
   - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,eclipse.org
