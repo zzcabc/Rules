@@ -1,4 +1,5 @@
 payload: 
+  - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
@@ -3824,6 +3825,7 @@ payload:
   - DOMAIN-SUFFIX,nobel.se
   - DOMAIN-SUFFIX,nobelprize.org
   - DOMAIN-SUFFIX,nobodycanstop.us
+  - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,nofile.io
   - DOMAIN-SUFFIX,nokogiri.org
   - DOMAIN-SUFFIX,nokola.com
@@ -3846,6 +3848,7 @@ payload:
   - DOMAIN-SUFFIX,noypf.com
   - DOMAIN-SUFFIX,npa.go.jp
   - DOMAIN-SUFFIX,npa.gov.tw
+  - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,npnt.me
   - DOMAIN-SUFFIX,nps.gov
   - DOMAIN-SUFFIX,npsboost.com
