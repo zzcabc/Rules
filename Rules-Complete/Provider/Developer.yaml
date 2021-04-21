@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,gitlab.io
+  - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,jitpack.io
   - DOMAIN-SUFFIX,maven.apache.org
   - DOMAIN-SUFFIX,maven.org
