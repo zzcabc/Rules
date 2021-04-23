@@ -312,10 +312,11 @@ payload:
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spotifycdn.net
   # Twitch
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
   # > ViuTV
   # - User-Agent,ViuTV*
   - DOMAIN-SUFFIX,bootstrapcdn.com
