@@ -392,6 +392,7 @@ payload:
   - DOMAIN-SUFFIX,asiatoday.us
   - DOMAIN-SUFFIX,askstudent.com
   - DOMAIN-SUFFIX,askynz.net
+  - DOMAIN-SUFFIX,assdrty.com
   - DOMAIN-SUFFIX,assembla.com
   - DOMAIN-SUFFIX,assets.bwbx.io
   - DOMAIN-SUFFIX,assimp.org
@@ -1277,6 +1278,7 @@ payload:
   - DOMAIN-SUFFIX,data.flurry.com
   - DOMAIN-SUFFIX,data.gov.tw
   - DOMAIN-SUFFIX,daum.net
+  - DOMAIN-SUFFIX,daumcdn.net
   - DOMAIN-SUFFIX,david-kilgour.com
   - DOMAIN-SUFFIX,dawangidc.com
   - DOMAIN-SUFFIX,daxa.cn
@@ -1678,8 +1680,6 @@ payload:
   - DOMAIN-SUFFIX,falungong.org.uk
   - DOMAIN-SUFFIX,falunhr.org
   - DOMAIN-SUFFIX,faluninfo.de
-  - DOMAIN-SUFFIX,potplayer.daum.net
-  - DOMAIN-SUFFIX,daumcdn.net
   - DOMAIN-SUFFIX,faluninfo.net
   - DOMAIN-SUFFIX,falunpilipinas.net
   - DOMAIN-SUFFIX,falunworld.net
@@ -2962,6 +2962,7 @@ payload:
   - DOMAIN-SUFFIX,login.target.com
   - DOMAIN-SUFFIX,logiqx.com
   - DOMAIN-SUFFIX,logmein.com
+  - DOMAIN-SUFFIX,loli.com
   - DOMAIN-SUFFIX,londonchinese.ca
   - DOMAIN-SUFFIX,longhair.hk
   - DOMAIN-SUFFIX,longmusic.com
@@ -3194,8 +3195,10 @@ payload:
   - DOMAIN-SUFFIX,moby.to
   - DOMAIN-SUFFIX,mobypicture.com
   - DOMAIN-SUFFIX,modmyi.com
+  - DOMAIN-SUFFIX,moe.rip
   - DOMAIN-SUFFIX,moeaic.gov.tw
   - DOMAIN-SUFFIX,moeerolibrary.com
+  - DOMAIN-SUFFIX,moepoipoi.com
   - DOMAIN-SUFFIX,mofa.gov.tw
   - DOMAIN-SUFFIX,mofaxiehui.com
   - DOMAIN-SUFFIX,mofos.com
@@ -3833,6 +3836,7 @@ payload:
   - DOMAIN-SUFFIX,postadult.com
   - DOMAIN-SUFFIX,postimg.org
   - DOMAIN-SUFFIX,potato.im
+  - DOMAIN-SUFFIX,potplayer.daum.net
   - DOMAIN-SUFFIX,potvpn.com
   - DOMAIN-SUFFIX,power.com
   - DOMAIN-SUFFIX,powerapple.com
@@ -5215,6 +5219,7 @@ payload:
   - DOMAIN-SUFFIX,vidinfo.org
   - DOMAIN-SUFFIX,vietdaikynguyen.com
   - DOMAIN-SUFFIX,vijayatemple.org
+  - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vimeo.com
   - DOMAIN-SUFFIX,vimeocdn.com
   - DOMAIN-SUFFIX,vimperator.org

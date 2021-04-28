@@ -1,5 +1,4 @@
 payload: 
-  - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
@@ -9,6 +8,7 @@ payload:
   - DOMAIN-KEYWORD,dropbox
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,instagram
@@ -428,6 +428,7 @@ payload:
   - DOMAIN-SUFFIX,askynz.net
   - DOMAIN-SUFFIX,asm.org
   - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,assdrty.com
   - DOMAIN-SUFFIX,assembla.com
   - DOMAIN-SUFFIX,assets.bwbx.io
   - DOMAIN-SUFFIX,assimp.org
@@ -3324,6 +3325,7 @@ payload:
   - DOMAIN-SUFFIX,login.target.com
   - DOMAIN-SUFFIX,logiqx.com
   - DOMAIN-SUFFIX,logmein.com
+  - DOMAIN-SUFFIX,loli.com
   - DOMAIN-SUFFIX,londonchinese.ca
   - DOMAIN-SUFFIX,longhair.hk
   - DOMAIN-SUFFIX,longmusic.com
@@ -3562,8 +3564,10 @@ payload:
   - DOMAIN-SUFFIX,moby.to
   - DOMAIN-SUFFIX,mobypicture.com
   - DOMAIN-SUFFIX,modmyi.com
+  - DOMAIN-SUFFIX,moe.rip
   - DOMAIN-SUFFIX,moeaic.gov.tw
   - DOMAIN-SUFFIX,moeerolibrary.com
+  - DOMAIN-SUFFIX,moepoipoi.com
   - DOMAIN-SUFFIX,mofa.gov.tw
   - DOMAIN-SUFFIX,mofaxiehui.com
   - DOMAIN-SUFFIX,mofos.com
@@ -5660,6 +5664,7 @@ payload:
   - DOMAIN-SUFFIX,vidinfo.org
   - DOMAIN-SUFFIX,vietdaikynguyen.com
   - DOMAIN-SUFFIX,vijayatemple.org
+  - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vimeo.com
   - DOMAIN-SUFFIX,vimeocdn.com
   - DOMAIN-SUFFIX,vimperator.org
