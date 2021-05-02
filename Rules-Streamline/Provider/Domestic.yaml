@@ -323,6 +323,17 @@ payload:
   - DOMAIN-SUFFIX,luoo.net
   - DOMAIN-SUFFIX,lvmama.com
   - DOMAIN-SUFFIX,lxdns.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,alibabausercontent.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alicloudccp.com
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,aliimg.com
+  - DOMAIN-SUFFIX,alikunlun.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliyuncdn.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,aliyundrive.com
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,mai.tn
