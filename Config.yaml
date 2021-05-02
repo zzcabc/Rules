@@ -187,6 +187,17 @@ dns:
     - '+.xboxlive.com'
     - 'stun.*.*.*'
     - 'stun.*.*'
+    - "*.alibabacloud.com"
+    - "*.alibabausercontent.com"
+    - "*.alicdn.com"
+    - "*.alicloudccp.com"
+    - "*.aliexpress.com"
+    - "*.aliimg.com"
+    - "*.alikunlun.com"
+    - "*.aliyun.com"
+    - "*.aliyuncdn.com"
+    - "*.aliyuncs.com"
+    - "*.aliyundrive.com"
     - amobile.music.tc.qq.com
     - api-jooxtt.sanook.com
     - api.joox.com
