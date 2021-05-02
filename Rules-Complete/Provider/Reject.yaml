@@ -1,4 +1,32 @@
 payload:
+  - DOMAIN-KEYWORD,admarvel
+  - DOMAIN-KEYWORD,admaster
+  - DOMAIN-KEYWORD,adsage
+  - DOMAIN-KEYWORD,adsensor
+  - DOMAIN-KEYWORD,adservice
+  - DOMAIN-KEYWORD,adsmogo
+  - DOMAIN-KEYWORD,adsrvmedia
+  - DOMAIN-KEYWORD,adsserving
+  - DOMAIN-KEYWORD,adsystem
+  - DOMAIN-KEYWORD,adwords
+  - DOMAIN-KEYWORD,analysis
+  - DOMAIN-KEYWORD,applovin
+  - DOMAIN-KEYWORD,appsflyer
+  - DOMAIN-KEYWORD,domob
+  - DOMAIN-KEYWORD,duomeng
+  - DOMAIN-KEYWORD,dwtrack
+  - DOMAIN-KEYWORD,guanggao
+  - DOMAIN-KEYWORD,omgmta
+  - DOMAIN-KEYWORD,omniture
+  - DOMAIN-KEYWORD,openx
+  - DOMAIN-KEYWORD,partnerad
+  - DOMAIN-KEYWORD,pingfore
+  - DOMAIN-KEYWORD,socdm
+  - DOMAIN-KEYWORD,supersonicads
+  - DOMAIN-KEYWORD,tracking
+  - DOMAIN-KEYWORD,usage
+  - DOMAIN-KEYWORD,wlmonitor
+  - DOMAIN-KEYWORD,zjtoolbar
   - DOMAIN-SUFFIX,0.r.msn.com
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,000dn.com
@@ -4191,6 +4219,7 @@ payload:
   - DOMAIN-SUFFIX,atcanjhcv.com
   - DOMAIN-SUFFIX,atconnect.npo.nl
   - DOMAIN-SUFFIX,atcryp.com
+  - DOMAIN-SUFFIX,atdmt.com
   - DOMAIN-SUFFIX,ateddiscr.top
   - DOMAIN-SUFFIX,atelovesinothic.info
   - DOMAIN-SUFFIX,atesbrothereso.info
