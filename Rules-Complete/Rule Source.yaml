@@ -1,6 +1,9 @@
 rules:
   - RULE-SET,Reject,AdBlock
 
+  - RULE-SET,Netflix,GlobalTV
+  - RULE-SET,Spotify,GlobalTV
+  
   # AsianTV
   - RULE-SET,Bilibili,AsianTV
   - RULE-SET,iQiyi,AsianTV
@@ -31,12 +34,10 @@ rules:
   - RULE-SET,Line TV,GlobalTV
   # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
-  - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Pandora,GlobalTV
   - RULE-SET,PBS,GlobalTV
   - RULE-SET,Pornhub,GlobalTV
   - RULE-SET,Soundcloud,GlobalTV
-  - RULE-SET,Spotify,GlobalTV
   - RULE-SET,Twitch,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
   # - RULE-SET,YouTube Music,GlobalTV
