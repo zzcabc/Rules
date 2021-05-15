@@ -20,6 +20,7 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-SUFFIX,imoutomoe.net
   - DOMAIN-SUFFIX,picacgs.com
   - DOMAIN-SUFFIX,picaacg.com
   - DOMAIN-SUFFIX,aklmtt.net
