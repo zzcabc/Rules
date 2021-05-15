@@ -2,9 +2,13 @@
 
 
 顺序如下：
+
 config.yaml最上面
+
 proxies:    这里是节点配置 
+
 proxy-groups:    这里是分组配置
+
 rules.yaml最下面
 
 
