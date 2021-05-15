@@ -2,7 +2,7 @@
 Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)和[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 
-### [如何使用](https://github.com/zzcabc/Rules/tree/main/HowToUse.yaml)
+### [如何使用](https://github.com/zzcabc/Rules/tree/main/HowToUse.md)
 
 ## [FakeIP-Config.yaml](https://github.com/zzcabc/Rules/tree/main/FakeIP-Config.yaml)
 
