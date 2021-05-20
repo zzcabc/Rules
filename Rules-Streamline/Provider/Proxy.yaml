@@ -9,7 +9,6 @@ payload:
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,github
-  - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,jetbrains
@@ -20,12 +19,6 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
-  - DOMAIN-SUFFIX,imoutomoe.net
-  - DOMAIN-SUFFIX,picacgs.com
-  - DOMAIN-SUFFIX,picaacg.com
-  - DOMAIN-SUFFIX,aklmtt.net
-  - DOMAIN-SUFFIX,snowcool.xyz
-  - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com
   - DOMAIN-SUFFIX,0rz.tw
@@ -240,6 +233,7 @@ payload:
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
+  - DOMAIN-SUFFIX,aklmtt.net
   - DOMAIN-SUFFIX,akow.org
   - DOMAIN-SUFFIX,al-islam.com
   - DOMAIN-SUFFIX,al-qimmah.net
@@ -2886,6 +2880,7 @@ payload:
   - DOMAIN-SUFFIX,immigration.gov.tw
   - DOMAIN-SUFFIX,immoral.jp
   - DOMAIN-SUFFIX,imore.com
+  - DOMAIN-SUFFIX,imoutomoe.net
   - DOMAIN-SUFFIX,impact.org.au
   - DOMAIN-SUFFIX,impp.mn
   - DOMAIN-SUFFIX,in-disguise.com
@@ -3550,6 +3545,7 @@ payload:
   - DOMAIN-SUFFIX,mitbbs.com
   - DOMAIN-SUFFIX,mitbbsau.com
   - DOMAIN-SUFFIX,mixero.com
+  - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,mixpod.com
   - DOMAIN-SUFFIX,mixx.com
   - DOMAIN-SUFFIX,mizzmona.com
@@ -4130,6 +4126,8 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,phuquocservices.com
   - DOMAIN-SUFFIX,piaotian.net
+  - DOMAIN-SUFFIX,picaacg.com
+  - DOMAIN-SUFFIX,picacgs.com
   - DOMAIN-SUFFIX,picacomic.com
   - DOMAIN-SUFFIX,picacomiccn.com
   - DOMAIN-SUFFIX,picasaweb.com
@@ -4735,6 +4733,7 @@ payload:
   - DOMAIN-SUFFIX,snaptu.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sneakme.net
+  - DOMAIN-SUFFIX,snowcool.xyz
   - DOMAIN-SUFFIX,snowlionpub.com
   - DOMAIN-SUFFIX,sobees.com
   - DOMAIN-SUFFIX,soc.mil
@@ -5291,6 +5290,7 @@ payload:
   - DOMAIN-SUFFIX,traffichaus.com
   - DOMAIN-SUFFIX,trakt.tv
   - DOMAIN-SUFFIX,trans.wenweipo.com
+  - DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,transparency.org
   - DOMAIN-SUFFIX,treemall.com.tw
   - DOMAIN-SUFFIX,trendsmap.com
@@ -6000,6 +6000,7 @@ payload:
   - DOMAIN-SUFFIX,www.eastturkistan.net
   - DOMAIN-SUFFIX,www.gmiddle.com
   - DOMAIN-SUFFIX,www.gmiddle.net
+  - DOMAIN-SUFFIX,www.gstatic.com
   - DOMAIN-SUFFIX,www.hustlercash.com
   - DOMAIN-SUFFIX,www.idlcoyote.com
   - DOMAIN-SUFFIX,www.imdb.com

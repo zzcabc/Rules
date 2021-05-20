@@ -1,5 +1,4 @@
 payload:
-  # > Google
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,265.com
@@ -324,9 +323,11 @@ payload:
   - DOMAIN-SUFFIX,toolbarqueries.google.com
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com
+  - DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,update.googleapis.com
   - DOMAIN-SUFFIX,withgoogle.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+  - DOMAIN-SUFFIX,www.gstatic.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - IP-CIDR,108.177.125.188/32,no-resolve
   - IP-CIDR,120.232.181.162/32,no-resolve
