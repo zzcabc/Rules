@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
@@ -82,6 +83,7 @@ payload:
   - IP-CIDR,59.111.181.60/32,no-resolve
   - IP-CIDR,59.111.21.14/31,no-resolve
   - IP-CIDR,59.111.238.29/32,no-resolve
+  
   # > Tencent Video
   - DOMAIN-SUFFIX,v.smtcdns.com
   - DOMAIN-SUFFIX,vv.video.qq.com

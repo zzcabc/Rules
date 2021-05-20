@@ -2,15 +2,15 @@ payload:
   # > Amazon Prime Video
   # - User-Agent,InstantVideo.US*
   # - User-Agent,Prime%20Video*
+  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazonaws.co.uk
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,fls-na.amazon.com

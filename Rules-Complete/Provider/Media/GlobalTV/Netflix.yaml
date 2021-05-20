@@ -1,6 +1,7 @@
 payload:
   # > Netflix
   # - USER-AGENT,Argo*
+  - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
   - DOMAIN-KEYWORD,netflix
@@ -22,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,nflximg.net
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
-  - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN,netflix.com.edgesuite.net
   - IP-CIDR,103.87.204.0/22,no-resolve
   - IP-CIDR,103.87.205.0/24,no-resolve
@@ -97,4 +97,3 @@ payload:
   - IP-CIDR,66.197.128.0/17,no-resolve
   - IP-CIDR,69.53.224.0/19,no-resolve
   - IP-CIDR,8.41.4.0/24,no-resolve
-  - PROCESS-NAME,com.netflix.mediaclient

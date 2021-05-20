@@ -1,10 +1,12 @@
 payload:  
   # > Youtube
-  # - User-Agent,*youtube*
-  # - User-Agent,YouTube*
+  # - USER-AGENT,*youtube*
+  # - USER-AGENT,YouTube*
+  # - USER-AGENT,com.google.ios.youtube*
   - DOMAIN-KEYWORD,ggpht
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
@@ -14,3 +16,5 @@ payload:
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com

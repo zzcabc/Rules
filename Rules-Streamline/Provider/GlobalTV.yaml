@@ -13,15 +13,15 @@ payload:
   # > Amazon Prime Video
   # - User-Agent,InstantVideo.US*
   # - User-Agent,Prime%20Video*
+  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazonaws.co.uk
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,fls-na.amazon.com
@@ -51,6 +51,7 @@ payload:
   # DOMAIN,news-edge.apple.com
   # DOMAIN,news-events.apple.com
   # DOMAIN-SUFFIX,apple.news
+
   # > Apple TV
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN,np-edge.itunes.apple.com
@@ -336,11 +337,13 @@ payload:
   # - User-Agent,*com.google.ios.youtubemusic*
 
   # > Youtube
-  # - User-Agent,*youtube*
-  # - User-Agent,YouTube*
+  # - USER-AGENT,*youtube*
+  # - USER-AGENT,YouTube*
+  # - USER-AGENT,com.google.ios.youtube*
   - DOMAIN-KEYWORD,ggpht
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
@@ -350,6 +353,8 @@ payload:
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com
 
   # > Bahamut
   # - User-Agent,Anime*
