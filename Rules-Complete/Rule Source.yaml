@@ -1,6 +1,7 @@
 rules:
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
+  - RULE-SET,LAN,DIRECT
 
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Spotify,GlobalTV
@@ -24,7 +25,6 @@ rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
-  - RULE-SET,Epic,Proxy
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
   - RULE-SET,Google,Proxy
@@ -33,7 +33,6 @@ rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
-  # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Niconico,GlobalTV
   - RULE-SET,Pandora,GlobalTV
@@ -42,18 +41,16 @@ rules:
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Twitch,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
-  # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
   # HMTTV
   - RULE-SET,Bahamut,GlobalTV
   - RULE-SET,KKBOX,GlobalTV
   - RULE-SET,KKTV,GlobalTV
 
-
   - RULE-SET,Developer,Proxy
+
   - RULE-SET,Domestic,Domestic
   - RULE-SET,EHantai,Proxy
-  - RULE-SET,Epic,Proxy
   - RULE-SET,Google,Proxy
   - RULE-SET,PROXY,Proxy
   - RULE-SET,Scholar,Proxy
@@ -62,12 +59,11 @@ rules:
 
   - RULE-SET,Apple,AppleAndMicrosoft
   - RULE-SET,Microsoft,AppleAndMicrosoft
-  - RULE-SET,PayPal,SteamAndPayPal
-  - RULE-SET,Steam,SteamAndPayPal
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
 
   - RULE-SET,Speedtest,Speedtest
 
-  - RULE-SET,LAN,DIRECT
   - GEOIP,CN,Domestic
 
   - MATCH,Others
@@ -78,6 +74,7 @@ script:
         ruleset_action = {
             "Reject": "AdBlock",
             "Special": "DIRECT",
+            "LAN": "DIRECT",
 
             "Netflix": "GlobalTV",
             "Spotify": "GlobalTV",
@@ -122,23 +119,22 @@ script:
 
             "Developer": "Proxy",
             "EHantai": "Proxy",
-            "Epic": "Proxy",
             "Google": "Proxy",
             "PROXY": "Proxy",
             "Scholar": "Proxy",
             "Sony": "Proxy",
             "Telegram": "Proxy",
 
-            "Steam": "SteamAndPayPal",
-            "PayPal": "SteamAndPayPal",
+            "Game": "GameAndPayPal",
+            "PayPal": "GameAndPayPal",
 
             "Speedtest": "Speedtest",
 
             "Microsoft": "AppleAndMicrosoft",
             "Apple": "AppleAndMicrosoft",
 
-            "Domestic": "Domestic",
-            "LAN": "DIRECT"
+            "Domestic": "Domestic"
+            
             }
         port = int(metadata["dst_port"])
         if port not in port_list:
@@ -250,12 +246,12 @@ rule-providers:
     path: ./Rules/EHantai
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/EHantai.yaml'
-  Epic:
+  Game:
     behavior: classical
     interval: 86400
-    path: ./Rules/Epic
+    path: ./Rules/Game
     type: http
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Epic.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Game.yaml'
   Fox Now:
     behavior: classical
     interval: 86400
@@ -328,12 +324,6 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/Line_TV
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml'
-  # MOO:
-  #   behavior: classical
-  #   interval: 86400
-  #   path: ./Rules/Media/GlobalTV/MOO
-  #   type: http
-  #   url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/MOO.yaml'    
   Microsoft:
     behavior: classical
     interval: 86400
@@ -430,12 +420,6 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/Spotify
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Spotify.yaml'
-  Steam:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Steam
-    type: http
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Steam.yaml'
   Telegram:
     behavior: classical
     interval: 86400
@@ -472,12 +456,6 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/YouTube
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml'
-  # YouTube Music:
-  #   behavior: classical
-  #   interval: 86400
-  #   path: ./Rules/Media/GlobalTV/YouTube
-  #   type: http
-  #   url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
   Youku:
     behavior: classical
     interval: 86400
