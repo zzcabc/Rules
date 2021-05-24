@@ -1,7 +1,6 @@
 # Rules
 Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)和[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
-
 ### [如何使用](https://github.com/zzcabc/Rules/tree/main/HowToUse.md)
 
 ## [FakeIP-Config.yaml](https://github.com/zzcabc/Rules/tree/main/FakeIP-Config.yaml)
@@ -16,6 +15,9 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)和[ACL4SSR]
 
 是Clash For Windows特有模式,默认启用Redir-Host的TUN模式,需安装[TUN](https://www.wintun.net/)
 
+## [Parsers.yaml](https://github.com/zzcabc/Rules/tree/main/Parsers.yaml)
+
+Clash For Windows的订阅预处理，需按照个人订阅修改
 
 ### [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 
 规则细分,含有屏蔽广告
@@ -36,5 +38,6 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)和[ACL4SSR]
 
 
 ### [AdguardHome规则](https://github.com/zzcabc/Rules/tree/main/AdGuardHome.json)
+
 我的浏览器规则
 
