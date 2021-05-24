@@ -6,7 +6,6 @@ payload:
   - DOMAIN-KEYWORD,ggpht
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-KEYWORD,youtube
-  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
@@ -18,4 +17,3 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
