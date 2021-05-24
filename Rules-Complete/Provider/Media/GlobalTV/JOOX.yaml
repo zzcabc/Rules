@@ -3,3 +3,4 @@ payload:
   # - User-Agent,WeMusic*
   # - User-Agent,JOOX*
   - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-KEYWORD,jooxweb-api

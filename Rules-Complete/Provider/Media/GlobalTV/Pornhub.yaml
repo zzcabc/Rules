@@ -4,3 +4,5 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,pronstore.com
+  - PROCESS-NAME,com.app.pornhub
