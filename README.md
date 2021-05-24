@@ -35,6 +35,6 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)和[ACL4SSR]
 [Clash .NET](https://github.com/ClashDotNetFramework/ClashDotNetFramework) 基于.NET5的Windows平台图形化客户端
 
 
-[AdguardHome规则](https://github.com/zzcabc/Rules/tree/main/AdGuardHome.json)
-
+### [AdguardHome规则](https://github.com/zzcabc/Rules/tree/main/AdGuardHome.json)
 我的浏览器规则
+
