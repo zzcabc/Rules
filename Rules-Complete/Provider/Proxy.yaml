@@ -2138,7 +2138,6 @@ payload:
   - DOMAIN-SUFFIX,gaozhisheng.org
   - DOMAIN-SUFFIX,gardennetworks.com
   - DOMAIN-SUFFIX,gardennetworks.org
-  - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,gartlive.com
   - DOMAIN-SUFFIX,gate-project.com
   - DOMAIN-SUFFIX,gate.hockeyapp.net
@@ -2227,7 +2226,6 @@ payload:
   - DOMAIN-SUFFIX,giga-web.jp
   - DOMAIN-SUFFIX,gigporno.ru
   - DOMAIN-SUFFIX,girlbanker.com
-  - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,gitbook.io
   - DOMAIN-SUFFIX,gizlen.net
@@ -3667,8 +3665,6 @@ payload:
   - DOMAIN-SUFFIX,ninjacloak.com
   - DOMAIN-SUFFIX,ninjaproxy.ninja
   - DOMAIN-SUFFIX,nintendium.com
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.net
   - DOMAIN-SUFFIX,ninth.biz
   - DOMAIN-SUFFIX,nitter.net
   - DOMAIN-SUFFIX,niu.moe
@@ -4041,7 +4037,6 @@ payload:
   - DOMAIN-SUFFIX,po2b.com
   - DOMAIN-SUFFIX,pobieramy.top
   - DOMAIN-SUFFIX,podictionary.com
-  - DOMAIN-SUFFIX,pokemon.com
   - DOMAIN-SUFFIX,pokerstars.com
   - DOMAIN-SUFFIX,pokerstars.net
   - DOMAIN-SUFFIX,politicalchina.org
@@ -4289,8 +4284,6 @@ payload:
   - DOMAIN-SUFFIX,riku.me
   - DOMAIN-SUFFIX,rileyguide.com
   - DOMAIN-SUFFIX,rime.im
-  - DOMAIN-SUFFIX,riotcdn.net
-  - DOMAIN-SUFFIX,riotgames.com
   - DOMAIN-SUFFIX,riseup.net
   - DOMAIN-SUFFIX,ritouki.jp
   - DOMAIN-SUFFIX,ritter.vg
@@ -4377,7 +4370,6 @@ payload:
   - DOMAIN-SUFFIX,scasino.com
   - DOMAIN-SUFFIX,schema.org
   - DOMAIN-SUFFIX,sciencedaily.com
-  - DOMAIN-SUFFIX,sciencenets.com
   - DOMAIN-SUFFIX,scieron.com
   - DOMAIN-SUFFIX,scmp.com
   - DOMAIN-SUFFIX,scmpchinese.com
@@ -4742,7 +4734,6 @@ payload:
   - DOMAIN-SUFFIX,suoluo.org
   - DOMAIN-SUFFIX,supchina.com
   - DOMAIN-SUFFIX,superfreevpn.com
-  - DOMAIN-SUFFIX,supermariorun.com
   - DOMAIN-SUFFIX,superokayama.com
   - DOMAIN-SUFFIX,superpages.com
   - DOMAIN-SUFFIX,supervpn.net
@@ -5324,7 +5315,6 @@ payload:
   - DOMAIN-SUFFIX,ubnt.com
   - DOMAIN-SUFFIX,uc-japan.org
   - DOMAIN-SUFFIX,ucdc1998.org
-  - DOMAIN-SUFFIX,uchicago.edu
   - DOMAIN-SUFFIX,uderzo.it
   - DOMAIN-SUFFIX,udn.com
   - DOMAIN-SUFFIX,udn.com.tw
