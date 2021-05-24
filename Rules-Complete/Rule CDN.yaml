@@ -34,6 +34,7 @@ rules:
   - RULE-SET,Line TV,GlobalTV
   # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
+  - RULE-SET,Niconico,GlobalTV
   - RULE-SET,Pandora,GlobalTV
   - RULE-SET,PBS,GlobalTV
   - RULE-SET,Pornhub,GlobalTV
@@ -47,7 +48,7 @@ rules:
   - RULE-SET,KKBOX,GlobalTV
   - RULE-SET,KKTV,GlobalTV
   # JPTV
-  - RULE-SET,Niconico,GlobalTV
+
 
 
   - RULE-SET,Developer,Proxy
@@ -107,7 +108,6 @@ script:
             "Fox Now": "GlobalTV",
             "Fox+": "GlobalTV",
             "HBO": "GlobalTV",
-            "Hulu Japan": "GlobalTV",
             "Hulu": "GlobalTV",
             "Japonx": "GlobalTV",
             "JOOX": "GlobalTV",
@@ -359,9 +359,9 @@ rule-providers:
   Niconico:
     behavior: classical
     interval: 86400
-    path: ./Rules/Media/JPTV/Niconico
+    path: ./Rules/Media/GlobalTV/Niconico
     type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Niconico.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Niconico.yaml'
   PBS:
     behavior: classical
     interval: 86400
