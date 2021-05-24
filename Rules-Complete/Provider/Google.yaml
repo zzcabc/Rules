@@ -44,7 +44,6 @@ payload:
   - DOMAIN-SUFFIX,fonts.googleapis.com
   - DOMAIN-SUFFIX,fonts.gstatic.com
   - DOMAIN-SUFFIX,g.co
-  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,google.ac
   - DOMAIN-SUFFIX,google.ad
