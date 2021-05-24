@@ -47,7 +47,6 @@ rules:
   - RULE-SET,KKBOX,GlobalTV
   - RULE-SET,KKTV,GlobalTV
   # JPTV
-  - RULE-SET,Hulu Japan,GlobalTV
   - RULE-SET,Niconico,GlobalTV
 
 
@@ -291,12 +290,6 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/Hulu
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Hulu.yaml'
-  Hulu Japan:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/JPTV/Hulu_Japan
-    type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Hulu%20Japan.yaml'
   JOOX:
     behavior: classical
     interval: 86400
