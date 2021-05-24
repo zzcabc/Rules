@@ -76,3 +76,126 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
+  ## > Scholar 国内外学术网站
+  # >> Apa
+  - DOMAIN-SUFFIX,apa.org
+  - DOMAIN-SUFFIX,psyccareers.com
+  # >> Cambridge
+  - DOMAIN-SUFFIX,cambridgedigital.net
+  - DOMAIN-SUFFIX,cambridgemaths.org
+  - DOMAIN-SUFFIX,cambridgeschoolshakespeare.com
+  # >> Clarivate
+  - DOMAIN-SUFFIX,isiknowledge.com
+  - DOMAIN-SUFFIX,newisiknowledge.com
+  - DOMAIN-SUFFIX,webofscience.com
+  # >> Doi
+  - DOMAIN-SUFFIX,doi.info
+  - DOMAIN-SUFFIX,doi.org
+  # >> Elsevier
+  - DOMAIN-SUFFIX,elsevier-ae.com
+  - DOMAIN-SUFFIX,elsevier.io
+  - DOMAIN-SUFFIX,evise.com
+  # >> Ieee
+  # >> Imperialcollege
+  - DOMAIN-SUFFIX,ic.ac.uk
+  - DOMAIN-SUFFIX,imperial.ac.uk
+  - DOMAIN-SUFFIX,imperial.insendi.com
+  - DOMAIN-SUFFIX,imperialbusiness.school
+  # >> Knovel
+  - DOMAIN-SUFFIX,knovel.com
+  # >> Mit
+  - DOMAIN-SUFFIX,mit
+  - DOMAIN-SUFFIX,mit.edu
+  - DOMAIN-SUFFIX,mit.net
+  - DOMAIN-SUFFIX,mitpressjournals.org
+  #> > Nature
+  # >> Oup
+  - DOMAIN-SUFFIX,amamanualofstyle.com
+  - DOMAIN-SUFFIX,anb.org
+  - DOMAIN-SUFFIX,blackstonespoliceservice.com
+  - DOMAIN-SUFFIX,epigeum.com
+  - DOMAIN-SUFFIX,oed.com
+  - DOMAIN-SUFFIX,omscr.com
+  - DOMAIN-SUFFIX,ouplaw.com
+  - DOMAIN-SUFFIX,ox.ac.uk
+  - DOMAIN-SUFFIX,oxfordaasc.com
+  - DOMAIN-SUFFIX,oxfordclinicalpsych.com
+  - DOMAIN-SUFFIX,oxforddnb.com
+  - DOMAIN-SUFFIX,oxfordfirstsource.com
+  - DOMAIN-SUFFIX,oxfordhandbooks.com
+  - DOMAIN-SUFFIX,oxfordlawtrove.com
+  - DOMAIN-SUFFIX,oxfordmedicine.com
+  - DOMAIN-SUFFIX,oxfordpoliticstrove.com
+  - DOMAIN-SUFFIX,oxfordre.com
+  - DOMAIN-SUFFIX,oxfordreference.com
+  - DOMAIN-SUFFIX,oxfordscholarlyeditions.com
+  - DOMAIN-SUFFIX,oxfordscholarship.com
+  - DOMAIN-SUFFIX,oxfordwesternmusic.com
+  - DOMAIN-SUFFIX,sipriyearbook.org
+  - DOMAIN-SUFFIX,ukwhoswho.com
+  - DOMAIN-SUFFIX,universitypressscholarship.com
+  - DOMAIN-SUFFIX,veryshortintroductions.com
+  # >> Proquest
+  - DOMAIN-SUFFIX,serialssolutions.com
+  # >> Sciencedirect
+  - DOMAIN-SUFFIX,sciencedirectassets.com
+  # >> Springer
+  - DOMAIN-SUFFIX,apress.com
+  - DOMAIN-SUFFIX,springernature.com
+  - DOMAIN-SUFFIX,wkap.nl
+  # >> Taylorfrancis
+  - DOMAIN-SUFFIX,tandf.co.uk
+  - DOMAIN-SUFFIX,taylorandfrancis.com
+  - DOMAIN-SUFFIX,taylorfrancis.com
+  # >> Others
+  - DOMAIN-SUFFIX,aclweb.org
+  - DOMAIN-SUFFIX,altmetric.com
+  - DOMAIN-SUFFIX,analytictech.com
+  - DOMAIN-SUFFIX,arxiv.org
+  - DOMAIN-SUFFIX,asha.org
+  - DOMAIN-SUFFIX,berkeley.edu
+  - DOMAIN-SUFFIX,biomedcentral.com
+  - DOMAIN-SUFFIX,biorxiv.org
+  - DOMAIN-SUFFIX,brill.com
+  - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-SUFFIX,computingreviews.com
+  - DOMAIN-SUFFIX,cqvip.com
+  - DOMAIN-SUFFIX,degruyter.com
+  - DOMAIN-SUFFIX,dentalhypotheses.com
+  - DOMAIN-SUFFIX,elifesciences.org
+  - DOMAIN-SUFFIX,europepmc.org
+  - DOMAIN-SUFFIX,frontiersin.org
+  - DOMAIN-SUFFIX,gale.com
+  - DOMAIN-SUFFIX,galegroup.com
+  - DOMAIN-SUFFIX,ggsrv.com
+  - DOMAIN-SUFFIX,hindawi.com
+  - DOMAIN-SUFFIX,informs.org
+  - DOMAIN-SUFFIX,isca-speech.org
+  - DOMAIN-SUFFIX,japanknowledge.com
+  - DOMAIN-SUFFIX,jbe-platform.com
+  - DOMAIN-SUFFIX,jmlr.org
+  - DOMAIN-SUFFIX,jneurosci.org
+  - DOMAIN-SUFFIX,kuke.com
+  - DOMAIN-SUFFIX,lawdata.com.tw
+  - DOMAIN-SUFFIX,literatumonline.com
+  - DOMAIN-SUFFIX,nejm.org
+  - DOMAIN-SUFFIX,neurology.org
+  - DOMAIN-SUFFIX,peerj.com
+  - DOMAIN-SUFFIX,physiology.org
+  - DOMAIN-SUFFIX,pkulaw.com
+  - DOMAIN-SUFFIX,plos.org
+  - DOMAIN-SUFFIX,princeton.edu
+  - DOMAIN-SUFFIX,routledgehandbooks.com
+  - DOMAIN-SUFFIX,royalsocietypublishing.org
+  - DOMAIN-SUFFIX,scholarpedia.org
+  - DOMAIN-SUFFIX,sciencenets.com
+  - DOMAIN-SUFFIX,scientificamerican.com
+  - DOMAIN-SUFFIX,silverchair-cdn.com
+  - DOMAIN-SUFFIX,statsmakemecry.com
+  - DOMAIN-SUFFIX,thelancet.com
+  - DOMAIN-SUFFIX,uchicago.edu
+  - DOMAIN-SUFFIX,ucla.edu
+  - DOMAIN-SUFFIX,umass.edu
+  - DOMAIN-SUFFIX,wanfangdata.com
+  - DOMAIN-SUFFIX,westlawchina.com
+  - DOMAIN-SUFFIX,yale.edu
