@@ -42,5 +42,5 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/Bahamut.yaml              && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/KKBOX.yaml                && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/HMTTV/KKTV.yaml                 && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Hulu%20Japan.yaml          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/JPTV/Niconico.yaml
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Hulu%20Japan.yaml      && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/GlobalTV/Niconico.yaml

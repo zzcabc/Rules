@@ -19,7 +19,7 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Developer.yaml                        && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Domestic.yaml                         && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/EHantai.yaml                          && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Epic.yaml                             && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Game.yaml                             && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Google.yaml                           && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/LAN.yaml                              && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Microsoft.yaml                        && \
@@ -30,5 +30,4 @@ jobs:
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Sony.yaml                             && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Special.yaml                          && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Speedtest.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Steam.yaml                            && \
           curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Telegram.yaml                         
