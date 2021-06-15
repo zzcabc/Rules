@@ -5,6 +5,11 @@ rules:
 
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Spotify,GlobalTV
+
+  # - RULE-SET,YouTube Music,GlobalTV
+  - RULE-SET,YouTube,GlobalTV
+
+  - RULE-SET,Disney Plus,GlobalTV
   
   # AsianTV
   - RULE-SET,Bilibili,AsianTV
@@ -14,6 +19,7 @@ rules:
   - RULE-SET,Tencent Video,AsianTV
   - RULE-SET,WeTV,AsianTV
   - RULE-SET,Youku,AsianTV
+
   # GlobalTV
   - RULE-SET,ABC,GlobalTV
   - RULE-SET,Abema TV,GlobalTV
@@ -22,7 +28,6 @@ rules:
   - RULE-SET,Apple TV,GlobalTV
   - RULE-SET,BBC iPlayer,GlobalTV
   - RULE-SET,DAZN,GlobalTV
-  - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
   - RULE-SET,Fox Now,GlobalTV
@@ -41,7 +46,6 @@ rules:
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Twitch,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
-  - RULE-SET,YouTube,GlobalTV
   # HMTTV
   - RULE-SET,Bahamut,GlobalTV
   - RULE-SET,KKBOX,GlobalTV
@@ -78,6 +82,9 @@ script:
 
             "Netflix": "GlobalTV",
             "Spotify": "GlobalTV",
+
+            "YouTube": "GlobalTV",
+            "Disney Plus": "GlobalTV",
             
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
@@ -96,7 +103,6 @@ script:
             "BBC iPlayer": "GlobalTV",
             "DAZN": "GlobalTV",
             "Discovery Plus": "GlobalTV",
-            "Disney Plus": "GlobalTV",
             "encoreTVB": "GlobalTV",
             "Fox Now": "GlobalTV",
             "Fox+": "GlobalTV",
@@ -115,8 +121,7 @@ script:
             "Soundcloud": "GlobalTV",
             "Twitch": "GlobalTV",
             "ViuTV": "GlobalTV",
-            "YouTube": "GlobalTV",
-
+            
             "Developer": "Proxy",
             "EHantai": "Proxy",
             "Google": "Proxy",
