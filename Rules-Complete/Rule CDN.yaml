@@ -2,10 +2,9 @@ rules:
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
-
-  - RULE-SET,Netflix,GlobalTV
-  - RULE-SET,Spotify,GlobalTV
-
+  
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Spotify,Spotify
   # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
 
@@ -58,7 +57,6 @@ rules:
   - RULE-SET,Google,Proxy
   - RULE-SET,PROXY,Proxy
   - RULE-SET,Scholar,Proxy
-  - RULE-SET,Sony,Proxy
   - RULE-SET,Telegram,Proxy
 
   - RULE-SET,Apple,AppleAndMicrosoft
@@ -71,29 +69,23 @@ rules:
   - GEOIP,CN,Domestic
 
   - MATCH,Others
+
 script:
   code: |
     def main(ctx, metadata):
-        port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
-        ruleset_action = {
-            "Reject": "AdBlock",
+        ruleset_action = {"Reject": "AdBlock",
             "Special": "DIRECT",
-            "LAN": "DIRECT",
-
             "Netflix": "GlobalTV",
             "Spotify": "GlobalTV",
-
-            "YouTube": "GlobalTV",
+            "YouTube": "YouTube",
             "Disney Plus": "GlobalTV",
-            
             "Bilibili": "AsianTV",
             "iQiyi": "AsianTV",
             "Letv": "AsianTV",
             "Netease Music": "AsianTV",
             "Tencent Video": "AsianTV",
-            "WeTV": "AsianTV",
             "Youku": "AsianTV",
-
+            "WeTV": "AsianTV",
             "ABC": "GlobalTV",
             "Abema TV": "GlobalTV",
             "Amazon": "GlobalTV",
@@ -107,6 +99,7 @@ script:
             "Fox Now": "GlobalTV",
             "Fox+": "GlobalTV",
             "HBO": "GlobalTV",
+            "Hulu Japan": "GlobalTV",
             "Hulu": "GlobalTV",
             "Japonx": "GlobalTV",
             "JOOX": "GlobalTV",
@@ -114,46 +107,52 @@ script:
             "KKTV": "GlobalTV",
             "Line TV": "GlobalTV",
             "myTV SUPER": "GlobalTV",
-            "Niconico": "GlobalTV",
+            "Niconico","GlobalTV",
             "Pandora": "GlobalTV",
             "PBS": "GlobalTV",
             "Pornhub": "GlobalTV",
             "Soundcloud": "GlobalTV",
-            "Twitch": "GlobalTV",
             "ViuTV": "GlobalTV",
-            
-            "Developer": "Proxy",
-            "EHantai": "Proxy",
-            "Google": "Proxy",
-            "PROXY": "Proxy",
-            "Scholar": "Proxy",
-            "Sony": "Proxy",
+            "Twitch","GlobalTV",
             "Telegram": "Proxy",
-
-            "Game": "GameAndPayPal",
-            "PayPal": "GameAndPayPal",
-
+            "Game","GameAndPayPal",
             "Speedtest": "Speedtest",
-
+            "PayPal": "GameAndPayPal",
             "Microsoft": "AppleAndMicrosoft",
+            "Developer","Proxy",
+            "Google","Proxy",
+            "PROXY": "Proxy",
+            "EHantai","Proxy",
             "Apple": "AppleAndMicrosoft",
+            "Scholar": "Proxy",
+            "Domestic": "Domestic",
+            "LAN": "DIRECT"
+          }
 
-            "Domestic": "Domestic"
-            
-            }
+
         port = int(metadata["dst_port"])
+        if metadata["network"] == "UDP":
+            if port == 443:
+                ctx.log('[Script] matched QUIC traffic use reject')
+                return "REJECT"
+        port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
         if port not in port_list:
+            ctx.log('[Script] not common port use direct')
             return "DIRECT"
-        for rule_name in ctx.rule_providers.keys():
-            if ctx.rule_providers[rule_name].match(metadata):
-                return ruleset_action[rule_name]
-        ip = metadata["dst_ip"] or ctx.resolve_ip(metadata["host"])
-        if ip == "":
-          return "DIRECT"
-        code = ctx.geoip(ip)
+        if metadata["dst_ip"] == "":
+            metadata["dst_ip"] = ctx.resolve_ip(metadata["host"])
+        for ruleset in ruleset_action:
+            if ctx.rule_providers[ruleset].match(metadata):
+                return ruleset_action[ruleset]
+        if metadata["dst_ip"] == "":
+            return "DIRECT"
+        code = ctx.geoip(metadata["dst_ip"])
         if code == "CN":
-          return "Domestic"
+            ctx.log('[Script] Geoip CN')
+            return "Domestic"
+        ctx.log('[Script] FINAL')
         return "Others"
+
 rule-providers:
   ABC:
     behavior: classical

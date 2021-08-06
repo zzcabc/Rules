@@ -1,10 +1,11 @@
 payload:
   # > Microsoft
   # - DOMAIN-SUFFIX,aria.microsoft.com
-  # - PROCESS-NAME,OneDrive
   # - PROCESS-NAME,OneDrive*
   # - PROCESS-NAME,OneDriveiOSApp*
   # - PROCESS-NAME,OneDriveUpdater
+  # - USER-AGENT,Microsoft%20Remote%20Desktop*
+  - PROCESS-NAME,OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,onedrive
@@ -25,6 +26,7 @@ payload:
   - DOMAIN-SUFFIX,cloudappsecurity.com
   - DOMAIN-SUFFIX,edgesuite.net
   - DOMAIN-SUFFIX,fabric.io
+  - DOMAIN-SUFFIX,files.1drv.com
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,live.com
@@ -32,6 +34,8 @@ payload:
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,lync.com
   - DOMAIN-SUFFIX,mesh.com
+  - DOMAIN-SUFFIX,microsoft-tst.com
+  - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,msauth.net
@@ -67,6 +71,7 @@ payload:
   - DOMAIN-SUFFIX,phonefactor.net
   - DOMAIN-SUFFIX,photos.live.com
   - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
@@ -93,5 +98,7 @@ payload:
   - DOMAIN-SUFFIX,windowsazure.com
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,wunderlist.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com

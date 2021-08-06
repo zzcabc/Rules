@@ -1,20 +1,11 @@
 payload:
   # > Spotify
-  # - User-Agent,Spotify*
+  - PROCESS-NAME,com.spotify.music
   - DOMAIN-KEYWORD,-spotify-com
-  - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,spotify.com
-  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
-  - DOMAIN-SUFFIX,byspotify.com
-  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,spotifycdn.net
-  - DOMAIN-SUFFIX,spotifycharts.com
-  - DOMAIN-SUFFIX,spotifycodes.com
-  - DOMAIN-SUFFIX,spotifyforbrands.com
-  - DOMAIN-SUFFIX,spotifyjobs.com
-  - IP-CIDR,35.186.224.47/32,no-resolve
-  - PROCESS-NAME,com.spotify.music

@@ -242,7 +242,9 @@ payload:
   - DOMAIN-SUFFIX,yogify.com
   - DOMAIN-SUFFIX,ea.tt.omtrdc.net
   - DOMAIN-SUFFIX,eaassets-a.akamaihd.net
+
   ## > Epicgames
+  - DOMAIN-KEYWORD,epicgames
   - DOMAIN-SUFFIX,battlebreakers.com
   - DOMAIN-SUFFIX,eac-cdn.com
   - DOMAIN-SUFFIX,easy.ac
@@ -257,6 +259,7 @@ payload:
   - DOMAIN-SUFFIX,spyjinx.com
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,unrealtournament.com
+
   ## > Garena
   - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
@@ -449,6 +452,8 @@ payload:
   - DOMAIN-SUFFIX,rstatic.net
   - DOMAIN-SUFFIX,supremacy.com
   - DOMAIN-SUFFIX,supremacy.net
+  - DOMAIN-SUFFIX,wr.pvp.net
+
   ## >> League of Lengends
   - DOMAIN-SUFFIX,championshipseriesleague.com
   - DOMAIN-SUFFIX,lcsmerch.com
@@ -491,42 +496,50 @@ payload:
   - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
-  ## > Steam
-  # - PROCESS-NAME,Steam*
+  
+  # > Steam
+  # - USER-AGENT,Steam*
+  - DOMAIN-KEYWORD,steambroadcast
+  - DOMAIN-KEYWORD,steamstore
+  - DOMAIN-KEYWORD,steamuserimages
   - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,dota2.wmsj.cn
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,playartifact.com
   - DOMAIN-SUFFIX,st.dl.bscstorage.net
   - DOMAIN-SUFFIX,st.dl.eccdnx.com
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
   - DOMAIN-SUFFIX,steamgames.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,playartifact.com
-  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
   - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
   - DOMAIN-SUFFIX,steamunlocked.net
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
   - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
-  - DOMAIN-KEYWORD,steamstore
-  - DOMAIN-KEYWORD,steamuserimages
-  - DOMAIN-KEYWORD,steambroadcast
+
+  # > Sony
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
   ## > UBI
   - DOMAIN-SUFFIX,ubi.com

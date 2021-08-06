@@ -1,12 +1,6 @@
 payload:  
   # > Line TV
-  # - User-Agent,LINE*
-  - DOMAIN-SUFFIX,chocotv.com.tw
+  # - USER-AGENT,LINE*
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
-  - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN-SUFFIX,profile.line-scdn.net
-  - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
-  - DOMAIN,d3c7rimkq79yfu.cloudfront.net
-  - PROCESS-NAME,com.linecorp.linetv

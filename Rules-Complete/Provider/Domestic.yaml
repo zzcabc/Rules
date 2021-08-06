@@ -4,7 +4,6 @@ payload:
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-KEYWORD,alimama
   - DOMAIN-KEYWORD,alipay
-  - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,appzapp
   - DOMAIN-KEYWORD,baidupcs
   - DOMAIN-KEYWORD,beplay
@@ -15,7 +14,6 @@ payload:
   - DOMAIN-KEYWORD,jdpay
   - DOMAIN-KEYWORD,moke
   - DOMAIN-KEYWORD,qhimg
-  - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,vpimg
   - DOMAIN-KEYWORD,xiami
@@ -23,7 +21,6 @@ payload:
   - DOMAIN-KEYWORD,agefans
   - DOMAIN-KEYWORD,imomoe
   - DOMAIN-SUFFIX,pianku.tv
-  - DOMAIN-SUFFIX,00cdn.com
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.cn
@@ -87,7 +84,6 @@ payload:
   - DOMAIN-SUFFIX,appvipshop.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,aweme.snssdk.com
-  - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,babytree.com
   - DOMAIN-SUFFIX,babytreeimg.com
@@ -480,7 +476,6 @@ payload:
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,th-sjy.com
-  - DOMAIN-SUFFIX,thundercdn.com
   - DOMAIN-SUFFIX,tianqi.com
   - DOMAIN-SUFFIX,tianqistatic.com
   - DOMAIN-SUFFIX,tianyancha.com
@@ -561,7 +556,6 @@ payload:
   - DOMAIN-SUFFIX,xmcdn.com
   - DOMAIN-SUFFIX,xslb.net
   - DOMAIN-SUFFIX,xueqiu.com
-  - DOMAIN-SUFFIX,xunlei.com
   - DOMAIN-SUFFIX,yach.me
   - DOMAIN-SUFFIX,yangkeduo.com
   - DOMAIN-SUFFIX,ydstatic.com
