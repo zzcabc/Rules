@@ -3,8 +3,8 @@ rules:
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
   
-  - RULE-SET,Netflix,Netflix
-  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Netflix,GlobalTV
+  - RULE-SET,Spotify,GlobalTV
   # - RULE-SET,YouTube Music,GlobalTV
   - RULE-SET,YouTube,GlobalTV
 
