@@ -93,8 +93,6 @@ payload:
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,baike.com
   - DOMAIN-SUFFIX,baomitu.com
-  - DOMAIN-SUFFIX,battle.net
-  - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
@@ -105,7 +103,6 @@ payload:
   - DOMAIN-SUFFIX,biquge.com
   - DOMAIN-SUFFIX,bitauto.com
   - DOMAIN-SUFFIX,bittorrent.com
-  - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,bokecc.com
   - DOMAIN-SUFFIX,bootcss.com
   - DOMAIN-SUFFIX,broadcasthe.net
@@ -153,7 +150,6 @@ payload:
   - DOMAIN-SUFFIX,coolapk.com
   - DOMAIN-SUFFIX,coolapkmarket.com
   - DOMAIN-SUFFIX,csdn.net
-  - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,dangdang.com
   - DOMAIN-SUFFIX,dbankcdn.com
@@ -166,8 +162,6 @@ payload:
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,dilidili.wang
   - DOMAIN-SUFFIX,dingtalk.com
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com
-  - DOMAIN-SUFFIX,dota2.wmsj.cn
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,douyin.com
@@ -189,7 +183,6 @@ payload:
   - DOMAIN-SUFFIX,edu.cn
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,empornium.me
-  - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-SUFFIX,eudic.net
   - DOMAIN-SUFFIX,ewqcxz.com
   - DOMAIN-SUFFIX,fang.com
@@ -228,7 +221,6 @@ payload:
   - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,hdzone.me
-  - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,hicloud.com
   - DOMAIN-SUFFIX,hitv.com
@@ -380,7 +372,6 @@ payload:
   - DOMAIN-SUFFIX,p2cdn.com
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,paipai.com
-  - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,passthepopcorn.me
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pinduoduo.com
@@ -457,9 +448,6 @@ payload:
   - DOMAIN-SUFFIX,soufunimg.com
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,sspai.com
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,suning.com
@@ -508,7 +496,6 @@ payload:
   - DOMAIN-SUFFIX,ucweb.com
   - DOMAIN-SUFFIX,udache.com
   - DOMAIN-SUFFIX,umengcloud.com
-  - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN-SUFFIX,upyun.com
   - DOMAIN-SUFFIX,uxengine.net
