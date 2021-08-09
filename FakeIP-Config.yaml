@@ -127,7 +127,7 @@ dns:
     - 180.76.76.76
     - 8.8.8.8
   # 模式fake-ip  or  redir-host
-  enhanced—mode: fake-ip
+  enhanced-mode: fake-ip
   # fake-ip 模式仅有
   fake-ip-range: 198.18.0.1/16
   # 使用本地hosts文件

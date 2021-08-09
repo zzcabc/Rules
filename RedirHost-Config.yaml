@@ -127,7 +127,7 @@ dns:
     - 180.76.76.76
     - 8.8.8.8
   # 模式fake-ip  or  redir-host
-  enhanced—mode: redir-host
+  enhanced-mode: redir-host
   # 使用本地hosts文件
   use-hosts: true
   # 国内用下列DNS解析
