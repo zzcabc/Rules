@@ -209,6 +209,13 @@ payload:
   - DOMAIN-SUFFIX,houyi.baofeng.net
   - DOMAIN-SUFFIX,iadctest.qwapi.com
   # > Other
+  - DOMAIN,c.msn.com
+  - DOMAIN,ntp.msn.com
+  - DOMAIN,ntp.msn.cn
+  - DOMAIN,assets.msn.cn
+  - DOMAIN,api.msn.com
+  - DOMAIN,browser.events.data.msn.com
+  - DOMAIN,img-s-msn-com.akamaized.net
   - DOMAIN-SUFFIX,ad.video.51togic.com
   - DOMAIN-SUFFIX,biz5.kankan.com
   - DOMAIN-SUFFIX,c.algovid.com
