@@ -1,4 +1,11 @@
 payload:
+  # > AliCloud
+  - DOMAIN-SUFFIX,alicloudccp.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliyuncdn.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,aliyundrive.com
+
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
