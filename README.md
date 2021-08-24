@@ -23,7 +23,7 @@ Clash For Windows的订阅预处理，需按照个人订阅修改
 规则细分,含有屏蔽广告
 
 ### [Rules-Streamline](https://github.com/zzcabc/Rules/tree/main/Rules-Streamline) 
-流媒体合并,含有屏蔽广告
+流媒体合并,含有屏蔽广告 暂不更新
 
 
 [Clash](https://github.com/Dreamacro/clash) 基于Go的多平台代理客户端
