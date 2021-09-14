@@ -52,7 +52,6 @@ rules:
 
   - RULE-SET,Developer,Proxy
 
-  - RULE-SET,Domestic,Domestic
   - RULE-SET,EHantai,Proxy
   - RULE-SET,Google,Proxy
   - RULE-SET,PROXY,Proxy
@@ -65,93 +64,10 @@ rules:
   - RULE-SET,Game,GameAndPayPal
 
   - RULE-SET,Speedtest,Speedtest
-
+  - RULE-SET,Domestic,Domestic
   - GEOIP,CN,Domestic
 
   - MATCH,Others
-
-script:
-  code: |
-    def main(ctx, metadata):
-        ruleset_action = {"Reject": "AdBlock",
-            "Special": "DIRECT",
-            "Netflix": "GlobalTV",
-            "Spotify": "GlobalTV",
-            "YouTube": "YouTube",
-            "Disney Plus": "GlobalTV",
-            "Bilibili": "AsianTV",
-            "iQiyi": "AsianTV",
-            "Letv": "AsianTV",
-            "Netease Music": "AsianTV",
-            "Tencent Video": "AsianTV",
-            "Youku": "AsianTV",
-            "WeTV": "AsianTV",
-            "ABC": "GlobalTV",
-            "Abema TV": "GlobalTV",
-            "Amazon": "GlobalTV",
-            "Apple News": "GlobalTV",
-            "Apple TV": "GlobalTV",
-            "Bahamut": "GlobalTV",
-            "BBC iPlayer": "GlobalTV",
-            "DAZN": "GlobalTV",
-            "Discovery Plus": "GlobalTV",
-            "encoreTVB": "GlobalTV",
-            "Fox Now": "GlobalTV",
-            "Fox+": "GlobalTV",
-            "HBO": "GlobalTV",
-            "Hulu Japan": "GlobalTV",
-            "Hulu": "GlobalTV",
-            "Japonx": "GlobalTV",
-            "JOOX": "GlobalTV",
-            "KKBOX": "GlobalTV",
-            "KKTV": "GlobalTV",
-            "Line TV": "GlobalTV",
-            "myTV SUPER": "GlobalTV",
-            "Niconico","GlobalTV",
-            "Pandora": "GlobalTV",
-            "PBS": "GlobalTV",
-            "Pornhub": "GlobalTV",
-            "Soundcloud": "GlobalTV",
-            "ViuTV": "GlobalTV",
-            "Twitch","GlobalTV",
-            "Telegram": "Proxy",
-            "Game","GameAndPayPal",
-            "Speedtest": "Speedtest",
-            "PayPal": "GameAndPayPal",
-            "Microsoft": "AppleAndMicrosoft",
-            "Developer","Proxy",
-            "Google","Proxy",
-            "PROXY": "Proxy",
-            "EHantai","Proxy",
-            "Apple": "AppleAndMicrosoft",
-            "Scholar": "Proxy",
-            "Domestic": "Domestic",
-            "LAN": "DIRECT"
-          }
-
-
-        port = int(metadata["dst_port"])
-        if metadata["network"] == "UDP":
-            if port == 443:
-                ctx.log('[Script] matched QUIC traffic use reject')
-                return "REJECT"
-        port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
-        if port not in port_list:
-            ctx.log('[Script] not common port use direct')
-            return "DIRECT"
-        if metadata["dst_ip"] == "":
-            metadata["dst_ip"] = ctx.resolve_ip(metadata["host"])
-        for ruleset in ruleset_action:
-            if ctx.rule_providers[ruleset].match(metadata):
-                return ruleset_action[ruleset]
-        if metadata["dst_ip"] == "":
-            return "DIRECT"
-        code = ctx.geoip(metadata["dst_ip"])
-        if code == "CN":
-            ctx.log('[Script] Geoip CN')
-            return "Domestic"
-        ctx.log('[Script] FINAL')
-        return "Others"
 
 rule-providers:
   ABC:
@@ -394,12 +310,6 @@ rule-providers:
     path: ./Rules/Scholar
     type: http
     url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Scholar.yaml'
-  Sony:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Sony
-    type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Sony.yaml'
   Soundcloud:
     behavior: classical
     interval: 86400

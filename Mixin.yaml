@@ -147,8 +147,8 @@ mixin: # object
       - 'https://doh.dns.sb/dns-query'
   tun:
     enable: true
-    stack: gvisor
+    stack: system
     dns-hijack:
       - 198.18.0.2:53
-    macOS-auto-route: true
+    auto-route: true
     macOS-auto-detect-interface: true

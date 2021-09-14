@@ -93,7 +93,7 @@ cfw-bypass:
 # 超时时间 单位秒
 cfw-latency-timeout: 3000
 # 测试网址
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: http://cp.cloudflare.com/generate_204
 
 # 更换节点 配置文件 模式 是否打断连接
 # proxy   none(不切换) chain(连接中的代理组) all(全部)
