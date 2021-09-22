@@ -343,6 +343,11 @@ payload:
   - DOMAIN-SUFFIX,quoracdn.net
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
+  - DOMAIN-SUFFIX,dlsite.com
+  - DOMAIN-SUFFIX,dlsite.jp
+  - DOMAIN-SUFFIX,vikacg.com
+  - DOMAIN-SUFFIX,picjs.xyz
+  - DOMAIN-SUFFIX,moe.rip
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,reuters.com
   - DOMAIN-SUFFIX,rfi.fr
@@ -571,6 +576,7 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
 
+
   # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
   # - USER-AGENT,WhatsApp*
   - DOMAIN-KEYWORD,appledaily
@@ -622,6 +628,7 @@ payload:
   - DOMAIN-SUFFIX,waveprotocol.org
   - DOMAIN-SUFFIX,webmproject.org
   - DOMAIN-SUFFIX,webrtc.org
+
 
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
