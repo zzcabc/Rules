@@ -633,6 +633,10 @@ payload:
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-KEYWORD,dlercloud
+  
+ # > exception
+  - DOMAIN-SUFFIX,wheel-size.cn
+  - DOMAIN-SUFFIX,chalungu.cn
 
   # > Amazon
   - IP-CIDR,13.32.0.0/16,no-resolve

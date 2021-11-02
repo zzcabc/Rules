@@ -5,7 +5,6 @@ payload:
   # - PROCESS-NAME,OneDriveiOSApp*
   # - PROCESS-NAME,OneDriveUpdater
   # - USER-AGENT,Microsoft%20Remote%20Desktop*
-  - PROCESS-NAME,OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,onedrive
@@ -102,3 +101,5 @@ payload:
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  - PROCESS-NAME,OneDrive
+  - DOMAIN-SUFFIX,msn.cn

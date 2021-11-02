@@ -117,34 +117,47 @@ mixin: # object
       - www.msftncsi.com
       - y.qq.com
     default-nameserver:
-      - 114.114.114.114
+      - 223.5.5.5
       - 180.76.76.76
       - 1.2.4.8
       - 8.8.8.8
       - 8.8.4.4
     nameserver:
-      - 'https://dns.alidns.com/dns-query'
-      - 'https://doh.pub/dns-query'
-      - 'https://dns.pub/dns-query'
-      - 'https://doh.360.cn/dns-query'
-      - 'tls://dns.alidns.com'
-      - 'tls://doh.pub'
-      - 'tls://dns.pub'
-      - 'tls://dot.360.cn'
-      - 'tls://dns.cfiec.net'
-      - 'https://dns.cfiec.net/dns-query'
-      - 'https://rubyfish.cn/dns-query'
-      - 'https://dns.rubyfish.cn/dns-quer'
+      - 101.6.6.6
+      - tls://dns.alidns.com
+      - tls://doh.pub
+      - tls://dns.pub
+      - tls://dot.360.cn
+      - tls://dns.cfiec.net
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.pub/dns-query
+      - https://doh.360.cn/dns-query
+      - https://dns.cfiec.net/dns-query
+      - https://rubyfish.cn/dns-query
+      - https://dns.rubyfish.cn/dns-quer
     fallback:
-      - 'https://dns.google/dns-query'
-      - 'https://dns.google/resolve'
-      - 'https://dns.quad9.net/dns-query'
-      - 'https://doh.opendns.com/dns-query'
-      - 'https://cloudflare-dns.com/dns-query'
-      - 'https://1.1.1.1/dns-query'
-      - 'https://1.0.0.1/dns-query'
-      - 'https://dns.adguard.com/dns-query'
-      - 'https://doh.dns.sb/dns-query'
+      - tls://dns.google
+      - tls://1dot1dot1dot1.cloudflare-dns.com
+      - tls://one.one.one.one
+      - tls://dot.sb
+      - https://dns.google/dns-query
+      - https://dns.google/resolve
+      - https://dns.quad9.net/dns-query
+      - https://dns11.quad9.net/dns-query
+      - https://doh.opendns.com/dns-query
+      - https://doh.familyshield.opendns.com/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://dns.adguard.com/dns-query
+      - https://dns-family.adguard.com/dns-query
+      - https://doh.dns.sb/dns-query
+      - https://doh.cleanbrowsing.org/doh/family-filter/
+      - https://doh.powerdns.org
+      - https://public.dns.iij.jp/dns-query
+      - https://doh-jp.blahdns.com/dns-query
+      - https://dns64.dns.google/dns-query
   tun:
     enable: true
     stack: system
