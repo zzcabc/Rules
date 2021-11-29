@@ -47,6 +47,7 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftidentity.com
   - DOMAIN-SUFFIX,msidentity.com
+  - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,msocdn.com
   - DOMAIN-SUFFIX,msocsp.com
@@ -102,4 +103,3 @@ payload:
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
   - PROCESS-NAME,OneDrive
-  - DOMAIN-SUFFIX,msn.cn

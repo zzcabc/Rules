@@ -59,13 +59,22 @@ mixin: # object
       - '+.xboxlive.com'
       - 'stun.*.*.*'
       - 'stun.*.*'
-      - 'xbox.*.microsoft.com'
+      - "*.alibabacloud.com"
+      - "*.alibabausercontent.com"
+      - "*.alicdn.com"
+      - "*.alicloudccp.com"
+      - "*.aliexpress.com"
+      - "*.aliimg.com"
+      - "*.alikunlun.com"
+      - "*.aliyun.com"
+      - "*.aliyuncdn.com"
+      - "*.aliyuncs.com"
+      - "*.aliyundrive.com"
       - amobile.music.tc.qq.com
       - api-jooxtt.sanook.com
       - api.joox.com
       - aqqmusic.tc.qq.com
       - dl.stream.qqmusic.qq.com
-      - dns.msftncsi.com
       - heartbeat.belkin.com
       - isure.stream.qqmusic.qq.com
       - joox.com
@@ -113,8 +122,7 @@ mixin: # object
       - time7.aliyun.com
       - time7.apple.com
       - trackercdn.kugou.com
-      - www.msftconnecttest.com
-      - www.msftncsi.com
+      - xbox.*.microsoft.com
       - y.qq.com
     default-nameserver:
       - 223.5.5.5

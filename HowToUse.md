@@ -1,5 +1,4 @@
-下载 [FakeIP-Config.yaml](https://github.com/zzcabc/Rules/tree/main/FakeIP-Config.yaml) 和 [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 或 [Rules-Streamline](https://github.com/zzcabc/Rules/tree/main/Rules-Streamline) 
-
+下载 [FakeIP-Config.yaml](https://github.com/zzcabc/Rules/tree/main/FakeIP-Config.yaml) 和 [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete)
 
 顺序如下：
 
@@ -12,7 +11,7 @@ proxy-groups:    这里是分组配置
 rules.yaml最下面
 
 
-以Rules-Complete.yaml举例，为了方便我默认将国外流媒体均分配至GlobalTV组，如果你想把Netflix单独分组，请将rules中的 `  - RULE-SET,Netflix,GlobalTV` GlobalTV改成Netflix，并且将script中的 `"Netflix": "GlobalTV"` GlobalTV改成Netflix，
+以Rules-Complete.yaml举例，为了方便我默认将国外流媒体均分配至GlobalTV组，如果你想把Netflix单独分组，请将rules中的 `  - RULE-SET,Netflix,GlobalTV` GlobalTV改成Netflix。
 
 在proxy-groups:下
 ```yaml

@@ -89,12 +89,16 @@ cfw-bypass:
   - 192.168.*
   - localhost
 
+# cfw仅有 
 # 延迟测试设置
 # 超时时间 单位秒
 cfw-latency-timeout: 3000
+
+# cfw仅有
 # 测试网址
 cfw-latency-url: http://cp.cloudflare.com/generate_204
 
+# cfw仅有
 # 更换节点 配置文件 模式 是否打断连接
 # proxy   none(不切换) chain(连接中的代理组) all(全部)
 # profile true(文件切换断开连接) false(不断开连接)
@@ -104,6 +108,7 @@ cfw-conn-break-strategy:
   profile: true
   mode: true
 
+# cfw仅有
 # 排序规则
 # default  默认
 # latency  延迟

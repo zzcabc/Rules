@@ -576,7 +576,6 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
 
-
   # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
   # - USER-AGENT,WhatsApp*
   - DOMAIN-KEYWORD,appledaily
@@ -629,7 +628,6 @@ payload:
   - DOMAIN-SUFFIX,webmproject.org
   - DOMAIN-SUFFIX,webrtc.org
 
-
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-KEYWORD,dlercloud
@@ -672,8 +670,6 @@ payload:
   - IP-CIDR,69.171.224.0/19,no-resolve
   - IP-CIDR,69.63.176.0/20,no-resolve
   - IP-CIDR,74.119.76.0/22,no-resolve
-
-
 
   # > Kakao Talk
   - IP-CIDR,1.201.0.0/24,no-resolve
