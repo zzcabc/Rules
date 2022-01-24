@@ -9,7 +9,6 @@ payload:
   - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
   - DOMAIN-SUFFIX,intl.iqiyi.com
   - DOMAIN-SUFFIX,iq.com
-
   - IP-CIDR,23.211.15.99/32,no-resolve
   - IP-CIDR,103.5.34.153/32,no-resolve
   - IP-CIDR,104.109.129.153/32,no-resolve

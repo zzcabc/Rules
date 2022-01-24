@@ -355,7 +355,6 @@ payload:
   - DOMAIN-SUFFIX,rime.im
   - DOMAIN-SUFFIX,rsf.org
   - DOMAIN-SUFFIX,sciencedaily.com
-  - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scribd.com
   - DOMAIN-SUFFIX,search.com
   - DOMAIN-SUFFIX,servebom.com
@@ -465,7 +464,6 @@ payload:
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,ublock.org
   - DOMAIN-SUFFIX,ubnt.com
-  - DOMAIN-SUFFIX,uchicago.edu
   - DOMAIN-SUFFIX,udn.com
   - DOMAIN-SUFFIX,ugo.com
   - DOMAIN-SUFFIX,uhdwallpapers.org
