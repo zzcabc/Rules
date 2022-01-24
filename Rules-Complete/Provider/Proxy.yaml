@@ -34,6 +34,8 @@ payload:
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,airtable.com
   - DOMAIN-SUFFIX,alfredapp.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,imtoken.fans
   - DOMAIN-SUFFIX,allconnected.co
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.jp

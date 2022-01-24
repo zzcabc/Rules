@@ -509,6 +509,7 @@ payload:
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,s.team
   - DOMAIN-SUFFIX,st.dl.bscstorage.net
   - DOMAIN-SUFFIX,st.dl.eccdnx.com
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
