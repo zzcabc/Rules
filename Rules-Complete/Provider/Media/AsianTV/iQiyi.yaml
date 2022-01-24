@@ -8,6 +8,8 @@ payload:
   # - USER-AGENT,QTP*
   # - PROCESS-NAME,com.iqiyi.i18n
   # - PROCESS-NAME,com.iqiyi.i18n.tv
+  - PROCESS-NAME,com.qiyi.video
+
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,gitv.tv
@@ -47,4 +49,3 @@ payload:
   - IP-CIDR,23.219.172.0/24,no-resolve
   - IP-CIDR,23.40.242.10/32,no-resolve
   - IP-CIDR,23.59.252.0/24,no-resolve
-  - PROCESS-NAME,com.qiyi.video

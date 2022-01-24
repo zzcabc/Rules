@@ -1,5 +1,9 @@
 payload:
   # > HBO Max
+  # - DOMAIN-SUFFIX,hbogo.com
+  # - USER-AGENT,HBOMAX*
+  # - USER-AGENT,HBO%20NOW*
+  # - USER-AGENT,HBOMAX*
   - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbomax.com
@@ -7,10 +11,13 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN,execute-api.ap-southeast-1.amazonaws.com
   - PROCESS-NAME,com.hbo.hbonow
-  # -  DOMAIN-SUFFIX,hbogo.com
-  # -  USER-AGENT,HBOMAX*
 
   # > HBO GO
+  # - DOMAIN-KEYWORD,hboasia
+  # - DOMAIN,bcbolthboa-a.akamaihd.net
+  # - DOMAIN,hboasialive.akamaized.net
+  # - DOMAIN,hbogoprod-vod.akamaized.net
+  # - USER-AGENT,HBO%20GO%20PROD*
   - DOMAIN-KEYWORD,hbogoasia
   - DOMAIN-SUFFIX,hboasia.com
   - DOMAIN-SUFFIX,hbogoasia.com
@@ -28,8 +35,3 @@ payload:
   - DOMAIN,hbounify-prod.evergent.com
   - DOMAIN,players.brightcove.net
   - DOMAIN,s3-ap-southeast-1.amazonaws.com
-  # - DOMAIN-KEYWORD,hboasia
-  # - DOMAIN,bcbolthboa-a.akamaihd.net
-  # - DOMAIN,hboasialive.akamaized.net
-  # - DOMAIN,hbogoprod-vod.akamaized.net
-  # - USER-AGENT,HBO%20GO%20PROD*

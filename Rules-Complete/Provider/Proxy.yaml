@@ -21,6 +21,7 @@ payload:
   # - USER-AGENT,battleroyale*
 
   # > Top blocked sites
+  - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
   - DOMAIN-SUFFIX,4shared.com
@@ -34,8 +35,6 @@ payload:
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,airtable.com
   - DOMAIN-SUFFIX,alfredapp.com
-  - DOMAIN-SUFFIX,ghcr.io
-  - DOMAIN-SUFFIX,imtoken.fans
   - DOMAIN-SUFFIX,allconnected.co
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.jp
@@ -139,6 +138,8 @@ payload:
   - DOMAIN-SUFFIX,disq.us
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,dlsite.com
+  - DOMAIN-SUFFIX,dlsite.jp
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-SUFFIX,dnsimple.com
   - DOMAIN-SUFFIX,doub.io
@@ -156,6 +157,7 @@ payload:
   - DOMAIN-SUFFIX,entrust.net
   - DOMAIN-SUFFIX,eurekavpt.com
   - DOMAIN-SUFFIX,evernote.com
+  - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,extmatrix.com
   - DOMAIN-SUFFIX,eyny.com
   - DOMAIN-SUFFIX,fastly.net
@@ -186,6 +188,7 @@ payload:
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gfw.press
+  - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-SUFFIX,ghostnoteapp.com
   - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,globalsign.com
@@ -215,6 +218,7 @@ payload:
   - DOMAIN-SUFFIX,img.ly
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imore.com
+  - DOMAIN-SUFFIX,imtoken.fans
   - DOMAIN-SUFFIX,ingress.com
   - DOMAIN-SUFFIX,inoreader.com
   - DOMAIN-SUFFIX,insder.co
@@ -274,6 +278,7 @@ payload:
   - DOMAIN-SUFFIX,mlssoccer.com
   - DOMAIN-SUFFIX,mobile01.com
   - DOMAIN-SUFFIX,modmyi.com
+  - DOMAIN-SUFFIX,moe.rip
   - DOMAIN-SUFFIX,moves-export.com
   - DOMAIN-SUFFIX,mp3buscador.com
   - DOMAIN-SUFFIX,mycnnews.com
@@ -318,6 +323,7 @@ payload:
   - DOMAIN-SUFFIX,piaotian.net
   - DOMAIN-SUFFIX,picacomic.com
   - DOMAIN-SUFFIX,picasaweb.com
+  - DOMAIN-SUFFIX,picjs.xyz
   - DOMAIN-SUFFIX,pinboard.in
   - DOMAIN-SUFFIX,ping.pe
   - DOMAIN-SUFFIX,pinterest.com
@@ -329,8 +335,6 @@ payload:
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,popo.tw
   - DOMAIN-SUFFIX,potato.im
-  - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,prfct.co
   - DOMAIN-SUFFIX,proxfree.com
   - DOMAIN-SUFFIX,psiphon3.com
@@ -344,17 +348,14 @@ payload:
   - DOMAIN-SUFFIX,quoracdn.net
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
-  - DOMAIN-SUFFIX,dlsite.com
-  - DOMAIN-SUFFIX,dlsite.jp
-  - DOMAIN-SUFFIX,vikacg.com
-  - DOMAIN-SUFFIX,picjs.xyz
-  - DOMAIN-SUFFIX,moe.rip
+  - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,reuters.com
   - DOMAIN-SUFFIX,rfi.fr
   - DOMAIN-SUFFIX,rileyguide.com
   - DOMAIN-SUFFIX,rime.im
   - DOMAIN-SUFFIX,rsf.org
+  - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,sciencedaily.com
   - DOMAIN-SUFFIX,scribd.com
   - DOMAIN-SUFFIX,search.com
@@ -369,9 +370,9 @@ payload:
   - DOMAIN-SUFFIX,simp.ly
   - DOMAIN-SUFFIX,simplenote.com
   - DOMAIN-SUFFIX,sketchappsources.com
-  - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,slack-edge.com
   - DOMAIN-SUFFIX,slack-msgs.com
+  - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,slideshare.net
   - DOMAIN-SUFFIX,smartdnsproxy.com
   - DOMAIN-SUFFIX,smh.com.au
@@ -454,7 +455,9 @@ payload:
   - DOMAIN-SUFFIX,tweetdeck.com
   - DOMAIN-SUFFIX,tweetmarker.net
   - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
   - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,twitthat.com
   - DOMAIN-SUFFIX,twtkr.com
   - DOMAIN-SUFFIX,twttr.com
@@ -500,6 +503,7 @@ payload:
   - DOMAIN-SUFFIX,vid.me
   - DOMAIN-SUFFIX,videomega.tv
   - DOMAIN-SUFFIX,vidinfo.org
+  - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vimeo.com
   - DOMAIN-SUFFIX,vimeocdn.com
   - DOMAIN-SUFFIX,vimperator.org
@@ -529,13 +533,13 @@ payload:
   - DOMAIN-SUFFIX,westca.com
   - DOMAIN-SUFFIX,westpoint.edu
   - DOMAIN-SUFFIX,whatbrowser.org
-  - DOMAIN-SUFFIX,wikiwand.com
+  - DOMAIN-SUFFIX,wikileaks-forum.com
   - DOMAIN-SUFFIX,wikileaks.info
   - DOMAIN-SUFFIX,wikileaks.org
-  - DOMAIN-SUFFIX,wikileaks-forum.com
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikipedia.com
   - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,wikiwand.com
   - DOMAIN-SUFFIX,wn.com
   - DOMAIN-SUFFIX,wordpress.com
   - DOMAIN-SUFFIX,workflow.is
@@ -560,8 +564,8 @@ payload:
   - DOMAIN-SUFFIX,yastatic.net
   - DOMAIN-SUFFIX,ycombinator.com
   - DOMAIN-SUFFIX,yeeyi.com
-  - DOMAIN-SUFFIX,yesasia.com
   - DOMAIN-SUFFIX,yes-news.com
+  - DOMAIN-SUFFIX,yesasia.com
   - DOMAIN-SUFFIX,yidio.com
   - DOMAIN-SUFFIX,yimg.com
   - DOMAIN-SUFFIX,ying.com
@@ -574,6 +578,7 @@ payload:
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
+
 
   # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
   # - USER-AGENT,WhatsApp*

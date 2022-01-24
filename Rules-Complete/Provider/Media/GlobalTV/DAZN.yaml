@@ -1,11 +1,11 @@
 payload:  
   # > DAZN
+  # - USER-AGENT,DAZN*
   - PROCESS-NAME,com.dazn
 
   - DOMAIN-KEYWORD,livedazn
-  - DOMAIN-KEYWORD,voddazn
   - DOMAIN-KEYWORD,vod2dazn
-
+  - DOMAIN-KEYWORD,voddazn
   - DOMAIN-SUFFIX,amplify.outbrain.com
   - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,control.kochava.com
