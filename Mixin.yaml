@@ -125,8 +125,8 @@ mixin: # object
       - xbox.*.microsoft.com
       - y.qq.com
     default-nameserver:
+      - 114.114.114.114
       - 223.5.5.5
-      - 180.76.76.76
       - 1.2.4.8
       - 8.8.8.8
       - 8.8.4.4

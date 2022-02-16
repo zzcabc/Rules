@@ -129,7 +129,7 @@ dns:
   # 填入纯IP的DNS服务器
   default-nameserver:
     - 114.114.114.114
-    - 180.76.76.76
+    - 223.5.5.5
     - 8.8.8.8
   # 模式fake-ip  or  redir-host
   enhanced-mode: redir-host
