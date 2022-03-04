@@ -220,6 +220,7 @@ payload:
   - DOMAIN-SUFFIX,hc-cdn.com
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hdcmct.org
+  - DOMAIN-SUFFIX,hjfile.cn
   - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,hdzone.me
@@ -240,6 +241,7 @@ payload:
   - DOMAIN-SUFFIX,huxiucdn.com
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,hwccpc.com
+  - DOMAIN-SUFFIX,hujiang.com
   - DOMAIN-SUFFIX,hxcdn.net
   - DOMAIN-SUFFIX,icedropper.com
   - DOMAIN-SUFFIX,iciba.com
