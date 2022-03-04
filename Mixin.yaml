@@ -3,7 +3,7 @@ mixin: # object
   allow-lan: true
   bind-address: "*"
   mode: rule
-  log-level: info
+  log-level: silent
   cfw-conn-break-strategy:
     proxy: all
     profile: true
@@ -36,7 +36,7 @@ mixin: # object
   dns:
     enable: true
     ipv6: false
-    enhanced-mode: redir-host #fake-ip
+    enhanced-mode: fake-ip #redir-host
     fake-ip-range: 198.18.0.1/16
     fake-ip-filter:
       - '*.126.net'

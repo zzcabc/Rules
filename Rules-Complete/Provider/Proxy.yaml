@@ -36,10 +36,6 @@ payload:
   - DOMAIN-SUFFIX,airtable.com
   - DOMAIN-SUFFIX,alfredapp.com
   - DOMAIN-SUFFIX,allconnected.co
-  - DOMAIN-SUFFIX,amazon.co
-  - DOMAIN-SUFFIX,amazon.co.jp
-  - DOMAIN-SUFFIX,amazon.com
-  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
   - DOMAIN-SUFFIX,ampproject.org
@@ -179,7 +175,6 @@ payload:
   - DOMAIN-SUFFIX,fullstory.com
   - DOMAIN-SUFFIX,fzlm.net
   - DOMAIN-SUFFIX,gabia.net
-  - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,get.how
   - DOMAIN-SUFFIX,getcloudapp.com
@@ -188,7 +183,6 @@ payload:
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gfw.press
-  - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-SUFFIX,ghostnoteapp.com
   - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,globalsign.com
@@ -258,7 +252,6 @@ payload:
   - DOMAIN-SUFFIX,linode.com
   - DOMAIN-SUFFIX,lithium.com
   - DOMAIN-SUFFIX,littlehj.com
-  - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-SUFFIX,localnetwork.uop
   - DOMAIN-SUFFIX,logmein.com
   - DOMAIN-SUFFIX,macid.co
@@ -272,7 +265,6 @@ payload:
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,megaupload.com
-  - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,mindnode.com
   - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,mlssoccer.com
@@ -292,8 +284,6 @@ payload:
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nih.gov
   - DOMAIN-SUFFIX,nimg.jp
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.net
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,novafile.com
   - DOMAIN-SUFFIX,nrk.no
@@ -308,7 +298,6 @@ payload:
   - DOMAIN-SUFFIX,ooyala.com
   - DOMAIN-SUFFIX,openvpn.net
   - DOMAIN-SUFFIX,openwrt.org
-  - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,orkut.com
   - DOMAIN-SUFFIX,osha.gov
   - DOMAIN-SUFFIX,osxdaily.com
@@ -332,7 +321,6 @@ payload:
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixnet.net
   - DOMAIN-SUFFIX,playpcesor.com
-  - DOMAIN-SUFFIX,pokemon.com
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,popo.tw
   - DOMAIN-SUFFIX,potato.im
@@ -396,7 +384,6 @@ payload:
   - DOMAIN-SUFFIX,storify.com
   - DOMAIN-SUFFIX,stumbleupon.com
   - DOMAIN-SUFFIX,sugarsync.com
-  - DOMAIN-SUFFIX,supermariorun.com
   - DOMAIN-SUFFIX,surfeasy.com.au
   - DOMAIN-SUFFIX,surge.run
   - DOMAIN-SUFFIX,surrenderat20.net
@@ -640,24 +627,6 @@ payload:
  # > exception
   - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,chalungu.cn
-
-  # > Amazon
-  - IP-CIDR,13.32.0.0/16,no-resolve
-  - IP-CIDR,13.33.0.0/16,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
 
   # > Facebook
   - IP-CIDR,103.4.96.0/22,no-resolve

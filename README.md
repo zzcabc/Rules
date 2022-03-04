@@ -13,14 +13,13 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)<!--[新库]
 
 ## [Mixin.yaml](https://github.com/zzcabc/Rules/tree/main/Mixin.yaml)
 
-是Clash For Windows特有模式,默认启用Redir-Host的TUN模式,需安装[TUN](https://www.wintun.net/)
+是Clash For Windows特有模式,默认启用Fake-ip的TUN模式,需安装[TUN](https://www.wintun.net/) 放到 **Home Directory**目录下即可
 
 ## [Parsers.yaml](https://github.com/zzcabc/Rules/tree/main/Parsers.yaml)
 
 Clash For Windows的订阅预处理，需按照个人订阅修改
 
-### [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 
-规则细分,含有屏蔽广告
+## [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 规则细分，去广告规则很多，注意
 
 [Clash](https://github.com/Dreamacro/clash) 基于Go的多平台代理客户端
 

@@ -42,7 +42,7 @@ mode: rule
 # warning  警告
 # info     信息
 # debug    调试
-log-level: debug
+log-level: silent
 
 # 外部控制器可以通过 RESTful API 从外部控制Clash
 external-controller: 0.0.0.0:9090
@@ -65,6 +65,7 @@ experimental:
 # 默认值为false,它只建立到v4地址的连接。
 ipv6: false
 
+# cfw仅有
 # 开启系统代理时将忽略这些域(或ip地址)
 cfw-bypass:
   - "<local>"
