@@ -8,7 +8,7 @@ proxies:    这里是节点配置 根据你节点类型执行填写
 
 proxy-groups:    这里是分组配置
 
-rules.yaml最下面 你可以直接复制[Rule-CDN.yaml](https://github.com/zzcabc/Rules/tree/main/Rules-Complete/Rule-CDN.yaml) 使用，也可以根据需求更改
+rules.yaml最下面 你可以直接复制[Rule-CDN.yaml](https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Rule%20CDN.yaml) 使用，也可以根据需求更改
 
 
 以Rules-Complete.yaml举例，为了方便我默认将国外流媒体均分配至GlobalTV组，如果你想把Netflix单独分组，请将rules中的 `  - RULE-SET,Netflix,GlobalTV` GlobalTV改成Netflix。
