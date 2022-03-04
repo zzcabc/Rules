@@ -1,5 +1,6 @@
 payload:
   # > LAN
+  # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
   - DOMAIN-SUFFIX,acl4.ssr
 
   # 本地/局域网地址
@@ -32,7 +33,6 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
 
   # Router managed 路由器管理域名
-  - DOMAIN,router.asus.com
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,leike.cc
   - DOMAIN-SUFFIX,miwifi.com
@@ -40,6 +40,10 @@ payload:
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,zte.home
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,router.asus.com
+  - DOMAIN,setmeup.arubanetworks.com
