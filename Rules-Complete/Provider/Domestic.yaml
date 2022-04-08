@@ -220,13 +220,13 @@ payload:
   - DOMAIN-SUFFIX,hc-cdn.com
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hdcmct.org
-  - DOMAIN-SUFFIX,hjfile.cn
   - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,hdzone.me
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,hicloud.com
   - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,hjfile.cn
   - DOMAIN-SUFFIX,hkserversolution.com
   - DOMAIN-SUFFIX,hollisterco.com
   - DOMAIN-SUFFIX,hongxiu.com
@@ -235,13 +235,13 @@ payload:
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-SUFFIX,huaweicloud.com
   - DOMAIN-SUFFIX,huaweishop.net
+  - DOMAIN-SUFFIX,hujiang.com
   - DOMAIN-SUFFIX,hunantv.com
   - DOMAIN-SUFFIX,huoshan.com
   - DOMAIN-SUFFIX,hupu.com
   - DOMAIN-SUFFIX,huxiucdn.com
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,hwccpc.com
-  - DOMAIN-SUFFIX,hujiang.com
   - DOMAIN-SUFFIX,hxcdn.net
   - DOMAIN-SUFFIX,icedropper.com
   - DOMAIN-SUFFIX,iciba.com
@@ -499,6 +499,7 @@ payload:
   - DOMAIN-SUFFIX,vipstatic.com
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,vmallres.com
+  - DOMAIN-SUFFIX,vtbasmr.com
   - DOMAIN-SUFFIX,wandoujia.com
   - DOMAIN-SUFFIX,weather.bjango.com
   - DOMAIN-SUFFIX,weather.com
