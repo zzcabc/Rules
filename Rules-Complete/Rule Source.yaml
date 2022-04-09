@@ -3,6 +3,11 @@ rules:
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
 
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
+
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Spotify,GlobalTV
   
@@ -54,11 +59,6 @@ rules:
   - RULE-SET,PROXY,Proxy
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Telegram,Proxy
-
-  - RULE-SET,Apple,AppleAndMicrosoft
-  - RULE-SET,Microsoft,AppleAndMicrosoft
-  - RULE-SET,PayPal,GameAndPayPal
-  - RULE-SET,Game,GameAndPayPal
 
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Domestic,Domestic
