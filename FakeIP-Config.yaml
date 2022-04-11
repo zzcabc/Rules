@@ -56,6 +56,10 @@ secret: '123456'
 # 出站接口名称
 # interface-name: eth0
 
+# 不知道是什么意思反正是Linux上面的
+# Provide a default mark for outbound connections under Linux.
+# routing-mark: 6666
+
 # 实验性选择
 experimental:
 # 将忽略dns解析失败,继续匹配规则,默认值为true
@@ -65,56 +69,19 @@ experimental:
 # 默认值为false,它只建立到v4地址的连接。
 ipv6: false
 
-# cfw 仅有
-# 开启系统代理时将忽略这些域(或ip地址)
-cfw-bypass:
-  - "<local>"
-  - 10.*
-  - 127.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
-  - localhost
+# 某些配置信息，部分功能仅适用于Premium内核
+profile:
+  # 时候存储的的选择节点信息
+  # 如果有不同的配置文件有相同的组名，节点名，也会同步选择
+  # store-selected: false
 
-# cfw仅有 
-# 延迟测试设置
-# 超时时间 单位秒
-cfw-latency-timeout: 3000
+  # 时候开启调试的API
+  # 仅支持Premium内核
+  # tracing: true
 
-# cfw仅有
-# 测试网址
-cfw-latency-url: http://cp.cloudflare.com/generate_204
-
-# cfw仅有
-# 更换节点 配置文件 模式 是否打断连接
-# proxy   none(不切换) chain(连接中的代理组) all(全部)
-# profile true(文件切换断开连接) false(不断开连接)
-# mode    true(切换模式断开连接) false(不断开连接)
-cfw-conn-break-strategy:
-  proxy: all
-  profile: true
-  mode: true
-
-# cfw仅有
-# 排序规则
-# default  默认
-# latency  延迟
-# alphabet 字母
-cfw-proxies-order: default
+  # 时候持久化fake-ip
+  # 从 v1.8.0 或者 Premium 2021.11.08开始支持
+  store-fake-ip: true
 
 # DNS服务器
 dns:
@@ -125,7 +92,7 @@ dns:
   # 默认为false
   ipv6: false
   # DNS监听端口
-  listen: 0.0.0.0:7874
+  listen: 0.0.0.0:53
   # 解析nameserver和fallback的DNS服务器
   # 填入纯IP的DNS服务器
   default-nameserver:
@@ -296,3 +263,54 @@ dns:
   # 追加系统 DNS 到 nameserver 
   # append-system-dns: true 
   # ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
+
+# cfw 仅有
+# 开启系统代理时将忽略这些域(或ip地址)
+cfw-bypass:
+  - "<local>"
+  - 10.*
+  - 127.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - localhost
+
+# cfw仅有 
+# 延迟测试设置
+# 超时时间 单位秒
+cfw-latency-timeout: 3000
+
+# cfw仅有
+# 测试网址
+cfw-latency-url: http://cp.cloudflare.com/generate_204
+
+# cfw仅有
+# 更换节点 配置文件 模式 是否打断连接
+# proxy   none(不切换) chain(连接中的代理组) all(全部)
+# profile true(文件切换断开连接) false(不断开连接)
+# mode    true(切换模式断开连接) false(不断开连接)
+cfw-conn-break-strategy:
+  proxy: all
+  profile: true
+  mode: true
+
+# cfw仅有
+# 排序规则
+# default  默认
+# latency  延迟
+# alphabet 字母
+cfw-proxies-order: default

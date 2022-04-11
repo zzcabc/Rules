@@ -13,7 +13,7 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)<!--[新库]
 
 ## [Mixin.yaml](https://github.com/zzcabc/Rules/tree/main/Mixin.yaml)
 
-是Clash For Windows特有模式,默认启用Fake-ip的TUN模式,需安装[TUN](https://www.wintun.net/) 放到 **Home Directory**目录下即可
+是Clash For Windows特有模式,默认启用Fake-ip的TUN模式，同时开始Fake-ip持久化，需安装[TUN](https://www.wintun.net/) 放到 **Home Directory**目录下即可
 
 ## [Parsers.yaml](https://github.com/zzcabc/Rules/tree/main/Parsers.yaml)
 
