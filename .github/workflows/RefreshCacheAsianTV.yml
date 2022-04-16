@@ -8,11 +8,11 @@ jobs:
     steps:
       - name: Refresh cache
         run: |
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Streamline/Provider/AsianTV.yaml                        && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Bilibili.yaml           && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/iQiyi.yaml              && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Letv.yaml               && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Netease%20Music.yaml    && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Tencent%20Video.yaml    && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/WeTV.yaml               && \
-          curl https://purge.jsdelivr.net/gh/zzcabc/Rules/Rules-Complete/Provider/Media/AsianTV/Youku.yaml
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Streamline/Provider/AsianTV.yaml                        && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/Bilibili.yaml           && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/iQiyi.yaml              && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/Letv.yaml               && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/Netease%20Music.yaml    && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/Tencent%20Video.yaml    && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/WeTV.yaml               && \
+          curl https://purge.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/AsianTV/Youku.yaml
