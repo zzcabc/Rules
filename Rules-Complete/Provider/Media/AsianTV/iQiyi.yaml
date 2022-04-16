@@ -9,9 +9,9 @@ payload:
   # - PROCESS-NAME,com.iqiyi.i18n
   # - PROCESS-NAME,com.iqiyi.i18n.tv
   - PROCESS-NAME,com.qiyi.video
-
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am
+  - DOMAIN-SUFFIX,71edge.com
   - DOMAIN-SUFFIX,gitv.tv
   - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
@@ -19,6 +19,9 @@ payload:
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,ppsimg.com
+  - DOMAIN-SUFFIX,qiyi.com
+  - DOMAIN-SUFFIX,qiyipic.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN,cache.video.iqiyi.com
   - DOMAIN,intel-cache.m.iqiyi.com

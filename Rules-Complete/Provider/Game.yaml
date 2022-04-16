@@ -242,7 +242,6 @@ payload:
   - DOMAIN-SUFFIX,yogify.com
   - DOMAIN-SUFFIX,ea.tt.omtrdc.net
   - DOMAIN-SUFFIX,eaassets-a.akamaihd.net
-
   ## > Epicgames
   - DOMAIN-KEYWORD,epicgames
   - DOMAIN-SUFFIX,battlebreakers.com
@@ -259,7 +258,6 @@ payload:
   - DOMAIN-SUFFIX,spyjinx.com
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,unrealtournament.com
-
   ## > Garena
   - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
@@ -453,7 +451,6 @@ payload:
   - DOMAIN-SUFFIX,supremacy.com
   - DOMAIN-SUFFIX,supremacy.net
   - DOMAIN-SUFFIX,wr.pvp.net
-
   ## >> League of Lengends
   - DOMAIN-SUFFIX,championshipseriesleague.com
   - DOMAIN-SUFFIX,lcsmerch.com
@@ -496,7 +493,6 @@ payload:
   - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
-  
   # > Steam
   # - USER-AGENT,Steam*
   - DOMAIN-KEYWORD,steam
@@ -555,14 +551,12 @@ payload:
   - DOMAIN,steamusercontent-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
   - DOMAIN,wmsjsteam.com
-
   # > Sony
   - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,sony.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-
   ## > UBI
   - DOMAIN-SUFFIX,ubi.com
   - DOMAIN-SUFFIX,ubisoft.com

@@ -48,6 +48,13 @@ payload:
 
   # > Xunlei
   # - USER-AGENT,%E8%BF%85%E9%9B%B7
+  - DOMAIN-SUFFIX,00cdn.com
+  - DOMAIN-SUFFIX,88cdn.com
+  - DOMAIN-SUFFIX,kanimg.com
+  - DOMAIN-SUFFIX,kankan.com
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,thundercdn.com
   - DOMAIN-SUFFIX,xunlei.com
 
   # > Download
@@ -72,8 +79,6 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
-
-  # > Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,chdbits.co
@@ -98,7 +103,21 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
 
+  # Private Tracker
+  - DOMAIN-SUFFIX,animebytes.tv
+  - DOMAIN-SUFFIX,animetorrents.me
+  - DOMAIN-SUFFIX,beitai.pt
+  - DOMAIN-SUFFIX,bittorrent.com
+  - DOMAIN-SUFFIX,hd4fans.org
+  - DOMAIN-SUFFIX,hdhome.org
+  - DOMAIN-SUFFIX,hdtime.org
+  - DOMAIN-SUFFIX,hdzone.me
+  - DOMAIN-SUFFIX,leaguehd.com
+  - DOMAIN-SUFFIX,msg.vg
+  - DOMAIN-SUFFIX,pthome.net
+  - DOMAIN-SUFFIX,trontv.com
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
   - DOMAIN-SUFFIX,smtp
   # - URL-REGEX,(Subject|HELO|SMTP)
