@@ -2,7 +2,7 @@ payload:
   # 直连列表
 
   # agefan
-  - DO-KEYWORD,agefans
+  - DOMAIN-KEYWORD,agefans
   - DOMAIN-SUFFIX,agemys.com
   - DOMAIN-SUFFIX,imomoe.live
 
