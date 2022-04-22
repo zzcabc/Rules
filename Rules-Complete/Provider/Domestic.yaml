@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,imomoe.live
 
   # MyList
+  - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,13th.tech
   - DOMAIN-SUFFIX,423down.com
   - DOMAIN-SUFFIX,bokecc.com
