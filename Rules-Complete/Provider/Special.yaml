@@ -165,8 +165,8 @@ payload:
   # CFIEC DNS
   - DOMAIN,dns.cfiec.net
   # 中科大DNS
-  - IP-CIDR,202.141.162.123,no-resolve
-  - IP-CIDR,202.38.93.153,no-resolve
-  - IP-CIDR,202.141.176.93,no-resolve
+  - IP-CIDR,202.141.162.123/32,no-resolve
+  - IP-CIDR,202.38.93.153/32,no-resolve
+  - IP-CIDR,202.141.176.93/32,no-resolve
   # 清华DNS
-  - IP-CIDR,101.6.6.6,no-resolve
+  - IP-CIDR,101.6.6.6/32,no-resolve
