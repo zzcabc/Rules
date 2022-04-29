@@ -121,3 +121,52 @@ payload:
   - DOMAIN-KEYWORD,tracker
   - DOMAIN-SUFFIX,smtp
   # - URL-REGEX,(Subject|HELO|SMTP)
+
+  # 国内DNS
+  # 114DNS
+  - IP-CIDR,114.114.114.114/32,no-resolve
+  - IP-CIDR,114.114.115.115/32,no-resolve
+  - IP-CIDR,114.114.114.119/32,no-resolve
+  - IP-CIDR,114.114.115.119/32,no-resolve
+  - IP-CIDR,114.114.114.110/32,no-resolve
+  - IP-CIDR,114.114.115.110/32,no-resolve
+  # ALiDNS
+  - DOMAIN,dns.alidns.com
+  - IP-CIDR,223.6.6.6/32,no-resolve
+  - IP-CIDR,223.5.5.5/32,no-resolve
+  # BaiDu DNS
+  - IP-CIDR,180.76.76.76/32,no-resolve
+  # Tencent DNS
+  - DOMAIN,doh.pub
+  - DOMAIN,dot.pub
+  - DOMAIN,sm2.doh.pub
+  - IP-CIDR,119.29.29.29/32,no-resolve
+  - IP-CIDR,119.28.28.28/32,no-resolve
+  - IP-CIDR,182.254.116.116/32,no-resolve
+  - IP-CIDR,182.254.118.118/32,no-resolve
+  # CNNIC SDNS
+  - IP-CIDR,1.2.4.8/32,no-resolve
+  - IP-CIDR,210.2.4.8/32,no-resolve
+  # OneDNS
+  - IP-CIDR,117.50.11.11/32,no-resolve
+  - IP-CIDR,52.80.66.66/32,no-resolve
+  - IP-CIDR,117.50.10.10/32,no-resolve
+  - IP-CIDR,52.80.52.52/32,no-resolve
+  - IP-CIDR,117.50.60.30/32,no-resolve
+  - IP-CIDR,52.80.60.30/32,no-resolve
+  # DNS PAI
+  - IP-CIDR,101.226.4.6/32,no-resolve
+  - IP-CIDR,218.30.118.6/32,no-resolve
+  - IP-CIDR,123.125.81.6/32,no-resolve
+  - IP-CIDR,140.207.198.6/32,no-resolve
+  # 360 DNS
+  - DOMAIN,doh.360.cn
+  - DOMAIN,dot.360.cn
+  # CFIEC DNS
+  - DOMAIN,dns.cfiec.net
+  # 中科大DNS
+  - IP-CIDR,202.141.162.123,no-resolve
+  - IP-CIDR,202.38.93.153,no-resolve
+  - IP-CIDR,202.141.176.93,no-resolve
+  # 清华DNS
+  - IP-CIDR,101.6.6.6,no-resolve
