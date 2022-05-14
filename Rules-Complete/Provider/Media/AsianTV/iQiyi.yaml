@@ -6,8 +6,8 @@ payload:
   # - USER-AGENT,QIYIVideo*
   # - USER-AGENT,QYPlayer*
   # - USER-AGENT,QTP*
-  # - PROCESS-NAME,com.iqiyi.i18n
-  # - PROCESS-NAME,com.iqiyi.i18n.tv
+  - PROCESS-NAME,com.iqiyi.i18n
+  - PROCESS-NAME,com.iqiyi.i18n.tv
   - PROCESS-NAME,com.qiyi.video
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am

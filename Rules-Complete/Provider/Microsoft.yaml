@@ -1,11 +1,11 @@
 payload:
   # > Microsoft
   # - DOMAIN-SUFFIX,aria.microsoft.com
-  # - PROCESS-NAME,OneDrive*
-  # - PROCESS-NAME,OneDriveiOSApp*
-  # - PROCESS-NAME,OneDriveUpdater
   # - USER-AGENT,Microsoft%20Remote%20Desktop*
   - PROCESS-NAME,OneDrive
+  - PROCESS-NAME,OneDrive*
+  - PROCESS-NAME,OneDriveiOSApp*
+  - PROCESS-NAME,OneDriveUpdater
 
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
