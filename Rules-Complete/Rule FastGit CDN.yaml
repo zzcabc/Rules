@@ -36,7 +36,6 @@ rules:
   - RULE-SET,encoreTVB,GlobalTV
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
-  - RULE-SET,Google,Proxy
   - RULE-SET,HBO,GlobalTV
   - RULE-SET,Hulu,GlobalTV
   - RULE-SET,Japonx,GlobalTV

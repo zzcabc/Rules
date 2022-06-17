@@ -1,5 +1,5 @@
 # Rules
-Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)<!--[新库](https://github.com/dler-io/Rules)-->和[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
+Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 ### [如何使用](https://github.com/zzcabc/Rules/tree/main/HowToUse.md)
 
@@ -20,6 +20,9 @@ Clash自用规则组，集成[Lhie1](https://github.com/lhie1/Rules)<!--[新库]
 Clash For Windows的订阅预处理，需按照个人订阅修改
 
 ## [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 规则细分，去广告规则很多，注意
+
+
+## [config文件夹](https://github.com/zzcabc/Rules/tree/main/config) 是订阅转换
 
 [Clash](https://github.com/Dreamacro/clash) 基于Go的多平台代理客户端
 
