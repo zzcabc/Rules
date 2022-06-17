@@ -5,7 +5,7 @@
 |FAST_GITHUB_Full_AdblockPlus|fast的cdn|去广告的，广告规则众多，可能卡顿|
 |FAST_GITHUB_Full_No_AdblockPlus|fast的cdn|无广告|
 |GITHUB_Full_AdblockPlus|GitHub的源|去广告的，广告规则众多，可能卡顿|
-|GITHUB_Full_AdblockPlus|GitHub的源|去广告的，广告规则众多，可能卡顿|
+|GITHUB_Full_AdblockPlus|GitHub的源|无广告|
 
 你可以随意对ini文件进行编辑
 
