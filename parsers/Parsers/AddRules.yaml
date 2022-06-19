@@ -1,0 +1,56 @@
+prepend-rules:
+  - RULE-SET,Reject,AdBlock
+  - RULE-SET,Special,DIRECT
+  - RULE-SET,LAN,DIRECT
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
+  - RULE-SET,Speedtest,Speedtest
+  - RULE-SET,Netflix,GlobalTV
+  - RULE-SET,Spotify,GlobalTV
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Disney Plus,GlobalTV
+  - RULE-SET,Bilibili,AsianTV
+  - RULE-SET,iQiyi,AsianTV
+  - RULE-SET,Letv,AsianTV
+  - RULE-SET,Netease Music,AsianTV
+  - RULE-SET,Tencent Video,AsianTV
+  - RULE-SET,WeTV,AsianTV
+  - RULE-SET,Youku,AsianTV
+  - RULE-SET,ABC,GlobalTV
+  - RULE-SET,Abema TV,GlobalTV
+  - RULE-SET,Amazon,GlobalTV
+  - RULE-SET,Apple News,GlobalTV
+  - RULE-SET,Apple TV,GlobalTV
+  - RULE-SET,BBC iPlayer,GlobalTV
+  - RULE-SET,DAZN,GlobalTV
+  - RULE-SET,Disney Plus,GlobalTV
+  - RULE-SET,encoreTVB,GlobalTV
+  - RULE-SET,Fox Now,GlobalTV
+  - RULE-SET,Fox+,GlobalTV
+  - RULE-SET,HBO,GlobalTV
+  - RULE-SET,Hulu,GlobalTV
+  - RULE-SET,Japonx,GlobalTV
+  - RULE-SET,JOOX,GlobalTV
+  - RULE-SET,Line TV,GlobalTV
+  - RULE-SET,myTV SUPER,GlobalTV
+  - RULE-SET,Niconico,GlobalTV
+  - RULE-SET,Pandora,GlobalTV
+  - RULE-SET,PBS,GlobalTV
+  - RULE-SET,Pornhub,GlobalTV
+  - RULE-SET,Soundcloud,GlobalTV
+  - RULE-SET,Twitch,GlobalTV
+  - RULE-SET,ViuTV,GlobalTV
+  - RULE-SET,Bahamut,GlobalTV
+  - RULE-SET,KKBOX,GlobalTV
+  - RULE-SET,KKTV,GlobalTV
+  - RULE-SET,Developer,Proxy
+  - RULE-SET,EHantai,Proxy
+  - RULE-SET,Google,Proxy
+  - RULE-SET,PROXY,Proxy
+  - RULE-SET,Scholar,Proxy
+  - RULE-SET,Telegram,Proxy
+  - RULE-SET,Domestic,Domestic
+  - GEOIP,CN,DIRECT
+  - MATCH,Others

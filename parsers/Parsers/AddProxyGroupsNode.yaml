@@ -1,0 +1,19 @@
+commands:
+# Fallback组
+  - proxy-groups.Fallback.proxies+[]groupNames|select
+# Proxy组第一个为Fallback分组
+  - proxy-groups.Proxy.proxies+[]groupNames|Fallback
+# Proxy组之后为每组的select分组
+  - proxy-groups.Proxy.proxies.1+[]groupNames|select
+# Proxy组的select节点之后为节点名称
+  - proxy-groups.Proxy.proxies.14+[]proxyNames|-
+# AsianTV组，第一个是直连，之后为香港，台湾的组
+  - proxy-groups.AsianTV.proxies.1+[]groupNames|TW-Detour-select|IEPL-HK-select|HKT-Detour-select
+# AsianTV组，细致的节点
+  - proxy-groups.AsianTV.proxies.4+[]proxyNames|TW|HK
+# YouTube组第一个为GlobalTV组，之后为各个selest组
+  - proxy-groups.YouTube.proxies.1+[]groupNames|select
+# GlobalTV组第一个为Proxy组，之后为各个selest组
+  - proxy-groups.GlobalTV.proxies.1+[]groupNames|select
+# Oz-Detour组，节点名为Oz-Detour
+  - proxy-groups.Oz-Detour.proxies+[]proxyNames|Oz-Detour

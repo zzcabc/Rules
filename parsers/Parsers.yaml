@@ -1,0 +1,15 @@
+parsers: # array
+    - reg: https://patriot.ninja//index.+$
+      file: "data/Parsers/CleanContent.yaml"
+    #- reg: 
+    #  file: "data/Parsers/AddProxyNodeUdp.yaml" 
+    - reg: 
+      file: "data/Parsers/AddMixObject.yaml" 
+    - reg: 
+      file: "data/Parsers/AddRules.yaml"
+    - reg: 
+      file: "data/Parsers/AddProxyGroups.yaml"
+    - reg: 
+      file: "data/Parsers/AddProxyGroupsNode.yaml"
+    - reg: 
+      file: "data/Parsers/AddRuleProviders.yaml"
