@@ -38,4 +38,4 @@ Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SS
 我的浏览器插件备份
 [AdguardHome](https://github.com/zzcabc/Rules/tree/main/AdguardHome)
 
-[uBlock Origin](https://github.com/zzcabc/Rules/tree/main/uBlock Origin)
+[uBlock Origin](https://github.com/zzcabc/Rules/tree/main/uBlock%20Origin)
