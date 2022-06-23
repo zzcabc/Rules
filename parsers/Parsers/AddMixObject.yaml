@@ -41,46 +41,51 @@ mix-object:
     listen: 0.0.0.0:53
     default-nameserver:
       - 114.114.114.114
+      - 180.76.76.76
       - 1.2.4.8
       - 8.8.8.8
+      - 4.2.2.1
+      - 4.2.2.2
     enhanced-mode: fake-ip
     use-hosts: true
     nameserver:
-      - 101.6.6.6
+      - tcp://114.114.114.114
       - tls://dns.alidns.com
-      - tls://doh.pub
-      - tls://dns.pub
+      - tls://dot.pub
       - tls://dot.360.cn
-      - tls://dns.cfiec.net
+      - https://223.5.5.5/dns-query
+      - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
-      - https://dns.pub/dns-query
       - https://doh.360.cn/dns-query
-      - https://dns.cfiec.net/dns-query
+      - https://sm2.doh.pub/dns-query
       - https://rubyfish.cn/dns-query
-      - https://dns.rubyfish.cn/dns-quer
+      - https://dns.rubyfish.cn/dns-query
     fallback:
       - tls://dns.google
+      - tls://dns.adguard.com
+      - tls://dns-family.adguard.com
+      - tls://dot.sb
       - tls://1dot1dot1dot1.cloudflare-dns.com
       - tls://one.one.one.one
-      - tls://dot.sb
       - https://dns.google/dns-query
       - https://dns.google/resolve
       - https://dns.quad9.net/dns-query
       - https://dns11.quad9.net/dns-query
       - https://doh.opendns.com/dns-query
       - https://doh.familyshield.opendns.com/dns-query
-      - https://cloudflare-dns.com/dns-query
       - https://1.1.1.1/dns-query
       - https://1.0.0.1/dns-query
+      - https://cloudflare-dns.com/dns-query
       - https://dns.adguard.com/dns-query
       - https://dns-family.adguard.com/dns-query
       - https://doh.dns.sb/dns-query
+      - https://doh.sb/dns-query
       - https://doh.cleanbrowsing.org/doh/family-filter/
-      - https://doh.powerdns.org
       - https://public.dns.iij.jp/dns-query
       - https://doh-jp.blahdns.com/dns-query
-      - https://dns64.dns.google/dns-query
+      - https://public.dns.iij.jp/dns-query
+      - https://doh-jp.blahdns.com/dns-query
     fake-ip-filter:
       - "*.lan"
       - "*.localdomain"
