@@ -7,3 +7,7 @@ payload:
   - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,hath.network
   - DOMAIN-SUFFIX,hentaiverse.org
+  - PROCESS-NAME,com.honjow.fehviewer
+  - PROCESS-NAME,com.xjs.ehviewer
+  - PROCESS-NAME,fehviewer
+  - PROCESS-NAME,ehviewer

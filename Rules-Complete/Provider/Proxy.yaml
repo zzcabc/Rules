@@ -58,6 +58,7 @@ payload:
   # - USER-AGENT,battleroyale*
 
   # > Top blocked sites
+  - PROCESS-NAME,niuhuan.pikapika
   - DOMAIN-KEYWORD,ttvnw
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com

@@ -6,6 +6,11 @@ payload:
   - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,aliyundrive.com
 
+  # > Tencent Software
+  - PROCESS-NAME,TIM.exe
+  - PROCESS-NAME,TIM
+  - PROCESS-NAME,com.tencent.mobileqq
+
   # > Dler Cloud
   - DOMAIN-SUFFIX,dler.cloud
 
