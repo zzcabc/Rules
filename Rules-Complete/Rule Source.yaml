@@ -30,6 +30,7 @@ rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
+  - RULE-SET,F1 TV,Global TV
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
   - RULE-SET,HBO,GlobalTV
@@ -162,6 +163,12 @@ rule-providers:
     path: ./Rules/EHantai
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/EHantai.yaml'
+  F1 TV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/F1_TV
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/F1%20TV.yaml'
   Game:
     behavior: classical
     interval: 86400
