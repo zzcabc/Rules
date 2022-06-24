@@ -351,7 +351,6 @@ payload:
   - DOMAIN-SUFFIX,8686c.com
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,abercrombie.com
-  - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
@@ -481,10 +480,8 @@ payload:
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,onedns.net
   - DOMAIN-SUFFIX,onlinedown.net
-  - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,oschina.net
   - DOMAIN-SUFFIX,ourdvs.com
-  - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,qbox.me
   - DOMAIN-SUFFIX,qcloud.com
