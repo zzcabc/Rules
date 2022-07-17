@@ -31,7 +31,7 @@ rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
-  - RULE-SET,F1 TV,Global TV
+  - RULE-SET,F1 TV,GlobalTV
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
   - RULE-SET,HBO,GlobalTV
@@ -114,7 +114,7 @@ rule-providers:
     interval: 86400
     path: ./Rules/Media/Blizzard
     type: http
-    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/Blizzard.yaml'
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@main/Rules-Complete/Provider/Media/GlobalTV/Blizzard.yaml'
   Bahamut:
     behavior: classical
     interval: 86400

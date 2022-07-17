@@ -28,7 +28,7 @@ prepend-rules:
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
-  - RULE-SET,F1 TV,Global TV
+  - RULE-SET,F1 TV,GlobalTV
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
   - RULE-SET,HBO,GlobalTV
