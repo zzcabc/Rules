@@ -191,12 +191,12 @@ mix-rule-providers:
     path: ./Rules/Microsoft
     type: http
     url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Microsoft.yaml'
-  MOO:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Media/GlobalTV/MOO
-    type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/MOO.yaml'  
+  # MOO:
+  #   behavior: classical
+  #   interval: 86400
+  #   path: ./Rules/Media/GlobalTV/MOO
+  #   type: http
+  #   url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/MOO.yaml'  
   Netease Music:
     behavior: classical
     interval: 86400

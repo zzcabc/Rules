@@ -36,7 +36,7 @@ prepend-rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
-  - RULE-SET,MOO,GlobalTV
+  # - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Niconico,GlobalTV
   - RULE-SET,Pandora,GlobalTV
