@@ -1,15 +1,15 @@
 parsers: # array
-    - reg: https://patriot.ninja//index.+$
-      file: "data/Parsers/CleanContent.yaml"
-    #- reg: 
-    #  file: "data/Parsers/AddProxyNodeUdp.yaml" 
-    - reg: 
-      file: "data/Parsers/AddMixObject.yaml" 
-    - reg: 
-      file: "data/Parsers/AddRules.yaml"
-    - reg: 
-      file: "data/Parsers/AddProxyGroups.yaml"
-    - reg: 
-      file: "data/Parsers/AddProxyGroupsNode.yaml"
-    - reg: 
-      file: "data/Parsers/AddRuleProviders.yaml"
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/CleanContent.yaml"
+  #- reg: 订阅地址的url前缀.+$
+  #  file: "data/Parsers/AddProxyNodeUdp.yaml" 
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/AddMixObject.yaml" 
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/AddRules.yaml"
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/AddProxyGroups.yaml"
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/AddProxyGroupsNode.yaml"
+  - reg: 订阅地址的url前缀.+$
+    file: "data/Parsers/AddRuleProviders.yaml"

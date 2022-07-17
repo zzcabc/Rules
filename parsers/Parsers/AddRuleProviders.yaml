@@ -41,6 +41,12 @@ mix-rule-providers:
     path: ./Rules/Media/GlobalTV/BBC_iPlayer
     type: http
     url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Media/GlobalTV/BBC%20iPlayer.yaml'
+  Blizzard:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/Blizzard
+    type: http
+    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Media/Blizzard.yaml'
   Bahamut:
     behavior: classical
     interval: 86400
@@ -95,6 +101,12 @@ mix-rule-providers:
     path: ./Rules/EHantai
     type: http
     url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/EHantai.yaml'
+  F1 TV:
+    behavior: classical
+    interval: 86400  
+    path: ./Rules/Media/GlobalTV/F1_TV
+    type: http
+    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Media/GlobalTV/F1%20TV.yaml'
   Game:
     behavior: classical
     interval: 86400
@@ -179,6 +191,12 @@ mix-rule-providers:
     path: ./Rules/Microsoft
     type: http
     url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Microsoft.yaml'
+  MOO:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/MOO
+    type: http
+    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/MOO.yaml'  
   Netease Music:
     behavior: classical
     interval: 86400
@@ -299,6 +317,12 @@ mix-rule-providers:
     path: ./Rules/Media/GlobalTV/YouTube
     type: http
     url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml'
+  YouTube Music:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/YouTube_Music
+    type: http
+    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/main/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
   Youku:
     behavior: classical
     interval: 86400

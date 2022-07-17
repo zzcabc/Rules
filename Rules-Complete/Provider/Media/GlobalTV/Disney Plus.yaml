@@ -1,6 +1,7 @@
 payload:  
   # > Disney Plus
   - PROCESS-NAME,com.disney.disneyplus
+  
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,bam.nr-date.net
   - DOMAIN-SUFFIX,bamgrid.com
@@ -19,7 +20,6 @@ payload:
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,js-agent.newrelic.com
-
   - DOMAIN,cdn.registerdisney.go.com
   - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,disneystreaming.com

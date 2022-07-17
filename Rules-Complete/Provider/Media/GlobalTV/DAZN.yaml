@@ -6,6 +6,7 @@ payload:
   - DOMAIN-KEYWORD,livedazn
   - DOMAIN-KEYWORD,vod2dazn
   - DOMAIN-KEYWORD,voddazn
+  
   - DOMAIN-SUFFIX,amplify.outbrain.com
   - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,control.kochava.com

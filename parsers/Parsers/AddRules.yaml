@@ -6,11 +6,10 @@ prepend-rules:
   - RULE-SET,Microsoft,AppleAndMicrosoft
   - RULE-SET,PayPal,GameAndPayPal
   - RULE-SET,Game,GameAndPayPal
-  - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Spotify,GlobalTV
-  - RULE-SET,YouTube,YouTube
-  - RULE-SET,Disney Plus,GlobalTV
+  - RULE-SET,YouTube Music,GlobalTV
+  - RULE-SET,YouTube,GlobalTV
   - RULE-SET,Bilibili,AsianTV
   - RULE-SET,iQiyi,AsianTV
   - RULE-SET,Letv,AsianTV
@@ -24,9 +23,12 @@ prepend-rules:
   - RULE-SET,Apple News,GlobalTV
   - RULE-SET,Apple TV,GlobalTV
   - RULE-SET,BBC iPlayer,GlobalTV
+  - RULE-SET,Blizzard,GlobalTV
   - RULE-SET,DAZN,GlobalTV
+  - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
   - RULE-SET,encoreTVB,GlobalTV
+  - RULE-SET,F1 TV,Global TV
   - RULE-SET,Fox Now,GlobalTV
   - RULE-SET,Fox+,GlobalTV
   - RULE-SET,HBO,GlobalTV
@@ -34,6 +36,7 @@ prepend-rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
+  - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Niconico,GlobalTV
   - RULE-SET,Pandora,GlobalTV
@@ -51,6 +54,7 @@ prepend-rules:
   - RULE-SET,PROXY,Proxy
   - RULE-SET,Scholar,Proxy
   - RULE-SET,Telegram,Proxy
+  - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Domestic,Domestic
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,Domestic
   - MATCH,Others

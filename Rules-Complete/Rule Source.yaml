@@ -2,16 +2,16 @@ rules:
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
-
   - RULE-SET,Apple,AppleAndMicrosoft
   - RULE-SET,Microsoft,AppleAndMicrosoft
   - RULE-SET,PayPal,GameAndPayPal
   - RULE-SET,Game,GameAndPayPal
-
+  
   - RULE-SET,Netflix,GlobalTV
   - RULE-SET,Spotify,GlobalTV
-  
-  # AsianTV
+  - RULE-SET,YouTube Music,GlobalTV
+  - RULE-SET,YouTube,GlobalTV
+
   - RULE-SET,Bilibili,AsianTV
   - RULE-SET,iQiyi,AsianTV
   - RULE-SET,Letv,AsianTV
@@ -19,13 +19,14 @@ rules:
   - RULE-SET,Tencent Video,AsianTV
   - RULE-SET,WeTV,AsianTV
   - RULE-SET,Youku,AsianTV
-  # GlobalTV
+
   - RULE-SET,ABC,GlobalTV
   - RULE-SET,Abema TV,GlobalTV
   - RULE-SET,Amazon,GlobalTV
   - RULE-SET,Apple News,GlobalTV
   - RULE-SET,Apple TV,GlobalTV
   - RULE-SET,BBC iPlayer,GlobalTV
+  - RULE-SET,Blizzard,GlobalTV
   - RULE-SET,DAZN,GlobalTV
   - RULE-SET,Discovery Plus,GlobalTV
   - RULE-SET,Disney Plus,GlobalTV
@@ -38,6 +39,7 @@ rules:
   - RULE-SET,Japonx,GlobalTV
   - RULE-SET,JOOX,GlobalTV
   - RULE-SET,Line TV,GlobalTV
+  - RULE-SET,MOO,GlobalTV
   - RULE-SET,myTV SUPER,GlobalTV
   - RULE-SET,Niconico,GlobalTV
   - RULE-SET,Pandora,GlobalTV
@@ -46,14 +48,12 @@ rules:
   - RULE-SET,Soundcloud,GlobalTV
   - RULE-SET,Twitch,GlobalTV
   - RULE-SET,ViuTV,GlobalTV
-  - RULE-SET,YouTube,GlobalTV
-  # HMTTV
+
   - RULE-SET,Bahamut,GlobalTV
   - RULE-SET,KKBOX,GlobalTV
   - RULE-SET,KKTV,GlobalTV
 
   - RULE-SET,Developer,Proxy
-
   - RULE-SET,EHantai,Proxy
   - RULE-SET,Google,Proxy
   - RULE-SET,PROXY,Proxy
@@ -109,6 +109,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/BBC_iPlayer
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/BBC%20iPlayer.yaml'
+  Blizzard:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/Blizzard
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/Blizzard.yaml'
   Bahamut:
     behavior: classical
     interval: 86400
@@ -165,7 +171,7 @@ rule-providers:
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/EHantai.yaml'
   F1 TV:
     behavior: classical
-    interval: 86400
+    interval: 86400  
     path: ./Rules/Media/GlobalTV/F1_TV
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/F1%20TV.yaml'
@@ -246,13 +252,19 @@ rule-providers:
     interval: 86400
     path: ./Rules/Media/GlobalTV/Line_TV
     type: http
-    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Line%20TV.yaml'  
   Microsoft:
     behavior: classical
     interval: 86400
     path: ./Rules/Microsoft
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Microsoft.yaml'
+  MOO:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/MOO
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/MOO.yaml'  
   Netease Music:
     behavior: classical
     interval: 86400
@@ -373,6 +385,12 @@ rule-providers:
     path: ./Rules/Media/GlobalTV/YouTube
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube.yaml'
+  YouTube Music:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Media/GlobalTV/YouTube_Music
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/YouTube%20Music.yaml'
   Youku:
     behavior: classical
     interval: 86400
