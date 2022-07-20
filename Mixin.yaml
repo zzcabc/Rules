@@ -49,7 +49,13 @@ mixin: # object
     enhanced-mode: redir-host
     use-hosts: true
     nameserver:
+      - udp://223.5.5.5
+      - udp://180.76.76.76
+      - udp://1.2.4.8
+      - udp://210.2.4.8
       - tcp://114.114.114.114
+      - tls://1.12.12.12
+      - tls://120.53.53.53
       - tls://dns.alidns.com
       - tls://dot.pub
       - tls://dot.360.cn
@@ -57,10 +63,29 @@ mixin: # object
       - https://223.6.6.6/dns-query
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
+      - https://1.12.12.12/dns-query
+      - https://120.53.53.53/dns-query
       - https://doh.360.cn/dns-query
-      - https://sm2.doh.pub/dns-query
-      - https://rubyfish.cn/dns-query
-      - https://dns.rubyfish.cn/dns-query
+      # ipv6的DNS
+      # - "[2400:3200::1]:53"
+      # - "[2400:3200:baba::1]:53"
+      # - https://2400:3200::1/dns-query
+      # - https://2400:3200:baba::1/dns-query
+      # - "[2402:4e00::]:53"
+      # - "[2400:da00::6666]:53"
+      # - "[2001:dc7:1000::1]:53"
+      # - "[240C::6666]:53"
+      # - "[240C::6644]:53"
+      # - tls://dns.ipv6dns.com
+      # - https://dns.ipv6dns.com/dns-query
+      # - "[2001:cc0:2fff:1::6666]:53"
+      # - "[2001:cc0:2fff:2::6]:53"
+      # - "[2001:da8::666]:53"
+      # - "[2001:da8:8000:1:202:120:2:101]:53"
+      # - "[2001:da8:202:10::36]:53"
+      # - "[2001:da8:202:10::37]:53"
+      # - "[2001:da8:208:10::6]:53"
+      # - "[2001:da8::666]:53"
     fallback:
       - tls://dns.google
       - tls://dns.adguard.com
@@ -71,21 +96,30 @@ mixin: # object
       - https://dns.google/dns-query
       - https://dns.google/resolve
       - https://dns.quad9.net/dns-query
-      - https://dns11.quad9.net/dns-query
       - https://doh.opendns.com/dns-query
-      - https://doh.familyshield.opendns.com/dns-query
       - https://1.1.1.1/dns-query
       - https://1.0.0.1/dns-query
       - https://cloudflare-dns.com/dns-query
       - https://dns.adguard.com/dns-query
-      - https://dns-family.adguard.com/dns-query
       - https://doh.dns.sb/dns-query
       - https://doh.sb/dns-query
-      - https://doh.cleanbrowsing.org/doh/family-filter/
       - https://public.dns.iij.jp/dns-query
       - https://doh-jp.blahdns.com/dns-query
-      - https://public.dns.iij.jp/dns-query
-      - https://doh-jp.blahdns.com/dns-query
+      # 带家庭保护或者安全的DNS
+      # - tls://dns.cleanbrowsing.org
+      # - https://dns11.quad9.net/dns-query
+      # - https://doh.familyshield.opendns.com/dns-query
+      # - https://dns-family.adguard.com/dns-query
+      # - https://doh.cleanbrowsing.org/doh/family-filter/
+      # ipv6的DNS
+      # - https://[2001:4860:4860::64]/dns-query
+      # - https://[2001:4860:4860::6464]/dns-query
+      # - https://[2606:4700:4700::1111]/dns-query
+      # - https://[2606:4700:4700::1001]/dns-query
+      # - https://[2606:4700:4700::64]/dns-query
+      # - https://[2606:4700:4700::6464]/dns-query
+      # - https://dns.quad9.net/dns-query
+      # - https://dns11.quad9.net/dns-query
     fake-ip-filter:
       - "*.lan"
       - "*.localdomain"
