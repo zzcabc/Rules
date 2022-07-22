@@ -112,7 +112,7 @@ rule-providers:
   Blizzard:
     behavior: classical
     interval: 86400
-    path: ./Rules/Media/Blizzard
+    path: ./Rules/Media/GlobalTV/Blizzard
     type: http
     url: 'https://raw.githubusercontent.com/zzcabc/Rules/main/Rules-Complete/Provider/Media/GlobalTV/Blizzard.yaml'
   Bahamut:
