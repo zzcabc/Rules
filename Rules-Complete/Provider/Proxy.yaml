@@ -36,6 +36,10 @@ payload:
   - DOMAIN,doh.dns.sb
   - DOMAIN,doh.sb
 
+  #   
+  - DOMAIN-SUFFIX,feigeblog.cn
+  - DOMAIN-SUFFIX,feigeblog.com
+
   # > Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line.me
