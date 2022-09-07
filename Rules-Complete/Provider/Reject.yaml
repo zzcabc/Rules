@@ -10008,7 +10008,6 @@ payload:
   - DOMAIN-SUFFIX,delveharassment.com
   - DOMAIN-SUFFIX,delwargal.click
   - DOMAIN-SUFFIX,demand.supply
-  - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,demeanourokshelter.com
   - DOMAIN-SUFFIX,demelehend.com
   - DOMAIN-SUFFIX,demitstanged.com
@@ -15489,7 +15488,7 @@ payload:
   - DOMAIN-SUFFIX,hgxy.info
   - DOMAIN-SUFFIX,hgzuqrtzt.com
   - DOMAIN-SUFFIX,hh.jiankang.com
-  - DOMAIN-SUFFIX,hh.ru/analytics
+  - DOMAIN-SUFFIX,hh.ru
   - DOMAIN-SUFFIX,hhfhgf.cc
   - DOMAIN-SUFFIX,hhhfe.cn
   - DOMAIN-SUFFIX,hhit.xyz
@@ -21165,7 +21164,7 @@ payload:
   - DOMAIN-SUFFIX,meproductive.com
   - DOMAIN-SUFFIX,meratsignons.com
   - DOMAIN-SUFFIX,mercadeo.promerica.fi.cr
-  - DOMAIN-SUFFIX,mercadolibre.com/tracks
+  - DOMAIN-SUFFIX,mercadolibre.com
   - DOMAIN-SUFFIX,merchenta.com
   - DOMAIN-SUFFIX,mercialtaver.club
   - DOMAIN-SUFFIX,merciselyancies.site
@@ -26493,7 +26492,8 @@ payload:
   - DOMAIN-SUFFIX,qzgs99.cn
   - DOMAIN-SUFFIX,qzi-ggjsyuming.com
   - DOMAIN-SUFFIX,qzlglizfy.com
-  - DOMAIN-SUFFIX,qzone.qq.com/wspeed.qq.com
+  - DOMAIN-SUFFIX,qzone.qq.com
+  - DOMAIN-SUFFIX,wspeed.qq.com
   - DOMAIN-SUFFIX,qzqyw.cn
   - DOMAIN-SUFFIX,qzvlbjatsgzgn.com
   - DOMAIN-SUFFIX,qzwktr.world-fusigi.net

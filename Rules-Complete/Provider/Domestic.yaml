@@ -5,7 +5,6 @@ payload:
   - DOMAIN-KEYWORD,agefans
   - DOMAIN-SUFFIX,agemys.com
   - DOMAIN-SUFFIX,imomoe.live
-
   # MyList
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,13th.tech
@@ -21,13 +20,37 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,qupu123.com
   - DOMAIN-SUFFIX,pdfwifi.com
-
+  # China Banks
+  # > Agricultural Bank of China
+  - DOMAIN-SUFFIX,abchina.com
+  # > Bank of China
+  - DOMAIN-SUFFIX,boc.cn
+  # > China Citic Bank
+  - DOMAIN-SUFFIX,citicbank.com
+  - DOMAIN-SUFFIX,ecitic.com
+  - DOMAIN-SUFFIX,ecitic.net
+  # > China Construction Bank
+  - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-SUFFIX,ccb.com.cn
+  # > China Everbright Bank
+  - DOMAIN-SUFFIX,cebbank.com
+  # > China Merchants Bank
+  # - USER-AGENT,cmb*
+  - DOMAIN-SUFFIX,cmbchina.com
+  - DOMAIN-SUFFIX,cmbimg.com
+  - DOMAIN-SUFFIX,cmbt.cn
+  - DOMAIN-SUFFIX,mbcloud.com
+  # > Industrial and Commercial Bank of China
+  # - USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
+  - DOMAIN-SUFFIX,icbc.com.cn
+  # > Ping An Bank
+  - DOMAIN-SUFFIX,pingan.com
+  - DOMAIN-SUFFIX,pingan.com.cn
   # CN域名直连
   - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,中国
   - DOMAIN-SUFFIX,公司
   - DOMAIN-SUFFIX,网络
-
   # 中国国内常见域名关键词直连
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,360buy
@@ -47,7 +70,6 @@ payload:
   - DOMAIN-KEYWORD,vpimg
   - DOMAIN-KEYWORD,xiami
   - DOMAIN-KEYWORD,xiaomi
-
   # 360
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,360kuai.com
@@ -57,16 +79,13 @@ payload:
   - DOMAIN-SUFFIX,qhstatic.com
   - DOMAIN-SUFFIX,qhupdate.com
   - DOMAIN-SUFFIX,so.com
-
   # 4399
   - DOMAIN-SUFFIX,4399.com
   - DOMAIN-SUFFIX,4399pk.com
   - DOMAIN-SUFFIX,5054399.com
   - DOMAIN-SUFFIX,img4399.com
-
   # 58
   - DOMAIN-SUFFIX,58.com
-
   # Alibaba
   - DOMAIN-SUFFIX,1688.com
   - DOMAIN-SUFFIX,aliapp.org
@@ -104,7 +123,6 @@ payload:
   - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youku.com
-
   # Baidu
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
@@ -118,7 +136,6 @@ payload:
   - DOMAIN-SUFFIX,hao123img.com
   - DOMAIN-SUFFIX,jomodns.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
-
   # ByteDance
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
@@ -147,26 +164,21 @@ payload:
   - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
-
   # CCTV
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
   - DOMAIN-SUFFIX,livechina.com
-
   # ChinaNet
   - DOMAIN-SUFFIX,21cn.com
-
   # DiDi
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,udache.com
-
   # Douyu 斗鱼
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
-
   # HuaWei
   - DOMAIN-SUFFIX,dbankcdn.com
   - DOMAIN-SUFFIX,hc-cdn.com
@@ -177,12 +189,10 @@ payload:
   - DOMAIN-SUFFIX,hwccpc.com
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,vmallres.com
-
   # Iflytek 科大讯飞
   - DOMAIN-SUFFIX,iflyink.com
   - DOMAIN-SUFFIX,iflyrec.com
   - DOMAIN-SUFFIX,iflytek.com
-
   # JD
   - DOMAIN-SUFFIX,360buy.com
   - DOMAIN-SUFFIX,360buyimg.com
@@ -193,27 +203,22 @@ payload:
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jingxi.com
   - DOMAIN-SUFFIX,paipai.com
-
   # Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
   - DOMAIN-SUFFIX,ksyun.com
-
   # Kuaishou 快手
   - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,yximgs.com
-
   # Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
   - DOMAIN-SUFFIX,meitustat.com
   - DOMAIN-SUFFIX,meipai.com
-
   # MGTV 芒果TV
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,hunantv.com
   - DOMAIN-SUFFIX,mgtv.com
-
   # MI
   - DOMAIN-SUFFIX,duokan.com
   - DOMAIN-SUFFIX,mi-img.com
@@ -222,7 +227,6 @@ payload:
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,xiaomi.net
   - DOMAIN-SUFFIX,xiaomicp.com
-
   # NetEase
   - DOMAIN-SUFFIX,126.com
   - DOMAIN-SUFFIX,126.net
@@ -233,15 +237,12 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,youdao.com
-
   # PPTV、PPLive
   - DOMAIN-SUFFIX,pplive.com
   - DOMAIN-SUFFIX,pptv.com
-
   # PDD 拼多多
   - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,yangkeduo.com
-
   # Sina
   - DOMAIN-SUFFIX,leju.com
   - DOMAIN-SUFFIX,miaopai.com
@@ -251,7 +252,6 @@ payload:
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,xiaoka.tv
-
   # Sohu Sogo
   - DOMAIN-SUFFIX,go2map.com
   - DOMAIN-SUFFIX,sogo.com
@@ -263,7 +263,6 @@ payload:
   - DOMAIN-SUFFIX,sohuno.com
   - DOMAIN-SUFFIX,sohurdc.com
   - DOMAIN-SUFFIX,v-56.com
-
   # Tencent
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,gtimg.com
@@ -284,17 +283,14 @@ payload:
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,weiyun.com
-
   # Vip 唯品会
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
   - DOMAIN-SUFFIX,vip.com
   - DOMAIN-SUFFIX,vipstatic.com
-
   # Ximalaya 喜马拉雅
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
-
   # YYeTs 人人影视
   - DOMAIN-SUFFIX,got001.com
   - DOMAIN-SUFFIX,p4pfile.com
@@ -311,7 +307,6 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
-
   # TeamViewer
   - DOMAIN-SUFFIX,teamviewer.com
   - IP-CIDR,109.239.140.0/24,no-resolve
@@ -323,7 +318,6 @@ payload:
   - IP-CIDR6,2a0b:b581::/48,no-resolve
   - IP-CIDR6,2a0b:b582::/48,no-resolve
   - IP-CIDR6,2a0b:b583::/48,no-resolve
-
   # Public Direct CDN 公共直连
   # DOMAIN-SUFFIX,ajax.aspnetcdn.com
   # DOMAIN-SUFFIX,ajax.cloudflare.com
@@ -334,14 +328,16 @@ payload:
   - DOMAIN-SUFFIX,jiasule.com
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
-
   # AccelerateDirectSites
   - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,115.com
+  - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,12306.com
   - DOMAIN-SUFFIX,17173.com
   - DOMAIN-SUFFIX,178.com
   - DOMAIN-SUFFIX,17k.com
+  - DOMAIN-SUFFIX,189.cn
   - DOMAIN-SUFFIX,360doc.com
   - DOMAIN-SUFFIX,36kr.com
   - DOMAIN-SUFFIX,3dmgame.com
@@ -350,7 +346,6 @@ payload:
   - DOMAIN-SUFFIX,51jobcdn.com
   - DOMAIN-SUFFIX,56.com
   - DOMAIN-SUFFIX,8686c.com
-  - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
@@ -400,7 +395,6 @@ payload:
   - DOMAIN-SUFFIX,easou.com
   - DOMAIN-SUFFIX,eastday.com
   - DOMAIN-SUFFIX,eastmoney.com
-  - DOMAIN-SUFFIX,ecitic.com
   - DOMAIN-SUFFIX,ewqcxz.com
   - DOMAIN-SUFFIX,fang.com
   - DOMAIN-SUFFIX,fantasy.tv
@@ -415,6 +409,7 @@ payload:
   - DOMAIN-SUFFIX,geilicdn.com
   - DOMAIN-SUFFIX,ghpym.com
   - DOMAIN-SUFFIX,godic.net
+  - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,guazi.com
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,gzlzfm.com
