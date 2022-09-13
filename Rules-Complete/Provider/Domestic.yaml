@@ -480,6 +480,7 @@ payload:
   - DOMAIN-SUFFIX,ourdvs.com
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,qbox.me
+  - DOMAIN-SUFFIX,joybuy.com
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,qcloudcdn.com
   - DOMAIN-SUFFIX,qdaily.com
