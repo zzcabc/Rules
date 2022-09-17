@@ -37,6 +37,8 @@ payload:
   - DOMAIN,doh.sb
 
   #   
+  - DOMAIN-KEYWORD,feigeblog
+  - DOMAIN-KEYWORD,vikacg
   - DOMAIN-SUFFIX,feigeblog.cn
   - DOMAIN-SUFFIX,feigeblog.com
   - DOMAIN-SUFFIX,vikacg.com
