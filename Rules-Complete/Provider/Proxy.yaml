@@ -41,8 +41,18 @@ payload:
   - DOMAIN-KEYWORD,vikacg
   - DOMAIN-SUFFIX,feigeblog.cn
   - DOMAIN-SUFFIX,feigeblog.com
+  - IP-CIDR,172.67.176.238/32,no-resolve
+  - IP-CIDR,104.21.51.68/32,no-resolve
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vikacg.com.cn
+  - IP-CIDR,199.59.150.40/32,no-resolve
+  - IP-CIDR,50.87.93.246/32,no-resolve
+  - IP-CIDR,108.160.170.33/32,no-resolve
+  - IP-CIDR,103.240.182.55/32,no-resolve
+  - IP-CIDR,199.59.149.207/32,no-resolve
+  - IP-CIDR,104.26.13.176/32,no-resolve
+  - IP-CIDR,104.26.12.176/32,no-resolve
+  - IP-CIDR,108.160.169.186/32,no-resolve
 
   # > Line
   - DOMAIN-SUFFIX,lin.ee
