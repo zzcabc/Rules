@@ -39,6 +39,8 @@ payload:
   #   
   - DOMAIN-SUFFIX,feigeblog.cn
   - DOMAIN-SUFFIX,feigeblog.com
+  - DOMAIN-SUFFIX,vikacg.com
+  - DOMAIN-SUFFIX,vikacg.com.cn
 
   # > Line
   - DOMAIN-SUFFIX,lin.ee
@@ -533,7 +535,6 @@ payload:
   - DOMAIN-SUFFIX,vid.me
   - DOMAIN-SUFFIX,videomega.tv
   - DOMAIN-SUFFIX,vidinfo.org
-  - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vimeo.com
   - DOMAIN-SUFFIX,vimeocdn.com
   - DOMAIN-SUFFIX,vimperator.org
