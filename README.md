@@ -19,9 +19,7 @@ Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SS
 
 ## [Rules-Complete](https://github.com/zzcabc/Rules/tree/main/Rules-Complete) 规则细分，去广告规则很多，注意
 
-
 ## [config文件夹](https://github.com/zzcabc/Rules/tree/main/config) 是订阅转换
-
 
 [Clash](https://github.com/Dreamacro/clash) 基于Go的多平台代理客户端
 
@@ -38,5 +36,3 @@ Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SS
 我的浏览器插件备份
 
 [AdguardHome](https://github.com/zzcabc/Rules/tree/main/AdguardHome)
-
-[uBlock Origin](https://github.com/zzcabc/Rules/tree/main/uBlock%20Origin)

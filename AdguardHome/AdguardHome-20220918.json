@@ -13,7 +13,7 @@
         "use-optimized-filters": false,
         "collect-hits-count": false,
         "show-context-menu": true,
-        "show-info-about-adguard": true,
+        "show-info-about-adguard": false,
         "show-app-updated-info": true,
         "hide-rate-adguard": false,
         "user-rules-editor-wrap": false
@@ -24,45 +24,31 @@
             2,
             4,
             5,
-            6,
             7,
             0
         ],
         "enabled-filters": [
             208,
-            14,
             17,
             224,
             2,
             3,
             104,
             118,
-            122,
             220,
             228,
-            232,
-            11,
-            101,
-            207,
+            251,
             215,
             242,
-            15,
             204,
             229,
-            241,
-            219
+            241
         ],
         "custom-filters": [
             {
-                "customUrl": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt",
+                "customUrl": "https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt",
                 "enabled": true,
-                "title": "AdRules AdGuard Full List",
-                "trusted": true
-            },
-            {
-                "customUrl": "https://raw.githubusercontent.com/DoingDog/XXKiller/main/w.txt",
-                "enabled": true,
-                "title": "XXKiller",
+                "title": "AdGuardFilter",
                 "trusted": true
             },
             {
@@ -78,14 +64,14 @@
                 "trusted": true
             },
             {
-                "customUrl": "https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt",
+                "customUrl": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt",
                 "enabled": true,
-                "title": "AdGuardFilter",
+                "title": "AdRules Allowlist",
                 "trusted": true
             }
         ],
         "user-filter": {
-            "rules": "game.eroge.xyz###AD\ngame.eroge.xyz###AD1\ngame.eroge.xyz###AD2\nbtbtt14.com##div.width.imgs_1:nth-child(4)\nlive.bilibili.com###app > div.player-area-ctnr.border-box.p-relative.t-center:nth-child(3)\nlive.bilibili.com###app > div:nth-child(6) > div.area-detail-ctnr.m-auto > div.flip-view.p-relative.over-hidden.w-100:last-child",
+            "rules": "game.eroge.xyz###AD\ngame.eroge.xyz###AD1\ngame.eroge.xyz###AD2\nbtbtt14.com##div.width.imgs_1:nth-child(4)\nlive.bilibili.com###app > div.player-area-ctnr.border-box.p-relative.t-center:nth-child(3)\nlive.bilibili.com###app > div:nth-child(6) > div.area-detail-ctnr.m-auto > div.flip-view.p-relative.over-hidden.w-100:last-child\n\nbilibili.com###i_cecream > div.bili-feed4 > main.bili-feed4-layout:nth-child(3) > div.feed2:last-child > div.recommended-container:first-child > div.first-paint:first-child > div:nth-child(8)\nbilibili.com###i_cecream > div.bili-feed4 > main.bili-feed4-layout:nth-child(3) > div.feed2:last-child > div.recommended-container:first-child > div.first-paint:first-child > div:nth-child(9)\nbilibili.com###i_cecream > div.bili-feed4 > main.bili-feed4-layout:nth-child(3) > div.feed2:last-child > div.recommended-container:first-child > div.first-paint:first-child > div:nth-child(10)\nbilibili.com###i_cecream > div.bili-feed4 > main.bili-feed4-layout:nth-child(3) > div.feed2:last-child > div.recommended-container:first-child > div.first-paint:first-child > div:nth-child(11)\nbilibili.com###i_cecream > div.bili-feed4 > main.bili-feed4-layout:nth-child(3) > div.feed2:last-child > div.recommended-container:first-child > div.first-paint:first-child > div:last-child",
             "disabled-rules": "",
             "enabled": true
         },
@@ -98,7 +84,14 @@
                 "alicloudccp.com",
                 "mail.163.com",
                 "mail.qq.com",
-                "messages.pingme.tel"
+                "messages.pingme.tel",
+                "developer.microsoft.com",
+                "portal.azure.com",
+                "intel.cn",
+                "tank-g.taobao.com",
+                "xbox.com",
+                "ww1.ssmacg.xyz",
+                "microsoft.com"
             ],
             "inverted-domains": [],
             "enabled": true
