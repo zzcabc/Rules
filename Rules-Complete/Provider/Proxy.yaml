@@ -45,6 +45,7 @@ payload:
   - IP-CIDR,104.21.51.68/32,no-resolve
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,vikacg.com.cn
+  - DOMAIN-SUFFIX,batocera.org
   - IP-CIDR,199.59.150.40/32,no-resolve
   - IP-CIDR,50.87.93.246/32,no-resolve
   - IP-CIDR,108.160.170.33/32,no-resolve
