@@ -2,6 +2,9 @@ rules:
   - RULE-SET,Reject,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
+
+  - RULE-SET,Developer,Proxy
+  
   - RULE-SET,Apple,AppleAndMicrosoft
   - RULE-SET,Microsoft,AppleAndMicrosoft
   - RULE-SET,PayPal,GameAndPayPal
@@ -53,7 +56,6 @@ rules:
   - RULE-SET,KKBOX,GlobalTV
   - RULE-SET,KKTV,GlobalTV
 
-  - RULE-SET,Developer,Proxy
   - RULE-SET,EHantai,Proxy
   - RULE-SET,Google,Proxy
   - RULE-SET,PROXY,Proxy
