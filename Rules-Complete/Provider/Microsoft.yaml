@@ -63,7 +63,6 @@ payload:
   - DOMAIN-SUFFIX,azuredns-prd.info
   - DOMAIN-SUFFIX,azuredns-prd.org
   - DOMAIN-SUFFIX,azureedge-test.net
-  - DOMAIN-SUFFIX,azureedge.net
   - DOMAIN-SUFFIX,azurefd.net
   - DOMAIN-SUFFIX,azurefd.us
   - DOMAIN-SUFFIX,azureiotcentral.com
@@ -366,7 +365,6 @@ payload:
   - DOMAIN-SUFFIX,mschallenge2018.com
   - DOMAIN-SUFFIX,msdn.com
   - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,msedge.net
   - DOMAIN-SUFFIX,msft.info
   - DOMAIN-SUFFIX,msft.net
   - DOMAIN-SUFFIX,msftauth.cn

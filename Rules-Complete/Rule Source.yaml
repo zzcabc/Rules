@@ -1,5 +1,6 @@
 rules:
   - RULE-SET,Reject,AdBlock
+  # - GEOSITE,category-ads-all,AdBlock
   - RULE-SET,Special,DIRECT
   - RULE-SET,LAN,DIRECT
 
@@ -64,6 +65,8 @@ rules:
 
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Domestic,Domestic
+  # - GEOSITE,geolocation-cn,Domestic
+  # - GEOSITE,geolocation-!cn,PROXY
   - GEOIP,CN,Domestic
 
   - MATCH,Others

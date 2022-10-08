@@ -88,7 +88,6 @@ payload:
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,adblockplus.org
   - DOMAIN-SUFFIX,adobe.com
-  - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,airtable.com
   - DOMAIN-SUFFIX,alfredapp.com
@@ -216,7 +215,6 @@ payload:
   - DOMAIN-SUFFIX,fastly.net
   - DOMAIN-SUFFIX,fastmail.com
   - DOMAIN-SUFFIX,fc2.com
-  - DOMAIN-SUFFIX,feedburner.com
   - DOMAIN-SUFFIX,feedly.com
   - DOMAIN-SUFFIX,feedsportal.com
   - DOMAIN-SUFFIX,fiftythree.com
@@ -387,7 +385,6 @@ payload:
   - DOMAIN-SUFFIX,ptt.cc
   - DOMAIN-SUFFIX,pubu.com.tw
   - DOMAIN-SUFFIX,puffinbrowser.com
-  - DOMAIN-SUFFIX,pushbullet.com
   - DOMAIN-SUFFIX,pushwoosh.com
   - DOMAIN-SUFFIX,pximg.net
   - DOMAIN-SUFFIX,quora.com
@@ -459,7 +456,6 @@ payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technorati.com
-  - DOMAIN-SUFFIX,techsmith.com
   - DOMAIN-SUFFIX,teddysun.com
   - DOMAIN-SUFFIX,textnow.me
   - DOMAIN-SUFFIX,thebobs.com
