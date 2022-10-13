@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,qupu123.com
   - DOMAIN-SUFFIX,pdfwifi.com
+  - DOMAIN-SUFFIX,p3terx.com
   # China Banks
   # > Agricultural Bank of China
   - DOMAIN-SUFFIX,abchina.com
