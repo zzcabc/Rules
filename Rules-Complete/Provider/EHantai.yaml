@@ -1,0 +1,13 @@
+payload:
+  # > E-Hentai
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,e-hentaidb.com
+  - DOMAIN-SUFFIX,ehgt.org
+  - DOMAIN-SUFFIX,ehwiki.org
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,hath.network
+  - DOMAIN-SUFFIX,hentaiverse.org
+  - PROCESS-NAME,com.honjow.fehviewer
+  - PROCESS-NAME,com.xjs.ehviewer
+  - PROCESS-NAME,fehviewer
+  - PROCESS-NAME,ehviewer
