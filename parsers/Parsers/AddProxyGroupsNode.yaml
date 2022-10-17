@@ -1,9 +1,0 @@
-commands:
-# Proxy组之后为每组的select分组
-  - proxy-groups.Proxy.proxies+[]groupNames|*
-# AsianTV组，第一个是直连，之后为香港，台湾的组
-  - proxy-groups.AsianTV.proxies.1+[]groupNames|HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|HK|hk|tw|TW
-# YouTube组第一个为GlobalTV组，之后为各个selest组
-  - proxy-groups.YouTube.proxies.1+[]groupNames|*
-# GlobalTV组第一个为Proxy组，之后为各个selest组
-  - proxy-groups.GlobalTV.proxies.1+[]groupNames|*
