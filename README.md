@@ -1,7 +1,7 @@
 # Rules
 Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
-# 规则重写至Master分支，到23年1月弃用
+# 规则重写至Master分支，此分支到23年1月弃用
 
 
 
