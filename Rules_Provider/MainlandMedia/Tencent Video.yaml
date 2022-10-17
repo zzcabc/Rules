@@ -1,0 +1,6 @@
+# > 腾讯视频
+# 总条数: 3条
+payload:
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,mfm.video.qq.com

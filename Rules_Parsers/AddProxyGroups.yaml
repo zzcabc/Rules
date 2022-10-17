@@ -1,0 +1,74 @@
+prepend-proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+     - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Others
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: AsianTV
+    type: select
+    proxies:
+      - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: YouTube
+    type: select
+    proxies:
+      - GlobalTV
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: GlobalTV
+    type: select
+    proxies:
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: AppleAndMicrosoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: GameAndPayPal
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Speedtest
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+
+  - name: Fallback
+    type: fallback
+    proxies:
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
