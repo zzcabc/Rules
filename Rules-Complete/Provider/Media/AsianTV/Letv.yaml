@@ -1,0 +1,10 @@
+payload:  
+  # > letv
+  - DOMAIN-SUFFIX,api.mob.app.letv.com
+  - DOMAIN-SUFFIX,le.com
+  - DOMAIN-SUFFIX,lecloud.com
+  - DOMAIN-SUFFIX,letv.com
+  - DOMAIN-SUFFIX,letvcloud.com
+  - DOMAIN-SUFFIX,letvimg.com
+  - DOMAIN-SUFFIX,letvlive.com
+  - DOMAIN-SUFFIX,letvstore.com
