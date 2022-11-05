@@ -1,0 +1,75 @@
+# prepend-proxy-groups 表示数组合并至原配置proxies数组前
+# append-proxies 表示数组合并至原配置proxies数组后
+# proxies中的
+#   DIRECT是 直连
+#   REJECT是 拒绝连接
+
+prepend-proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+     - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Others
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Bilibili
+    type: select
+    proxies:
+      - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: AppleAndMicrosoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: Game
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: PayPal
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
+  - name: SpeedTest
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600

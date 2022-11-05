@@ -1,0 +1,671 @@
+rules:
+  - RULE-SET,Reject,AdBlock
+  # - GEOSITE,category-ads-all,AdBlock
+  # - RULE-SET,Direct,DIRECT
+  - RULE-SET,LAN,DIRECT
+  - RULE-SET,Special,DIRECT
+
+  - RULE-SET,Developer,Proxy
+
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,PayPal
+
+  - RULE-SET,Assassin'sCreed-Odyssey,Game
+  - RULE-SET,Assassin'sCreed-Origins,Game
+  - RULE-SET,Battle,Game
+  - RULE-SET,Blizzard,Game
+  - RULE-SET,EA,Game
+  - RULE-SET,Epic,Game
+  - RULE-SET,Garena,Game
+  - RULE-SET,Gog,Game
+  - RULE-SET,Nintendo,Game
+  - RULE-SET,Origin,Game
+  - RULE-SET,PlayStation,Game
+  - RULE-SET,Riot,Game
+  - RULE-SET,Rockstar,Game
+  - RULE-SET,StarCraftII,Game
+  - RULE-SET,Steam,Game
+  - RULE-SET,Supercell,Game
+  - RULE-SET,WildRift,Game
+  - RULE-SET,WorldofWarcraft,Game
+  - RULE-SET,Xbox,Game
+
+
+  - RULE-SET,Netflix,GlobalMedia
+  - RULE-SET,Spotify,GlobalMedia
+  - RULE-SET,YouTube,GlobalMedia
+  - RULE-SET,YouTubeMusic,GlobalMedia
+
+
+  - RULE-SET,AcFun,MainlandMedia
+  - RULE-SET,Bilibili,MainlandMedia
+  - RULE-SET,CCTV,MainlandMedia
+  - RULE-SET,DouYin,MainlandMedia
+  - RULE-SET,Douyu,MainlandMedia
+  - RULE-SET,Himalaya,MainlandMedia
+  - RULE-SET,HuYa,MainlandMedia
+  - RULE-SET,iQiyi,MainlandMedia
+  - RULE-SET,Letv,MainlandMedia
+  - RULE-SET,NeteaseMusic,MainlandMedia
+  - RULE-SET,TencentVideo,MainlandMedia
+  - RULE-SET,Youku,MainlandMedia
+
+  - RULE-SET,ABC,GlobalMedia
+  - RULE-SET,AbemaTV,GlobalMedia
+  - RULE-SET,AmazonPrimeVideo,GlobalMedia
+  - RULE-SET,AppleMedia,GlobalMedia
+  - RULE-SET,AppleMusic,GlobalMedia
+  - RULE-SET,AppleNews,GlobalMedia
+  - RULE-SET,AppleTV,GlobalMedia
+  - RULE-SET,Bahamut,GlobalMedia
+  - RULE-SET,BBC,GlobalMedia
+  - RULE-SET,BritboxUK,GlobalMedia
+  - RULE-SET,CableTV,GlobalMedia
+  - RULE-SET,Cake,GlobalMedia
+  - RULE-SET,DAZN,GlobalMedia
+  - RULE-SET,DiscoveryPlus,GlobalMedia
+  - RULE-SET,Disney,GlobalMedia
+  - RULE-SET,EncoreTVB,GlobalMedia
+  - RULE-SET,Fox,GlobalMedia
+  - RULE-SET,FoxNow,GlobalMedia
+  - RULE-SET,HBO,GlobalMedia
+  - RULE-SET,HBOAsia,GlobalMedia
+  - RULE-SET,HBOHK,GlobalMedia
+  - RULE-SET,HBOUSA,GlobalMedia
+  - RULE-SET,Hulu,GlobalMedia
+  - RULE-SET,HuluJP,GlobalMedia
+  - RULE-SET,HuluUSA,GlobalMedia
+  - RULE-SET,Japonx,GlobalMedia
+  - RULE-SET,JOOX,GlobalMedia
+  - RULE-SET,KKBOX,GlobalMedia
+  - RULE-SET,KKTV,GlobalMedia
+  - RULE-SET,LineTV,GlobalMedia
+  - RULE-SET,myTVSUPER,GlobalMedia
+  - RULE-SET,Niconico,GlobalMedia
+  - RULE-SET,NowE,GlobalMedia
+  - RULE-SET,Pandora,GlobalMedia
+  - RULE-SET,ParamountPlus,GlobalMedia
+  - RULE-SET,PBS,GlobalMedia
+  - RULE-SET,Peacock,GlobalMedia
+  - RULE-SET,Porn,GlobalMedia
+  - RULE-SET,SoundCloud,GlobalMedia
+  - RULE-SET,TikTok,GlobalMedia
+  - RULE-SET,Twitch,GlobalMedia
+  - RULE-SET,ViuTV,GlobalMedia
+  - RULE-SET,WeTV,GlobalMedia
+
+
+  - RULE-SET,EHentai,Proxy
+  - RULE-SET,Google,Proxy
+  - RULE-SET,PROXY,Proxy
+  - RULE-SET,Scholar,Proxy
+  - RULE-SET,Telegram,Proxy
+
+  - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Domestic,Domestic
+  # - GEOSITE,geolocation-cn,Domestic
+  # - GEOSITE,geolocation-!cn,PROXY
+  - GEOIP,CN,Domestic
+
+  - MATCH,Others
+
+rule-providers:
+  Reject:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Reject
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Reject.yaml"
+  Direct:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Direct
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Direct.yaml"
+  LAN:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/LAN
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/LAN.yaml"
+  Special:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Special
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Special.yaml"
+  Developer:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Developer
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Developer.yaml"
+  Apple:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Apple
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Apple.yaml"
+  Microsoft:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Microsoft
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Microsoft.yaml"
+  PayPal:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PayPal
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/PayPal.yaml"
+  AssassinCreed-Odyssey:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AssassinCreed-Odyssey
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/AssassinCreed-Odyssey.yaml"
+  AssassinCreed-Origins:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AssassinCreed-Origins
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/AssassinCreed-Origins.yaml"
+  Battle:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Battle
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Battle.yaml"
+  Blizzard:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Blizzard
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Blizzard.yaml"
+  EA:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/EA
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/EA.yaml"
+  Epic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Epic
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Epic.yaml"
+  Garena:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Garena
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Garena.yaml"
+  Gog:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Gog
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Gog.yaml"
+  Nintendo:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Nintendo
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Nintendo.yaml"
+  Origin:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Origin
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Origin.yaml"
+  PlayStation:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PlayStation
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/PlayStation.yaml"
+  Riot:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Riot
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Riot.yaml"
+  Rockstar:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Rockstar
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Rockstar.yaml"
+  StarCraftII:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/StarCraftII
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/StarCraftII.yaml"
+  Steam:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Steam
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Steam.yaml"
+  Supercell:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Supercell
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Supercell.yaml"
+  WildRift:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/WildRift
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/WildRift.yaml"
+  WorldofWarcraft:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/WorldofWarcraft
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/WorldofWarcraft.yaml"
+  Xbox:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Xbox
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Game/Xbox.yaml"
+  AcFun:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AcFun
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/AcFun.yaml"
+  Bilibili:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Bilibili
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml"
+  CCTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/CCTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/CCTV.yaml"
+  DouYin:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/DouYin
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/DouYin.yaml"
+  Douyu:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Douyu
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Douyu.yaml"
+  Himalaya:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Himalaya
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Himalaya.yaml"
+  HuYa:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HuYa
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/HuYa.yaml"
+  iQiyi:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/iQiyi
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/iQiyi.yaml"
+  Letv:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Letv
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Letv.yaml"
+  NeteaseMusic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/NeteaseMusic
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/NeteaseMusic.yaml"
+  TencentVideo:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/TencentVideo
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/TencentVideo.yaml"
+  Youku:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Youku
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Youku.yaml"
+  Netflix:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Netflix
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Netflix.yaml"
+  Spotify:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Spotify
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Spotify.yaml"
+  YouTube:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/YouTube
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/YouTube.yaml"
+  YouTubeMusic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/YouTubeMusic
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/YouTubeMusic.yaml"
+  ABC:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/ABC
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/ABC.yaml"
+  AbemaTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AbemaTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AbemaTV.yaml"
+  AmazonPrimeVideo:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AmazonPrimeVideo
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AmazonPrimeVideo.yaml"
+  AppleMedia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AppleMedia
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AppleMedia.yaml"
+  AppleMusic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AppleMusic
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AppleMusic.yaml"
+  AppleNews:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AppleNews
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AppleNews.yaml"
+  AppleTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/AppleTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/AppleTV.yaml"
+  Bahamut:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Bahamut
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Bahamut.yaml"
+  BBC:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/BBC
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/BBC.yaml"
+  BritboxUK:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/BritboxUK
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/BritboxUK.yaml"
+  CableTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/CableTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/CableTV.yaml"
+  Cake:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Cake
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Cake.yaml"
+  DAZN:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/DAZN
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/DAZN.yaml"
+  DiscoveryPlus:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/DiscoveryPlus
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/DiscoveryPlus.yaml"
+  Disney:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Disney
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Disney.yaml"
+  EncoreTVB:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/EncoreTVB
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/EncoreTVB.yaml"
+  Fox:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Fox
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Fox.yaml"
+  FoxNow:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/FoxNow
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/FoxNow.yaml"
+  HBO:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HBO
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HBO.yaml"
+  HBOAsia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HBOAsia
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HBOAsia.yaml"
+  HBOHK:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HBOHK
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HBOHK.yaml"
+  HBOUSA:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HBOUSA
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HBOUSA.yaml"
+  Hulu:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Hulu
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Hulu.yaml"
+  HuluJP:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HuluJP
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HuluJP.yaml"
+  HuluUSA:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/HuluUSA
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/HuluUSA.yaml"
+  Japonx:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Japonx
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Japonx.yaml"
+  JOOX:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/JOOX
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/JOOX.yaml"
+  KKBOX:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/KKBOX
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/KKBOX.yaml"
+  KKTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/KKTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/KKTV.yaml"
+  LineTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/LineTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/LineTV.yaml"
+  myTVSUPER:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/myTVSUPER
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/myTVSUPER.yaml"
+  Niconico:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Niconico
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Niconico.yaml"
+  NowE:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/NowE
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/NowE.yaml"
+  Pandora:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Pandora
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Pandora.yaml"
+  ParamountPlus:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/ParamountPlus
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/ParamountPlus.yaml"
+  PBS:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PBS
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/PBS.yaml"
+  Peacock:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Peacock
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Peacock.yaml"
+  Porn:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Porn
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Porn.yaml"
+  SoundCloud:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/SoundCloud
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/SoundCloud.yaml"
+  TikTok:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/TikTok
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/TikTok.yaml"
+  Twitch:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Twitch
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/Twitch.yaml"
+  ViuTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/ViuTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/ViuTV.yaml"
+  WeTV:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/WeTV
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/WeTV.yaml"
+  EHentai:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/EHentai
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/EHentai.yaml"
+  Google:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Google
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Google.yaml"
+  PROXY:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PROXY
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Proxy.yaml"
+  Scholar:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Scholar
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Scholar.yaml"
+  Telegram:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Telegram
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Telegram.yaml"
+  SpeedTest:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/SpeedTest
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/SpeedTest.yaml"
+  Domestic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Domestic
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Domestic.yaml"

@@ -1,0 +1,24 @@
+commands:
+# 删除 port 配置
+  - port-
+# 删除 socks-port 配置
+  - socks-port-
+# 删除 allow-lan 配置
+  - allow-lan-
+# 删除 mode 配置
+  - mode-
+# 删除 log-level 配置
+  - log-level-
+# 删除 external-controller 配置
+  - external-controller-
+# 删除 secret 配置
+  - secret-
+# 删除 rules 全部删除
+# 如果想只删除任意几个 可以使用 "-rules.2-" 就是删除rules第三个
+  - rules-
+# 删除 proxy-providers 规则组
+# 如果想只删除任意几个 可以使用 "- proxy-providers.0-" 就是删除第一个
+# 注意，如果删除第一个，那么之前的第二个就顺移到了第一个，同样需要"- proxy-providers.0-"删除原先的第二个
+  - proxy-providers-
+# 删除 proxy-groups 分流组 同上
+  - proxy-groups-

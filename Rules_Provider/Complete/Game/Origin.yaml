@@ -1,0 +1,8 @@
+# > Origin
+# 总条数: 5条
+payload:
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN,cloudsync-prod.s3.amazonaws.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,rtm.tnt-ea.com
+  - DOMAIN,ssl-lvlt.cdn.ea.com

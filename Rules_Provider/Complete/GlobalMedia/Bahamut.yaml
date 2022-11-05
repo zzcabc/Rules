@@ -1,0 +1,10 @@
+# > Bahamut
+# 总条数: 8条
+payload:
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,viblast.com
+  - DOMAIN,bahamut.akamaized.net

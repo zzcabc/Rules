@@ -1,0 +1,111 @@
+prepend-rules:
+  - RULE-SET,Reject,AdBlock
+  # - GEOSITE,category-ads-all,AdBlock
+  # - RULE-SET,Direct,DIRECT
+  - RULE-SET,LAN,DIRECT
+  - RULE-SET,Special,DIRECT
+
+  - RULE-SET,Developer,Proxy
+
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,PayPal
+
+  - RULE-SET,Assassin'sCreed-Odyssey,Game
+  - RULE-SET,Assassin'sCreed-Origins,Game
+  - RULE-SET,Battle,Game
+  - RULE-SET,Blizzard,Game
+  - RULE-SET,EA,Game
+  - RULE-SET,Epic,Game
+  - RULE-SET,Garena,Game
+  - RULE-SET,Gog,Game
+  - RULE-SET,Nintendo,Game
+  - RULE-SET,Origin,Game
+  - RULE-SET,PlayStation,Game
+  - RULE-SET,Riot,Game
+  - RULE-SET,Rockstar,Game
+  - RULE-SET,StarCraftII,Game
+  - RULE-SET,Steam,Game
+  - RULE-SET,Supercell,Game
+  - RULE-SET,WildRift,Game
+  - RULE-SET,WorldofWarcraft,Game
+  - RULE-SET,Xbox,Game
+
+
+  - RULE-SET,Netflix,GlobalMedia
+  - RULE-SET,Spotify,GlobalMedia
+  - RULE-SET,YouTube,GlobalMedia
+  - RULE-SET,YouTubeMusic,GlobalMedia
+
+
+  - RULE-SET,AcFun,MainlandMedia
+  - RULE-SET,Bilibili,MainlandMedia
+  - RULE-SET,CCTV,MainlandMedia
+  - RULE-SET,DouYin,MainlandMedia
+  - RULE-SET,Douyu,MainlandMedia
+  - RULE-SET,Himalaya,MainlandMedia
+  - RULE-SET,HuYa,MainlandMedia
+  - RULE-SET,iQiyi,MainlandMedia
+  - RULE-SET,Letv,MainlandMedia
+  - RULE-SET,NeteaseMusic,MainlandMedia
+  - RULE-SET,TencentVideo,MainlandMedia
+  - RULE-SET,Youku,MainlandMedia
+
+  - RULE-SET,ABC,GlobalMedia
+  - RULE-SET,AbemaTV,GlobalMedia
+  - RULE-SET,AmazonPrimeVideo,GlobalMedia
+  - RULE-SET,AppleMedia,GlobalMedia
+  - RULE-SET,AppleMusic,GlobalMedia
+  - RULE-SET,AppleNews,GlobalMedia
+  - RULE-SET,AppleTV,GlobalMedia
+  - RULE-SET,Bahamut,GlobalMedia
+  - RULE-SET,BBC,GlobalMedia
+  - RULE-SET,BritboxUK,GlobalMedia
+  - RULE-SET,CableTV,GlobalMedia
+  - RULE-SET,Cake,GlobalMedia
+  - RULE-SET,DAZN,GlobalMedia
+  - RULE-SET,DiscoveryPlus,GlobalMedia
+  - RULE-SET,Disney,GlobalMedia
+  - RULE-SET,EncoreTVB,GlobalMedia
+  - RULE-SET,Fox,GlobalMedia
+  - RULE-SET,FoxNow,GlobalMedia
+  - RULE-SET,HBO,GlobalMedia
+  - RULE-SET,HBOAsia,GlobalMedia
+  - RULE-SET,HBOHK,GlobalMedia
+  - RULE-SET,HBOUSA,GlobalMedia
+  - RULE-SET,Hulu,GlobalMedia
+  - RULE-SET,HuluJP,GlobalMedia
+  - RULE-SET,HuluUSA,GlobalMedia
+  - RULE-SET,Japonx,GlobalMedia
+  - RULE-SET,JOOX,GlobalMedia
+  - RULE-SET,KKBOX,GlobalMedia
+  - RULE-SET,KKTV,GlobalMedia
+  - RULE-SET,LineTV,GlobalMedia
+  - RULE-SET,myTVSUPER,GlobalMedia
+  - RULE-SET,Niconico,GlobalMedia
+  - RULE-SET,NowE,GlobalMedia
+  - RULE-SET,Pandora,GlobalMedia
+  - RULE-SET,ParamountPlus,GlobalMedia
+  - RULE-SET,PBS,GlobalMedia
+  - RULE-SET,Peacock,GlobalMedia
+  - RULE-SET,Porn,GlobalMedia
+  - RULE-SET,SoundCloud,GlobalMedia
+  - RULE-SET,TikTok,GlobalMedia
+  - RULE-SET,Twitch,GlobalMedia
+  - RULE-SET,ViuTV,GlobalMedia
+  - RULE-SET,WeTV,GlobalMedia
+
+
+  - RULE-SET,EHentai,Proxy
+  - RULE-SET,Google,Proxy
+  - RULE-SET,PROXY,Proxy
+  - RULE-SET,Scholar,Proxy
+  - RULE-SET,Telegram,Proxy
+
+  - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Domestic,Domestic
+  # - GEOSITE,geolocation-cn,Domestic
+  # - GEOSITE,geolocation-!cn,PROXY
+  - GEOIP,CN,Domestic
+
+  - MATCH,Others

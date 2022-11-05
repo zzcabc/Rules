@@ -1,0 +1,92 @@
+rules:
+  - RULE-SET,Reject,AdBlock
+  # - GEOSITE,category-ads-all,AdBlock
+  - RULE-SET,Direct,DIRECT
+
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
+  
+  - RULE-SET,GlobalMedia,GlobalMedia
+
+  - RULE-SET,MainlandMedia,MainlandMedia
+
+  - RULE-SET,PROXY,Proxy
+
+  - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Domestic,Domestic
+  # - GEOSITE,geolocation-cn,Domestic
+  # - GEOSITE,geolocation-!cn,PROXY
+  - GEOIP,CN,Domestic
+
+  - MATCH,Others
+  
+rule-providers:
+  Direct:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Direct
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Direct.yaml'
+  Domestic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Domestic
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Domestic.yaml'
+  Game:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Game
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Game.yaml'
+  GlobalMedia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/GlobalMedia
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/GlobalMedia.yaml'
+  MainlandMedia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/MainlandMedia
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/MainlandMedia.yaml'
+  PROXY:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Proxy
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Proxy.yaml'
+  Reject:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Reject
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Reject.yaml'
+  Apple:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Apple
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Apple.yaml'
+  Microsoft:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Microsoft
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Microsoft.yaml'
+  PayPal:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PayPal
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/PayPal.yaml'
+  SpeedTest:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/SpeedTest
+    type: http
+    url: 'https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/SpeedTest.yaml'
+  

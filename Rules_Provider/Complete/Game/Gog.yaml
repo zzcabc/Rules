@@ -1,0 +1,6 @@
+# > Gog
+# 总条数: 3条
+payload:
+  - DOMAIN-SUFFIX,gog-statics.com
+  - DOMAIN-SUFFIX,gog.com
+  - DOMAIN-SUFFIX,gog.qtlglb.com

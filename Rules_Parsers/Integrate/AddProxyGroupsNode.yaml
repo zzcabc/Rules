@@ -1,0 +1,9 @@
+commands:
+# 给Proxy组添加节点 添加节点名称含有*的节点 []proxyName是对应节点名称
+  - proxy-groups.Proxy.proxies+[]proxyNames|*
+# 给Proxy组添加节点 在第3个位置添加组名有*的 []groupNames是组名
+  - proxy-groups.Proxy.proxies.2+[]groupNames|*
+# 给MainlandMedia添加节点名称是港澳台地区的，因为AddProxyGroups中第一个已经是DIRECT了
+  - proxy-groups.MainlandMedia.proxies.1+[]proxyNames|HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|HK|hk|tw|TW
+# GlobalTV组第一个为Proxy组，之后为各个selest组
+  - proxy-groups.GlobalMedia.proxies.1+[]proxyNames|*

@@ -1,0 +1,23 @@
+prepend-rules:
+  - RULE-SET,Reject,AdBlock
+  # - GEOSITE,category-ads-all,AdBlock
+  - RULE-SET,Direct,DIRECT
+
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
+  
+  - RULE-SET,GlobalMedia,GlobalMedia
+
+  - RULE-SET,MainlandMedia,MainlandMedia
+
+  - RULE-SET,PROXY,Proxy
+
+  - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Domestic,Domestic
+  # - GEOSITE,geolocation-cn,Domestic
+  # - GEOSITE,geolocation-!cn,PROXY
+  - GEOIP,CN,Domestic
+
+  - MATCH,Others

@@ -1,0 +1,7 @@
+# > Pandora
+# 总条数: 4条
+payload:
+  - DOMAIN-SUFFIX,kmplayer.com
+  - DOMAIN-SUFFIX,p-cdn.us
+  - DOMAIN-SUFFIX,pandora.com
+  - DOMAIN-SUFFIX,pandora.tv

@@ -1,0 +1,9 @@
+# > Cake
+# 总条数: 6条
+payload:
+  - DOMAIN-SUFFIX,cakeapp.me
+  - DOMAIN-SUFFIX,mycake.me
+  - DOMAIN,d1koerlbtsmkf8.cloudfront.net
+  - DOMAIN,d31wl6mro6753i.cloudfront.net
+  - DOMAIN,static-mycake.pstatic.net
+  - DOMAIN,vstatic-mycake.pstatic.net
