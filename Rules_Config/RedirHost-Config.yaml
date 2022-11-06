@@ -305,10 +305,6 @@ dns:
       - "+.youtube.com"
       - "+.githubusercontent.com"
       - "+.googlevideo.com"
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
-      - msftconnecttest.com
-      - msftncsi.com
   
 # clash-for-android: 
   # 追加系统 DNS 到 nameserver 

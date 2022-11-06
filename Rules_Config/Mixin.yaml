@@ -243,10 +243,6 @@ mixin: # object
         - "+.youtube.com"
         - "+.githubusercontent.com"
         - "+.googlevideo.com"
-        - "+.msftconnecttest.com"
-        - "+.msftncsi.com"
-        - msftconnecttest.com
-        - msftncsi.com
   tun:
     enable: true
     stack: system #gvisor system 
