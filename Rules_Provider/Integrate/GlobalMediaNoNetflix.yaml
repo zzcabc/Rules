@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,go.com
 # > AbemaTV
   - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,abematv.akamaized.net

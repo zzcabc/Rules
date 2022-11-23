@@ -349,6 +349,7 @@ payload:
   - DOMAIN-SUFFIX,nintendo.co.uk
   - DOMAIN-SUFFIX,nintendo.co.za
   - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.com.au
   - DOMAIN-SUFFIX,nintendo.com.hk
   - DOMAIN-SUFFIX,nintendo.com.pt
   - DOMAIN-SUFFIX,nintendo.de
@@ -358,6 +359,7 @@ payload:
   - DOMAIN-SUFFIX,nintendo.fi
   - DOMAIN-SUFFIX,nintendo.fr
   - DOMAIN-SUFFIX,nintendo.it
+  - DOMAIN-SUFFIX,nintendo.jp
   - DOMAIN-SUFFIX,nintendo.net
   - DOMAIN-SUFFIX,nintendo.nl
   - DOMAIN-SUFFIX,nintendo.no
@@ -377,6 +379,7 @@ payload:
   - DOMAIN-SUFFIX,nintendoswitch.com.cn
   - DOMAIN-SUFFIX,nintendoswitch.net
   - DOMAIN-SUFFIX,nintendoswitchtogether.com
+  - DOMAIN-SUFFIX,nintendowifi.net
   - DOMAIN-SUFFIX,nintendowii.com
   - DOMAIN-SUFFIX,personaltrainermath.com
   - DOMAIN-SUFFIX,playnintendo.com
@@ -428,6 +431,15 @@ payload:
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
+  - IP-CIDR,104.192.0.0/12
+  - IP-CIDR,130.208.0.0/12
+  - IP-CIDR,34.112.0.0/12
+  - IP-CIDR,34.128.0.0/12
+  - IP-CIDR,34.160.0.0/12
+  - IP-CIDR,34.64.0.0/12
+  - IP-CIDR,35.176.0.0/12
+  - IP-CIDR,35.192.0.0/11
+  - IP-CIDR,35.224.0.0/12
 # > Origin
   - DOMAIN-SUFFIX,origin.com
   - DOMAIN,cloudsync-prod.s3.amazonaws.com
@@ -561,6 +573,7 @@ payload:
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steammobile.akamaized.net
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
   - DOMAIN,steampowered.com.8686c.com
   - DOMAIN,steamstatic.com.8686c.com

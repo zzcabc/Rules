@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,go.com
 # > AbemaTV
   - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,abematv.akamaized.net
@@ -934,10 +935,9 @@ payload:
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net
 # > Netflix
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-  - DOMAIN-KEYWORD,dualstack.apiproxy-
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
-  - DOMAIN-KEYWORD,netflixdnstest
+  - DOMAIN,e13252.dscg.akamaiedge.net
+  - DOMAIN,h-netflix.online-metrix.net
+  - DOMAIN,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,flxvpn.net
   - DOMAIN-SUFFIX,netflix.ca
@@ -966,9 +966,10 @@ payload:
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com
-  - DOMAIN,e13252.dscg.akamaiedge.net
-  - DOMAIN,h-netflix.online-metrix.net
-  - DOMAIN,netflix.com.edgesuite.net
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+  - DOMAIN-KEYWORD,dualstack.apiproxy-
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  - DOMAIN-KEYWORD,netflixdnstest
   - IP-CIDR,103.87.204.0/22
   - IP-CIDR,107.23.255.0/26
   - IP-CIDR,108.128.160.0/23
@@ -1366,6 +1367,7 @@ payload:
   - IP-CIDR,18.252.56.0/23
   - IP-CIDR,18.253.186.0/24
   - IP-CIDR,18.254.68.0/23
+  - IP-CIDR,18.60.78.192/27
   - IP-CIDR,185.2.220.0/22
   - IP-CIDR,185.9.188.0/22
   - IP-CIDR,192.173.64.0/18
@@ -1606,6 +1608,7 @@ payload:
   - IP-CIDR,3.28.70.96/27
   - IP-CIDR,3.30.129.0/24
   - IP-CIDR,3.30.130.0/23
+  - IP-CIDR,3.30.204.0/24
   - IP-CIDR,3.30.40.84/30
   - IP-CIDR,3.32.139.0/24
   - IP-CIDR,3.32.190.244/30
@@ -1778,6 +1781,7 @@ payload:
   - IP-CIDR,44.206.4.0/22
   - IP-CIDR,44.209.84.0/22
   - IP-CIDR,44.210.64.0/22
+  - IP-CIDR,44.212.176.0/21
   - IP-CIDR,44.224.0.0/16
   - IP-CIDR,44.227.178.0/24
   - IP-CIDR,44.230.0.0/16

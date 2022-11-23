@@ -1,7 +1,12 @@
 # > 抖音
-# 总条数: 6条
+# 总条数: 11条
 payload:
   - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
   - DOMAIN-SUFFIX,ixigua.com
   - DOMAIN-SUFFIX,ixiguavideo.com
   - DOMAIN-SUFFIX,pstatp.com

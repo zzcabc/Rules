@@ -1,5 +1,5 @@
 # > Steam
-# 总条数: 55条
+# 总条数: 56条
 payload:
   - DOMAIN-KEYWORD,steambroadcast
   - DOMAIN-KEYWORD,steamstore
@@ -52,6 +52,7 @@ payload:
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steammobile.akamaized.net
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
   - DOMAIN,steampowered.com.8686c.com
   - DOMAIN,steamstatic.com.8686c.com
