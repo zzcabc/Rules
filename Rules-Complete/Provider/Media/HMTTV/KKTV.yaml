@@ -1,6 +1,7 @@
-payload:  
-  # > KKTV
-  - PROCESS-NAME,com.kktv.kktv
-  - DOMAIN-SUFFIX,kktv.me
+# > KKTV
+# 总条数: 4条
+payload:
   - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
   - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,theater-kktv.cdn.hinet.net

@@ -1,4 +1,5 @@
-payload:  
-  # > ABC
+# > ABC
+# 总条数: 2条
+payload:
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,go.com

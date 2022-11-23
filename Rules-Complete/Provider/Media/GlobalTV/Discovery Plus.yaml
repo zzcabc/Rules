@@ -1,11 +1,13 @@
-payload:  
-  # > Discovery Plus
-  - PROCESS-NAME,com.discovery.discoveryplus.mobile
-  
-  - DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
+# > DiscoveryPlus
+# 总条数: 12条
+payload:
+  - DOMAIN-KEYWORD,discovery.uplynk.com
   - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-SUFFIX,discovery.com
+  - DOMAIN-SUFFIX,discoveryplus.co.uk
   - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,discoveryplus.in
+  - DOMAIN-SUFFIX,dnitv.com
   - DOMAIN-SUFFIX,fwmrm.net
   - DOMAIN-SUFFIX,getblueshift.com
   - DOMAIN-SUFFIX,litix.io

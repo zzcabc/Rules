@@ -1,6 +1,8 @@
-payload:  
-  # > encoreTVB
-  - PROCESS-NAME,com.tvbusa.encore
+# > EncoreTVB
+# 总条数: 5条
+payload:
+  - DOMAIN-SUFFIX,content.jwplatform.com
   - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN,content.jwplatform.com
-  - DOMAIN,videos-f.jwpsrv.com
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN,edge.api.brightcove.com

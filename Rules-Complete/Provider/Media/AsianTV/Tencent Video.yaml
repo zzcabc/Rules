@@ -1,4 +1,5 @@
 payload:  
   # > Tencent Video
+  - DOMAIN-SUFFIX,mfm.video.qq.com
   - DOMAIN-SUFFIX,v.smtcdns.com
   - DOMAIN-SUFFIX,vv.video.qq.com

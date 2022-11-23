@@ -1,7 +1,9 @@
-payload:  
-  # > myTV_SUPER
-  # - USER-AGENT,mytv*
+# > myTVSUPER
+# 总条数: 6条
+payload:
   - DOMAIN-KEYWORD,nowtv100
   - DOMAIN-KEYWORD,rthklive
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN,mytvsuperlimited.sc.omtrdc.net

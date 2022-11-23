@@ -1,12 +1,13 @@
-payload:  
-  # > Apple News and Apple Map TOMTOM Version
-  # - USER-AGENT,AppleNews*
-  # - USER-AGENT,com.apple.news*
+# > AppleNews
+# 总条数: 10条
+payload:
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,apple.comscoreresearch.com
+  - DOMAIN,gateway.icloud.com
   - DOMAIN,gspe1-ssl.ls.apple.com
-  # - USER-AGENT,News*
-  # - DOMAIN,apple.comscoreresearch.com
-  # - DOMAIN,gateway.icloud.com
-  # - DOMAIN,news-client.apple.com
-  # - DOMAIN,news-edge.apple.com
-  # - DOMAIN,news-events.apple.com
-  # - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-client-search.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - PROCESS-NAME,news

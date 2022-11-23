@@ -1,7 +1,6 @@
+# > ViuTV
+# 总条数: 14条
 payload:
-  # > ViuTV
-  - PROCESS-NAME,com.hktve.viutv
-
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
@@ -11,5 +10,8 @@ payload:
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,viu.com
-  - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,viu.now.com
+  - DOMAIN-SUFFIX,viu.tv
+  - PROCESS-NAME,com.viu.pad
+  - PROCESS-NAME,com.viu.phone
+  - PROCESS-NAME,com.vuclip.viu
