@@ -51,7 +51,6 @@ rules:
   - RULE-SET,TencentVideo,MainlandMedia
   - RULE-SET,Youku,MainlandMedia
 
-  - RULE-SET,ABC,GlobalMedia
   - RULE-SET,AbemaTV,GlobalMedia
   - RULE-SET,AmazonPrimeVideo,GlobalMedia
   - RULE-SET,AppleMedia,GlobalMedia
@@ -369,12 +368,6 @@ rule-providers:
     path: ./Rules/YouTubeMusic
     type: http
     url: "https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/GlobalMedia/YouTubeMusic.yaml"
-  ABC:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/ABC
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/GlobalMedia/ABC.yaml"
   AbemaTV:
     behavior: classical
     interval: 86400
