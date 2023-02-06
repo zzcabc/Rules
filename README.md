@@ -15,7 +15,7 @@ Clash自用规则组，集成[Lhie1](https://github.com/dler-io/Rules)和[ACL4SS
 
 ## [RedirHost-Config.yaml](https://github.com/zzcabc/Rules/tree/main/RedirHost-Config.yaml)
 
-是Redir-Host的通用配置格式
+是Redir-Host的通用配置格式 1.13.0内核，Premium 2023.01.29闭源内核移除 redir-host
 
 ## [Mixin.yaml](https://github.com/zzcabc/Rules/tree/main/Mixin.yaml)
 
