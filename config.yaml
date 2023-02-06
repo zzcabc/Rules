@@ -27,7 +27,7 @@ default-subscription: &default-subscription
 mixed-port: 7890
 
 # 允许LAN上的其他设备通过Clash访问Internet。
-allow-lan: true
+allow-lan: false
 
 # 通过具有特定IP地址的lan访问
 # "*": 绑定所有IP地址
@@ -115,8 +115,8 @@ dns:
     - 8.8.8.8
     - 4.2.2.1
     - 4.2.2.2
-  # 模式fake-ip  or  redir-host
-  enhanced-mode: redir-host
+  # 模式fake-ip  or  // 1.13.0内核，Premium 2023.01.29闭源内核移除 redir-host
+  enhanced-mode: fake-ip
   # 使用本地hosts文件
   use-hosts: true
   # 国内用下列DNS解析

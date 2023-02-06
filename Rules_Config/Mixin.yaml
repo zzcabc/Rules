@@ -46,7 +46,7 @@ mixin: # object
       - 8.8.8.8
       - 4.2.2.1
       - 4.2.2.2
-    enhanced-mode: redir-host
+    enhanced-mode: fake-ip
     use-hosts: true
     nameserver:
       - udp://223.5.5.5

@@ -102,7 +102,7 @@ dns:
     - 8.8.8.8
     - 4.2.2.1
     - 4.2.2.2
-  # 模式fake-ip  or  redir-host
+  # 模式fake-ip  1.13.0内核，Premium 2023.01.29闭源内核移除 redir-host
   enhanced-mode: fake-ip
   # 使用本地hosts文件
   use-hosts: true
