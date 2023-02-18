@@ -2,6 +2,8 @@ payload:
 # > 开发者网站
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jetbrains
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
@@ -135,6 +137,8 @@ payload:
   - DOMAIN-SUFFIX,webkitgtk.org
   - DOMAIN-SUFFIX,webobjects.com
   - DOMAIN-SUFFIX,wpewebkit.org
+  - DOMAIN,cdn.auth0.com
+  - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
   - DOMAIN,d2wy8f7a9ursnm.cloudfront.net
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
