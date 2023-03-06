@@ -1,5 +1,5 @@
 # > Spotify
-# 总条数: 23条
+# 总条数: 29条
 payload:
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
@@ -22,5 +22,11 @@ payload:
   - DOMAIN-SUFFIX,spotifynewsroom.jp
   - DOMAIN-SUFFIX,spotilocal.com
   - DOMAIN-SUFFIX,tospotify.com
+  - DOMAIN,audio4-ak-spotify-com.akamaized.net
+  - DOMAIN,heads-ak-spotify-com.akamaized.net
+  - DOMAIN,spotify.com.edgesuite.net
+  - DOMAIN,spotify.map.fastly.net
+  - DOMAIN,spotify.map.fastlylb.net
+  - IP-CIDR,104.154.127.126/32
   - IP-CIDR,35.186.224.47/32
   - PROCESS-NAME,com.spotify.music

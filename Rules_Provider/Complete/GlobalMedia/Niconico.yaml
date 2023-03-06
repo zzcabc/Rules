@@ -1,7 +1,7 @@
 # > Niconico
 # 总条数: 9条
 payload:
-  - DOMAIN-SUFFIX,dmc.nico
+	- DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicodic.jp
   - DOMAIN-SUFFIX,nicomanga.jp
   - DOMAIN-SUFFIX,niconico.com

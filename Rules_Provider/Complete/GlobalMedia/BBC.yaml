@@ -1,5 +1,5 @@
 # > BBC
-# 总条数: 28条
+# 总条数: 34条
 payload:
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
@@ -20,8 +20,11 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
+  - DOMAIN,aod-pod-uk-live.akamaized.net
   - DOMAIN,as-dash-uk-live.akamaized.net
   - DOMAIN,as-hls-uk-live.akamaized.net
+  - DOMAIN,ve-dash-uk-live.akamaized.net
+  - DOMAIN,ve-uhd-push-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.akamaized.net
   - DOMAIN,vod-dash-ww-live.akamaized.net
   - DOMAIN,vod-hls-uk-live.akamaized.net
@@ -29,3 +32,6 @@ payload:
   - DOMAIN,vod-thumb-uk-live.akamaized.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
   - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+  - DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net
+  - DOMAIN,vs-hls-push-uk-live.akamaized.net
+  - DOMAIN,vs-hls-pushb-uk-live.akamaized.net

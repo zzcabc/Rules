@@ -1,8 +1,8 @@
 # > Twitch
 # 总条数: 21条
 payload:
+	- DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-KEYWORD,ttvnw
-  - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de

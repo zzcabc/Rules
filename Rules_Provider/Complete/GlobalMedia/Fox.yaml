@@ -1,5 +1,5 @@
 # > Fox
-# 总条数: 261条
+# 总条数: 255条
 payload:
   - DOMAIN-SUFFIX,afewmomentswith.com
   - DOMAIN-SUFFIX,anidom.com
@@ -256,9 +256,3 @@ payload:
   - DOMAIN-SUFFIX,wofl.tv
   - DOMAIN-SUFFIX,woflthenewsstation.com
   - DOMAIN-SUFFIX,wogx.com
-  - DOMAIN,cdn-fox-networks-group-green.akamaized.net
-  - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
-  - DOMAIN,foxsports01-i.akamaihd.net
-  - DOMAIN,foxsports02-i.akamaihd.net
-  - DOMAIN,foxsports03-i.akamaihd.net
-  - DOMAIN,staticasiafox.akamaized.net
