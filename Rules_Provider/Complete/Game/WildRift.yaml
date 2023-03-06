@@ -1,6 +1,6 @@
 # > WildRift
 # 总条数: 3条
 payload:
-  - DOMAIN-SUFFIX,pvp.net
+	- DOMAIN-SUFFIX,pvp.net
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,riotgames.com

@@ -1,6 +1,6 @@
 payload:
 # > Assassin'sCreed-Odyssey
-  - IP-CIDR,104.75.245.0/24
+	- IP-CIDR,104.75.245.0/24
   - IP-CIDR,104.95.207.169/32
   - IP-CIDR,18.204.105.0/24
   - IP-CIDR,18.204.111.232/32
@@ -16,7 +16,7 @@ payload:
   - IP-CIDR,65.200.22.234/32
   - IP-CIDR,67.15.100.252/32
 # > Assassin'sCreed-Origins
-  - IP-CIDR,104.92.145.0/24
+	- IP-CIDR,104.92.145.0/24
   - IP-CIDR,216.98.48.0/24
   - IP-CIDR,216.98.54.0/24
   - IP-CIDR,216.98.62.0/24
@@ -33,9 +33,9 @@ payload:
   - IP-CIDR,65.200.22.234/32
   - IP-CIDR,67.228.235.91/32
 # > Battle
+	- DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
-  - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,blzddistkr1-a.akamaihd.net
   - DOMAIN,bnetproduct-a.akamaihd.net
@@ -104,7 +104,7 @@ payload:
   - IP-CIDR,54.207.107.12/32
   - IP-CIDR,54.94.196.47/32
 # > EA
-  - DOMAIN-SUFFIX,anthemgame.com
+	- DOMAIN-SUFFIX,anthemgame.com
   - DOMAIN-SUFFIX,anthemthegame.com
   - DOMAIN-SUFFIX,apexlegends.com
   - DOMAIN-SUFFIX,awayoutgame.com
@@ -285,6 +285,7 @@ payload:
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,unrealtournament.com
 # > Garena
+	- DOMAIN,dlgarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net
@@ -304,8 +305,9 @@ payload:
   - DOMAIN-SUFFIX,gog-statics.com
   - DOMAIN-SUFFIX,gog.com
   - DOMAIN-SUFFIX,gog.qtlglb.com
+  - DOMAIN,gog.salesmanago.com
 # > Nintendo
-  - DOMAIN-SUFFIX,100classicbooks.com
+	- DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
   - DOMAIN-SUFFIX,ayudanintendo.com
@@ -431,27 +433,23 @@ payload:
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
-  - IP-CIDR,104.192.0.0/12
-  - IP-CIDR,130.208.0.0/12
-  - IP-CIDR,34.112.0.0/12
-  - IP-CIDR,34.128.0.0/12
-  - IP-CIDR,34.160.0.0/12
-  - IP-CIDR,34.64.0.0/12
-  - IP-CIDR,35.176.0.0/12
-  - IP-CIDR,35.192.0.0/11
-  - IP-CIDR,35.224.0.0/12
+  - IP-CIDR,35.192.0.0/12
 # > Origin
+	- DOMAIN,cloudsync-prod.s3.amazonaws.com
+  - DOMAIN-SUFFIX,dawngate.com
+  - DOMAIN-SUFFIX,eastore.com
+  - DOMAIN-SUFFIX,lordofultima.com
   - DOMAIN-SUFFIX,origin.com
-  - DOMAIN,cloudsync-prod.s3.amazonaws.com
+  - DOMAIN-SUFFIX,origin.tv
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,rtm.tnt-ea.com
   - DOMAIN,ssl-lvlt.cdn.ea.com
 # > PlayStation
-  - DOMAIN-SUFFIX,playstation.com
+	- DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-# NAME: Riot
+# Riot
   - DOMAIN-SUFFIX,championshipseriesleague.com
   - DOMAIN-SUFFIX,convrgencegame.com
   - DOMAIN-SUFFIX,historyofdota.com
@@ -507,13 +505,13 @@ payload:
   - DOMAIN-SUFFIX,supremacy.net
   - DOMAIN-SUFFIX,ulol.com
 # > Rockstar
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+	- DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rsg.sc
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
 # > StarCraftII
-  - IP-CIDR,103.4.114.233/32
+	- IP-CIDR,103.4.114.233/32
   - IP-CIDR,185.60.112.157/32
   - IP-CIDR,185.60.112.158/32
   - IP-CIDR,185.60.114.159/32
@@ -522,6 +520,7 @@ payload:
   - IP-CIDR,24.105.30.129/32
   - IP-CIDR,24.105.62.129/32
 # > Steam
+	- DOMAIN,csgo.wmsj.cn
   - DOMAIN-KEYWORD,steambroadcast
   - DOMAIN-KEYWORD,steamstore
   - DOMAIN-KEYWORD,steamuserimages
@@ -533,6 +532,7 @@ payload:
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
   - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,playartifact.com
@@ -542,6 +542,14 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,steam-api.com
   - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+  - DOMAIN-SUFFIX,steam.cdn.on.net
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamchina.com
@@ -549,6 +557,7 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+  - DOMAIN-SUFFIX,steamdeck.com
   - DOMAIN-SUFFIX,steamgames.com
   - DOMAIN-SUFFIX,steampipe.akamaized.net
   - DOMAIN-SUFFIX,steampowered.com
@@ -566,20 +575,23 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,wmsjsteam.com
-  - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dl.steam.clngaa.com
   - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,dota2.wmsj.cn
+  - DOMAIN,f3b7q2p3.ssl.hwcdn.net
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,st.dl.pinyuncloud.com
   - DOMAIN,steammobile.akamaized.net
+  - DOMAIN,steampipe-kr.akamaized.net
+  - DOMAIN,steampipe-partner.akamaized.net
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
   - DOMAIN,steampowered.com.8686c.com
   - DOMAIN,steamstatic.com.8686c.com
   - DOMAIN,wmsjsteam.com
+  - DOMAIN,xz.pphimalayanrt.com
 # > Supercell
-  - DOMAIN-SUFFIX,brawlstars.com
+	- DOMAIN-SUFFIX,brawlstars.com
   - DOMAIN-SUFFIX,brawlstarsgame.com
   - IP-CIDR,13.210.25.233/32
   - IP-CIDR,13.212.170.102/32
@@ -604,11 +616,11 @@ payload:
   - IP-CIDR,54.207.168.84/32
   - IP-CIDR,54.248.64.192/32
 # > WildRift
-  - DOMAIN-SUFFIX,pvp.net
+	- DOMAIN-SUFFIX,pvp.net
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,riotgames.com
 # > WorldofWarcraft
-  - IP-CIDR,103.4.115.248/32
+	- IP-CIDR,103.4.115.248/32
   - IP-CIDR,137.221.105.2/32
   - IP-CIDR,185.60.112.157/32
   - IP-CIDR,185.60.112.158/32
@@ -617,11 +629,14 @@ payload:
   - IP-CIDR,211.115.104.1/32
   - IP-CIDR,24.105.62.129/32
 # > Xbox
+	- DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,beth.games
   - DOMAIN-SUFFIX,bethesda.net
   - DOMAIN-SUFFIX,bethesdagamestudios.com
   - DOMAIN-SUFFIX,bethsoft.com
   - DOMAIN-SUFFIX,callersbane.com
+  - DOMAIN-SUFFIX,doom.com
+  - DOMAIN-SUFFIX,elderscrolls.com
   - DOMAIN-SUFFIX,forzamotorsport.net
   - DOMAIN-SUFFIX,forzaracingchampionship.com
   - DOMAIN-SUFFIX,forzarc.com
@@ -655,7 +670,6 @@ payload:
   - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,xboxstudios.com
   - DOMAIN-SUFFIX,xbx.lv
-  - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN,login.live.com
   - DOMAIN,logincdn.msauth.net
   - DOMAIN,store-images.s-microsoft.com

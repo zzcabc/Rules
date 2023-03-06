@@ -1,6 +1,7 @@
 # > Garena
-# 总条数: 15条
+# 总条数: 16条
 payload:
+	- DOMAIN,dlgarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net
