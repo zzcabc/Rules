@@ -1,9 +1,13 @@
-payload:
 # > 开发者网站
+payload:
+	- DOMAIN-SUFFIX,datalore.io
+	- DOMAIN-SUFFIX,gitbook.com
+	- DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+	- DOMAIN-SUFFIX,jquery.com
+	- DOMAIN-SUFFIX,packagecontrol.io
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
@@ -19,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
   - DOMAIN-SUFFIX,cups.org
   - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,debian.com
   - DOMAIN-SUFFIX,dependabot.com
   - DOMAIN-SUFFIX,developer.apple.com
   - DOMAIN-SUFFIX,devimages-cdn.apple.com
@@ -34,6 +39,8 @@ payload:
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,gitbook.io
+  - DOMAIN-SUFFIX,gitbook.zendesk.com
   - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
   - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
   - DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
@@ -88,6 +95,7 @@ payload:
   - DOMAIN-SUFFIX,npm.community
   - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,opensource.guide
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
@@ -119,6 +127,9 @@ payload:
   - DOMAIN-SUFFIX,spring.io
   - DOMAIN-SUFFIX,spring.net
   - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,sublimehq.com
+  - DOMAIN-SUFFIX,sublimemerge.com
+  - DOMAIN-SUFFIX,sublimetext.com
   - DOMAIN-SUFFIX,swift.org
   - DOMAIN-SUFFIX,swiftui.cn
   - DOMAIN-SUFFIX,swiftui.com.cn
@@ -138,10 +149,10 @@ payload:
   - DOMAIN-SUFFIX,webobjects.com
   - DOMAIN-SUFFIX,wpewebkit.org
   - DOMAIN,cdn.auth0.com
-  - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
   - DOMAIN,d2wy8f7a9ursnm.cloudfront.net
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
+  - DOMAIN,openaiapi-site.azureedge.net
 # > E-Hentai
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,e-hentaidb.com
