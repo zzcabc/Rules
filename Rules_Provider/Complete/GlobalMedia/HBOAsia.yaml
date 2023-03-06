@@ -1,7 +1,7 @@
 # > HBOAsia
 # 总条数: 19条
 payload:
-	- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk

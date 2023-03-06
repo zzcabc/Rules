@@ -1,7 +1,7 @@
 # > ParamountPlus
 # 总条数: 9条
 payload:
-	- DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsivideo.com

@@ -1,7 +1,7 @@
 # > HBOUSA
 # 总条数: 7条
 payload:
-	- DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net

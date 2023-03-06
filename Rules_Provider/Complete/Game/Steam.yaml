@@ -1,7 +1,7 @@
 # > Steam
 # 总条数: 70条
 payload:
-	- DOMAIN,csgo.wmsj.cn
+  - DOMAIN,csgo.wmsj.cn
   - DOMAIN-KEYWORD,steambroadcast
   - DOMAIN-KEYWORD,steamstore
   - DOMAIN-KEYWORD,steamuserimages

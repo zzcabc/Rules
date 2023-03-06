@@ -1,7 +1,7 @@
 # > WeTV
 # 总条数: 10条
 payload:
-	- DOMAIN-SUFFIX,iflix-images.akamaized.net
+  - DOMAIN-SUFFIX,iflix-images.akamaized.net
   - DOMAIN-SUFFIX,iflix.com
   - DOMAIN-SUFFIX,v.smtcdns.com
   - DOMAIN-SUFFIX,v.smtcdns.net

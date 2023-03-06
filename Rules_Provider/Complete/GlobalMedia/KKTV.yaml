@@ -1,7 +1,7 @@
 # > KKTV
 # 总条数: 4条
 payload:
-	- DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,kktv-theater.kk.stream
   - DOMAIN,theater-kktv.cdn.hinet.net
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me

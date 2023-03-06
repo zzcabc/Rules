@@ -1,6 +1,6 @@
 # > JOOX
 # 总条数: 3条
 payload:
-	- DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,joox.com
   - DOMAIN-KEYWORD,jooxweb-api
   - PROCESS-NAME,com.tencent.ibg.joox

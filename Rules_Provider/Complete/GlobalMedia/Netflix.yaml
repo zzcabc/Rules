@@ -1,7 +1,7 @@
 # > Netflix
 # 总条数: 1001条
 payload:
-	- DOMAIN,e13252.dscg.akamaiedge.net
+  - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-

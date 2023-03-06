@@ -1,7 +1,7 @@
 # > Japonx
 # 总条数: 10条
 payload:
-	- DOMAIN-SUFFIX,japonx.com
+  - DOMAIN-SUFFIX,japonx.com
   - DOMAIN-KEYWORD,japonx
   - DOMAIN-KEYWORD,japronx
   - DOMAIN-SUFFIX,japonx.net

@@ -1,7 +1,7 @@
 # > BritboxUK
 # 总条数: 8条
 payload:
-	- DOMAIN,itvpnp.live.ott.irdeto.com
+  - DOMAIN,itvpnp.live.ott.irdeto.com
   - DOMAIN-SUFFIX,bb-static.com
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,britbox.co.uk

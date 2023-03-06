@@ -1,7 +1,7 @@
 # > AmazonPrimeVideo
 # 总条数: 25条
 payload:
-	- DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net

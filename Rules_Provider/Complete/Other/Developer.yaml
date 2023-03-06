@@ -1,11 +1,11 @@
 # > 开发者网站
 # 总条数: 153条
 payload:
-	- DOMAIN-SUFFIX,datalore.io
-	- DOMAIN-SUFFIX,gitbook.com
-	- DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
-	- DOMAIN-SUFFIX,jquery.com
-	- DOMAIN-SUFFIX,packagecontrol.io
+  - DOMAIN-SUFFIX,datalore.io
+  - DOMAIN-SUFFIX,gitbook.com
+  - DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN-SUFFIX,jquery.com
+  - DOMAIN-SUFFIX,packagecontrol.io
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-SUFFIX,ai.com

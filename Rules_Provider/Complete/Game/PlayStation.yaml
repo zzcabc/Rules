@@ -1,7 +1,7 @@
 # > PlayStation
 # 总条数: 4条
 payload:
-	- DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com

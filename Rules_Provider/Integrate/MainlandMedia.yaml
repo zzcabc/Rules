@@ -391,7 +391,7 @@ payload:
   - IP-CIDR6,::ffff:60.171.183.186/128
   - IP-CIDR6,::ffff:60.171.183.98/128
 # > 优酷
-	- DOMAIN-SUFFIX,0co3geye.cn
+  - DOMAIN-SUFFIX,0co3geye.cn
   - DOMAIN-SUFFIX,2isbbess.cn
   - DOMAIN-SUFFIX,33lwhaoinc.cn
   - DOMAIN-SUFFIX,52mtkvideo.cn

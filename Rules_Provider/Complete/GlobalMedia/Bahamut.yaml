@@ -1,7 +1,7 @@
 # > Bahamut
 # 总条数: 8条
 payload:
-	- DOMAIN-SUFFIX,bahamut.akamaized.net
+  - DOMAIN-SUFFIX,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,fbcdn.net

@@ -1,7 +1,7 @@
 # > Nintendo
 # 总条数: 127条
 payload:
-	- DOMAIN-SUFFIX,100classicbooks.com
+  - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
   - DOMAIN-SUFFIX,ayudanintendo.com

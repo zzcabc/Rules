@@ -1,7 +1,7 @@
 # > Xbox
 # 总条数: 45条
 payload:
-	- DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
+  - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,beth.games
   - DOMAIN-SUFFIX,bethesda.net
   - DOMAIN-SUFFIX,bethesdagamestudios.com

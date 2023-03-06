@@ -1,7 +1,7 @@
 # > Supercell
 # 总条数: 24条
 payload:
-	- DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,brawlstars.com
   - DOMAIN-SUFFIX,brawlstarsgame.com
   - IP-CIDR,13.210.25.233/32
   - IP-CIDR,13.212.170.102/32

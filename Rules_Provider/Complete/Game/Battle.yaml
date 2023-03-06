@@ -1,7 +1,7 @@
 # > Battle
 # 总条数: 7条
 payload:
-	- DOMAIN,blizzard.nefficient.co.kr
+  - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN,blzddist1-a.akamaihd.net

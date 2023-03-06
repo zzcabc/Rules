@@ -1,7 +1,7 @@
 # > DiscoveryPlus
 # 总条数: 12条
 payload:
-	- DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-KEYWORD,discovery.uplynk.com
   - DOMAIN-SUFFIX,discovery.com
   - DOMAIN-SUFFIX,discoveryplus.co.uk

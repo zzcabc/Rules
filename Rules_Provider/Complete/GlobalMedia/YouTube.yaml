@@ -1,7 +1,7 @@
 # > YouTube
 # 总条数: 190条
 payload:
-	- DOMAIN-SUFFIX,ggpht.cn
+  - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com

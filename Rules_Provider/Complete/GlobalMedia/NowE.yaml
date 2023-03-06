@@ -1,5 +1,5 @@
 # > NowE
 # 总条数: 2条
 payload:
-	- DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowestatic.com

@@ -1,7 +1,7 @@
 # > LineTV
 # 总条数: 9条
 payload:
-	- DOMAIN,d17lx9ucc6k9fc.cloudfront.net
+  - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,line-cdn.net
