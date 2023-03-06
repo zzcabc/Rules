@@ -1,7 +1,8 @@
 # > 虎牙
-# 总条数: 4条
+# 总条数: 5条
 payload:
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
+  - DOMAIN-SUFFIX,msstatic.com
   - DOMAIN-SUFFIX,peiwanlu.com
   - DOMAIN-SUFFIX,snapplay.com

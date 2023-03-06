@@ -1,5 +1,5 @@
 # > 哔哩哔哩
-# 总条数: 129条
+# 总条数: 128条
 payload:
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
@@ -45,6 +45,7 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilivideo.net
   - DOMAIN-SUFFIX,corari.com
+  - DOMAIN-SUFFIX,dreamcast.hk
   - DOMAIN-SUFFIX,dyhgames.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com
@@ -108,13 +109,11 @@ payload:
   - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com
   - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com
   - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
-  - DOMAIN,apiintl.biliapi.net
   - DOMAIN,apm-misaka.biliapi.net
   - DOMAIN,p-bstarstatic.akamaized.net
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - IP-CIDR,106.75.74.76/32
   - IP-CIDR,111.206.25.147/32
   - IP-CIDR,119.3.238.64/32

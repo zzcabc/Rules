@@ -86,6 +86,7 @@ payload:
 # > 虎牙
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
+  - DOMAIN-SUFFIX,msstatic.com
   - DOMAIN-SUFFIX,peiwanlu.com
   - DOMAIN-SUFFIX,snapplay.com
 # > 爱奇艺
@@ -143,7 +144,6 @@ payload:
   - IP-CIDR,184.51.102.0/24
   - IP-CIDR,203.211.4.169/32
   - IP-CIDR,203.211.4.193/32
-  - IP-CIDR,203.74.95.130/28
   - IP-CIDR,203.74.95.131/32
   - IP-CIDR,203.74.95.139/32
   - IP-CIDR,203.74.95.153/32
@@ -152,7 +152,6 @@ payload:
   - IP-CIDR,210.201.32.8/32
   - IP-CIDR,210.71.227.200/32
   - IP-CIDR,210.71.227.202/32
-  - IP-CIDR,223.119.62.224/28
   - IP-CIDR,23.200.145.146/32
   - IP-CIDR,23.210.215.186/32
   - IP-CIDR,23.211.15.0/24
@@ -166,11 +165,11 @@ payload:
   - PROCESS-NAME,com.iqiyi.i18n.tv
   - PROCESS-NAME,com.qiyi.video
 # > 乐视
-  - DOMAIN-SUFFIX,api.mob.app.letv.com
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
   - DOMAIN-SUFFIX,lelecdn.com
   - DOMAIN-SUFFIX,lemall.com
+  - DOMAIN-SUFFIX,letv.allyes.com
   - DOMAIN-SUFFIX,letv.com
   - DOMAIN-SUFFIX,letv8.com
   - DOMAIN-SUFFIX,letvcdn.com
@@ -194,44 +193,82 @@ payload:
   - IP-CIDR,101.71.154.241/32
   - IP-CIDR,103.126.92.13/32
   - IP-CIDR,103.126.92.132/31
-  - IP-CIDR,103.126.92.132/32
-  - IP-CIDR,103.126.92.133/32
   - IP-CIDR,112.13.119.17/32
   - IP-CIDR,112.13.119.18/32
   - IP-CIDR,112.13.122.1/32
   - IP-CIDR,112.13.122.4/32
   - IP-CIDR,115.236.112.0/20
-  - IP-CIDR,115.236.118.33/32
-  - IP-CIDR,115.236.121.1/32
   - IP-CIDR,118.24.63.156/32
   - IP-CIDR,182.92.170.253/32
   - IP-CIDR,193.112.159.225/32
   - IP-CIDR,223.252.192.0/19
-  - IP-CIDR,223.252.199.66/32
-  - IP-CIDR,223.252.199.67/32
   - IP-CIDR,39.105.175.128/32
   - IP-CIDR,39.105.63.80/32
   - IP-CIDR,45.254.48.1/32
   - IP-CIDR,47.100.127.239/32
   - IP-CIDR,59.111.128.0/17
-  - IP-CIDR,59.111.160.195/32
-  - IP-CIDR,59.111.160.197/32
-  - IP-CIDR,59.111.181.35/32
-  - IP-CIDR,59.111.181.38/32
-  - IP-CIDR,59.111.181.60/32
   - IP-CIDR,59.111.19.33/32
   - IP-CIDR,59.111.21.14/31
 # > 腾讯视频
-  - DOMAIN-SUFFIX,mfm.video.qq.com
+  - DOMAIN-SUFFIX,pgdt.gtimg.cn
+  - DOMAIN-SUFFIX,qqvideo.gtimg.com
+  - DOMAIN-SUFFIX,v.qq.com
   - DOMAIN-SUFFIX,v.smtcdns.com
-  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
+  - DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net
+  - DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
+  - DOMAIN,dldir1.qq.com
+  - DOMAIN,iacc.qq.com
+  - DOMAIN,ins-eeww7kom.ias.tencent-cloud.net
+  - DOMAIN,ios.video.mpush.qq.com
+  - DOMAIN,rdelivery.qq.com
+  - DOMAIN,ts.qq.com
+  - DOMAIN,v.streaming.qq.com
+  - DOMAIN,video-public-1258344701.shiply-cdn.qq.com
+  - DOMAIN,video-search-1258344701.shiply-cdn.qq.com
+  - DOMAIN,video-vip-1258344701.shiply-cdn.qq.com
+  - DOMAIN,yoo.gtimg.com
+  - IP-CIDR,58.49.111.117/32
+  - IP-CIDR,58.49.111.79/32
+  - IP-CIDR,58.49.111.95/32
+  - IP-CIDR6,::ffff:113.248.172.245/128
+  - IP-CIDR6,::ffff:114.235.96.186/128
+  - IP-CIDR6,::ffff:115.236.128.112/128
+  - IP-CIDR6,::ffff:115.236.128.120/128
+  - IP-CIDR6,::ffff:115.236.128.24/128
+  - IP-CIDR6,::ffff:115.236.128.80/128
+  - IP-CIDR6,::ffff:117.64.75.196/128
+  - IP-CIDR6,::ffff:117.68.200.210/128
+  - IP-CIDR6,::ffff:117.87.144.24/128
+  - IP-CIDR6,::ffff:121.56.126.255/128
+  - IP-CIDR6,::ffff:124.73.198.81/128
+  - IP-CIDR6,::ffff:124.73.200.142/128
+  - IP-CIDR6,::ffff:175.6.84.30/128
+  - IP-CIDR6,::ffff:175.6.84.96/128
+  - IP-CIDR6,::ffff:183.161.144.133/128
+  - IP-CIDR6,::ffff:183.161.144.230/128
+  - IP-CIDR6,::ffff:183.161.149.105/128
+  - IP-CIDR6,::ffff:198.18.5.138/128
+  - IP-CIDR6,::ffff:198.18.6.81/128
+  - IP-CIDR6,::ffff:198.18.6.83/128
+  - IP-CIDR6,::ffff:223.240.191.238/128
+  - IP-CIDR6,::ffff:27.157.209.46/128
+  - IP-CIDR6,::ffff:58.217.232.117/128
+  - IP-CIDR6,::ffff:58.217.232.68/128
+  - IP-CIDR6,::ffff:58.217.232.79/128
+  - IP-CIDR6,::ffff:58.58.0.90/128
+  - IP-CIDR6,::ffff:60.171.183.161/128
+  - IP-CIDR6,::ffff:60.171.183.186/128
+  - IP-CIDR6,::ffff:60.171.183.98/128
 # > 优酷
-  - DOMAIN-SUFFIX,0co3geye.cn
+	- DOMAIN-SUFFIX,0co3geye.cn
   - DOMAIN-SUFFIX,2isbbess.cn
   - DOMAIN-SUFFIX,33lwhaoinc.cn
   - DOMAIN-SUFFIX,52mtkvideo.cn
   - DOMAIN-SUFFIX,9xsecndns.cn
   - DOMAIN-SUFFIX,b82yxres.cn
+  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com
   - DOMAIN-SUFFIX,gamenow.club
   - DOMAIN-SUFFIX,kumiao.com
@@ -240,6 +277,7 @@ payload:
   - DOMAIN-SUFFIX,kuxiaomiao.com
   - DOMAIN-SUFFIX,kuxiaomiao.com.cn
   - DOMAIN-SUFFIX,kuxiaomiao.net
+  - DOMAIN-SUFFIX,mmstat.com
   - DOMAIN-SUFFIX,ns6mitkxo.cn
   - DOMAIN-SUFFIX,sk2cdsnw.cn
   - DOMAIN-SUFFIX,sogoodtech1.cn
