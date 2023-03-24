@@ -210,7 +210,6 @@ mixin: # object
       - "*.square-enix.com"
       - "*.finalfantasyxiv.com"
       - "*.ffxiv.com"
-      - "+.*"
     fallback-filter:
     # Meta内核配置，
       # getip: false

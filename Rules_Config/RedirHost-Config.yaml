@@ -271,7 +271,6 @@ dns:
     - "*.square-enix.com"
     - "*.finalfantasyxiv.com"
     - "*.ffxiv.com"
-    - "+.*"
   # fake-ip仅有
   fallback-filter:
     # Meta内核配置，
