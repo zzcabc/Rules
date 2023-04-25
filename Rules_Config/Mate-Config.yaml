@@ -1,0 +1,284 @@
+# 本地HTTP(S)端口
+# port: 7890
+
+# 本地SOCKS5端口
+# socks-port: 7891
+
+# 透明代理端口Linux and macOS (Redirect TCP and TProxy UDP)
+# redir-port: 7892
+
+# 透明代理端口Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
+
+# HTTP(S)和SOCKS5同一端口
+mixed-port: 7890
+
+# 允许LAN上的其他设备通过Clash访问Internet。
+allow-lan: true
+
+# 通过具有特定IP地址的lan访问
+# "*": 绑定所有IP地址
+# 192.168.122.11: 绑定单个IPv4地址
+# "[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
+bind-address: "*"
+
+#  find-process-mode has 3 values:always, strict, off
+#  - always, 开启，强制匹配所有进程
+#  - strict, 默认，由 clash 判断是否开启
+#  - off, 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+
+# Clash 模式选择
+# global 全局模式
+# rule   规则模式
+# direct 直连模式
+mode: rule
+
+#自定义 geodata url
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+
+# Clash核心的日志级别 
+# Debug 将显示所有DNS查询和提供程序更新日志
+# Debug 不会引起任何性能问题
+# silent   静默
+# error    错误
+# warning  警告
+# info     信息
+# debug    调试
+log-level: debug
+
+
+# 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+ipv6: true
+
+# tls:
+#   certificate: string # 证书 PEM 格式，或者 证书的路径
+#   private-key: string # 证书对应的私钥 PEM 格式，或者私钥路径
+#   custom-certifactes:
+#     - |
+#       -----BEGIN CERTIFICATE-----
+#       format/pem...
+#       -----END CERTIFICATE-----
+
+# RESTful API 监听地址
+external-controller: 0.0.0.0:9093
+
+# RESTful API HTTPS 监听地址，需要配置 tls 部分配置文件
+# external-controller-tls: 0.0.0.0:9443
+
+# `Authorization:Bearer ${secret}`
+secret: "123456" 
+
+
+# TCP 并发连接所有 IP, 将使用最快握手的 TCP
+tcp-concurrent: true
+
+ # 配置 WEB UI 目录，使用 http://{{external-controller}}/ui 访问
+external-ui: /path/to/ui/folder
+
+# interface-name: en0 # 设置出口网卡
+
+# 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint
+# 可选： "chrome","firefox","safari","ios","random","none" options.
+# Utls is currently support TLS transport in TCP/grpc/WS/HTTP for VLESS/Vmess and trojan.
+# global-client-fingerprint: chrome
+
+# routing-mark:6666 # 配置 fwmark 仅用于 Linux
+# experimental:
+
+# 类似于 /etc/hosts, 仅支持配置单个 IP
+# hosts:
+# '*.clash.dev': 127.0.0.1
+# '.dev': 127.0.0.1
+# 'alpha.clash.dev': '::1'
+# test.com: [1.1.1.1, 2.2.2.2]
+# clash.lan: clash # clash 为特别字段，将加入本地所有网卡的地址
+# baidu.com: google.com # 只允许配置一个别名
+
+profile:
+  # 存储 select 选择记录
+  store-selected: true
+  
+  # 持久化 fake-ip
+  store-fake-ip: true
+
+# Tun 配置
+# tun:
+#   enable: false
+#   stack: system # gvisor / lwip
+#   dns-hijack:
+#     - 0.0.0.0:53 # 需要劫持的 DNS
+  # auto-detect-interface: true # 自动识别出口网卡
+  # auto-route: true # 配置路由表
+  # mtu: 9000 # 最大传输单元
+  # strict_route: true # 将所有连接路由到tun来防止泄漏，但你的设备将无法其他设备被访问
+  # 启用 auto_route 时使用自定义路由而不是默认路由
+  # inet4_route_address: 
+  #   - 0.0.0.0/1
+  #   - 128.0.0.0/1
+  # 启用 auto_route 时使用自定义路由而不是默认路由
+  # inet6_route_address:
+  #   - "::/1"
+  #   - "8000::/1"
+  # endpoint_independent_nat: false # 启用独立于端点的 NAT
+  # include_uid: # UID 规则仅在 Linux 下被支持，并且需要 auto_route
+  # - 0
+  # include_uid_range: # 限制被路由的的用户范围
+  # - 1000-99999
+  # exclude_uid: # 排除路由的的用户
+  #- 1000
+  # exclude_uid_range: # 排除路由的的用户范围
+  # - 1000-99999
+  
+  # Android 用户和应用规则仅在 Android 下被支持
+  # 并且需要 auto_route
+  
+  # include_android_user: # 限制被路由的 Android 用户
+  # - 0
+  # - 10
+  # include_package: # 限制被路由的 Android 应用包名
+  # - com.android.chrome
+  # exclude_package: # 排除被路由的 Android 应用包名
+  # - com.android.captiveportallogin
+
+#ebpf配置
+# ebpf:
+#   auto-redir: # redirect 模式，仅支持 TCP
+#     - eth0
+#   redirect-to-tun: # UDP+TCP 使用该功能请勿启用 auto-route
+#     - eth0
+
+# 嗅探域名 可选配置
+sniffer:
+  enable: true
+  ## 对 redir-host 类型识别的流量进行强制嗅探
+  ## 如：Tun、Redir 和 TProxy 并 DNS 为 redir-host 皆属于
+  # force-dns-mapping: false
+  ## 对所有未获取到域名的流量进行强制嗅探
+  # parse-pure-ip: false
+  # 是否使用嗅探结果作为实际访问，默认 true
+  # 全局配置，优先级低于 sniffer.sniff 实际配置
+  override-destination: false
+  sniff: # TLS 默认如果不配置 ports 默认嗅探 443
+    TLS:
+    #  ports: [443, 8443]
+    # 默认嗅探 80
+    HTTP: # 需要嗅探的端口
+      ports: [80, 8080-8880]
+      # 可覆盖 sniffer.override-destination
+      override-destination: true
+  force-domain:
+    - +.v2ex.com
+  ## 对嗅探结果进行跳过
+  # skip-domain:
+  #   - Mijia Cloud
+  # 需要嗅探协议
+  # 已废弃，若 sniffer.sniff 配置则此项无效
+  sniffing:
+    - tls
+    - http
+  # 强制对此域名进行嗅探
+  
+  # 仅对白名单中的端口进行嗅探，默认为 443，80
+  # 已废弃，若 sniffer.sniff 配置则此项无效
+  port-whitelist:
+    - "80"
+    - "443"
+    # - 8000-9999
+
+
+# tunnels: # one line config
+#   - tcp/udp,127.0.0.1:6553,114.114.114.114:53,proxy
+#   - tcp,127.0.0.1:6666,rds.mysql.com:3306,vpn
+#   # full yaml config
+#   - network: [tcp, udp]
+#     address: 127.0.0.1:7777
+#     target: target.com
+#     proxy: proxy
+
+
+# DNS配置
+dns:
+  enable: true # 关闭将使用系统 DNS
+  prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
+  listen: 0.0.0.0:53 # 开启 DNS 服务器监听
+  # ipv6: false # false 将返回 AAAA 的空结果
+  # ipv6-timeout: 300 # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
+  # 用于解析 nameserver，fallback 以及其他DNS服务器配置的，DNS 服务域名
+  # 只能使用纯 IP 地址，可使用加密 DNS
+  default-nameserver:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 1.2.4.8
+    - 8.8.8.8
+    - 4.2.2.1
+    - 4.2.2.2
+  enhanced-mode: fake-ip # or redir-host
+  
+  fake-ip-range: 198.18.0.1/16 # fake-ip 池设置
+  
+  # use-hosts: true # 查询 hosts
+  
+  # 配置不使用fake-ip的域名
+  # fake-ip-filter:
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
+  
+  # DNS主要域名配置
+  # 支持 UDP，TCP，DoT，DoH，DoQ
+  # 这部分为主要 DNS 配置，影响所有直连，确保使用对大陆解析精准的 DNS
+  nameserver:
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - tls://223.5.5.5:853 # DNS over TLS
+    - https://doh.pub/dns-query # DNS over HTTPS
+    - https://dns.alidns.com/dns-query#h3=true # 强制 HTTP/3，与 perfer-h3 无关，强制开启 DoH 的 HTTP/3 支持，若不支持将无法使用
+    - https://mozilla.cloudflare-dns.com/dns-query#DNS&h3=true # 指定策略组和使用 HTTP/3
+    - dhcp://en0 # dns from dhcp
+    - quic://dns.adguard.com:784 # DNS over QUIC
+    # - '8.8.8.8#en0' # 兼容指定DNS出口网卡
+  
+  # 当配置 fallback 时，会查询 nameserver 中返回的 IP 是否为 CN，非必要配置
+  # 当不是 CN，则使用 fallback 中的 DNS 查询结果
+  # 确保配置 fallback 时能够正常查询
+  # fallback:
+  #   - tcp://1.1.1.1
+  #   - 'tcp://1.1.1.1#ProxyGroupName' # 指定 DNS 过代理查询，ProxyGroupName 为策略组名或节点名，过代理配置优先于配置出口网卡，当找不到策略组或节点名则设置为出口网卡
+  
+  # 专用于节点域名解析的 DNS 服务器，非必要配置项
+  # 配置服务器若查询失败将使用 nameserver，非并发查询
+  # proxy-server-nameserver:
+  # - https://dns.google/dns-query
+  # - tls://one.one.one.one
+  
+  # 配置 fallback 使用条件
+  # fallback-filter:
+  #   geoip: true # 配置是否使用 geoip
+  #   geoip-code: CN # 当 nameserver 域名的 IP 查询 geoip 库为 CN 时，不使用 fallback 中的 DNS 查询结果
+  #   配置强制 fallback，优先于 IP 判断，具体分类自行查看 geosite 库
+  #   geosite:
+  #     - gfw
+  #   如果不匹配 ipcidr 则使用 nameservers 中的结果
+  #   ipcidr:
+  #     - 240.0.0.0/4
+  #   domain:
+  #     - '+.google.com'
+  #     - '+.facebook.com'
+  #     - '+.youtube.com'
+  
+  # 配置查询域名使用的 DNS 服务器
+  nameserver-policy:
+    #   'www.baidu.com': '114.114.114.114'
+    #   '+.internal.crop.com': '10.0.0.1'
+    "geosite:cn,private,apple":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "www.baidu.com,+.google.cn": [223.5.5.5, https://dns.alidns.com/dns-query]
+    ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
+    ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则 
+    # "rule-set:global,dns": 8.8.8.8
+
