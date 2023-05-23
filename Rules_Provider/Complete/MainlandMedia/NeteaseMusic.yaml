@@ -1,5 +1,5 @@
 # > 网易云音乐
-# 总条数: 29条
+# 总条数: 30条
 payload:
   - DOMAIN-SUFFIX,163yun.com
   - DOMAIN-SUFFIX,api.iplay.163.com
@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,music.126.net
   - DOMAIN-SUFFIX,music.163.com
   - DOMAIN-SUFFIX,music.163.com.163jiasu.com
+  - DOMAIN-SUFFIX,yun-app.net
   - DOMAIN,iadmat.nosdn.127.net
   - DOMAIN,netease.ugcvideoss.ourdvs.com
   - IP-CIDR,101.71.154.241/32

@@ -5,6 +5,8 @@ prepend-rules:
   - RULE-SET,LAN,DIRECT
   - RULE-SET,Special,DIRECT
 
+  - RULE-SET,OpenAI,OpenAI
+
   - RULE-SET,Developer,Proxy
 
   - RULE-SET,Apple,AppleAndMicrosoft

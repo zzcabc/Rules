@@ -5,6 +5,12 @@ mix-rule-providers:
     path: ./Rules/Reject
     type: http
     url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Other/Reject.yaml"
+  OpenAI:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/OpenAI
+    type: http
+    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Other/OpenAI.yaml"
   Direct:
     behavior: classical
     interval: 86400

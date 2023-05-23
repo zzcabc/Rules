@@ -2323,6 +2323,7 @@ payload:
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubhackathon.com
+  - DOMAIN-SUFFIX,githubnext.com
   - DOMAIN-SUFFIX,githubpreview.dev
   - DOMAIN-SUFFIX,githubstatus.com
   - DOMAIN-SUFFIX,githubuniverse.com
@@ -3786,6 +3787,7 @@ payload:
   - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,maxing.jp
   - DOMAIN-SUFFIX,mayimayi.com
+  - DOMAIN-SUFFIX,mbrx.app
   - DOMAIN-SUFFIX,mcadforums.com
   - DOMAIN-SUFFIX,mcaf.ee
   - DOMAIN-SUFFIX,mcfog.com
@@ -7061,4 +7063,6 @@ payload:
   - PROCESS-NAME,googledrivefs.exe
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,telegram-desktop
   - PROCESS-NAME,telegram.exe
+  - PROCESS-NAME,Telegram.exe

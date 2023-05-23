@@ -1,8 +1,8 @@
 # > AppleNews
 # 总条数: 10条
 payload:
-  - DOMAIN,apple.comscoreresearch.com
   - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,gateway.icloud.com
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,news-assets.apple.com
@@ -10,4 +10,4 @@ payload:
   - DOMAIN,news-client.apple.com
   - DOMAIN,news-edge.apple.com
   - DOMAIN,news-events.apple.com
-  - PROCESS-NAME,news
+  - PROCESS-NAME,News

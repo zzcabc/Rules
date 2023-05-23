@@ -1,4 +1,10 @@
 mix-rule-providers:
+  OpenAI:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/OpenAI
+    type: http
+    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/OpenAI.yaml'
   Direct:
     behavior: classical
     interval: 86400

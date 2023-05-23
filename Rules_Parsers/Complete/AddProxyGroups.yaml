@@ -26,6 +26,13 @@ prepend-proxy-groups:
       - Proxy
     url: http://cp.cloudflare.com/generate_204
     interval: 600
+  - name: OpenAI
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    url: http://cp.cloudflare.com/generate_204
+    interval: 600
   - name: Others
     type: select
     proxies:
@@ -33,7 +40,7 @@ prepend-proxy-groups:
       - DIRECT
     url: http://cp.cloudflare.com/generate_204
     interval: 600
-  - name: MainlandMedia
+  - name: Bilibili
     type: select
     proxies:
       - DIRECT

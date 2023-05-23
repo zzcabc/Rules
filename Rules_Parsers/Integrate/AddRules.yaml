@@ -3,6 +3,8 @@ prepend-rules:
   # - GEOSITE,category-ads-all,AdBlock
   - RULE-SET,Direct,DIRECT
 
+  - RULE-SET,OpenAI,OpenAI
+
   - RULE-SET,Apple,AppleAndMicrosoft
   - RULE-SET,Microsoft,AppleAndMicrosoft
   - RULE-SET,PayPal,GameAndPayPal
