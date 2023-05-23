@@ -4,6 +4,7 @@ rules:
   # - RULE-SET,Direct,DIRECT
   - RULE-SET,LAN,DIRECT
   - RULE-SET,Special,DIRECT
+  - RULE-SET,OpenAI,OpenAI
 
   - RULE-SET,Developer,Proxy
 
@@ -122,6 +123,12 @@ rule-providers:
     path: ./Rules/Direct
     type: http
     url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Other/Direct.yaml"
+  OpenAI:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/OpenAI
+    type: http
+    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Other/OpenAI.yaml"
   LAN:
     behavior: classical
     interval: 86400

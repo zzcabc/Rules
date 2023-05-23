@@ -4,7 +4,7 @@ rules:
   # - RULE-SET,Direct,DIRECT
   - RULE-SET,LAN,DIRECT
   - RULE-SET,Special,DIRECT
-
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,Developer,Proxy
 
   - RULE-SET,Apple,AppleAndMicrosoft
@@ -122,6 +122,12 @@ rule-providers:
     path: ./Rules/Direct
     type: http
     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/Direct.yaml"
+  OpenAI:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/OpenAI
+    type: http
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/OpenAI.yaml"
   LAN:
     behavior: classical
     interval: 86400
