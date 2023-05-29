@@ -3,6 +3,7 @@
 payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jetbrains
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apple-cloudkit.com
@@ -15,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,calendarserver.org
   - DOMAIN-SUFFIX,carekit.org
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,compose-spec.io
   - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
   - DOMAIN-SUFFIX,cups.org
@@ -67,6 +69,7 @@ payload:
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,identrust.c
+  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intellij.com
   - DOMAIN-SUFFIX,intellij.net
   - DOMAIN-SUFFIX,intellij.org
@@ -127,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,spring.io
   - DOMAIN-SUFFIX,spring.net
   - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,sublimehq.com
   - DOMAIN-SUFFIX,sublimemerge.com
   - DOMAIN-SUFFIX,sublimetext.com
@@ -153,4 +157,5 @@ payload:
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
   - DOMAIN,d2wy8f7a9ursnm.cloudfront.net
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
+  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
