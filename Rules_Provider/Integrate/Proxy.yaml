@@ -22,6 +22,7 @@ payload:
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,www.google.
+  - DOMAIN-SUFFIX,mediatek.com
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com
   - DOMAIN-SUFFIX,0emm.com
