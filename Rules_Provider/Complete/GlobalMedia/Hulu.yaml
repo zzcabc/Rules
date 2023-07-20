@@ -1,7 +1,6 @@
 # > Hulu
-# 总条数: 58条
+# 总条数: 59条
 payload:
-  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
   - DOMAIN-SUFFIX,callhulu.com
@@ -59,4 +58,5 @@ payload:
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - DOMAIN-SUFFIX,yb.uncn.jp
+  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - PROCESS-NAME,com.hulu.plus

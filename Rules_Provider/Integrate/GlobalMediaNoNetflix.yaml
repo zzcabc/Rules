@@ -137,11 +137,10 @@ payload:
   - DOMAIN-SUFFIX,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,digicert.com
-  - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
-  - DOMAIN-SUFFIX,viblast.com
+  - DOMAIN-SUFFIX,viblast.co
 # > BBC
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
@@ -769,7 +768,6 @@ payload:
   - DOMAIN-SUFFIX,maxgo.com
   - PROCESS-NAME,com.hbo.hbonow
 # > Hulu
-  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
   - DOMAIN-SUFFIX,callhulu.com
@@ -827,6 +825,7 @@ payload:
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - DOMAIN-SUFFIX,yb.uncn.jp
+  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - PROCESS-NAME,com.hulu.plus
 # > HuluJP
   - DOMAIN-SUFFIX,happyon.jp
@@ -954,12 +953,12 @@ payload:
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,pandora.tv
 # > ParamountPlus
-  - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
+  - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN,link.theplatform.com

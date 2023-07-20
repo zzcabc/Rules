@@ -137,11 +137,10 @@ payload:
   - DOMAIN-SUFFIX,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,digicert.com
-  - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
-  - DOMAIN-SUFFIX,viblast.com
+  - DOMAIN-SUFFIX,viblast.co
 # > BBC
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
@@ -769,7 +768,6 @@ payload:
   - DOMAIN-SUFFIX,maxgo.com
   - PROCESS-NAME,com.hbo.hbonow
 # > Hulu
-  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
   - DOMAIN-SUFFIX,callhulu.com
@@ -827,6 +825,7 @@ payload:
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - DOMAIN-SUFFIX,yb.uncn.jp
+  - DOMAIN,live-mediashield-ava-hulustream-com.akamaized.net
   - PROCESS-NAME,com.hulu.plus
 # > HuluJP
   - DOMAIN-SUFFIX,happyon.jp
@@ -935,7 +934,7 @@ payload:
   - DOMAIN-SUFFIX,tvb.com
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net
-# > Netflix
+# > Netflix  
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
@@ -1176,6 +1175,8 @@ payload:
   - IP-CIDR,15.152.176.0/22
   - IP-CIDR,15.152.24.0/26
   - IP-CIDR,15.152.24.128/29
+  - IP-CIDR,15.156.152.184/29
+  - IP-CIDR,15.156.152.192/29
   - IP-CIDR,15.160.55.112/29
   - IP-CIDR,15.161.135.164/30
   - IP-CIDR,15.161.135.64/26
@@ -1257,6 +1258,7 @@ payload:
   - IP-CIDR,16.163.196.0/22
   - IP-CIDR,16.163.206.0/23
   - IP-CIDR,16.171.48.0/22
+  - IP-CIDR,16.50.248.32/28
   - IP-CIDR,16.50.67.0/25
   - IP-CIDR,16.50.67.128/26
   - IP-CIDR,16.50.69.192/27
@@ -1268,6 +1270,7 @@ payload:
   - IP-CIDR,176.34.159.192/26
   - IP-CIDR,177.71.207.128/26
   - IP-CIDR,18.100.209.192/28
+  - IP-CIDR,18.100.209.224/27
   - IP-CIDR,18.100.64.128/25
   - IP-CIDR,18.100.65.0/26
   - IP-CIDR,18.102.2.0/23
@@ -1849,6 +1852,9 @@ payload:
   - IP-CIDR,44.242.181.0/27
   - IP-CIDR,44.242.181.32/28
   - IP-CIDR,45.57.0.0/17
+  - IP-CIDR,51.16.103.16/28
+  - IP-CIDR,51.16.103.32/27
+  - IP-CIDR,51.16.183.64/27
   - IP-CIDR,52.0.0.0/15
   - IP-CIDR,52.10.0.0/15
   - IP-CIDR,52.12.0.0/15
@@ -1978,7 +1984,7 @@ payload:
   - IP-CIDR6,2620:10c:7000::/44
   - IP-CIDR6,2a00:86c0::/32
   - IP-CIDR6,2a03:5640::/32
-  - PROCESS-NAME,com.netflix.mediacl
+  - PROCESS-NAME,com.netflix.mediaclient
 # > Niconico
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicodic.jp
@@ -1998,12 +2004,12 @@ payload:
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,pandora.tv
 # > ParamountPlus
-  - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
+  - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
   - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN,link.theplatform.com
