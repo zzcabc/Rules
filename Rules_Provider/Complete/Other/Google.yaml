@@ -4,8 +4,8 @@ payload:
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,recaptcha
+  - DOMAIN-KEYWORD,www.google.
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,1ucrs.com
@@ -61,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,beacons3.gvt2.com
   - DOMAIN-SUFFIX,beatthatquote.com
   - DOMAIN-SUFFIX,blink.org
+  - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,blogspot.ae
@@ -202,18 +203,24 @@ payload:
   - DOMAIN-SUFFIX,distribution.qatp1.net
   - DOMAIN-SUFFIX,distribution.qcpp1.net
   - DOMAIN-SUFFIX,distribution.qpdp1.net
+  - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,doubleclick-cn.net
   - DOMAIN-SUFFIX,doubleclick.com
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,download.qatp1.net
   - DOMAIN-SUFFIX,download.qcpp1.net
   - DOMAIN-SUFFIX,download.qpdp1.net
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,earth-pa.clients6.google.com
+  - DOMAIN-SUFFIX,earth.google.com
   - DOMAIN-SUFFIX,episodic.com
   - DOMAIN-SUFFIX,fastlane.ci
   - DOMAIN-SUFFIX,fastlane.tools
   - DOMAIN-SUFFIX,feedburner.com
   - DOMAIN-SUFFIX,fflick.com
   - DOMAIN-SUFFIX,financeleadsonline.com
+  - DOMAIN-SUFFIX,firebase.com
+  - DOMAIN-SUFFIX,firebase.io
   - DOMAIN-SUFFIX,firebaseapp.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,flutter.dev
@@ -515,6 +522,7 @@ payload:
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googlevads-cn.com
   - DOMAIN-SUFFIX,googleventures.com
+  - DOMAIN-SUFFIX,googlezip.net
   - DOMAIN-SUFFIX,googlr.com
   - DOMAIN-SUFFIX,goolge.com
   - DOMAIN-SUFFIX,gooogle.com
@@ -525,6 +533,15 @@ payload:
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gstaticcnapps.cn
   - DOMAIN-SUFFIX,gsuite.com
+  - DOMAIN-SUFFIX,gv.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1-cn.com
+  - DOMAIN-SUFFIX,gvt2-cn.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt5.com
+  - DOMAIN-SUFFIX,gvt6.com
+  - DOMAIN-SUFFIX,gvt7.com
+  - DOMAIN-SUFFIX,gvt9.com
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,haplorrhini.com
   - DOMAIN-SUFFIX,hdrplusdata.org
@@ -543,11 +560,25 @@ payload:
   - DOMAIN-SUFFIX,jibemobile.com
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,kaggle.io
+  - DOMAIN-SUFFIX,kaggle.net
   - DOMAIN-SUFFIX,kaggleusercontent.com
   - DOMAIN-SUFFIX,keyhole.com
   - DOMAIN-SUFFIX,keytransparency.com
   - DOMAIN-SUFFIX,keytransparency.foo
   - DOMAIN-SUFFIX,keytransparency.org
+  - DOMAIN-SUFFIX,kh.google.com
+  - DOMAIN-SUFFIX,khm.google.com
+  - DOMAIN-SUFFIX,khm.googleapis.com
+  - DOMAIN-SUFFIX,khm0.google.com
+  - DOMAIN-SUFFIX,khm0.googleapis.com
+  - DOMAIN-SUFFIX,khm1.google.com
+  - DOMAIN-SUFFIX,khm1.googleapis.com
+  - DOMAIN-SUFFIX,khm2.google.com
+  - DOMAIN-SUFFIX,khm2.googleapis.com
+  - DOMAIN-SUFFIX,khm3.google.com
+  - DOMAIN-SUFFIX,khm3.googleapis.com
+  - DOMAIN-SUFFIX,khmdb.google.com
+  - DOMAIN-SUFFIX,khmdb.googleapis.com
   - DOMAIN-SUFFIX,lanternal.com
   - DOMAIN-SUFFIX,like.com
   - DOMAIN-SUFFIX,madewithcode.com
@@ -560,6 +591,7 @@ payload:
   - DOMAIN-SUFFIX,monitoring.qcpp1.net
   - DOMAIN-SUFFIX,monitoring.qpdp1.net
   - DOMAIN-SUFFIX,moodstocks.com
+  - DOMAIN-SUFFIX,mw1.google.com
   - DOMAIN-SUFFIX,near.by
   - DOMAIN-SUFFIX,nest.com
   - DOMAIN-SUFFIX,neverware.com
@@ -715,14 +747,48 @@ payload:
   - DOMAIN-SUFFIX,xplr.co
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
-  - IP-CIDR,172.110.32.0/21
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,lens.l.google.com
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,www.googleapis.com
+  - IP-CIDR,108.177.125.188/32
+  - IP-CIDR,142.250.10.188/32
+  - IP-CIDR,142.250.31.188/32
+  - IP-CIDR,142.250.4.188/32
+  - IP-CIDR,142.250.96.188/32
+  - IP-CIDR,172.217.194.188/32
+  - IP-CIDR,172.217.218.188/32
+  - IP-CIDR,172.217.219.188/32
+  - IP-CIDR,172.253.122.188/32
+  - IP-CIDR,172.253.63.188/32
   - IP-CIDR,173.194.0.0/16
-  - IP-CIDR,216.73.80.0/20
+  - IP-CIDR,173.194.175.188/32
+  - IP-CIDR,173.194.218.188/32
+  - IP-CIDR,209.85.233.188/32
+  - IP-CIDR,64.233.177.188/32
+  - IP-CIDR,64.233.186.188/32
+  - IP-CIDR,64.233.187.188/32
+  - IP-CIDR,64.233.188.188/32
+  - IP-CIDR,64.233.189.188/32
   - IP-CIDR,74.125.0.0/16
-  - IP-CIDR6,2620:120:e000::/40
-  - PROCESS-NAME,backupandsync
+  - IP-CIDR,74.125.127.188/32
+  - IP-CIDR,74.125.137.188/32
+  - IP-CIDR,74.125.203.188/32
+  - IP-CIDR,74.125.204.188/32
+  - IP-CIDR,74.125.206.188/32
+  - IP-CIDR,74.125.23.188/32
+  - IP-CIDR,74.125.24.188/32
+  - IP-CIDR,74.125.28.188/32
+  - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.google.android.gsf
   - PROCESS-NAME,com.google.android.play.games
-  - PROCESS-NAME,googledrivefs.exe
+  - PROCESS-NAME,GoogleDriveFS.exe

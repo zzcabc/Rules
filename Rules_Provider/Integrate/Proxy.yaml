@@ -15,6 +15,7 @@ payload:
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-KEYWORD,telegram
@@ -22,7 +23,6 @@ payload:
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,www.google.
-  - DOMAIN-SUFFIX,mediatek.com
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com
   - DOMAIN-SUFFIX,0emm.com
@@ -1042,6 +1042,7 @@ payload:
   - DOMAIN-SUFFIX,cftfc.com
   - DOMAIN-SUFFIX,cgdepot.org
   - DOMAIN-SUFFIX,cgst.edu
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chalungu.cn
   - DOMAIN-SUFFIX,change.org
   - DOMAIN-SUFFIX,changeip.name
@@ -1807,6 +1808,7 @@ payload:
   - DOMAIN-SUFFIX,eroprofile.com
   - DOMAIN-SUFFIX,eroticsaloon.net
   - DOMAIN-SUFFIX,eslite.com
+  - DOMAIN-SUFFIX,esm.run
   - DOMAIN-SUFFIX,esmtp.biz
   - DOMAIN-SUFFIX,esu.dog
   - DOMAIN-SUFFIX,esu.im
@@ -2002,6 +2004,8 @@ payload:
   - DOMAIN-SUFFIX,fingerdaily.com
   - DOMAIN-SUFFIX,finler.net
   - DOMAIN-SUFFIX,firearmsworld.net
+  - DOMAIN-SUFFIX,firebase.com
+  - DOMAIN-SUFFIX,firebase.io
   - DOMAIN-SUFFIX,firebaseapp.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,firefox.com
@@ -3096,6 +3100,7 @@ payload:
   - DOMAIN-SUFFIX,idemocracy.asia
   - DOMAIN-SUFFIX,identi.ca
   - DOMAIN-SUFFIX,identrust.c
+  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,idiomconnection.com
   - DOMAIN-SUFFIX,idlcoyote.com
   - DOMAIN-SUFFIX,idouga.com
@@ -3381,6 +3386,7 @@ payload:
   - DOMAIN-SUFFIX,jquerymobile.com
   - DOMAIN-SUFFIX,jqueryui.com
   - DOMAIN-SUFFIX,js.revsci.net
+  - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jshell.net
   - DOMAIN-SUFFIX,jshint.com
@@ -3412,6 +3418,7 @@ payload:
   - DOMAIN-SUFFIX,kadokawa.co.jp
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,kaggle.io
+  - DOMAIN-SUFFIX,kaggle.net
   - DOMAIN-SUFFIX,kaggleusercontent.com
   - DOMAIN-SUFFIX,kagyu.org
   - DOMAIN-SUFFIX,kagyu.org.za
@@ -3802,6 +3809,7 @@ payload:
   - DOMAIN-SUFFIX,mediachinese.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,mediafreakcity.com
+  - DOMAIN-SUFFIX,mediatek.com
   - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,meet.new
@@ -5459,6 +5467,7 @@ payload:
   - DOMAIN-SUFFIX,streema.com
   - DOMAIN-SUFFIX,streetvoice.com
   - DOMAIN-SUFFIX,strikingly.com
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,strongvpn.com
   - DOMAIN-SUFFIX,strongwindpress.com
   - DOMAIN-SUFFIX,student.tw
@@ -6920,6 +6929,7 @@ payload:
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
   - DOMAIN,lens.l.google.com
   - DOMAIN,mtalk.google.com
+  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,www.googleapis.com
   - IP-CIDR,1.201.0.0/24,no-resolve
@@ -6979,6 +6989,7 @@ payload:
   - IP-CIDR,173.252.96.0/19,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,174.37.243.0/16,no-resolve
+  - IP-CIDR,178.175.128.0/21
   - IP-CIDR,179.60.192.0/22,no-resolve
   - IP-CIDR,18.184.0.0/15,no-resolve
   - IP-CIDR,18.194.0.0/15,no-resolve
@@ -7004,6 +7015,7 @@ payload:
   - IP-CIDR,45.64.40.0/22,no-resolve
   - IP-CIDR,5.28.195.163/32
   - IP-CIDR,5.28.195.205/32
+  - IP-CIDR,5.28.195.37/32
   - IP-CIDR,50.22.198.204/30,no-resolve
   - IP-CIDR,52.200.0.0/13,no-resolve
   - IP-CIDR,52.58.0.0/15,no-resolve
@@ -7053,6 +7065,7 @@ payload:
   - IP-CIDR6,2620:120:e000::/40
   - IP-CIDR6,2a0a:f280::/32
   - PROCESS-NAME,backupandsync
+  - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.google.android.gsf
@@ -7062,6 +7075,7 @@ payload:
   - PROCESS-NAME,ehviewer
   - PROCESS-NAME,fehviewer
   - PROCESS-NAME,googledrivefs.exe
+  - PROCESS-NAME,GoogleDriveFS.exe
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram-desktop

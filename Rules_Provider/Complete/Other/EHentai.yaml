@@ -1,5 +1,5 @@
 # > E-Hentai
-# 总条数: 11条
+# 总条数: 12条
 payload:
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,e-hentaidb.com
@@ -8,7 +8,8 @@ payload:
   - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,hath.network
   - DOMAIN-SUFFIX,hentaiverse.org
+  - IP-CIDR,178.175.128.0/21
   - PROCESS-NAME,com.honjow.fehviewer
   - PROCESS-NAME,com.xjs.ehviewer
-  - PROCESS-NAME,fehviewer
   - PROCESS-NAME,ehviewer
+  - PROCESS-NAME,fehviewer
