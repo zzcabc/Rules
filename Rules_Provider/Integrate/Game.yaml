@@ -33,9 +33,9 @@ payload:
   - IP-CIDR,65.200.22.234/32
   - IP-CIDR,67.228.235.91/32
 # > Battle
-  - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN,blizzard.nefficient.co.kr
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,blzddistkr1-a.akamaihd.net
   - DOMAIN,bnetproduct-a.akamaihd.net
@@ -267,6 +267,8 @@ payload:
   - DOMAIN-SUFFIX,visceralgames.com
   - DOMAIN-SUFFIX,xdsummit.com
   - DOMAIN-SUFFIX,yogify.com
+  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,originasserts.akamaized.net
 # > Epic
   - DOMAIN-KEYWORD,epicgames
   - DOMAIN-SUFFIX,battlebreakers.com

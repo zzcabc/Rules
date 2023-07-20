@@ -1,5 +1,5 @@
 # > EA
-# 总条数: 163条
+# 总条数: 165条
 payload:
   - DOMAIN-SUFFIX,anthemgame.com
   - DOMAIN-SUFFIX,anthemthegame.com
@@ -164,3 +164,5 @@ payload:
   - DOMAIN-SUFFIX,visceralgames.com
   - DOMAIN-SUFFIX,xdsummit.com
   - DOMAIN-SUFFIX,yogify.com
+  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,originasserts.akamaized.net
