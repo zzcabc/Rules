@@ -631,6 +631,7 @@ payload:
   - IP-CIDR,211.115.104.1/32
   - IP-CIDR,24.105.62.129/32
 # > Xbox
+  - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,beth.games
   - DOMAIN-SUFFIX,bethesda.net
   - DOMAIN-SUFFIX,bethesdagamestudios.com
