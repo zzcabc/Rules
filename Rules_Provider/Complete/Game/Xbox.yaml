@@ -1,6 +1,7 @@
 # > Xbox
 # 总条数: 45条
 payload:
+  - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,beth.games
   - DOMAIN-SUFFIX,bethesda.net
   - DOMAIN-SUFFIX,bethesdagamestudios.com
