@@ -1,5 +1,5 @@
 # > Netflix
-# 总条数: 1043条
+# 总条数: 1051条
 payload:
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
@@ -892,6 +892,7 @@ payload:
   - IP-CIDR,44.214.144.0/20
   - IP-CIDR,44.216.41.152/29
   - IP-CIDR,44.216.41.160/29
+  - IP-CIDR,44.218.96.0/23
   - IP-CIDR,44.224.0.0/16
   - IP-CIDR,44.227.178.0/24
   - IP-CIDR,44.230.0.0/16

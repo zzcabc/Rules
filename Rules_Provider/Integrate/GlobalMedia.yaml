@@ -24,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,vod-abematv.akamaized.net
   - DOMAIN-SUFFIX,winticket.jp
 # > AmazonPrimeVideo
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
@@ -44,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,primevideo.info
   - DOMAIN-SUFFIX,primevideo.org
   - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
   - DOMAIN,d22qjgkvxw22r6.cloudfront.net
   - DOMAIN,d25xi40x97liuc.cloudfront.net
   - DOMAIN,d27xxe7juh1us6.cloudfront.net
@@ -140,11 +140,12 @@ payload:
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
-  - DOMAIN-SUFFIX,viblast.co
+  - DOMAIN-SUFFIX,viblast.com
 # > BBC
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc
+  - DOMAIN-SUFFIX,bbc-reporting-api.app
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
@@ -177,13 +178,13 @@ payload:
   - DOMAIN,vs-hls-push-uk-live.akamaized.net
   - DOMAIN,vs-hls-pushb-uk-live.akamaized.net
 # > BritboxUK
-  - DOMAIN,itvpnp.live.ott.irdeto.com
   - DOMAIN-SUFFIX,bb-static.com
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,britbox.co.uk
   - DOMAIN-SUFFIX,britbox.com
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,massive-itv.com
+  - DOMAIN,itvpnp.live.ott.irdeto.com
   - DOMAIN,itvpnp.stage.ott.irdeto.com
 # > CableTV
   - DOMAIN-SUFFIX,cabletv.com.hk
@@ -1826,6 +1827,7 @@ payload:
   - IP-CIDR,44.214.144.0/20
   - IP-CIDR,44.216.41.152/29
   - IP-CIDR,44.216.41.160/29
+  - IP-CIDR,44.218.96.0/23
   - IP-CIDR,44.224.0.0/16
   - IP-CIDR,44.227.178.0/24
   - IP-CIDR,44.230.0.0/16
