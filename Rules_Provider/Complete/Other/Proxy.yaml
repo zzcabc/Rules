@@ -540,6 +540,15 @@ payload:
   - DOMAIN-SUFFIX,biliworld.com
   - DOMAIN-SUFFIX,billypan.com
   - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.com.cn
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,bingads.com
+  - DOMAIN-SUFFIX,bingagencyawards.com
+  - DOMAIN-SUFFIX,bingapistatistics.com
+  - DOMAIN-SUFFIX,bingsandbox.com
+  - DOMAIN-SUFFIX,bingvisualsearch.com
+  - DOMAIN-SUFFIX,bingworld.com
   - DOMAIN-SUFFIX,bintray.com
   - DOMAIN-SUFFIX,binux.me
   - DOMAIN-SUFFIX,binwang.me
@@ -602,6 +611,7 @@ payload:
   - DOMAIN-SUFFIX,bloomfortune.com
   - DOMAIN-SUFFIX,blubrry.com
   - DOMAIN-SUFFIX,blueangellive.com
+  - DOMAIN-SUFFIX,bluehatnights.com
   - DOMAIN-SUFFIX,bmfinn.com
   - DOMAIN-SUFFIX,bnews.co
   - DOMAIN-SUFFIX,bnn.co
@@ -1204,6 +1214,7 @@ payload:
   - DOMAIN-SUFFIX,dharmakara.net
   - DOMAIN-SUFFIX,dhcp.biz
   - DOMAIN-SUFFIX,diaoyuislands.org
+  - DOMAIN-SUFFIX,dictate.ms
   - DOMAIN-SUFFIX,difangwenge.org
   - DOMAIN-SUFFIX,digiland.tw
   - DOMAIN-SUFFIX,digitalnomadsproject.org
@@ -1229,6 +1240,7 @@ payload:
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
   - DOMAIN-SUFFIX,dit-inc.us
+  - DOMAIN-SUFFIX,ditu.live.com
   - DOMAIN-SUFFIX,dizhidizhi.com
   - DOMAIN-SUFFIX,dizhuzhishang.com
   - DOMAIN-SUFFIX,djangosnippets.org
@@ -1679,6 +1691,7 @@ payload:
   - DOMAIN-SUFFIX,fling.com
   - DOMAIN-SUFFIX,flipboard.com
   - DOMAIN-SUFFIX,flipkart.com
+  - DOMAIN-SUFFIX,flipwithsurface.com
   - DOMAIN-SUFFIX,flitto.com
   - DOMAIN-SUFFIX,flnet.org
   - DOMAIN-SUFFIX,flog.tw
@@ -2955,6 +2968,7 @@ payload:
   - DOMAIN-SUFFIX,marxist.com
   - DOMAIN-SUFFIX,marxist.net
   - DOMAIN-SUFFIX,marxists.org
+  - DOMAIN-SUFFIX,masalladeloslimites.com
   - DOMAIN-SUFFIX,mash.to
   - DOMAIN-SUFFIX,mashable.com
   - DOMAIN-SUFFIX,maskedip.com
@@ -2986,6 +3000,7 @@ payload:
   - DOMAIN-SUFFIX,mediachinese.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,mediafreakcity.com
+  - DOMAIN-SUFFIX,mediatek.com
   - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,meetav.com
   - DOMAIN-SUFFIX,meetup.com
@@ -3037,6 +3052,12 @@ payload:
   - DOMAIN-SUFFIX,mhradio.org
   - DOMAIN-SUFFIX,michaelanti.com
   - DOMAIN-SUFFIX,michaelmarketl.com
+  - DOMAIN-SUFFIX,microsoft-give.com
+  - DOMAIN-SUFFIX,microsoftcloudsummit.com
+  - DOMAIN-SUFFIX,microsoftdiplomados.com
+  - DOMAIN-SUFFIX,microsoftlatamholiday.com
+  - DOMAIN-SUFFIX,microsoftmxfilantropia.com
+  - DOMAIN-SUFFIX,microsoftpartnersolutions.com
   - DOMAIN-SUFFIX,microvpn.com
   - DOMAIN-SUFFIX,middle-way.net
   - DOMAIN-SUFFIX,mihk.hk
@@ -3157,6 +3178,7 @@ payload:
   - DOMAIN-SUFFIX,msa-it.org
   - DOMAIN-SUFFIX,msguancha.com
   - DOMAIN-SUFFIX,msha.gov
+  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com
   - DOMAIN-SUFFIX,mswe1.org
   - DOMAIN-SUFFIX,mthruf.com
   - DOMAIN-SUFFIX,mtw.tl
@@ -3975,6 +3997,7 @@ payload:
   - DOMAIN-SUFFIX,religionnews.com
   - DOMAIN-SUFFIX,religioustolerance.org
   - DOMAIN-SUFFIX,renminbao.com
+  - DOMAIN-SUFFIX,renovacionoffice.com
   - DOMAIN-SUFFIX,renyurenquan.org
   - DOMAIN-SUFFIX,rerouted.org
   - DOMAIN-SUFFIX,research.google
@@ -4366,6 +4389,7 @@ payload:
   - DOMAIN-SUFFIX,spreadshirt.es
   - DOMAIN-SUFFIX,spring4u.info
   - DOMAIN-SUFFIX,springboardplatform.com
+  - DOMAIN-SUFFIX,sprinklesapp.com
   - DOMAIN-SUFFIX,sprite.org
   - DOMAIN-SUFFIX,sproutcore.com
   - DOMAIN-SUFFIX,sproxy.info
@@ -5718,7 +5742,6 @@ payload:
   - DOMAIN-SUFFIX,zhreader.com
   - DOMAIN-SUFFIX,zhuangbi.me
   - DOMAIN-SUFFIX,zhuanxing.cn
-  - DOMAIN-SUFFIX,mediatek.com
   - DOMAIN-SUFFIX,zhuatieba.com
   - DOMAIN-SUFFIX,zhuichaguoji.org
   - DOMAIN-SUFFIX,zi.media
