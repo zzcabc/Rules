@@ -509,3 +509,20 @@ payload:
   - IP-CIDR,202.141.176.93/32,no-resolve
   # 清华DNS
   - IP-CIDR,101.6.6.6/32,no-resolve
+
+  # teredo服务器
+  - DOMAIN,debian-miredo.progsoc.org
+  - DOMAIN,teredo-debian.remlab.net
+  - DOMAIN,teredo.autotrans.consulintel.com
+  - DOMAIN,teredo.ginzado.ne.jp
+  - DOMAIN,teredo.iks-jena.de
+  - DOMAIN,teredo.ipv6.microsoft.com
+  - DOMAIN,teredo.managemydedi.com
+  - DOMAIN,teredo.ngix.ne.kr
+  - DOMAIN,teredo.remlab.net
+  - DOMAIN,teredo.trex.fi
+  - DOMAIN,teredo2.remlab.net
+  - DOMAIN,win10.ipv6.microsoft.com
+  - DOMAIN,win1710.ipv6.microsoft.com
+  - DOMAIN,win1711.ipv6.microsoft.com
+  - DOMAIN,win8.ipv6.microsoft.com
