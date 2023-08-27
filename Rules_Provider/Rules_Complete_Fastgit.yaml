@@ -1,9 +1,10 @@
 rules:
+  - RULE-SET,Special,DIRECT
+  - RULE-SET,LAN,DIRECT
+  - RULE-SET,Direct,DIRECT
   - RULE-SET,Reject,AdBlock
   # - GEOSITE,category-ads-all,AdBlock
-  # - RULE-SET,Direct,DIRECT
-  - RULE-SET,LAN,DIRECT
-  - RULE-SET,Special,DIRECT
+  
   - RULE-SET,OpenAI,OpenAI
 
   - RULE-SET,Developer,Proxy
