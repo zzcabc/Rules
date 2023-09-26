@@ -1,9 +1,11 @@
 # > 开发者网站
 # 总条数: 153条
 payload:
+  - DOMAIN-KEYWORD,debian
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,ubuntu
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apple-cloudkit.com
@@ -141,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,swiftui.cn
   - DOMAIN-SUFFIX,swiftui.com.cn
   - DOMAIN-SUFFIX,thegithubshop.com
+  - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,visualstudio-staging.com
   - DOMAIN-SUFFIX,visualstudio.co
