@@ -499,6 +499,7 @@ payload:
   - DOMAIN-SUFFIX,riotgames.jp
   - DOMAIN-SUFFIX,riotgames.net
   - DOMAIN-SUFFIX,riotgames.tv
+  - DOMAIN-SUFFIX,riotgames.zendesk.com
   - DOMAIN-SUFFIX,riotpin.com
   - DOMAIN-SUFFIX,riotpoints.com
   - DOMAIN-SUFFIX,rstatic.net
