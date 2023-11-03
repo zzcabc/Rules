@@ -1,0 +1,99 @@
+# Merge Template for clash verge
+# The `Merge` format used to enhance profile
+
+rules:
+  - RULE-SET,Reject,AdBlock
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Apple,AppleAndMicrosoft
+  - RULE-SET,Microsoft,AppleAndMicrosoft
+  - RULE-SET,PayPal,GameAndPayPal
+  - RULE-SET,Game,GameAndPayPal
+  - RULE-SET,GlobalMedia,GlobalMedia
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,MainlandMedia,Domestic
+  - RULE-SET,PROXY,Proxy
+  - RULE-SET,SpeedTest,Speedtest
+  - RULE-SET,Domestic,Domestic
+  - GEOIP,CN,Domestic
+  - MATCH,Others
+
+rule-providers: 
+  Direct:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Direct
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Direct.yaml'
+  Domestic:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Domestic
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Domestic.yaml'
+  OpenAI:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/OpenAI
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/OpenAI.yaml'
+  Game:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Game
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Game.yaml'
+  GlobalMedia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/GlobalMedia
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/GlobalMedia.yaml'
+  MainlandMedia:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/MainlandMedia
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/MainlandMediaNoBilibili.yaml'
+  Bilibili:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Bilibili
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml'
+  PROXY:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Proxy
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Proxy.yaml'
+  Reject:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Reject
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Reject.yaml'
+  Apple:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Apple
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Apple.yaml'
+  Microsoft:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/Microsoft
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Microsoft.yaml'
+  PayPal:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/PayPal
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/PayPal.yaml'
+  SpeedTest:
+    behavior: classical
+    interval: 86400
+    path: ./Rules/SpeedTest
+    type: http
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/SpeedTest.yaml'
