@@ -16,9 +16,11 @@ payload:
   - DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
   - DOMAIN-SUFFIX,atlassian.com
   - DOMAIN-SUFFIX,atom.io
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,calendarserver.org
   - DOMAIN-SUFFIX,carekit.org
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,compose-spec.io
   - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
   - DOMAIN-SUFFIX,cups.org
@@ -35,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,elastic.co
   - DOMAIN-SUFFIX,elastic.com
   - DOMAIN-SUFFIX,esm.run
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,fontawesome.com
   - DOMAIN-SUFFIX,foundationdb.org
   - DOMAIN-SUFFIX,gcr.io
@@ -76,6 +80,8 @@ payload:
   - DOMAIN-SUFFIX,intellij.com
   - DOMAIN-SUFFIX,intellij.net
   - DOMAIN-SUFFIX,intellij.org
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,jetbra.in
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetbrains.net
@@ -108,6 +114,7 @@ payload:
   - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
   - DOMAIN-SUFFIX,packagecontrol.io
   - DOMAIN-SUFFIX,playgrounds-cdn.apple.com
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,postman-echo.com
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
   - DOMAIN-SUFFIX,pycon.org
@@ -129,6 +136,7 @@ payload:
   - DOMAIN-SUFFIX,researchkit.net
   - DOMAIN-SUFFIX,researchkit.org
   - DOMAIN-SUFFIX,researchkit.tv
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,servicetalk.io
   - DOMAIN-SUFFIX,sonatype.org
   - DOMAIN-SUFFIX,sourcegraph.com
@@ -158,6 +166,7 @@ payload:
   - DOMAIN-SUFFIX,webkitgtk.org
   - DOMAIN-SUFFIX,webobjects.com
   - DOMAIN-SUFFIX,wpewebkit.org
+  - DOMAIN,ai.cn
   - DOMAIN,cdn.auth0.com
   - DOMAIN,challenges.cloudflare.com
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
