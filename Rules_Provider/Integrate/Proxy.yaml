@@ -21,7 +21,6 @@ payload:
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,nicegram
-  - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,porn
   - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,sci-hub
@@ -253,7 +252,6 @@ payload:
   - DOMAIN-SUFFIX,ahcdn.com
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,ai.ytimg.com
   - DOMAIN-SUFFIX,aiph.net
@@ -1041,7 +1039,6 @@ payload:
   - DOMAIN-SUFFIX,cftfc.com
   - DOMAIN-SUFFIX,cgdepot.org
   - DOMAIN-SUFFIX,cgst.edu
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chalungu.cn
   - DOMAIN-SUFFIX,change.org
   - DOMAIN-SUFFIX,changeip.name
@@ -5460,7 +5457,6 @@ payload:
   - DOMAIN-SUFFIX,streema.com
   - DOMAIN-SUFFIX,streetvoice.com
   - DOMAIN-SUFFIX,strikingly.com
-  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,strongvpn.com
   - DOMAIN-SUFFIX,strongwindpress.com
   - DOMAIN-SUFFIX,student.tw
