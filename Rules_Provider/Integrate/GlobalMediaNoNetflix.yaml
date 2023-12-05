@@ -669,7 +669,6 @@ payload:
   - DOMAIN-SUFFIX,theplatform.com
   - DOMAIN-SUFFIX,uplynk.com
 # > HBO
-  - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
   - DOMAIN-SUFFIX,cinemax.com
@@ -700,6 +699,7 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
   - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
@@ -716,12 +716,13 @@ payload:
   - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN,wmff.warnermediacdn.com
   - PROCESS-NAME,com.hbo.hbonow
 # > HBOAsia
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
   - DOMAIN,dai3fd1oh325y.cloudfront.net
@@ -900,8 +901,12 @@ payload:
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
 # > JOOX
-  - DOMAIN-SUFFIX,joox.com
   - DOMAIN-KEYWORD,jooxweb-api
+  - DOMAIN-SUFFIX,i-joox.com
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,sanook.com
+  - IP-CIDR,119.28.182.0/23
+  - IP-CIDR,203.205.234.0/23
   - PROCESS-NAME,com.tencent.ibg.joox
 # > KKBOX
   - DOMAIN-SUFFIX,kfs.io

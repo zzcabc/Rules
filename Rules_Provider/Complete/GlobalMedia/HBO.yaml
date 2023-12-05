@@ -1,7 +1,6 @@
 # > HBO
-# 总条数: 48条
+# 总条数: 49条
 payload:
-  - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
   - DOMAIN-SUFFIX,cinemax.com
@@ -32,6 +31,7 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
   - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
@@ -48,4 +48,5 @@ payload:
   - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN,wmff.warnermediacdn.com
   - PROCESS-NAME,com.hbo.hbonow
