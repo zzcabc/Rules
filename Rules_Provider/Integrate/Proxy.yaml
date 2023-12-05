@@ -1,10 +1,8 @@
 # > Proxy
 # 总条数: 6847条
-payload:  
+payload: 
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abem
-  - DOMAIN-KEYWORD,abema
-  - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk
@@ -21,6 +19,7 @@ payload:
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,porn
   - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,sci-hub
@@ -252,6 +251,7 @@ payload:
   - DOMAIN-SUFFIX,ahcdn.com
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,ai.ytimg.com
   - DOMAIN-SUFFIX,aiph.net
@@ -282,6 +282,7 @@ payload:
   - DOMAIN-SUFFIX,alexlur.org
   - DOMAIN-SUFFIX,alforattv.net
   - DOMAIN-SUFFIX,alfredapp.com
+  - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,alhayat.com
   - DOMAIN-SUFFIX,alicejapan.co.jp
   - DOMAIN-SUFFIX,aliengu.com
@@ -393,6 +394,7 @@ payload:
   - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,api.linksalpha.com
   - DOMAIN-SUFFIX,api.mixpanel.com
+  - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,api.termius.com
   - DOMAIN-SUFFIX,api.tiktokv.com
   - DOMAIN-SUFFIX,api.urbandictionary.com
@@ -492,6 +494,7 @@ payload:
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,att.com
   - DOMAIN-SUFFIX,audionow.com
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,authorizeddns.net
   - DOMAIN-SUFFIX,authorizeddns.org
   - DOMAIN-SUFFIX,authorizeddns.us
@@ -1010,6 +1013,7 @@ payload:
   - DOMAIN-SUFFIX,cdig.info
   - DOMAIN-SUFFIX,cdjp.org
   - DOMAIN-SUFFIX,cdn.angruo.com
+  - DOMAIN-SUFFIX,cdn.cloudflare.net
   - DOMAIN-SUFFIX,cdn.segment.com
   - DOMAIN-SUFFIX,cdnews.com.tw
   - DOMAIN-SUFFIX,cdninstagram.com
@@ -1039,6 +1043,7 @@ payload:
   - DOMAIN-SUFFIX,cftfc.com
   - DOMAIN-SUFFIX,cgdepot.org
   - DOMAIN-SUFFIX,cgst.edu
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chalungu.cn
   - DOMAIN-SUFFIX,change.org
   - DOMAIN-SUFFIX,changeip.name
@@ -1192,6 +1197,7 @@ payload:
   - DOMAIN-SUFFIX,clickserve.cc-dt.com
   - DOMAIN-SUFFIX,clickserver.googleads.com
   - DOMAIN-SUFFIX,clien.net
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,clinica-tibet.ru
   - DOMAIN-SUFFIX,clipfish.de
   - DOMAIN-SUFFIX,cloakpoint.com
@@ -1823,6 +1829,7 @@ payload:
   - DOMAIN-SUFFIX,euronews.com
   - DOMAIN-SUFFIX,europa.eu
   - DOMAIN-SUFFIX,even.stream
+  - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,evernote.com
   - DOMAIN-SUFFIX,evozi.com
   - DOMAIN-SUFFIX,evschool.net
@@ -1953,6 +1960,7 @@ payload:
   - DOMAIN-SUFFIX,fdc64.de
   - DOMAIN-SUFFIX,fdc64.org
   - DOMAIN-SUFFIX,fdc89.jp
+  - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,feedburner.com
   - DOMAIN-SUFFIX,feeder.co
   - DOMAIN-SUFFIX,feedly.com
@@ -2703,6 +2711,7 @@ payload:
   - DOMAIN-SUFFIX,graphis.ne.jp
   - DOMAIN-SUFFIX,graphql.org
   - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,greasespot.net
   - DOMAIN-SUFFIX,great-firewall.com
   - DOMAIN-SUFFIX,great-roc.org
@@ -3192,6 +3201,8 @@ payload:
   - DOMAIN-SUFFIX,intellij.net
   - DOMAIN-SUFFIX,intellij.org
   - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,internet.org
   - DOMAIN-SUFFIX,internetdefenseleague.org
   - DOMAIN-SUFFIX,internetfreedom.org
@@ -3556,6 +3567,7 @@ payload:
   - DOMAIN-SUFFIX,lastcombat.com
   - DOMAIN-SUFFIX,lastfm.es
   - DOMAIN-SUFFIX,latelinenews.com
+  - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,lausan.hk
   - DOMAIN-SUFFIX,law.com
   - DOMAIN-SUFFIX,lbank.info
@@ -4330,12 +4342,15 @@ payload:
   - DOMAIN-SUFFIX,nytstyle.com
   - DOMAIN-SUFFIX,nzchinese.com
   - DOMAIN-SUFFIX,nzchinese.net.nz
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oanda.com
   - DOMAIN-SUFFIX,oann.com
   - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,oauth.net
   - DOMAIN-SUFFIX,oauthz.com
   - DOMAIN-SUFFIX,observechina.net
+  - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,obutu.com
   - DOMAIN-SUFFIX,ocaspro.com
   - DOMAIN-SUFFIX,occupytiananmen.com
@@ -4657,6 +4672,7 @@ payload:
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,podcast.co
   - DOMAIN-SUFFIX,podictionary.com
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pokemon.com
   - DOMAIN-SUFFIX,pokerstars.com
   - DOMAIN-SUFFIX,pokerstars.net
@@ -5114,11 +5130,13 @@ payload:
   - DOMAIN-SUFFIX,seesmic.com
   - DOMAIN-SUFFIX,seevpn.com
   - DOMAIN-SUFFIX,seezone.net
+  - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,sejie.com
   - DOMAIN-SUFFIX,sellclassics.com
   - DOMAIN-SUFFIX,sendsmtp.com
   - DOMAIN-SUFFIX,sendspace.com
   - DOMAIN-SUFFIX,sensortower.com
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,seraph.me
   - DOMAIN-SUFFIX,servebom.com
   - DOMAIN-SUFFIX,servehttp.com
@@ -5457,6 +5475,7 @@ payload:
   - DOMAIN-SUFFIX,streema.com
   - DOMAIN-SUFFIX,streetvoice.com
   - DOMAIN-SUFFIX,strikingly.com
+  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,strongvpn.com
   - DOMAIN-SUFFIX,strongwindpress.com
   - DOMAIN-SUFFIX,student.tw
@@ -6914,6 +6933,7 @@ payload:
   - DOMAIN-SUFFIX,zzcartoon.com
   - DOMAIN-SUFFIX,zzcloud.me
   - DOMAIN-SUFFIX,zzux.com
+  - DOMAIN,ai.cn
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com
   - DOMAIN,alt3-mtalk.google.com
@@ -6928,6 +6948,7 @@ payload:
   - DOMAIN,cdn.auth0.com
   - DOMAIN,challenges.cloudflare.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,chatgpt.livekit.cloud
   - DOMAIN,cloud.oracle.com
   - DOMAIN,cvws.icloud-content.com
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
@@ -6940,6 +6961,7 @@ payload:
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,testflight.apple.com
   - DOMAIN,voice.telephony.goog
   - DOMAIN,www.googleapis.com
@@ -6996,6 +7018,7 @@ payload:
   - IP-CIDR,158.85.5.192/27,no-resolve
   - IP-CIDR,17.252.156.147/24,no-resolve
   - IP-CIDR,17.252.157.26/24,no-resolve
+  - IP-CIDR,172.110.32.0/21
   - IP-CIDR,172.217.194.188/32
   - IP-CIDR,172.217.218.188/32
   - IP-CIDR,172.217.219.188/32
@@ -7038,10 +7061,13 @@ payload:
   - IP-CIDR,208.43.0.0/16,no-resolve
   - IP-CIDR,208.43.122.128/27,no-resolve
   - IP-CIDR,209.85.233.188/32
+  - IP-CIDR,216.73.80.0/20
   - IP-CIDR,220.181.174.162/32,no-resolve
   - IP-CIDR,220.181.174.226/32,no-resolve
   - IP-CIDR,220.181.174.34/32,no-resolve
   - IP-CIDR,27.0.236.0/22,no-resolve
+  - IP-CIDR,3.163.125.37/32
+  - IP-CIDR,3.163.125.80/32
   - IP-CIDR,31.13.24.0/21,no-resolve
   - IP-CIDR,31.13.64.0/18,no-resolve
   - IP-CIDR,34.224.0.0/12,no-resolve
@@ -7051,6 +7077,7 @@ payload:
   - IP-CIDR,5.28.195.37/32
   - IP-CIDR,50.22.198.204/30,no-resolve
   - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,52.49.110.23/32
   - IP-CIDR,52.58.0.0/15,no-resolve
   - IP-CIDR,52.74.0.0/16,no-resolve
   - IP-CIDR,52.77.0.0/16,no-resolve
@@ -7060,6 +7087,7 @@ payload:
   - IP-CIDR,54.230.156.0/22,no-resolve
   - IP-CIDR,54.242.0.0/15,no-resolve
   - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,63.34.65.57/32
   - IP-CIDR,64.233.177.188/32
   - IP-CIDR,64.233.186.188/32
   - IP-CIDR,64.233.187.188/32
@@ -7096,6 +7124,7 @@ payload:
   - IP-CIDR6,2001:b28:f23d::/48,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR6,2620:120:e000::/40
   - IP-CIDR6,2a0a:f280::/32
   - PROCESS-NAME,BackupandSync
   - PROCESS-NAME,com.android.vending

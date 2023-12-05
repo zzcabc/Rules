@@ -7,7 +7,9 @@ payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,ubuntu
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple.com.akadns.net
@@ -19,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,calendarserver.org
   - DOMAIN-SUFFIX,carekit.org
+  - DOMAIN-SUFFIX,cdn.cloudflare.net
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,compose-spec.io
@@ -75,6 +78,7 @@ payload:
   - DOMAIN-SUFFIX,go-lang.org
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,identrust.c
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intellij.com
@@ -94,6 +98,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,kotlinlang.org
+  - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,macosforge.org
   - DOMAIN-SUFFIX,macosicons.com
   - DOMAIN-SUFFIX,macruby.com
@@ -108,6 +113,9 @@ payload:
   - DOMAIN-SUFFIX,npm.community
   - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,opensource.guide
   - DOMAIN-SUFFIX,oracle.com
@@ -136,6 +144,7 @@ payload:
   - DOMAIN-SUFFIX,researchkit.net
   - DOMAIN-SUFFIX,researchkit.org
   - DOMAIN-SUFFIX,researchkit.tv
+  - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,servicetalk.io
   - DOMAIN-SUFFIX,sonatype.org
@@ -169,8 +178,14 @@ payload:
   - DOMAIN,ai.cn
   - DOMAIN,cdn.auth0.com
   - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,chatgpt.livekit.cloud
   - DOMAIN,d1q6f0aelx0por.cloudfront.net
   - DOMAIN,d2wy8f7a9ursnm.cloudfront.net
   - DOMAIN,d36jcksde1wxzq.cloudfront.net
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,static.cloudflareinsights.com
+  - IP-CIDR,3.163.125.37/32
+  - IP-CIDR,3.163.125.80/32
+  - IP-CIDR,52.49.110.23/32
+  - IP-CIDR,63.34.65.57/32
