@@ -120,9 +120,12 @@ payload:
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,ts.net
   - DOMAIN-SUFFIX,wifi.cmcc
   - DOMAIN-SUFFIX,zte.home
   - DOMAIN,asusrouter.com
+  - DOMAIN,cp.cloudflare.com
+  - DOMAIN,detectportal.firefox.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
