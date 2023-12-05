@@ -3,7 +3,10 @@
 payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,cdn.cloudflare.net
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,events.statsigapi.net
@@ -11,7 +14,13 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN,ai.cn
+  - DOMAIN,chatgpt.livekit.cloud
+  - DOMAIN,static.cloudflareinsights.com
