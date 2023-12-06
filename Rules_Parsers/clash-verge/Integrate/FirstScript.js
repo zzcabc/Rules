@@ -1,15 +1,60 @@
 // Define the `main` function
 
 function main(params) {
-    params["mixed-port"] = 7890;
-    params["allow-lan"] = true;
-    params["bind-address"] = "*";
+    let deleteFieds = [
+      "port",
+      "socks-port",
+      "redir-port",
+      "mixed-port",
+      "allow-lan",
+      "mode",
+      "log-level",
+      "ipv6",
+      "external-controller",
+      "clash-for-android",
+      "profile",
+      "experimental",
+      "dns",
+      "proxy-groups",
+      "rules"
+    ]
+    deleteFieds.forEach(field => {
+      delete params[field];
+    })
+    params["mixed-port"] = 7890
+    params["allow-lan"] = true
+    params["ipv6"] = true
+    params["unified-delay"] = false
+    params["tcp-concurrent"] = true
+    params["bind-address"] = "*"
     params["mode"] = "rule";
     params["log-leve"] = "silent"
+  
+    params["geodata-mode"] = true
+    params["geox-url"] = {
+      "geoip": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat",
+      "geosite": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat",
+      "mmdb": "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+    }
+  
+    params["find-process-mode"] = "strict"
+  
     params.profile = {
       "store-fake-ip": true,
       "store-selected": true
     }
+  
+    params.sniffer = {
+      "enable": true,
+      "sniff": {
+        "TLS": {"ports":[443,8443]},
+        "HTTP": {
+          "ports": [80,8080,8880],
+          "override-destination": true
+        }
+      }
+    }
+  
     params.dns = {
       "enable": true,
       "ipv6": true,
@@ -26,7 +71,7 @@ function main(params) {
         '4.2.2.2',
        // "[2400:3200:baba::1]:53"
       ],
-      "enhanced-mode": "fake-ip",
+      "enhanced-mode": "redir-host",
       "use-hosts": true,
       "nameserver": [
         'udp://223.5.5.5',
@@ -94,6 +139,20 @@ function main(params) {
         'https://dns.quad9.net/dns-query',
         'https://dns11.quad9.net/dns-query'
       ],
+      "proxy-server-nameserver": [
+        "https://doh.pub/dns-query",
+        "https://dns.google/dns-query"
+      ],
+      "nameserver-policy": {
+        "geosite:private": [
+          "https://doh.pub/dns-query",
+          "https://dns.alidns.com/dns-query"
+        ],
+        "geosite:geolocation-!cn": [
+          "https://dns.cloudflare.com/dns-query",
+          "https://dns.google/dns-query"
+        ]
+      },
       "fake-ip-filter": [
         "*.lan",
         "*.localdomain",
@@ -214,5 +273,114 @@ function main(params) {
         ]
       }
     }
+  
+    params["proxy-groups"] = [
+      {
+        "name": "Proxy",
+        "type": "select",
+        "proxies": ["DIRECT"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "AdBlock",
+        "type": "select",
+        "proxies": ["REJECT", "DIRECT", "Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "Domestic",
+        "type": "select",
+        "proxies": ["DIRECT", "Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "Others",
+        "type": "select",
+        "proxies": ["Proxy", "DIRECT"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "Bilibili",
+        "type": "select",
+        "proxies": ["DIRECT"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "GlobalMedia",
+        "type": "select",
+        "proxies": ["Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "OpenAI",
+        "type": "select",
+        "proxies": ["Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "AppleAndMicrosoft",
+        "type": "select",
+        "proxies": ["DIRECT", "Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "GameAndPayPal",
+        "type": "select",
+        "proxies": ["DIRECT", "Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      },
+      {
+        "name": "Speedtest",
+        "type": "select",
+        "proxies": ["DIRECT", "Proxy"],
+        "url": "http://cp.cloudflare.com/generate_204",
+        "interval": 600
+      }
+    ]
+    const proxyGroups = params["proxy-groups"];
+    const allProxy = params.proxies.map((proxy) => proxy.name);
+    const nameProxy = proxyGroups.filter((group) => "Proxy" === group.name );
+    if(nameProxy) {
+      nameProxy[0].proxies = allProxy;
+    }
+  
+    const nameGlobalMedia = proxyGroups.filter((group) => "GlobalMedia" === group.name );
+    if(nameGlobalMedia){
+      nameGlobalMedia[0].proxies = nameGlobalMedia[0].proxies.concat(allProxy);
+    }
+  
+    const nameOpenAI = proxyGroups.filter((group) => "OpenAI" === group.name );
+    if(nameOpenAI){
+      nameOpenAI[0].proxies = nameOpenAI[0].proxies.concat(allProxy);
+    }
+    const nameAppleAndMicrosoft = proxyGroups.filter((group) => "AppleAndMicrosoft" === group.name );
+    if(nameAppleAndMicrosoft){
+      nameAppleAndMicrosoft[0].proxies = nameAppleAndMicrosoft[0].proxies.concat(allProxy);
+    }
+  
+    const nameGameAndPayPal = proxyGroups.filter((group) => "GameAndPayPal" === group.name );
+    if(nameGameAndPayPal){
+      nameGameAndPayPal[0].proxies = nameGameAndPayPal[0].proxies.concat(allProxy);
+    }
+  
+    const bilibiliRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|台|臺灣|新北|彰化|TW|Taiwan|澳门|澳門/
+    const bilibiliProxies = params.proxies.filter((e) => bilibiliRegex.test(e.name)).map((e) => e.name);
+    const nameBilibili = proxyGroups.filter((group) => "Bilibili" === group.name );
+    if(nameBilibili){
+      nameBilibili[0].proxies = nameBilibili[0].proxies.concat(bilibiliProxies);
+    }
+  
+  
+    console.log(params);
     return params;
   }
+  

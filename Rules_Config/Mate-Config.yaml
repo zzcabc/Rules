@@ -162,10 +162,9 @@ sniffer:
   # parse-pure-ip: false
   # 是否使用嗅探结果作为实际访问，默认 true
   # 全局配置，优先级低于 sniffer.sniff 实际配置
-  override-destination: false
   sniff: # TLS 默认如果不配置 ports 默认嗅探 443
     TLS:
-    #  ports: [443, 8443]
+     ports: [443, 8443]
     # 默认嗅探 80
     HTTP: # 需要嗅探的端口
       ports: [80, 8080-8880]
@@ -176,18 +175,19 @@ sniffer:
   ## 对嗅探结果进行跳过
   # skip-domain:
   #   - Mijia Cloud
+
   # 需要嗅探协议
   # 已废弃，若 sniffer.sniff 配置则此项无效
-  sniffing:
-    - tls
-    - http
+  # sniffing:
+  #   - tls
+  #   - http
   # 强制对此域名进行嗅探
   
   # 仅对白名单中的端口进行嗅探，默认为 443，80
   # 已废弃，若 sniffer.sniff 配置则此项无效
-  port-whitelist:
-    - "80"
-    - "443"
+  # port-whitelist:
+  #   - "80"
+  #   - "443"
     # - 8000-9999
 
 
@@ -217,7 +217,7 @@ dns:
     - 8.8.8.8
     - 4.2.2.1
     - 4.2.2.2
-  enhanced-mode: fake-ip # or redir-host
+  enhanced-mode: redir-host # or fake-ip
   
   fake-ip-range: 198.18.0.1/16 # fake-ip 池设置
   

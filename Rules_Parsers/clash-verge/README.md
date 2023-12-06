@@ -10,8 +10,5 @@
 
 需要根据下方顺序依次新建文件，文件包含类型
 
-1. CleanContetScript.js
-2. AddContextScript.js
-3. AddProxyGroupsScript.js
-4. AddProxyGroupsProxyScript.js
-5. AddRulesAndProvidersMerge.yaml
+1. FirstScript.js
+2. SecMarge.yaml
