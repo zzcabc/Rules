@@ -10,5 +10,5 @@
 
 需要根据下方顺序依次新建文件，文件包含类型
 
-1. FirstScript.js
-2. SecMarge.yaml
+1. SecMarge.yaml
+2. FirstScript.js
