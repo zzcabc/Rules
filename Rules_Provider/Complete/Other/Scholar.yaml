@@ -117,6 +117,7 @@ payload:
   - DOMAIN-SUFFIX,libsolutions.app
   - DOMAIN-SUFFIX,libsolutions.domains
   - DOMAIN-SUFFIX,libsolutions.net
+  - DOMAIN-SUFFIX,liebertpub.com
   - DOMAIN-SUFFIX,literatumonline.com
   - DOMAIN-SUFFIX,ma1lib.org
   - DOMAIN-SUFFIX,madsrevolution.net
@@ -198,6 +199,7 @@ payload:
   - DOMAIN-SUFFIX,taylorandfrancis.com
   - DOMAIN-SUFFIX,taylorfrancis.com
   - DOMAIN-SUFFIX,thelancet.com
+  - DOMAIN-SUFFIX,turnitin.com
   - DOMAIN-SUFFIX,uchicago.edu
   - DOMAIN-SUFFIX,ucla.edu
   - DOMAIN-SUFFIX,ukwhoswho.com
@@ -205,8 +207,11 @@ payload:
   - DOMAIN-SUFFIX,un.org
   - DOMAIN-SUFFIX,uni-bielefeld.de
   - DOMAIN-SUFFIX,universitypressscholarship.com
+  - DOMAIN-SUFFIX,uq.edu.au
+  - DOMAIN-SUFFIX,uq.h5p.com
   - DOMAIN-SUFFIX,veryshortintroductions.com
   - DOMAIN-SUFFIX,wanfangdata.com
+  - DOMAIN-SUFFIX,wanfangdata.com.cn
   - DOMAIN-SUFFIX,webofknowledge.com
   - DOMAIN-SUFFIX,webofscience.com
   - DOMAIN-SUFFIX,westlaw.com

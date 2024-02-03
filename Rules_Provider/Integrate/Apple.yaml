@@ -1,10 +1,12 @@
 # NAME: Apple
-# TOTAL: 1572
+# TOTAL: 479
 payload:
   - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
   - DOMAIN-KEYWORD,icloud.com.akadns.net
+  - DOMAIN-KEYWORD,smp-device
   - DOMAIN-KEYWORD,testflight
   - DOMAIN-SUFFIX,100beatscheap.com
   - DOMAIN-SUFFIX,12diasdepresentesdeitunes.com
@@ -154,7 +156,6 @@ payload:
   - DOMAIN-SUFFIX,apple.com.tr
   - DOMAIN-SUFFIX,apple.com.tw
   - DOMAIN-SUFFIX,apple.com.uy
-  - DOMAIN-SUFFIX,apple.comscoreresearch.com
   - DOMAIN-SUFFIX,apple.cz
   - DOMAIN-SUFFIX,apple.de
   - DOMAIN-SUFFIX,apple.dk
@@ -181,7 +182,6 @@ payload:
   - DOMAIN-SUFFIX,apple.my
   - DOMAIN-SUFFIX,apple.net
   - DOMAIN-SUFFIX,apple.net.gr
-  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,apple.nl
   - DOMAIN-SUFFIX,apple.no
   - DOMAIN-SUFFIX,apple.pk
@@ -247,7 +247,6 @@ payload:
   - DOMAIN-SUFFIX,appledarwin.net
   - DOMAIN-SUFFIX,appledns.cn
   - DOMAIN-SUFFIX,appledns.com.cn
-  - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,appleexpo.eu
   - DOMAIN-SUFFIX,appleexpo.info
   - DOMAIN-SUFFIX,applefilmaker.com
@@ -277,19 +276,7 @@ payload:
   - DOMAIN-SUFFIX,applemagickeyboard.com
   - DOMAIN-SUFFIX,applemalaysia.com.my
   - DOMAIN-SUFFIX,applemasters.info
-  - DOMAIN-SUFFIX,applemusic.berlin
-  - DOMAIN-SUFFIX,applemusic.co
-  - DOMAIN-SUFFIX,applemusic.com
-  - DOMAIN-SUFFIX,applemusic.com.au
-  - DOMAIN-SUFFIX,applemusic.hamburg
-  - DOMAIN-SUFFIX,applemusic.wang
-  - DOMAIN-SUFFIX,applemusicconnect.com
-  - DOMAIN-SUFFIX,applemusicfestival.com
   - DOMAIN-SUFFIX,applemx-icloud.com
-  - DOMAIN-SUFFIX,applenews.berlin
-  - DOMAIN-SUFFIX,applenews.hamburg
-  - DOMAIN-SUFFIX,applenews.tv
-  - DOMAIN-SUFFIX,applenewsformat.com
   - DOMAIN-SUFFIX,appleone.audio
   - DOMAIN-SUFFIX,appleone.blog
   - DOMAIN-SUFFIX,appleone.chat
@@ -384,12 +371,6 @@ payload:
   - DOMAIN-SUFFIX,appleswift.com
   - DOMAIN-SUFFIX,appletaiwan.com
   - DOMAIN-SUFFIX,appletips.net
-  - DOMAIN-SUFFIX,appletv.com
-  - DOMAIN-SUFFIX,appletv.fr
-  - DOMAIN-SUFFIX,appletv.wang
-  - DOMAIN-SUFFIX,appletv4.cn
-  - DOMAIN-SUFFIX,appletv4.com.cn
-  - DOMAIN-SUFFIX,appletvapp.apple
   - DOMAIN-SUFFIX,applewallet.com
   - DOMAIN-SUFFIX,applewallet.tv
   - DOMAIN-SUFFIX,applewatch.hk
@@ -753,6 +734,7 @@ payload:
   - DOMAIN-SUFFIX,casquemonsterbeatsbydre2013.com
   - DOMAIN-SUFFIX,casquesbeatsaudio.com
   - DOMAIN-SUFFIX,catalina.hk
+  - DOMAIN-SUFFIX,cdn-apple-mapkit.com
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,cheap-beats-by-dre.net
   - DOMAIN-SUFFIX,cheap-beatsbydre.com
@@ -854,6 +836,7 @@ payload:
   - DOMAIN-SUFFIX,discountbeatsbydre-us.com
   - DOMAIN-SUFFIX,discountbeatsstore.com
   - DOMAIN-SUFFIX,discussionsapple.com
+  - DOMAIN-SUFFIX,dispatcher.is.autonavi.com
   - DOMAIN-SUFFIX,dkbeatsbydre.com
   - DOMAIN-SUFFIX,dl-iphone.com
   - DOMAIN-SUFFIX,dot-mac.de
@@ -987,20 +970,13 @@ payload:
   - DOMAIN-SUFFIX,hotmonsterbeats.com
   - DOMAIN-SUFFIX,hottestheadphonesonline.com
   - DOMAIN-SUFFIX,hrsaz.com
-  - DOMAIN-SUFFIX,i-book.com
-  - DOMAIN-SUFFIX,i-book.net
   - DOMAIN-SUFFIX,ibeats-uk.com
   - DOMAIN-SUFFIX,ibeatsbydre.cc
   - DOMAIN-SUFFIX,ibeatsbydre.com
-  - DOMAIN-SUFFIX,ibook.co.nz
-  - DOMAIN-SUFFIX,ibook.com
-  - DOMAIN-SUFFIX,ibook.eu
-  - DOMAIN-SUFFIX,ibook.net
-  - DOMAIN-SUFFIX,ibookpartner.com
-  - DOMAIN-SUFFIX,ibooksauthor.com
   - DOMAIN-SUFFIX,ichat.co.in
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud-content.com.cn
   - DOMAIN-SUFFIX,icloud-isupport.com
   - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,icloud.ch
@@ -1064,9 +1040,6 @@ payload:
   - DOMAIN-SUFFIX,imacsources.com
   - DOMAIN-SUFFIX,imessage.tv
   - DOMAIN-SUFFIX,imonsterbeats.com
-  - DOMAIN-SUFFIX,imovie.eu
-  - DOMAIN-SUFFIX,imoviegallery.com
-  - DOMAIN-SUFFIX,imoviestage.com
   - DOMAIN-SUFFIX,incentivetravelgifts.com
   - DOMAIN-SUFFIX,indiaipad.com
   - DOMAIN-SUFFIX,insidear.cn
@@ -1140,10 +1113,6 @@ payload:
   - DOMAIN-SUFFIX,iphonese.tv
   - DOMAIN-SUFFIX,iphoneunlockimei.com
   - DOMAIN-SUFFIX,iphonexs.tv
-  - DOMAIN-SUFFIX,iphoto.eu
-  - DOMAIN-SUFFIX,iphoto.no
-  - DOMAIN-SUFFIX,iphoto.se
-  - DOMAIN-SUFFIX,iphoto.wang
   - DOMAIN-SUFFIX,ipod.ca
   - DOMAIN-SUFFIX,ipod.ch
   - DOMAIN-SUFFIX,ipod.cm
@@ -1241,6 +1210,7 @@ payload:
   - DOMAIN-SUFFIX,lojaiphone.com.br
   - DOMAIN-SUFFIX,lovebeatsdr.com
   - DOMAIN-SUFFIX,lovemarca.com
+  - DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
   - DOMAIN-SUFFIX,luckyissue.com
   - DOMAIN-SUFFIX,lyzsxx.com
   - DOMAIN-SUFFIX,mac-mini.com
@@ -1365,7 +1335,6 @@ payload:
   - DOMAIN-SUFFIX,moreheadphones.com
   - DOMAIN-SUFFIX,mr-apple.com.tw
   - DOMAIN-SUFFIX,ms4dre.com
-  - DOMAIN-SUFFIX,musickit.net
   - DOMAIN-SUFFIX,myappleid.com
   - DOMAIN-SUFFIX,mybeatsbydrestudio.com
   - DOMAIN-SUFFIX,mybeatsbydreuk.com
@@ -1404,6 +1373,7 @@ payload:
   - DOMAIN-SUFFIX,onlyiphone5case.com
   - DOMAIN-SUFFIX,onsalekey.com
   - DOMAIN-SUFFIX,onsaletrend.com
+  - DOMAIN-SUFFIX,organicfruitapps.com
   - DOMAIN-SUFFIX,outletbeatsshop.com
   - DOMAIN-SUFFIX,overapple.com
   - DOMAIN-SUFFIX,pascherbeatsmonster.com
@@ -1533,7 +1503,6 @@ payload:
   - DOMAIN-SUFFIX,www.apple.com.edgekey.net
   - DOMAIN-SUFFIX,wwwapple.com
   - DOMAIN-SUFFIX,wwwapple.net
-  - DOMAIN-SUFFIX,wwwapplemusic.com
   - DOMAIN-SUFFIX,wwwicloud.com
   - DOMAIN-SUFFIX,wwwipodlounge.com
   - DOMAIN-SUFFIX,wwwitunes.com
@@ -1555,21 +1524,29 @@ payload:
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
+  - DOMAIN,e16991.b.akamaiedge.net
   - DOMAIN,icons.axm-usercontent-apple.com
+  - DOMAIN,lookup-api.apple.com.edgekey.net
   - DOMAIN,p-events-delivery.akamaized.net
-  - IP-CIDR,139.178.128.0/18
-  - IP-CIDR,144.178.0.0/19
-  - IP-CIDR,144.178.36.0/22
-  - IP-CIDR,144.178.48.0/20
-  - IP-CIDR,17.0.0.0/8
-  - IP-CIDR,192.35.50.0/24
-  - IP-CIDR,198.183.17.0/24
-  - IP-CIDR,205.180.175.0/24
-  - IP-CIDR,63.92.224.0/19
-  - IP-CIDR,65.199.22.0/23
+  - IP-CIDR,139.178.128.0/18,no-resolve
+  - IP-CIDR,144.178.0.0/19,no-resolve
+  - IP-CIDR,144.178.36.0/22,no-resolve
+  - IP-CIDR,144.178.48.0/20,no-resolve
+  - IP-CIDR,17.0.0.0/8,no-resolve
+  - IP-CIDR,192.35.50.0/24,no-resolve
+  - IP-CIDR,198.183.17.0/24,no-resolve
+  - IP-CIDR,205.180.175.0/24,no-resolve
+  - IP-CIDR,63.92.224.0/19,no-resolve
+  - IP-CIDR,65.199.22.0/23,no-resolve
+  - PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+  - PROCESS-NAME,apsd
   - PROCESS-NAME,com.apple.geod
+  - PROCESS-NAME,com.apple.Maps
+  - PROCESS-NAME,CoreLocationAgent
+  - PROCESS-NAME,findmydevice-user-agent
+  - PROCESS-NAME,fmfd
   - PROCESS-NAME,LookupViewService
-  - PROCESS-NAME,Music
-  - PROCESS-NAME,News
-  - PROCESS-NAME,storedownloadd
-  - PROCESS-NAME,TV
+  - PROCESS-NAME,mapspushd
+  - PROCESS-NAME,netbiosd
+  - PROCESS-NAME,trustd
+  - PROCESS-NAME,WeatherWidget
