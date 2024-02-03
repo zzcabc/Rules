@@ -1,8 +1,8 @@
 # > DiscoveryPlus
 # 总条数: 12条
 payload:
-  - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-KEYWORD,discovery.uplynk.com
+  - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-SUFFIX,discovery.com
   - DOMAIN-SUFFIX,discoveryplus.co.uk
   - DOMAIN-SUFFIX,discoveryplus.com
@@ -13,3 +13,6 @@ payload:
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,uplynk.com
+  - DOMAIN,discovery-us.conax.cloud
+  - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
+  - DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io

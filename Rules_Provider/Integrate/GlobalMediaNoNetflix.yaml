@@ -114,16 +114,8 @@ payload:
   - DOMAIN,streamingaudio.itunes.apple.com
   - PROCESS-NAME,Music
 # > AppleNews
-  - DOMAIN-SUFFIX,apple.news
-  - DOMAIN,apple.comscoreresearch.com
-  - DOMAIN,gateway.icloud.com
   - DOMAIN,gspe1-ssl.ls.apple.com
-  - DOMAIN,news-assets.apple.com
   - DOMAIN,news-client-search.apple.com
-  - DOMAIN,news-client.apple.com
-  - DOMAIN,news-edge.apple.com
-  - DOMAIN,news-events.apple.com
-  - PROCESS-NAME,News
 # > AppleTV
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN,hls-amt.itunes.apple.com
@@ -134,18 +126,17 @@ payload:
   - DOMAIN,uts-api.itunes.apple.com
   - PROCESS-NAME,TV
 # > Bahamut
-  - DOMAIN-SUFFIX,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,viblast.com
+  - DOMAIN,bahamut.akamaized.net
 # > BBC
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc
-  - DOMAIN-SUFFIX,bbc-reporting-api.app
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
@@ -162,11 +153,8 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
-  - DOMAIN,aod-pod-uk-live.akamaized.net
   - DOMAIN,as-dash-uk-live.akamaized.net
   - DOMAIN,as-hls-uk-live.akamaized.net
-  - DOMAIN,ve-dash-uk-live.akamaized.net
-  - DOMAIN,ve-uhd-push-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.akamaized.net
   - DOMAIN,vod-dash-ww-live.akamaized.net
   - DOMAIN,vod-hls-uk-live.akamaized.net
@@ -174,9 +162,6 @@ payload:
   - DOMAIN,vod-thumb-uk-live.akamaized.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
   - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
-  - DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net
-  - DOMAIN,vs-hls-push-uk-live.akamaized.net
-  - DOMAIN,vs-hls-pushb-uk-live.akamaized.net
 # > BritboxUK
   - DOMAIN-SUFFIX,bb-static.com
   - DOMAIN-SUFFIX,bbc.co.uk
@@ -190,9 +175,9 @@ payload:
   - DOMAIN-SUFFIX,cabletv.com.hk
   - DOMAIN-SUFFIX,i-cable.com
 # > Cake
-  - DOMAIN,d1koerlbtsmkf8.cloudfront.net
   - DOMAIN-SUFFIX,cakeapp.me
   - DOMAIN-SUFFIX,mycake.me
+  - DOMAIN,d1koerlbtsmkf8.cloudfront.net
   - DOMAIN,d31wl6mro6753i.cloudfront.net
   - DOMAIN,static-mycake.pstatic.net
   - DOMAIN,vstatic-mycake.pstatic.net
@@ -216,8 +201,8 @@ payload:
   - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sentry.io
 # > DiscoveryPlus
-  - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-KEYWORD,discovery.uplynk.com
+  - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-SUFFIX,discovery.com
   - DOMAIN-SUFFIX,discoveryplus.co.uk
   - DOMAIN-SUFFIX,discoveryplus.com
@@ -228,6 +213,9 @@ payload:
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,uplynk.com
+  - DOMAIN,discovery-us.conax.cloud
+  - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
+  - DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io
 # > Disney
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -360,6 +348,7 @@ payload:
   - DOMAIN-SUFFIX,go-disneyworldgo.com
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,hotstar-cdn.net
+  - DOMAIN-SUFFIX,hotstar-labs.com
   - DOMAIN-SUFFIX,hotstar.com
   - DOMAIN-SUFFIX,hotstarext.com
   - DOMAIN-SUFFIX,hsprepack.akamaized.net
@@ -402,11 +391,11 @@ payload:
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
   - PROCESS-NAME,com.disney.disneyplus
 # > EncoreTVB
-  - DOMAIN-SUFFIX,content.jwplatform.com
   - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN,content.jwplatform.com
   - DOMAIN,edge.api.brightcove.com
+  - DOMAIN,videos-f.jwpsrv.com
 # > Fox
   - DOMAIN-SUFFIX,afewmomentswith.com
   - DOMAIN-SUFFIX,anidom.com
@@ -416,6 +405,7 @@ payload:
   - DOMAIN-SUFFIX,coronavirusnow.com
   - DOMAIN-SUFFIX,d3cv4a9a9wh0bt.cloudfront.net
   - DOMAIN-SUFFIX,dashasiafox.akamaized.net
+  - DOMAIN-SUFFIX,fox
   - DOMAIN-SUFFIX,fox-corporation.com
   - DOMAIN-SUFFIX,fox-news.com
   - DOMAIN-SUFFIX,fox.com
@@ -699,7 +689,6 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
   - DOMAIN-SUFFIX,hbolb.onwardsmg.com
-  - DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
@@ -714,7 +703,6 @@ payload:
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowe.hk
   - DOMAIN-SUFFIX,players.brightcove.net
-  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN,wmff.warnermediacdn.com
   - PROCESS-NAME,com.hbo.hbonow
@@ -905,8 +893,8 @@ payload:
   - DOMAIN-SUFFIX,i-joox.com
   - DOMAIN-SUFFIX,joox.com
   - DOMAIN-SUFFIX,sanook.com
-  - IP-CIDR,119.28.182.0/23
-  - IP-CIDR,203.205.234.0/23
+  - IP-CIDR,119.28.182.0/23,no-resolve
+  - IP-CIDR,203.205.234.0/23,no-resolve
   - PROCESS-NAME,com.tencent.ibg.joox
 # > KKBOX
   - DOMAIN-SUFFIX,kfs.io
@@ -1003,7 +991,7 @@ payload:
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,soundcloud.com
 # > Spotify
-  - DOMAIN-KEYWORD,-spotify-com
+  - DOMAIN-KEYWORD,-spotify-
   - DOMAIN-KEYWORD,spotify.com
   - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,byspotify.com
@@ -1025,17 +1013,22 @@ payload:
   - DOMAIN-SUFFIX,spotilocal.com
   - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
+  - DOMAIN,cdn-spotify-experiments.conductrics.com
   - DOMAIN,heads-ak-spotify-com.akamaized.net
   - DOMAIN,spotify.com.edgesuite.net
   - DOMAIN,spotify.map.fastly.net
   - DOMAIN,spotify.map.fastlylb.net
-  - IP-CIDR,104.154.127.126/32
-  - IP-CIDR,35.186.224.47/32
+  - IP-CIDR,104.154.127.126/32,no-resolve
+  - IP-CIDR,35.186.224.47/32,no-resolve
   - PROCESS-NAME,com.spotify.music
-# NAME: TikTok
+# > TikTok
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,ipstatp.com
@@ -1046,8 +1039,14 @@ payload:
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - PROCESS-NAME,com.zhiliaoapp.musically
 # > Twitch
@@ -1060,18 +1059,18 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-SUFFIX,twitchsvc.net
-  - IP-CIDR,103.53.48.0/23
-  - IP-CIDR,185.42.204.0/22
-  - IP-CIDR,192.108.239.0/24
-  - IP-CIDR,192.16.64.0/21
-  - IP-CIDR,199.9.248.0/21
-  - IP-CIDR,23.160.0.0/24
-  - IP-CIDR,45.113.128.0/22
-  - IP-CIDR,52.223.192.0/20
-  - IP-CIDR,52.223.208.0/21
-  - IP-CIDR,52.223.224.0/19
-  - IP-CIDR,99.181.64.0/18
-  - IP-CIDR6,2402:2a80::/32
+  - IP-CIDR,103.53.48.0/23,no-resolve
+  - IP-CIDR,185.42.204.0/22,no-resolve
+  - IP-CIDR,192.108.239.0/24,no-resolve
+  - IP-CIDR,192.16.64.0/21,no-resolve
+  - IP-CIDR,199.9.248.0/21,no-resolve
+  - IP-CIDR,23.160.0.0/24,no-resolve
+  - IP-CIDR,45.113.128.0/22,no-resolve
+  - IP-CIDR,52.223.192.0/20,no-resolve
+  - IP-CIDR,52.223.208.0/21,no-resolve
+  - IP-CIDR,52.223.224.0/19,no-resolve
+  - IP-CIDR,99.181.64.0/18,no-resolve
+  - IP-CIDR6,2402:2a80::/32,no-resolve
   - PROCESS-NAME,tv.twitch.android.app
 # > ViuTV
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
@@ -1093,12 +1092,12 @@ payload:
   - DOMAIN-SUFFIX,vv.video.qq.com
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
-  - IP-CIDR,150.109.28.51/32
+  - IP-CIDR,150.109.28.51/32,no-resolve
   - PROCESS-NAME,com.tencent.qqlivei18n
   - PROCESS-NAME,com.tencent.qqlivei18n.us
 # > YouTube
-  - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt1.com
@@ -1107,6 +1106,7 @@ payload:
   - DOMAIN-SUFFIX,wide-youtube.l.google.com
   - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube
   - DOMAIN-SUFFIX,youtube-nocookie.com
   - DOMAIN-SUFFIX,youtube-ui.l.google.com
   - DOMAIN-SUFFIX,youtube.ae
@@ -1276,8 +1276,8 @@ payload:
   - DOMAIN-SUFFIX,youtubemobilesupport.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
-  - IP-CIDR,172.110.32.0/21
-  - IP-CIDR,216.73.80.0/20
-  - IP-CIDR6,2620:120:e000::/40
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve
 # > YouTubeMusic
   - DOMAIN,music.youtube.com
