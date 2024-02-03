@@ -1,5 +1,5 @@
 # > 优酷
-# 总条数: 37条
+# 总条数: 35条
 payload:
   - DOMAIN-SUFFIX,0co3geye.cn
   - DOMAIN-SUFFIX,2isbbess.cn
@@ -7,7 +7,6 @@ payload:
   - DOMAIN-SUFFIX,52mtkvideo.cn
   - DOMAIN-SUFFIX,9xsecndns.cn
   - DOMAIN-SUFFIX,b82yxres.cn
-  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com
   - DOMAIN-SUFFIX,gamenow.club
   - DOMAIN-SUFFIX,kumiao.com
@@ -16,7 +15,6 @@ payload:
   - DOMAIN-SUFFIX,kuxiaomiao.com
   - DOMAIN-SUFFIX,kuxiaomiao.com.cn
   - DOMAIN-SUFFIX,kuxiaomiao.net
-  - DOMAIN-SUFFIX,mmstat.com
   - DOMAIN-SUFFIX,ns6mitkxo.cn
   - DOMAIN-SUFFIX,sk2cdsnw.cn
   - DOMAIN-SUFFIX,sogoodtech1.cn
@@ -37,4 +35,4 @@ payload:
   - DOMAIN-SUFFIX,youku.com.cn
   - DOMAIN-SUFFIX,youku.org
   - DOMAIN-SUFFIX,youqoo.net
-  - IP-CIDR,106.11.0.0/16
+  - IP-CIDR,106.11.0.0/16,no-resolve

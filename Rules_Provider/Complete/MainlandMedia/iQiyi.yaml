@@ -1,5 +1,5 @@
 # > 爱奇艺
-# 总条数: 74条
+# 总条数: 57条
 payload:
   - DOMAIN-KEYWORD,qiyi
   - DOMAIN-SUFFIX,71.am
@@ -36,25 +36,25 @@ payload:
   - DOMAIN-SUFFIX,qy.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,suike.cn
-  - IP-CIDR,101.224.0.0/13
-  - IP-CIDR,103.44.56.0/22
-  - IP-CIDR,103.5.34.153/32
-  - IP-CIDR,104.109.129.153/32
-  - IP-CIDR,110.238.107.47/32
-  - IP-CIDR,118.26.120.0/24
-  - IP-CIDR,118.26.32.0/23
-  - IP-CIDR,119.176.0.0/12
-  - IP-CIDR,203.211.4.169/32
-  - IP-CIDR,203.211.4.193/32
-  - IP-CIDR,203.74.95.131/32
-  - IP-CIDR,203.74.95.139/32
-  - IP-CIDR,203.74.95.153/32
-  - IP-CIDR,210.201.32.11/32
-  - IP-CIDR,210.201.32.8/32
-  - IP-CIDR,210.71.227.200/32
-  - IP-CIDR,210.71.227.202/32
-  - IP-CIDR,23.211.15.99/32
-  - IP-CIDR,23.40.241.251/32
-  - IP-CIDR,23.40.242.10/32
-  - IP-CIDR,23.53.32.88/32
-  - PROCESS-NAME,com.qiyi.vid
+  - IP-CIDR,101.224.0.0/13,no-resolve
+  - IP-CIDR,103.44.56.0/22,no-resolve
+  - IP-CIDR,103.5.34.153/32,no-resolve
+  - IP-CIDR,104.109.129.153/32,no-resolve
+  - IP-CIDR,110.238.107.47/32,no-resolve
+  - IP-CIDR,118.26.120.0/24,no-resolve
+  - IP-CIDR,118.26.32.0/23,no-resolve
+  - IP-CIDR,119.176.0.0/12,no-resolve
+  - IP-CIDR,203.211.4.169/32,no-resolve
+  - IP-CIDR,203.211.4.193/32,no-resolve
+  - IP-CIDR,203.74.95.131/32,no-resolve
+  - IP-CIDR,203.74.95.139/32,no-resolve
+  - IP-CIDR,203.74.95.153/32,no-resolve
+  - IP-CIDR,210.201.32.11/32,no-resolve
+  - IP-CIDR,210.201.32.8/32,no-resolve
+  - IP-CIDR,210.71.227.200/32,no-resolve
+  - IP-CIDR,210.71.227.202/32,no-resolve
+  - IP-CIDR,23.211.15.99/32,no-resolve
+  - IP-CIDR,23.40.241.251/32,no-resolve
+  - IP-CIDR,23.40.242.10/32,no-resolve
+  - IP-CIDR,23.53.32.88/32,no-resolve
+  - PROCESS-NAME,com.qiyi.video
