@@ -13,8 +13,6 @@ rules:
   - RULE-SET,Microsoft,AppleAndMicrosoft
   - RULE-SET,PayPal,PayPal
 
-  - RULE-SET,Assassin'sCreed-Odyssey,Game
-  - RULE-SET,Assassin'sCreed-Origins,Game
   - RULE-SET,Battle,Game
   - RULE-SET,Blizzard,Game
   - RULE-SET,EA,Game
@@ -26,11 +24,7 @@ rules:
   - RULE-SET,PlayStation,Game
   - RULE-SET,Riot,Game
   - RULE-SET,Rockstar,Game
-  - RULE-SET,StarCraftII,Game
   - RULE-SET,Steam,Game
-  - RULE-SET,Supercell,Game
-  - RULE-SET,WildRift,Game
-  - RULE-SET,WorldofWarcraft,Game
   - RULE-SET,Xbox,Game
 
 
@@ -166,18 +160,6 @@ rule-providers:
     path: ./Rules/PayPal
     type: http
     url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Other/PayPal.yaml"
-  AssassinCreed-Odyssey:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/AssassinCreed-Odyssey
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/AssassinCreed-Odyssey.yaml"
-  AssassinCreed-Origins:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/AssassinCreed-Origins
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/AssassinCreed-Origins.yaml"
   Battle:
     behavior: classical
     interval: 86400
@@ -244,36 +226,12 @@ rule-providers:
     path: ./Rules/Rockstar
     type: http
     url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/Rockstar.yaml"
-  StarCraftII:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/StarCraftII
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/StarCraftII.yaml"
   Steam:
     behavior: classical
     interval: 86400
     path: ./Rules/Steam
     type: http
     url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/Steam.yaml"
-  Supercell:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/Supercell
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/Supercell.yaml"
-  WildRift:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/WildRift
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/WildRift.yaml"
-  WorldofWarcraft:
-    behavior: classical
-    interval: 86400
-    path: ./Rules/WorldofWarcraft
-    type: http
-    url: "https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/Game/WorldofWarcraft.yaml"
   Xbox:
     behavior: classical
     interval: 86400
