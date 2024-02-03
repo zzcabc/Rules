@@ -128,6 +128,12 @@ payload:
   # - PROCESS-NAME,IDMan.exe
 
   # PT
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,chdbits
+  - DOMAIN-KEYWORD,m-team
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-SUFFIX,1ptba.com
+  - DOMAIN-SUFFIX,2xfree.org
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,aidoru-online.me
   - DOMAIN-SUFFIX,alpharatio.cc
@@ -135,6 +141,7 @@ payload:
   - DOMAIN-SUFFIX,animetorrents.me
   - DOMAIN-SUFFIX,anthelion.me
   - DOMAIN-SUFFIX,asiancinema.me
+  - DOMAIN-SUFFIX,audiences.me
   - DOMAIN-SUFFIX,avgv.cc
   - DOMAIN-SUFFIX,avistaz.to
   - DOMAIN-SUFFIX,awesome-hd.me
@@ -142,12 +149,13 @@ payload:
   - DOMAIN-SUFFIX,beyond-hd.me
   - DOMAIN-SUFFIX,bibliotik.me
   - DOMAIN-SUFFIX,bittorrent.com
-  - DOMAIN-SUFFIX,blutopia.xyz
+  - DOMAIN-SUFFIX,blutopia.cc
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,bt.byr.cn
   - DOMAIN-SUFFIX,bt.neu6.edu.cn
   - DOMAIN-SUFFIX,btschool.club
   - DOMAIN-SUFFIX,bwtorrents.tv
+  - DOMAIN-SUFFIX,byr.pt
   - DOMAIN-SUFFIX,ccfbits.org
   - DOMAIN-SUFFIX,cgpeers.com
   - DOMAIN-SUFFIX,chdbits.co
@@ -156,6 +164,7 @@ payload:
   - DOMAIN-SUFFIX,cinemaz.to
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,concertos.live
+  - DOMAIN-SUFFIX,creditracker.net
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,dxdhd.com
@@ -165,6 +174,7 @@ payload:
   - DOMAIN-SUFFIX,exoticaz.to
   - DOMAIN-SUFFIX,extremlymtorrents.ws
   - DOMAIN-SUFFIX,filelist.io
+  - DOMAIN-SUFFIX,gainbound.net
   - DOMAIN-SUFFIX,gazellegames.net
   - DOMAIN-SUFFIX,gfxpeers.net
   - DOMAIN-SUFFIX,hd-space.org
@@ -187,6 +197,7 @@ payload:
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,hdupt.com
   - DOMAIN-SUFFIX,hdzone.me
+  - DOMAIN-SUFFIX,hhanclub.top
   - DOMAIN-SUFFIX,hitpt.com
   - DOMAIN-SUFFIX,hitpt.org
   - DOMAIN-SUFFIX,hudbt.hust.edu.cn
@@ -195,9 +206,12 @@ payload:
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,kamept.com
   - DOMAIN-SUFFIX,karagarga.in
   - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,landof.tv
   - DOMAIN-SUFFIX,leaguehd.com
+  - DOMAIN-SUFFIX,lemonhd.org
   - DOMAIN-SUFFIX,lztr.me
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,madsrevolution.net
@@ -221,13 +235,16 @@ payload:
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,pthome.net
   - DOMAIN-SUFFIX,ptsbao.club
+  - DOMAIN-SUFFIX,pttime.org
   - DOMAIN-SUFFIX,pussytorrents.org
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,sdbits.org
+  - DOMAIN-SUFFIX,sharkpt.net
   - DOMAIN-SUFFIX,sjtu.edu.cn
   - DOMAIN-SUFFIX,skyey2.com
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tju.pt
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,torrentday.com
   - DOMAIN-SUFFIX,torrentleech.org
@@ -237,9 +254,160 @@ payload:
   - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
+  - DOMAIN,1337.abcvg.info
+  - DOMAIN,1c.premierzal.ru
+  - DOMAIN,6.pocketnet.app
+  - DOMAIN,6ahddutb1ucc3cp.ru
+  - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
+  - DOMAIN,aegir.sexy
+  - DOMAIN,api.alarmasqueretaro.com
+  - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
+  - DOMAIN,bot.ponomar-sibir.ru
+  - DOMAIN,bt.ktrackers.com
+  - DOMAIN,bt.okmp3.ru
+  - DOMAIN,bt1.archive.org
+  - DOMAIN,bt2.archive.org
+  - DOMAIN,bvarf.tracker.sh
+  - DOMAIN,ch3oh.ru
+  - DOMAIN,concen.org
+  - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
+  - DOMAIN,epider.me
+  - DOMAIN,evan.im
+  - DOMAIN,exodus.desync.com
+  - DOMAIN,explodie.org
+  - DOMAIN,fe.dealclub.de
+  - DOMAIN,fh2.cmp-gaming.com
+  - DOMAIN,free.publictracker.xyz
+  - DOMAIN,hz.is
+  - DOMAIN,ipv6.fuuuuuck.com
+  - DOMAIN,ipv6.rer.lol
+  - DOMAIN,mail.artixlinux.org
+  - DOMAIN,martin-gebhardt.eu
+  - DOMAIN,moonburrow.club
+  - DOMAIN,movies.zsw.ca
+  - DOMAIN,new-line.net
+  - DOMAIN,ns1.monolithindustries.com
+  - DOMAIN,nyaa.tracker.wf
+  - DOMAIN,odd-hd.fr
+  - DOMAIN,oh.fuuuuuck.com
+  - DOMAIN,open.acgnxtracker.com
+  - DOMAIN,open.acgtracker.com
+  - DOMAIN,open.demonii.com
+  - DOMAIN,open.dstud.io
+  - DOMAIN,open.stealth.si
+  - DOMAIN,open.tracker.cl
+  - DOMAIN,open.tracker.ink
+  - DOMAIN,open.u-p.pw
+  - DOMAIN,open.xxtor.com
+  - DOMAIN,opentor.org
+  - DOMAIN,opentracker.i2p.rocks
+  - DOMAIN,opentracker.io
+  - DOMAIN,p4p.arenabg.com
+  - DOMAIN,public.tracker.vraphim.com
+  - DOMAIN,r.l5.ca
+  - DOMAIN,retracker.hotplug.ru
+  - DOMAIN,retracker.lanta.me
+  - DOMAIN,retracker01-msk-virt.corbina.net
+  - DOMAIN,ryjer.com
+  - DOMAIN,shahidrazi.online
+  - DOMAIN,share.camoe.cn
+  - DOMAIN,su-data.com
+  - DOMAIN,t.acg.rip
+  - DOMAIN,t.nyaatracker.com
+  - DOMAIN,t.overflow.biz
+  - DOMAIN,t1.hloli.org
+  - DOMAIN,tamas3.ynh.fr
+  - DOMAIN,thinking.duckdns.org
+  - DOMAIN,tk1.trackerservers.com
+  - DOMAIN,torrents.artixlinux.org
+  - DOMAIN,torrentsmd.com
+  - DOMAIN,tr.burnabyhighstar.com
+  - DOMAIN,tr.qfruiti.com
+  - DOMAIN,tr.qfruiti.in
+  - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker.0x7c0.com
+  - DOMAIN,tracker.anima.nz
+  - DOMAIN,tracker.artixlinux.org
+  - DOMAIN,tracker.auctor.tv
+  - DOMAIN,tracker.birkenwald.de
+  - DOMAIN,tracker.bt4g.com
+  - DOMAIN,tracker.cloudit.top
+  - DOMAIN,tracker.cubonegro.lol
+  - DOMAIN,tracker.cyberia.is
+  - DOMAIN,tracker.ddunlimited.net
+  - DOMAIN,tracker.dler.com
+  - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.edkj.club
+  - DOMAIN,tracker.electro-torrent.pl
+  - DOMAIN,tracker.filemail.com
+  - DOMAIN,tracker.files.fm
+  - DOMAIN,tracker.fnix.net
+  - DOMAIN,tracker.gbitt.info
+  - DOMAIN,tracker.gcrreen.xyz
+  - DOMAIN,tracker.imgoingto.icu
+  - DOMAIN,tracker.ipfsscan.io
+  - DOMAIN,tracker.ipv6tracker.ru
+  - DOMAIN,tracker.kuroy.me
+  - DOMAIN,tracker.lilithraws.cf
+  - DOMAIN,tracker.lilithraws.org
+  - DOMAIN,tracker.loligirl.cn
+  - DOMAIN,tracker.mirrorbay.org
+  - DOMAIN,tracker.moeking.me
+  - DOMAIN,tracker.mywaifu.best
+  - DOMAIN,tracker.netmap.top
+  - DOMAIN,tracker.openbittorrent.com
+  - DOMAIN,tracker.opentrackr.org
+  - DOMAIN,tracker.openwebtorrent.com
+  - DOMAIN,tracker.picotorrent.one
+  - DOMAIN,tracker.qu.ax
+  - DOMAIN,tracker.renfei.net
+  - DOMAIN,tracker.skyts.net
+  - DOMAIN,tracker.srv00.com
+  - DOMAIN,tracker.swateam.org.uk
+  - DOMAIN,tracker.t-rb.org
+  - DOMAIN,tracker.tamersunion.org
+  - DOMAIN,tracker.theoks.net
+  - DOMAIN,tracker.therarbg.com
+  - DOMAIN,tracker.therarbg.to
+  - DOMAIN,tracker.tiny-vps.com
+  - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.torrust-demo.com
+  - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.yemekyedim.com
+  - DOMAIN,tracker1.520.jp
+  - DOMAIN,tracker1.bt.moack.co.kr
+  - DOMAIN,tracker1.itzmx.com
+  - DOMAIN,tracker1.myporn.club
+  - DOMAIN,tracker2.dler.com
+  - DOMAIN,tracker2.dler.org
+  - DOMAIN,tracker2.itzmx.com
+  - DOMAIN,tracker3.itzmx.com
+  - DOMAIN,tracker4.itzmx.com
+  - DOMAIN,trackers.mlsub.net
+  - DOMAIN,ttk2.nbaonlineservice.com
+  - DOMAIN,u4.trakx.crim.ist
+  - DOMAIN,u6.trakx.crim.ist
+  - DOMAIN,uploads.gamecoast.net
+  - DOMAIN,uraniumhexafluori.de
+  - DOMAIN,v6-tracker.0g.cx
+  - DOMAIN,wepzone.net
+  - DOMAIN,www.all4nothin.net
+  - DOMAIN,www.peckservers.com
+  - DOMAIN,www.torrent.eu.org
+  - DOMAIN,www.wareztorrent.com
+  - DOMAIN,y.paranoid.agency
+  - DOMAIN,yolo.liberbear.com
+  - IP-CIDR,119.28.71.45/32,no-resolve
+  - IP-CIDR,184.105.151.166/32,no-resolve
+  - IP-CIDR,207.241.226.111/32,no-resolve
+  - IP-CIDR,207.241.231.226/32,no-resolve
+  - IP-CIDR,46.17.46.112/32,no-resolve
+  - IP-CIDR,49.12.76.8/32,no-resolve
+  - IP-CIDR,52.58.128.163/32,no-resolve
+  - IP-CIDR,91.216.110.52/32,no-resolve
+  - IP-CIDR6,2001:1b10:1000:8101:0:242:ac11:2/128,no-resolve
+  - IP-CIDR6,2001:470:1:189:0:1:2:3/128,no-resolve
 
   # NTP 时区
   - DOMAIN-SUFFIX,cn.ntp.org.cn
@@ -323,6 +491,374 @@ payload:
   - DOMAIN-SUFFIX,time7.apple.com
   - DOMAIN-SUFFIX,tw.ntp.org.cn
   - DOMAIN-SUFFIX,us.ntp.org.cn
+
+  #STUN
+  - DOMAIN,iphone-stun.strato-iphone.de
+  - DOMAIN,relay.webwormhole.io
+  - DOMAIN,stun.1-voip.com
+  - DOMAIN,stun.12voip.com
+  - DOMAIN,stun.1und1.de
+  - DOMAIN,stun.3deluxe.de
+  - DOMAIN,stun.3wayint.com
+  - DOMAIN,stun.5sn.com
+  - DOMAIN,stun.aa.net.uk
+  - DOMAIN,stun.aaisp.co.uk
+  - DOMAIN,stun.acquageraci.it
+  - DOMAIN,stun.acrobits.cz
+  - DOMAIN,stun.acronis.com
+  - DOMAIN,stun.actionvoip.com
+  - DOMAIN,stun.alberon.cz
+  - DOMAIN,stun.allflac.com
+  - DOMAIN,stun.alphacron.de
+  - DOMAIN,stun.alpirsbacher.de
+  - DOMAIN,stun.anlx.net
+  - DOMAIN,stun.annatel.net
+  - DOMAIN,stun.antisip.com
+  - DOMAIN,stun.arkh-edu.ru
+  - DOMAIN,stun.atagverwarming.nl
+  - DOMAIN,stun.autosystem.com
+  - DOMAIN,stun.avigora.fr
+  - DOMAIN,stun.axeos.nl
+  - DOMAIN,stun.babelforce.com
+  - DOMAIN,stun.baltmannsweiler.de
+  - DOMAIN,stun.bandyer.com
+  - DOMAIN,stun.bcs2005.net
+  - DOMAIN,stun.bearstech.com
+  - DOMAIN,stun.beebeetle.com
+  - DOMAIN,stun.bernardoprovenzano.net
+  - DOMAIN,stun.bethesda.net
+  - DOMAIN,stun.bitburger.de
+  - DOMAIN,stun.bluesip.net
+  - DOMAIN,stun.bridesbay.com
+  - DOMAIN,stun.cablenet-as.net
+  - DOMAIN,stun.callromania.ro
+  - DOMAIN,stun.callwithus.com
+  - DOMAIN,stun.carlovizzini.it
+  - DOMAIN,stun.cellmail.com
+  - DOMAIN,stun.cheapvoip.com
+  - DOMAIN,stun.cibercloud.com.br
+  - DOMAIN,stun.clickphone.ro
+  - DOMAIN,stun.coffee-sen.com
+  - DOMAIN,stun.comrex.com
+  - DOMAIN,stun.connecteddata.com
+  - DOMAIN,stun.cope.es
+  - DOMAIN,stun.counterpath.com
+  - DOMAIN,stun.counterpath.net
+  - DOMAIN,stun.crimeastar.net
+  - DOMAIN,stun.ctafauni.it
+  - DOMAIN,stun.dcalling.de
+  - DOMAIN,stun.deepfinesse.com
+  - DOMAIN,stun.demos.ru
+  - DOMAIN,stun.demos.su
+  - DOMAIN,stun.dls.net
+  - DOMAIN,stun.dunyatelekom.com
+  - DOMAIN,stun.dus.net
+  - DOMAIN,stun.easter-eggs.com
+  - DOMAIN,stun.easycall.pl
+  - DOMAIN,stun.easyvoip.com
+  - DOMAIN,stun.edwin-wiegele.at
+  - DOMAIN,stun.ekiga.net
+  - DOMAIN,stun.eleusi.com
+  - DOMAIN,stun.elitetele.com
+  - DOMAIN,stun.engineeredarts.co.uk
+  - DOMAIN,stun.eol.co.nz
+  - DOMAIN,stun.eoni.com
+  - DOMAIN,stun.epygi.com
+  - DOMAIN,stun.eurosys.be
+  - DOMAIN,stun.f.haeder.net
+  - DOMAIN,stun.fairytel.at
+  - DOMAIN,stun.fathomvoice.com
+  - DOMAIN,stun.fbsbx.com
+  - DOMAIN,stun.files.fm
+  - DOMAIN,stun.fitauto.ru
+  - DOMAIN,stun.fixup.net
+  - DOMAIN,stun.fmo.de
+  - DOMAIN,stun.foad.me.uk
+  - DOMAIN,stun.framasoft.org
+  - DOMAIN,stun.freecall.com
+  - DOMAIN,stun.freeswitch.org
+  - DOMAIN,stun.freevoipdeal.com
+  - DOMAIN,stun.frozenmountain.com
+  - DOMAIN,stun.funwithelectronics.com
+  - DOMAIN,stun.futurasp.es
+  - DOMAIN,stun.galeriemagnet.at
+  - DOMAIN,stun.geesthacht.de
+  - DOMAIN,stun.genymotion.com
+  - DOMAIN,stun.geonet.ro
+  - DOMAIN,stun.gigaset.net
+  - DOMAIN,stun.gmx.de
+  - DOMAIN,stun.gmx.net
+  - DOMAIN,stun.gntel.nl
+  - DOMAIN,stun.godatenow.com
+  - DOMAIN,stun.goldfish.ie
+  - DOMAIN,stun.graftlab.com
+  - DOMAIN,stun.gravitel.ru
+  - DOMAIN,stun.grazertrinkwasseringefahr.at
+  - DOMAIN,stun.groenewold-newmedia.de
+  - DOMAIN,stun.h4v.eu
+  - DOMAIN,stun.halonet.pl
+  - DOMAIN,stun.healthtap.com
+  - DOMAIN,stun.heeds.eu
+  - DOMAIN,stun.hicare.net
+  - DOMAIN,stun.hide.me
+  - DOMAIN,stun.hitv.com
+  - DOMAIN,stun.hoiio.com
+  - DOMAIN,stun.hosteurope.de
+  - DOMAIN,stun.hot-chilli.net
+  - DOMAIN,stun.imafex.sk
+  - DOMAIN,stun.imp.ch
+  - DOMAIN,stun.infra.net
+  - DOMAIN,stun.internetcalls.com
+  - DOMAIN,stun.intervoip.com
+  - DOMAIN,stun.ipfire.org
+  - DOMAIN,stun.ippi.com
+  - DOMAIN,stun.ippi.fr
+  - DOMAIN,stun.ipshka.com
+  - DOMAIN,stun.irishvoip.com
+  - DOMAIN,stun.isp.net.au
+  - DOMAIN,stun.istitutogramscisiciliano.it
+  - DOMAIN,stun.it1.hr
+  - DOMAIN,stun.ixc.ua
+  - DOMAIN,stun.jabber.dk
+  - DOMAIN,stun.jabbim.cz
+  - DOMAIN,stun.jay.net
+  - DOMAIN,stun.jowisoftware.de
+  - DOMAIN,stun.jumblo.com
+  - DOMAIN,stun.junet.se
+  - DOMAIN,stun.justvoip.com
+  - DOMAIN,stun.kanojo.de
+  - DOMAIN,stun.kaseya.com
+  - DOMAIN,stun.kedr.io
+  - DOMAIN,stun.kitamaebune.com
+  - DOMAIN,stun.komsa.de
+  - DOMAIN,stun.kotter.net
+  - DOMAIN,stun.l.google.com
+  - DOMAIN,stun.labs.net
+  - DOMAIN,stun.ladridiricette.it
+  - DOMAIN,stun.landvast.nl
+  - DOMAIN,stun.lebendigefluesse.at
+  - DOMAIN,stun.leonde.org
+  - DOMAIN,stun.leucotron.com.br
+  - DOMAIN,stun.levigo.de
+  - DOMAIN,stun.lineaencasa.com
+  - DOMAIN,stun.linphone.org
+  - DOMAIN,stun.linuxtrent.it
+  - DOMAIN,stun.liveo.fr
+  - DOMAIN,stun.lleida.net
+  - DOMAIN,stun.localphone.com
+  - DOMAIN,stun.logic.ky
+  - DOMAIN,stun.londonweb.net
+  - DOMAIN,stun.lovense.com
+  - DOMAIN,stun.lowratevoip.com
+  - DOMAIN,stun.lundimatin.fr
+  - DOMAIN,stun.m-online.net
+  - DOMAIN,stun.marcelproust.it
+  - DOMAIN,stun.medvc.eu
+  - DOMAIN,stun.meetwife.com
+  - DOMAIN,stun.megatel.si
+  - DOMAIN,stun.meowsbox.com
+  - DOMAIN,stun.mit.de
+  - DOMAIN,stun.miwifi.com
+  - DOMAIN,stun.mixvoip.com
+  - DOMAIN,stun.mobile-italia.com
+  - DOMAIN,stun.moonlight-stream.org
+  - DOMAIN,stun.muoversi.net
+  - DOMAIN,stun.myhowto.org
+  - DOMAIN,stun.myspeciality.com
+  - DOMAIN,stun.myvoipapp.com
+  - DOMAIN,stun.myvoiptraffic.com
+  - DOMAIN,stun.mywatson.it
+  - DOMAIN,stun.nanocosmos.de
+  - DOMAIN,stun.ncic.com
+  - DOMAIN,stun.neomedia.it
+  - DOMAIN,stun.netappel.com
+  - DOMAIN,stun.netgsm.com.tr
+  - DOMAIN,stun.newrocktech.com
+  - DOMAIN,stun.nexphone.ch
+  - DOMAIN,stun.next-gen.ro
+  - DOMAIN,stun.nextcloud.com
+  - DOMAIN,stun.nexxtmobile.de
+  - DOMAIN,stun.nfon.net
+  - DOMAIN,stun.nonoh.net
+  - DOMAIN,stun.odr.de
+  - DOMAIN,stun.officinabit.com
+  - DOMAIN,stun.olimontel.it
+  - DOMAIN,stun.oncloud7.ch
+  - DOMAIN,stun.openjobs.hu
+  - DOMAIN,stun.openvoip.it
+  - DOMAIN,stun.optdyn.com
+  - DOMAIN,stun.ortopediacoam.it
+  - DOMAIN,stun.otos.pl
+  - DOMAIN,stun.ozekiphone.com
+  - DOMAIN,stun.peeters.com
+  - DOMAIN,stun.peethultra.be
+  - DOMAIN,stun.piratenbrandenburg.de
+  - DOMAIN,stun.planetarium.com.br
+  - DOMAIN,stun.plexicomm.net
+  - DOMAIN,stun.poetamatusel.org
+  - DOMAIN,stun.poivy.com
+  - DOMAIN,stun.powervoip.com
+  - DOMAIN,stun.ppdi.com
+  - DOMAIN,stun.pure-ip.com
+  - DOMAIN,stun.qcol.net
+  - DOMAIN,stun.radiojar.com
+  - DOMAIN,stun.redworks.nl
+  - DOMAIN,stun.ringostat.com
+  - DOMAIN,stun.ringvoz.com
+  - DOMAIN,stun.rockenstein.de
+  - DOMAIN,stun.rolmail.net
+  - DOMAIN,stun.romaaeterna.nl
+  - DOMAIN,stun.romancecompass.com
+  - DOMAIN,stun.root-1.de
+  - DOMAIN,stun.ru-brides.com
+  - DOMAIN,stun.rynga.com
+  - DOMAIN,stun.schlund.de
+  - DOMAIN,stun.schoeffel.de
+  - DOMAIN,stun.schulinformatik.at
+  - DOMAIN,stun.selasky.org
+  - DOMAIN,stun.senstar.com
+  - DOMAIN,stun.sewan.fr
+  - DOMAIN,stun.shadrinsk.net
+  - DOMAIN,stun.siedle.com
+  - DOMAIN,stun.sigmavoip.com
+  - DOMAIN,stun.signalwire.com
+  - DOMAIN,stun.simlar.org
+  - DOMAIN,stun.sip.us
+  - DOMAIN,stun.sipdiscount.com
+  - DOMAIN,stun.sipgate.net
+  - DOMAIN,stun.sipglobalphone.com
+  - DOMAIN,stun.siplogin.de
+  - DOMAIN,stun.sippeer.dk
+  - DOMAIN,stun.sipthor.net
+  - DOMAIN,stun.siptraffic.com
+  - DOMAIN,stun.siptrunk.com
+  - DOMAIN,stun.sipy.cz
+  - DOMAIN,stun.sky.od.ua
+  - DOMAIN,stun.skydrone.aero
+  - DOMAIN,stun.sma.de
+  - DOMAIN,stun.smartvoip.com
+  - DOMAIN,stun.smsdiscount.com
+  - DOMAIN,stun.smslisto.com
+  - DOMAIN,stun.soho66.co.uk
+  - DOMAIN,stun.solcon.nl
+  - DOMAIN,stun.solnet.ch
+  - DOMAIN,stun.solomo.de
+  - DOMAIN,stun.sonetel.com
+  - DOMAIN,stun.sonetel.net
+  - DOMAIN,stun.sparvoip.de
+  - DOMAIN,stun.splicecom.com
+  - DOMAIN,stun.srce.hr
+  - DOMAIN,stun.stadtwerke-eutin.de
+  - DOMAIN,stun.stochastix.de
+  - DOMAIN,stun.streamnow.ch
+  - DOMAIN,stun.studio-link.de
+  - DOMAIN,stun.studio71.it
+  - DOMAIN,stun.swrag.de
+  - DOMAIN,stun.sylaps.com
+  - DOMAIN,stun.symonics.com
+  - DOMAIN,stun.syncthing.net
+  - DOMAIN,stun.synergiejobs.be
+  - DOMAIN,stun.syrex.co.za
+  - DOMAIN,stun.t-online.de
+  - DOMAIN,stun.talkho.com
+  - DOMAIN,stun.taxsee.com
+  - DOMAIN,stun.teamfon.de
+  - DOMAIN,stun.technosens.fr
+  - DOMAIN,stun.tel.lu
+  - DOMAIN,stun.tel2.co.uk
+  - DOMAIN,stun.telbo.com
+  - DOMAIN,stun.teliax.com
+  - DOMAIN,stun.telnyx.com
+  - DOMAIN,stun.telonline.com
+  - DOMAIN,stun.thebrassgroup.it
+  - DOMAIN,stun.thinkrosystem.com
+  - DOMAIN,stun.threema.ch
+  - DOMAIN,stun.tichiamo.it
+  - DOMAIN,stun.tng.de
+  - DOMAIN,stun.totalcom.info
+  - DOMAIN,stun.trivenet.it
+  - DOMAIN,stun.ttmath.org
+  - DOMAIN,stun.tula.nu
+  - DOMAIN,stun.twt.it
+  - DOMAIN,stun.uabrides.com
+  - DOMAIN,stun.uiltucssicilia.it
+  - DOMAIN,stun.ukh.de
+  - DOMAIN,stun.uls.co.za
+  - DOMAIN,stun.url.net.au
+  - DOMAIN,stun.usfamily.net
+  - DOMAIN,stun.vadacom.co.nz
+  - DOMAIN,stun.var6.cn
+  - DOMAIN,stun.vavadating.com
+  - DOMAIN,stun.verbo.be
+  - DOMAIN,stun.vincross.com
+  - DOMAIN,stun.vivox.com
+  - DOMAIN,stun.vo.lu
+  - DOMAIN,stun.voicetech.se
+  - DOMAIN,stun.voicetrading.com
+  - DOMAIN,stun.voip.aebc.com
+  - DOMAIN,stun.voip.blackberry.com
+  - DOMAIN,stun.voip.eutelia.it
+  - DOMAIN,stun.voipblast.com
+  - DOMAIN,stun.voipbuster.com
+  - DOMAIN,stun.voipbusterpro.com
+  - DOMAIN,stun.voipcheap.co.uk
+  - DOMAIN,stun.voipcheap.com
+  - DOMAIN,stun.voipconnect.com
+  - DOMAIN,stun.voipdiscount.com
+  - DOMAIN,stun.voipdomain
+  - DOMAIN,stun.voipfibre.com
+  - DOMAIN,stun.voipgain.com
+  - DOMAIN,stun.voipgate.com
+  - DOMAIN,stun.voipgrid.nl
+  - DOMAIN,stun.voipia.net
+  - DOMAIN,stun.voipinfocenter.com
+  - DOMAIN,stun.voipplanet.nl
+  - DOMAIN,stun.voippro.com
+  - DOMAIN,stun.voipraider.com
+  - DOMAIN,stun.voipvoice.it
+  - DOMAIN,stun.voipwise.com
+  - DOMAIN,stun.voipxs.nl
+  - DOMAIN,stun.voipzoom.com
+  - DOMAIN,stun.vomessen.de
+  - DOMAIN,stun.voys.nl
+  - DOMAIN,stun.vozelia.com
+  - DOMAIN,stun.voztele.com
+  - DOMAIN,stun.voztovoice.org
+  - DOMAIN,stun.waterpolopalermo.it
+  - DOMAIN,stun.wcoil.com
+  - DOMAIN,stun.webcalldirect.com
+  - DOMAIN,stun.webmatrix.com.br
+  - DOMAIN,stun.wemag.com
+  - DOMAIN,stun.westtel.ky
+  - DOMAIN,stun.wia.cz
+  - DOMAIN,stun.wifirst.net
+  - DOMAIN,stun.wtfismyip.com
+  - DOMAIN,stun.wxnz.net
+  - DOMAIN,stun.xten.com
+  - DOMAIN,stun.yesdates.com
+  - DOMAIN,stun.yollacalls.com
+  - DOMAIN,stun.zadarma.com
+  - DOMAIN,stun.zentauron.de
+  - DOMAIN,stun1.l.google.com
+  - DOMAIN,stun2.l.google.com
+  - DOMAIN,stun3.l.google.com
+  - DOMAIN,stun4.l.google.com
+  - IP-CIDR6,2001:4060:1:1005::10:32,no-resolve
+  - IP-CIDR6,2001:41d0:2:12b9::1,no-resolve
+  - IP-CIDR6,2001:678:b28::118,no-resolve
+  - IP-CIDR6,2404:6800:4003:c03::7f,no-resolve
+  - IP-CIDR6,2404:6800:4008:c04::7f,no-resolve
+  - IP-CIDR6,2404:6800:400a:1002::7f,no-resolve
+  - IP-CIDR6,2404:6800:400b:c005::7f,no-resolve
+  - IP-CIDR6,2a00:1450:4010:c06::7f,no-resolve
+  - IP-CIDR6,2a01:4f8:120:1497::148,no-resolve
+  - IP-CIDR6,2a01:4f8:13b:39ce::2,no-resolve
+  - IP-CIDR6,2a01:4f8:242:56ca::2,no-resolve
+  - IP-CIDR6,2a01:4f8:c17:8f74::1,no-resolve
+  - IP-CIDR6,2a01:4f9:4b:4c8f::2,no-resolve
+  - IP-CIDR6,2a02:f98:0:50:2ff:23ff:fe42:1b23,no-resolve
+  - IP-CIDR6,2a03:2880:f084:1:face:b00c:0:24d9,no-resolve
+  - IP-CIDR6,2a03:b0c0:0:1010::a2:a001,no-resolve
 
   # 国内DNS
   # 114DNS

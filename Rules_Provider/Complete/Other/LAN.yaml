@@ -1,6 +1,13 @@
 # > Lan
 # 总条数: 143条
 payload:
+  - DOMAIN,asusrouter.com
+  - DOMAIN,cp.cloudflare.com
+  - DOMAIN,detectportal.firefox.com
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,router.asus.com
+  - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,www.asusrouter.com
   - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
@@ -117,33 +124,27 @@ payload:
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,test.steampowered.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
   - DOMAIN-SUFFIX,ts.net
   - DOMAIN-SUFFIX,wifi.cmcc
   - DOMAIN-SUFFIX,zte.home
-  - DOMAIN,asusrouter.com
-  - DOMAIN,cp.cloudflare.com
-  - DOMAIN,detectportal.firefox.com
-  - DOMAIN,instant.arubanetworks.com
-  - DOMAIN,router.asus.com
-  - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN,www.asusrouter.com
-  - IP-CIDR,0.0.0.0/8
-  - IP-CIDR,10.0.0.0/8
-  - IP-CIDR,100.64.0.0/10
-  - IP-CIDR,127.0.0.0/8
-  - IP-CIDR,169.254.0.0/16
-  - IP-CIDR,172.16.0.0/12
-  - IP-CIDR,192.0.0.0/24
-  - IP-CIDR,192.0.2.0/24
-  - IP-CIDR,192.168.0.0/16
-  - IP-CIDR,192.88.99.0/24
-  - IP-CIDR,198.18.0.0/15
-  - IP-CIDR,198.51.100.0/24
-  - IP-CIDR,203.0.113.0/24
-  - IP-CIDR,224.0.0.0/3
-  - IP-CIDR6,::/127
-  - IP-CIDR6,fc00::/7
-  - IP-CIDR6,fe80::/10
-  - IP-CIDR6,ff00::/8
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,169.254.0.0/16,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,192.0.0.0/24,no-resolve
+  - IP-CIDR,192.0.2.0/24,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - IP-CIDR,192.88.99.0/24,no-resolve
+  - IP-CIDR,198.18.0.0/15,no-resolve
+  - IP-CIDR,198.51.100.0/24,no-resolve
+  - IP-CIDR,203.0.113.0/24,no-resolve
+  - IP-CIDR,224.0.0.0/3,no-resolve
+  - IP-CIDR6,::/127,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve
+  - IP-CIDR6,ff00::/8,no-resolve
