@@ -15,7 +15,9 @@ Clash自用规则组，集成众多大佬的规则
 
 ~[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg) Clash的桌面平台图形化客户端~
 
-[clash-verge](https://github.com/zzzgydi/clash-verge) Clash的桌面平台图形化客户端
+~[clash-verge](https://github.com/zzzgydi/clash-verge) Clash的桌面平台图形化客户端~
+
+[clash-verge](https://github.com/clash-verge-rev/clash-verge-rev) Clash的桌面平台图形化客户端
 
 [ClashForAndroid](https://github.com/Kr328/ClashForAndroid) Clash的Android平台图形化客户端
 

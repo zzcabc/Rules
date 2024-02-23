@@ -11,9 +11,9 @@ external-controller: 127.0.0.1:9090
 
 geodata-mode: true
 geox-url:
-  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
-  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
-  mmdb: "https://cdn.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 
 find-process-mode: strict
 # global-client-fingerprint: chrome
@@ -238,82 +238,82 @@ rule-providers:
     interval: 86400
     path: ./Rules/Direct
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Direct.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Direct.yaml'
   Domestic:
     behavior: classical
     interval: 86400
     path: ./Rules/Domestic
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Domestic.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Domestic.yaml'
   OpenAI:
     behavior: classical
     interval: 86400
     path: ./Rules/OpenAI
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/OpenAI.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/OpenAI.yaml'
   Game:
     behavior: classical
     interval: 86400
     path: ./Rules/Game
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Game.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Game.yaml'
   GlobalMedia:
     behavior: classical
     interval: 86400
     path: ./Rules/GlobalMedia
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/GlobalMediaNoYoutube.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/GlobalMediaNoYoutube.yaml'
   YouTube:
     behavior: classical
     interval: 86400
     path: ./Rules/YouTube
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/GlobalMedia/YouTube.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/YouTube.yaml'
   MainlandMedia:
     behavior: classical
     interval: 86400
     path: ./Rules/MainlandMedia
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/MainlandMediaNoBilibili.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/MainlandMediaNoBilibili.yaml'
   Bilibili:
     behavior: classical
     interval: 86400
     path: ./Rules/Bilibili
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml'
   PROXY:
     behavior: classical
     interval: 86400
     path: ./Rules/Proxy
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Proxy.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Proxy.yaml'
   Reject:
     behavior: classical
     interval: 86400
     path: ./Rules/Reject
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Reject.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Reject.yaml'
   Apple:
     behavior: classical
     interval: 86400
     path: ./Rules/Apple
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Apple.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Apple.yaml'
   Microsoft:
     behavior: classical
     interval: 86400
     path: ./Rules/Microsoft
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/Microsoft.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Microsoft.yaml'
   PayPal:
     behavior: classical
     interval: 86400
     path: ./Rules/PayPal
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/PayPal.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/PayPal.yaml'
   SpeedTest:
     behavior: classical
     interval: 86400
     path: ./Rules/SpeedTest
     type: http
-    url: 'https://endpoint.fastgit.org/https://github.com/zzcabc/Rules/blob/master/Rules_Provider/Integrate/SpeedTest.yaml'
+    url: 'https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/SpeedTest.yaml'

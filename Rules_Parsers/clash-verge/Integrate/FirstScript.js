@@ -139,12 +139,17 @@ function main(params) {
   }
   console.log(params);
   const rules = [
+    "RULE-SET,Direct,DIRECT",
+    "GEOSITE,tracker,DIRECT",
     "RULE-SET,Reject,AdBlock",
     "GEOSITE,category-ads-all,AdBlock",
-    "RULE-SET,Direct,DIRECT",
+    "GEOSITE,openai,OpenAI",
     "RULE-SET,OpenAI,OpenAI",
+    "GEOSITE,apple,AppleAndMicrosoft",
+    "GEOSITE,microsoft,AppleAndMicrosoft",
     "RULE-SET,Apple,AppleAndMicrosoft",
     "RULE-SET,Microsoft,AppleAndMicrosoft",
+    "GEOSITE,paypal,GameAndPayPal",
     "RULE-SET,PayPal,GameAndPayPal",
     "RULE-SET,Game,GameAndPayPal",
     "RULE-SET,YouTube,YouTube",
@@ -152,6 +157,7 @@ function main(params) {
     "RULE-SET,GlobalMedia,GlobalMedia",
     "RULE-SET,Bilibili,Bilibili",
     "GEOSITE,bilibili,Bilibili",
+    "GEOSITE,biliintl,Bilibili",
     "RULE-SET,PROXY,Proxy",
     "GEOSITE,geolocation-!cn,Proxy",
     "RULE-SET,SpeedTest,SpeedTest",
