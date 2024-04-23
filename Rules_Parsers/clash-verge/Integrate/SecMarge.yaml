@@ -1,40 +1,68 @@
 # Merge Template for clash verge
 # The `Merge` format used to enhance profile
 mode: rule
-ipv6: true
-log-level: info
-allow-lan: true
 mixed-port: 7890
-unified-delay: false
-tcp-concurrent: true
+allow-lan: false
+log-level: silent
+ipv6: false
+secret: ""
 external-controller: 127.0.0.1:9090
+tun:
+  enable: false
+  stack: mixed
+  device: Meta
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+  strict-route: false
+  mtu: 1500
+  inet4-route-exclude-address:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.168.0.0/16
+    - 224.0.0.0/4
+    - 240.0.0.0/4
 
 geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
 geox-url:
   geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
-
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
 find-process-mode: strict
-# global-client-fingerprint: chrome
-
+unified-delay: true
+tcp-concurrent: true
 profile:
   store-selected: true
   store-fake-ip: true
-
 sniffer:
   enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
   sniff:
     TLS:
-      ports: [443, 8443]
+      ports:
+        - 443
+        - 8443
     HTTP:
-      ports: [80, 8080-8880]
+      ports:
+        - 80
+        - 8080-8880
       override-destination: true
-
 dns:
+  use-host: true
   enable: true
-  ipv6: true
-  listen: 0.0.0.0:53
+  ipv6: false
+  listen: 127.0.0.1:5353
+  enhanced-mode: redir-host
   default-nameserver:
     - 114.114.114.114
     - 180.76.76.76
@@ -45,8 +73,6 @@ dns:
     - 1.0.0.1
     - 4.2.2.1
     - 4.2.2.2
-  enhanced-mode: fake-ip
-  use-hosts: true
   nameserver:
     - udp://223.5.5.5
     - udp://180.76.76.76
@@ -65,7 +91,6 @@ dns:
     - https://1.12.12.12/dns-query
     - https://120.53.53.53/dns-query
     - https://doh.360.cn/dns-query
-  # 国外用下列DNS解析
   fallback:
     - tls://dns.google
     - tls://dns.adguard.com
@@ -85,13 +110,6 @@ dns:
     - https://doh.sb/dns-query
     - https://public.dns.iij.jp/dns-query
     - https://doh-jp.blahdns.com/dns-query
-    # 带家庭保护或者安全的DNS
-    # - tls://dns.cleanbrowsing.org
-    # - https://dns11.quad9.net/dns-query
-    # - https://doh.familyshield.opendns.com/dns-query
-    # - https://dns-family.adguard.com/dns-query
-    # - https://doh.cleanbrowsing.org/doh/family-filter/
-    # ipv6的DNS
     - https://[2001:4860:4860::64]/dns-query
     - https://[2001:4860:4860::6464]/dns-query
     - https://[2606:4700:4700::1111]/dns-query
@@ -101,15 +119,17 @@ dns:
     - https://dns.quad9.net/dns-query
     - https://dns11.quad9.net/dns-query
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.google/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.0.0.1
+    - 1.1.1.1
   nameserver-policy:
-    "geosite:private":
+    geosite:private:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:geolocation-!cn":
-      - 'https://dns.cloudflare.com/dns-query'
-      - 'https://dns.google/dns-query'
+    geosite:geolocation-!cn:
+      - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
@@ -140,7 +160,7 @@ dns:
     - ntp7.*.com
     - "*.time.edu.cn"
     - "*.ntp.org.cn"
-    - "+.pool.ntp.org"
+    - +.pool.ntp.org
     - music.163.com
     - "*.music.163.com"
     - "*.126.net"
@@ -169,21 +189,21 @@ dns:
     - msftncsi.com
     - localhost.ptlogin2.qq.com
     - localhost.sec.qq.com
-    - "+.srv.nintendo.net"
-    - "+.stun.playstation.net"
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
     - xbox.*.microsoft.com
     - xnotify.xboxlive.com
-    - "+.battlenet.com.cn"
-    - "+.wotgame.cn"
-    - "+.wggames.cn"
-    - "+.wowsgame.cn"
-    - "+.wargaming.net"
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
     - proxy.golang.org
     - stun.*.*
     - stun.*.*.*
-    - "+.stun.*.*"
-    - "+.stun.*.*.*"
-    - "+.stun.*.*.*.*"
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
     - heartbeat.belkin.com
     - "*.linksys.com"
     - "*.linksyssmartwifi.com"
@@ -196,19 +216,13 @@ dns:
     - swdist.apple.com
     - lens.l.google.com
     - stun.l.google.com
-    - "+.nflxvideo.net"
+    - +.nflxvideo.net
     - "*.square-enix.com"
     - "*.finalfantasyxiv.com"
     - "*.ffxiv.com"
   fallback-filter:
-  # Meta内核配置，
-    # getip: false
-    # geosite: 
-    #   - gfw
-  # D大内核配置
     geoip: true
     geoip-code: CN
-  # 通用配置
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
@@ -227,10 +241,12 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
-      - "+.facebook.com"
-      - "+.githubusercontent.com"
-      - "+.google.com"
-      - "+.youtube.com"
+      - +.facebook.com
+      - +.githubusercontent.com
+      - +.google.com
+      - +.youtube.com
+  
+
 
 rule-providers: 
   Direct:

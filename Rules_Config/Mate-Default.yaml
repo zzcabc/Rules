@@ -99,8 +99,9 @@ dns:
     - https://dns.quad9.net/dns-query
     - https://dns11.quad9.net/dns-query
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.google/dns-query
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.0.0.1
   nameserver-policy:
     "geosite:private":
       - https://doh.pub/dns-query
