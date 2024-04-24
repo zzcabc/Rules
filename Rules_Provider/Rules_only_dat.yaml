@@ -111,4 +111,4 @@ rules:
   - GEOSITE,geolocation-!cn,Proxy
   - GEOSITE,cn,Domain
   - GEOIP,CN,Domain
-  - MATCH,Proxy
+  - MATCH,Others

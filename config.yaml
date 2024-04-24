@@ -242,20 +242,18 @@ dns:
       - +.youtube.com
 
 proxy-groups:
-  - { name: Proxy, type: select, proxies: [WarpAuto], include-all-providers: true }
+  - { name: Proxy, type: select, include-all-providers: true }
   - { name: AdBlock, type: select, proxies: [REJECT, DIRECT, Proxy] }
   - { name: Domestic, type: select, proxies: [DIRECT, Proxy] }
-  - { name: Others, type: select, proxies: [Proxy, WarpAuto, DIRECT] }
+  - { name: Others, type: select, proxies: [Proxy, DIRECT] }
   - { name: Bilibili, type: select, proxies: [DIRECT], include-all-providers: true, filter: "(?i)港|hk|hongkong|hong kong|HK|Hong Kong|HKT|台|tw|taiwan|新北|彰化|TW|Taiwan|澳门|澳門|Macao" }
-  - { name: Telegram, type: select, proxies: [WarpAuto, Proxy], include-all-providers: true }
-  - { name: YouTube, type: select, proxies: [WarpAuto, GlobalMedia], include-all-providers: true }
-  - { name: GlobalMedia, type: select, proxies: [WarpAuto, Proxy], include-all-providers: true }
-  - { name: OpenAI, type: select, proxies: [WarpAuto, Proxy], include-all-providers: true }
-  - { name: AppleAndMicrosoft, type: select, proxies: [DIRECT, WarpAuto, Proxy], include-all-providers: true }
-  - { name: GameAndPayPal, type: select, proxies: [DIRECT, WarpAuto, Proxy], include-all-providers: true }
-  - { name: SpeedTest, type: select, proxies: [DIRECT, WarpAuto, Proxy], include-all-providers: true }
-
-  - {name: WarpAuto, type: fallback, include-all-providers: true, filter: "(?i)-CF-" }
+  - { name: Telegram, type: select, proxies: [Proxy], include-all-providers: true }
+  - { name: YouTube, type: select, proxies: [GlobalMedia], include-all-providers: true }
+  - { name: GlobalMedia, type: select, proxies: [Proxy], include-all-providers: true }
+  - { name: OpenAI, type: select, proxies: [Proxy], include-all-providers: true }
+  - { name: AppleAndMicrosoft, type: select, proxies: [DIRECT, Proxy], include-all-providers: true }
+  - { name: GameAndPayPal, type: select, proxies: [DIRECT, Proxy], include-all-providers: true }
+  - { name: SpeedTest, type: select, proxies: [DIRECT,  Proxy], include-all-providers: true }
 rules:
   - RULE-SET,Direct,DIRECT
   - GEOSITE,tracker,DIRECT
