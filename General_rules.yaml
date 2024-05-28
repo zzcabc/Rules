@@ -1,0 +1,454 @@
+######### 锚点 start #######
+# 策略组相关
+#这里是订阅更新和延迟测试相关的
+PROVIERS-UPDATE: &PROVIERS-UPDATE {type: http, interval: 3600, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
+# 节点测试相关
+URL-TEST: &URL-TEST {url: 'https://www.gstatic.com/generate_204', interval: 300}
+######### 锚点 end #######
+
+# url 里填写自己的订阅,名称不能重复
+proxy-providers:
+  providers1:
+    <<: *PROVIERS-UPDATE
+    url: ""
+
+  providers2:
+    <<: *PROVIERS-UPDATE
+    url: ""
+
+mode: rule
+mixed-port: 7890
+allow-lan: false
+log-level: silent
+ipv6: false
+secret: ""
+external-controller: 127.0.0.1:9090
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+find-process-mode: strict
+unified-delay: true
+tcp-concurrent: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  sniff:
+    TLS:
+      ports:
+        - 443
+        - 8443
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+dns:
+  use-host: true
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:53
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 1.2.4.8
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+    - 4.2.2.1
+    - 4.2.2.2
+  nameserver:
+    - udp://223.5.5.5
+    - udp://180.76.76.76
+    - udp://1.2.4.8
+    - udp://210.2.4.8
+    - tcp://114.114.114.114
+    - tls://1.12.12.12
+    - tls://120.53.53.53
+    - tls://dns.alidns.com
+    - tls://dot.pub
+    - tls://dot.360.cn
+    - https://223.5.5.5/dns-query
+    - https://223.6.6.6/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://1.12.12.12/dns-query
+    - https://120.53.53.53/dns-query
+    - https://doh.360.cn/dns-query
+  fallback:
+    - tls://dns.google
+    - tls://dns.adguard.com
+    - tls://dns-family.adguard.com
+    - tls://dot.sb
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - tls://one.one.one.one
+    - https://dns.google/dns-query
+    - https://dns.google/resolve
+    - https://dns.quad9.net/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://doh.sb/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://doh-jp.blahdns.com/dns-query
+    - https://[2001:4860:4860::64]/dns-query
+    - https://[2001:4860:4860::6464]/dns-query
+    - https://[2606:4700:4700::1111]/dns-query
+    - https://[2606:4700:4700::1001]/dns-query
+    - https://[2606:4700:4700::64]/dns-query
+    - https://[2606:4700:4700::6464]/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns11.quad9.net/dns-query
+  proxy-server-nameserver:
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.0.0.1
+    - 1.1.1.1
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.168.0.0/16
+      - 192.88.99.0/24
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - +.facebook.com
+      - +.githubusercontent.com
+      - +.google.com
+      - +.youtube.com
+proxy-groups:
+  - { name: Proxy, type: select, include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: AdBlock, type: select, proxies: [REJECT, DIRECT, Proxy], url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: Domestic, type: select, proxies: [DIRECT, Proxy], url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: Others, type: select, proxies: [Proxy, DIRECT], url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: Bilibili, type: select, proxies: [DIRECT], include-all-providers: true, filter: "(?i)港|hk|hongkong|hong kong|HK|Hong Kong|HKT|台|tw|taiwan|新北|彰化|TW|Taiwan|澳门|澳門|Macao", url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: Telegram, type: select, proxies: [Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: YouTube, type: select, proxies: [GlobalMedia], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: GlobalMedia, type: select, proxies: [Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: OpenAI, type: select, proxies: [Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: AppleAndMicrosoft, type: select, proxies: [DIRECT,  Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: GameAndPayPal, type: select, proxies: [DIRECT, Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+  - { name: SpeedTest, type: select, proxies: [DIRECT, Proxy], include-all-providers: true, url: 'https://www.gstatic.com/generate_204', interval: 300 }
+rules:
+  # 必须直连
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOSITE,category-ntp-cn,DIRECT,no-resolve
+  - GEOSITE,private,DIRECT,no-resolve
+  - GEOSITE,tracker,DIRECT,no-resolve
+  - RULE-SET,Direct,DIRECT,no-resolve
+  
+  # 广告
+  - RULE-SET,Reject,AdBlock
+  - GEOSITE,category-ads-all,AdBlock
+  # AI
+  - GEOSITE,adobe-activation,OpenAI
+  - GEOSITE,bing,OpenAI
+  - GEOSITE,jetbrains-ai,OpenAI
+  - GEOSITE,openai,OpenAI
+  # 国外流媒体
+  - GEOSITE,youtube,YouTube
+  - GEOSITE,abema,GlobalMedia
+  - GEOSITE,acplay,GlobalMedia
+  - GEOSITE,bahamut,GlobalMedia
+  - GEOSITE,bbc,GlobalMedia
+  - GEOSITE,discord,GlobalMedia
+  - GEOSITE,discoveryplus,GlobalMedia
+  - GEOSITE,disney,GlobalMedia
+  - GEOSITE,fox,GlobalMedia
+  - GEOSITE,hbo,GlobalMedia
+  - GEOSITE,hulu,GlobalMedia
+  - GEOSITE,kkbox,GlobalMedia
+  - GEOSITE,kktv,GlobalMedia
+  - GEOSITE,mytvsuper,GlobalMedia
+  - GEOSITE,naver,GlobalMedia
+  - GEOIP,netflix,GlobalMedia
+  - GEOSITE,netflix,GlobalMedia
+  - GEOSITE,niconico,GlobalMedia
+  - GEOSITE,primevideo,GlobalMedia
+  - GEOSITE,spotify,GlobalMedia
+  - GEOSITE,tiktok,GlobalMedia
+  - GEOSITE,tvb,GlobalMedia
+  - GEOSITE,tver,GlobalMedia
+  - GEOSITE,twitch,GlobalMedia
+  # - GEOSITE,applemusic,GlobalMedia
+  # - GEOSITE,appletv,GlobalMedia
+  # - GEOSITE,pandoratv,GlobalMedia
+
+  # 国内流媒体
+  - GEOSITE,bilibili,Bilibili
+  - GEOSITE,biliintl,Bilibili
+  - GEOSITE,acfun,Domestic
+  - GEOSITE,cctv,Domestic
+  - GEOSITE,douyu,Domestic
+  - GEOSITE,iqiyi,Domestic
+  - GEOSITE,netease,Domestic
+  - GEOSITE,ximalaya,Domestic
+  - GEOSITE,youku,Domestic
+  - GEOSITE,category-media-cn,Domestic
+  # 游戏
+  - GEOSITE,blizzard,GameAndPayPal
+  - GEOSITE,ea,GameAndPayPal
+  - GEOSITE,epicbrowser,GameAndPayPal
+  - GEOSITE,epicgames,GameAndPayPal
+  - GEOSITE,garena,GameAndPayPal
+  - GEOSITE,gog,GameAndPayPal
+  - GEOSITE,nintendo,GameAndPayPal
+  - GEOSITE,origin,GameAndPayPal
+  - GEOSITE,riot,GameAndPayPal
+  - GEOSITE,rockstar,GameAndPayPal
+  - GEOSITE,sony,GameAndPayPal
+  - GEOSITE,xbox,GameAndPayPal
+  # PayPal
+  - GEOSITE,paypal,GameAndPayPal
+  # 测速
+  - GEOSITE,speedtest,SpeedTest
+  - GEOSITE,ookla-speedtest,SpeedTest
+  # Telegram
+  - GEOSITE,telegram,Telegram
+  - GEOIP,telegram,Telegram
+  # 需要代理的
+  - GEOIP,facebook,Proxy
+  - GEOIP,twitter,Proxy
+  - GEOSITE,9news,Proxy
+  - GEOSITE,apkpure,Proxy
+  - GEOSITE,category-porn,Proxy
+  - GEOSITE,category-scholar-!cn,Proxy
+  - GEOSITE,cnbeta,Proxy
+  - GEOSITE,debian,Proxy
+  - GEOSITE,dlsite,Proxy
+  - GEOSITE,docker,Proxy
+  - GEOSITE,ehentai,Proxy
+  - GEOSITE,facebook,Proxy
+  - GEOSITE,fedora,Proxy
+  - GEOSITE,github,Proxy
+  - GEOSITE,gitlab,Proxy
+  - GEOSITE,golang,Proxy
+  - GEOSITE,google-cn,Proxy
+  - GEOSITE,google-registry,Proxy
+  - GEOSITE,google,Proxy
+  - GEOSITE,java,Proxy
+  - GEOSITE,jetbrains,Proxy
+  - GEOSITE,nodejs,Proxy
+  - GEOSITE,npmjs,Proxy
+  - GEOSITE,pixiv,Proxy
+  - GEOSITE,pixnet,Proxy
+  - GEOSITE,python-community,Proxy
+  - GEOSITE,python,Proxy
+  - GEOSITE,reddit,Proxy
+  - GEOSITE,rust,Proxy
+  - GEOSITE,twitter,Proxy
+  - GEOSITE,ubuntu,Proxy
+  # Apply和Microsoft
+  - GEOSITE,apple,AppleAndMicrosoft
+  - GEOSITE,onedrive,AppleAndMicrosoft
+  - GEOSITE,microsoft,AppleAndMicrosoft
+
+  - RULE-SET,OceanDNS,Proxy
+  - GEOSITE,geolocation-!cn,Proxy
+  - GEOSITE,cn,Domestic
+  - GEOIP,CN,Domestic
+  - RULE-SET,Domestic,Domestic
+  - MATCH,Others
+
+
+
+
+# rules:
+#   - RULE-SET,Direct,DIRECT
+#   - GEOSITE,tracker,DIRECT
+#   - RULE-SET,Reject,AdBlock
+#   - GEOSITE,category-ads-all,AdBlock
+#   - GEOIP,telegram,Telegram
+#   - GEOSITE,openai,OpenAI
+#   - RULE-SET,OpenAI,OpenAI
+#   - RULE-SET,Apple,AppleAndMicrosoft
+#   - RULE-SET,Microsoft,AppleAndMicrosoft
+#   - GEOSITE,paypal,GameAndPayPal
+#   - RULE-SET,PayPal,GameAndPayPal
+#   - RULE-SET,Game,GameAndPayPal
+#   - RULE-SET,YouTube,YouTube
+#   - GEOSITE,youtube,YouTube
+#   - RULE-SET,GlobalMedia,GlobalMedia
+#   - RULE-SET,Bilibili,Bilibili
+#   - GEOSITE,bilibili,Bilibili
+#   - GEOSITE,biliintl,Bilibili
+#   - DOMAIN-SUFFIX,cnbeta.com.tw,Proxy
+#   - DOMAIN,cnbeta.com.tw,Proxy
+#   - RULE-SET,PROXY,Proxy
+#   - GEOSITE,geolocation-!cn,Proxy
+#   - GEOSITE,apple,AppleAndMicrosoft
+#   - GEOSITE,microsoft,AppleAndMicrosoft
+#   - RULE-SET,SpeedTest,SpeedTest
+#   - RULE-SET,Domestic,Domestic
+#   - RULE-SET,MainlandMedia,Domestic
+#   - GEOSITE,CN,Domestic
+#   - GEOIP,CN,Domestic
+#   - MATCH,Others
+
+rule-anchor:
+#   ip: &ip { type: http, interval: 86400, behavior: ipcidr, format: yaml }
+#   domain: &domain { type: http, interval: 86400, behavior: domain, format: yaml }
+  classical: &classical { type: http, interval: 86400, behavior: classical, format: yaml }
+rule-providers:
+  Direct:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Direct.yaml"
+  Domestic:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Domestic.yaml"
+  OceanDNS:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/Other/OceanDNS.yaml"
+#   OpenAI:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/OpenAI.yaml"
+#   Game:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Game.yaml"
+#   GlobalMedia:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/GlobalMediaNoYoutube.yaml"
+#   YouTube:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/GlobalMedia/YouTube.yaml"
+#   MainlandMedia:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/MainlandMediaNoBilibili.yaml"
+#   Bilibili:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml"
+#   PROXY:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Proxy.yaml"
+  Reject:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Reject.yaml"
+#   Apple:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Apple.yaml"
+#   Microsoft:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/Microsoft.yaml"
+#   PayPal:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/PayPal.yaml"
+#   SpeedTest:
+#     <<: *classical
+#     url: "https://raw.githubusercontent.com/zzcabc/Rules/master/Rules_Provider/Integrate/SpeedTest.yaml"
