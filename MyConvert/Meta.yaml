@@ -1,0 +1,575 @@
+######### 锚点 start #######
+# 策略组相关
+#这里是订阅更新和延迟测试相关的
+TYOO-UPDATE: 
+  &TYOO-UPDATE { type: http, interval: 3600, health-check: { enable: true, url: http://www.apple.com/library/test/success.html, interval: 3000, timeout: 5000, lazy: true }, override: { udp: true, additional-prefix: "[YTOO]" } }
+TAG-UPDATE: 
+  &TAG-UPDATE { type: http, interval: 3600, health-check: { enable: true, url: http://www.apple.com/library/test/success.html, interval: 3000, timeout: 5000, lazy: true }, override: { udp: true, additional-prefix: "[TAG]" } }
+
+FREE-UPDATE:
+  &FREE-UPDATE { type: http, interval: 3600, health-check: { enable: true, url: http://www.apple.com/library/test/success.html, interval: 3000, timeout: 5000, lazy: true } }
+
+PROXY-GROUP-INCLUDE:
+  &PROXY-GROUP-INCLUDE {
+    type: select,
+    use: [YTOO, TAG],
+    url: "http://www.apple.com/library/test/success.html",
+    interval: 300,
+  }
+
+PROXY-GROUP-INCLUDE-FREE:
+  &PROXY-GROUP-INCLUDE-FREE {
+    type: url-test,
+    use: [FREE-1, FREE-2, FREE-3, FREE-4, FREE-5, FREE-6, FREE-7],
+    exclude-filter: "反诈|永久|官网|流量",
+    url: "http://www.apple.com/library/test/success.html",
+    interval: 1500,
+    timeout: 5000
+  }
+
+
+######### 锚点 end #######
+
+# url 里填写自己的订阅,名称不能重复
+proxy-providers:
+  YTOO:
+    <<: *TYOO-UPDATE
+    path: "./proxy_provider/TYOO.yaml"
+    url: ""
+  
+  TAG:
+    <<: *TAG-UPDATE
+    path: "./proxy_provider/TAG.yaml"
+    url: ""
+
+  FREE-1:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE1.yaml"
+    override: { udp: true, additional-prefix: "[FREE1]" }
+    url: ""
+  FREE-2:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE2.yaml"
+    override: { udp: true, additional-prefix: "[FREE2]" }
+    url: ""  
+  FREE-3:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE3.yaml"
+    override: { udp: true, additional-prefix: "[FREE3]" }
+    url: ""
+  FREE-4:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE4.yaml"
+    override: { udp: true, additional-prefix: "[FREE4]" }
+    url: ""
+  FREE-5:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE5.yaml"
+    override: { udp: true, additional-prefix: "[FREE5]" }
+    url: ""
+  FREE-6:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE6.yaml"
+    override: { udp: true, additional-prefix: "[FREE6]" }
+    url: ""
+  FREE-7:
+    <<: *FREE-UPDATE
+    path: "./proxy_provider/FREE7.yaml"
+    override: { udp: true, additional-prefix: "[FREE7]" }
+    url: ""
+
+
+
+proxy-groups:
+  - name: Proxy
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png"
+
+  - name: AdBlock
+    type: select
+    url: "http://www.apple.com/library/test/success.html"
+    interval: 300
+    proxies: [REJECT, DIRECT, Proxy]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png"
+
+  - name: Domestic
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png"
+
+  - name: Others
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [Proxy, FreeAuto, DIRECT]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png"
+
+  - name: Bilibili
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT]
+    filter: "(?i)港|hk|hongkong|hong kong|HK|Hong Kong|HKT|台|tw|taiwan|新北|彰化|TW|Taiwan|澳门|澳門|Macao"
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png"
+
+  - name: OpenAI
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Copilot.png"
+
+  - name: Telegram
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png"
+
+  - name: YouTube
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [GlobalMedia, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png"
+
+  - name: GlobalMedia
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Streaming.png"
+
+  - name: Steam
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Steam.png"
+  
+  - name: SteamDownload
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Steam.png"
+
+  - name: GameAndPayPal
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png"
+
+  - name: Microsoft
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png"
+
+  - name: Apple
+    <<: *PROXY-GROUP-INCLUDE
+    proxies: [DIRECT, Proxy, FreeAuto]
+    icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_2.png"
+    
+  - name: FreeAuto
+    <<: *PROXY-GROUP-INCLUDE-FREE
+
+allow-lan: true
+bing-address: "*"
+mode: rule
+ipv6: true
+mixed-port: 7890
+log-level: silent
+keep-alive-interval: 60
+find-process-mode: strict
+external-controller: 0.0.0.0:9090
+secret: ''
+external-ui: "/ui"
+external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+geodata-mode: true
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+  asn: https://testingcf.jsdelivr.net/gh/xishang0128/geoip@release/GeoLite2-ASN.mmdb
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    TLS:
+      ports:
+        - 443
+        - 8443
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+  force-domain:
+    - "+"
+    - "+.netflix.com"
+    - "+.nflxvideo.net"
+    - "+.youtube.com"
+    - "+.amazonaws.com"
+    - "+.media.dssott.com"
+  skip-domain:
+    - "+.apple.com"
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - "+.oray.com"
+    - "+.sunlogin.net"
+    - "+.push.apple.com"
+    - geosite:cn
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  route-exclude-address:
+    - 10.0.0.0/8
+  exclude-interface: 
+    - tailscale
+
+dns:
+  enable: true
+  use-host: true
+  user-use-system-hosts: true
+  respect-rules: true
+  ipv6: true
+  listen: 127.0.0.1:1053
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  default-nameserver:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 223.5.5.5
+  nameserver:
+    - tls://dns.alidns.com
+    - tls://dot.pub
+    - tls://dot.360.cn
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
+  fallback:
+    - tls://dns.google
+    - tls://dns.adguard.com
+    - tls://dot.sb
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - tls://one.one.one.one
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://doh.sb/dns-query
+  nameserver-policy:
+    "geosite:category-ads-all@ads,category-ads-all,category-httpdns-cn@ads,adblockplus": rcode://success
+    "geosite:geolocation-cn,cn":
+      - tls://dns.alidns.com
+      - tls://dot.pub
+      - tls://dot.360.cn
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
+    "geosite:category-ai-chat-!cn,youtube,facebook,twitter,google,gfw,geolocation-!cn":
+      - tls://dns.google
+      - tls://dns.adguard.com
+      - tls://dot.sb
+      - tls://1dot1dot1dot1.cloudflare-dns.com
+      - tls://one.one.one.one
+      - https://dns.google/dns-query
+      - https://dns.quad9.net/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.adguard.com/dns-query
+      - https://doh.dns.sb/dns-query
+      - https://doh.sb/dns-query
+  proxy-server-nameserver:
+    - tcp://8.8.8.8
+    - tcp://8.8.4.4
+    - tcp://1.0.0.1
+    - tcp://1.1.1.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    getsite:
+      - geolocation-!cn
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+  fake-ip-filter:
+    - rule-set:fakeip-filter
+    - rule-set:trackerslist
+    - rule-set:private
+
+rules:
+  # 必须直连
+  - PROCESS-NAME-REGEX,.*tailscale.*,DIRECT
+  - PROCESS-NAME-REGEX,.*zerotier.*,DIRECT
+  - GEOIP,private,DIRECT
+  - GEOSITE,private,DIRECT
+  - GEOSITE,category-ntp-cn,DIRECT
+  - GEOSITE,category-ntp,DIRECT
+  - GEOSITE,category-pt,DIRECT
+  - GEOSITE,category-public-tracker,DIRECT
+  - GEOSITE,tracker,DIRECT
+  - RULE-SET,Direct,DIRECT
+  - GEOSITE,category-games@cn,DIRECT
+  - GEOSITE,category-games-cn,DIRECT
+  - GEOSITE,category-games-cn@cn,DIRECT
+  
+
+  # 广告
+  - GEOSITE,category-ads-all,AdBlock
+  - GEOSITE,category-ads-all@ads,AdBlock
+  - GEOSITE,category-httpdns-cn@ads,AdBlock
+  - GEOSITE,adblockplus,AdBlock
+  # - RULE-SET,Reject,AdBlock
+  - RULE-SET,PCDN,AdBlock
+  
+  # AI
+  - GEOSITE,category-ai-chat-!cn,OpenAI
+  # - GEOSITE,category-ai-!cn,OpenAI
+  - GEOSITE,adobe-activation,OpenAI
+  - GEOSITE,bing,OpenAI
+  # - GEOSITE,cursor,OpenAI
+  - GEOSITE,bing@cn,OpenAI
+  - GEOSITE,google-deepmind,OpenAI
+  - GEOSITE,google-gemini,OpenAI
+  - GEOSITE,jetbrains-ai,OpenAI
+  - GEOSITE,openai,OpenAI
+  # - GEOSITE,groq,OpenAI
+
+
+  # 国外流媒体
+  - GEOSITE,youtube,YouTube
+  # - GEOIP,netflix,GlobalMedia
+  # - GEOSITE,abema,GlobalMedia
+  # - GEOSITE,acplay,GlobalMedia
+  # - GEOSITE,bahamut,GlobalMedia
+  # - GEOSITE,bbc,GlobalMedia
+  # - GEOSITE,discord,GlobalMedia
+  # - GEOSITE,discoveryplus,GlobalMedia
+  # - GEOSITE,disney,GlobalMedia
+  # - GEOSITE,fox,GlobalMedia
+  # - GEOSITE,hbo,GlobalMedia
+  # - GEOSITE,hulu,GlobalMedia
+  # - GEOSITE,kkbox,GlobalMedia
+  # - GEOSITE,kktv,GlobalMedia
+  # - GEOSITE,mytvsuper,GlobalMedia
+  # - GEOSITE,naver,GlobalMedia
+  # - GEOSITE,netflix,GlobalMedia
+  # - GEOIP,netflix,GlobalMedia
+  # - GEOSITE,niconico,GlobalMedia
+  # - GEOSITE,primevideo,GlobalMedia
+  - GEOSITE,spotify,GlobalMedia
+  # - GEOSITE,tiktok,GlobalMedia
+  # - GEOSITE,tvb,GlobalMedia
+  # - GEOSITE,tver,GlobalMedia
+  # - GEOSITE,twitch,GlobalMedia
+  # - GEOSITE,applemusic,GlobalMedia
+  # - GEOSITE,appletv,GlobalMedia
+  # - GEOSITE,pandoratv,GlobalMedia
+
+  # Telegram
+  - GEOSITE,telegram,Telegram
+  - GEOIP,telegram,Telegram
+
+  # 国内流媒体
+  - GEOSITE,bilibili,Bilibili
+  - GEOSITE,bilibili2,Bilibili
+  - GEOSITE,biliintl,Bilibili
+
+  # 游戏
+  - GEOSITE,steam@cn,SteamDownload
+  - GEOSITE,steamunlocked,Steam
+  - GEOSITE,steam,Steam
+  - GEOSITE,category-games-!cn,GameAndPayPal
+  - GEOSITE,category-games@!cn,GameAndPayPal
+  - GEOSITE,blizzard,GameAndPayPal
+  - GEOSITE,ea,GameAndPayPal
+  - GEOSITE,epicbrowser,GameAndPayPal
+  - GEOSITE,epicgames,GameAndPayPal
+  - GEOSITE,garena,GameAndPayPal
+  - GEOSITE,gog,GameAndPayPal
+  - GEOSITE,nintendo,GameAndPayPal
+  - GEOSITE,origin,GameAndPayPal
+  - GEOSITE,riot,GameAndPayPal
+  - GEOSITE,rockstar,GameAndPayPal
+  - GEOSITE,sony,GameAndPayPal
+  - GEOSITE,playstation,GameAndPayPal
+  - GEOSITE,xbox,GameAndPayPal
+ 
+
+  # PayPal
+  - GEOSITE,paypal,GameAndPayPal
+
+  # 需要代理的
+  - DOMAIN-SUFFIX,meitangdehulu.com,Proxy
+  - DOMAIN-SUFFIX,hostbuf.com,Proxy
+  - GEOIP,facebook,Proxy
+  - GEOIP,twitter,Proxy
+  - GEOIP,google,Proxy
+  - GEOSITE,aixcoder,Proxy
+  - GEOSITE,9news,Proxy
+  - GEOSITE,android,Proxy
+  - GEOSITE,apkpure,Proxy
+  - GEOSITE,category-dev,Proxy
+  - GEOSITE,apple-dev,Proxy
+  - GEOSITE,category-porn,Proxy
+  - GEOSITE,category-scholar-!cn,Proxy
+  - GEOSITE,cnbeta,Proxy
+  - GEOSITE,curseforge,Proxy
+  - GEOSITE,dlsite,Proxy
+  - GEOSITE,docker,Proxy
+  - GEOSITE,ehentai,Proxy
+  - GEOSITE,google-cn,Proxy
+  - GEOSITE,google-registry,Proxy
+  - GEOSITE,google,Proxy
+  - GEOSITE,pixiv,Proxy
+  - GEOSITE,pixnet,Proxy
+  - GEOSITE,category-container,Proxy
+  - RULE-SET,OceanDNS,Proxy
+
+  # 测速
+  # - GEOSITE,speedtest,SpeedTest
+  # - GEOSITE,ookla-speedtest,SpeedTest
+
+  # Apply和Microsoft
+  - GEOSITE,apple,Apple
+  - GEOSITE,onedrive,Microsoft
+  - GEOSITE,microsoft,Microsoft
+
+  - GEOSITE,geolocation-!cn,Proxy
+  - GEOSITE,gfw,Proxy
+
+  - GEOSITE,category-ai-cn,Domestic
+  - GEOSITE,category-dev-cn,Domestic
+  - GEOIP,CN,Domestic
+  - GEOSITE,cn,Domestic
+  - GEOSITE,geolocation-cn,Domestic
+  # - RULE-SET,Domestic,Domestic
+  - NETWORK,udp,DIRECT
+  - MATCH,Others
+
+# rules:
+#   - RULE-SET,Direct,DIRECT
+#   - GEOSITE,tracker,DIRECT
+#   - RULE-SET,Reject,AdBlock
+#   - GEOSITE,category-ads-all,AdBlock
+#   - GEOIP,telegram,Telegram
+#   - GEOSITE,openai,OpenAI
+#   - RULE-SET,OpenAI,OpenAI
+#   - RULE-SET,Apple,AppleAndMicrosoft
+#   - RULE-SET,Microsoft,AppleAndMicrosoft
+#   - GEOSITE,paypal,GameAndPayPal
+#   - RULE-SET,PayPal,GameAndPayPal
+#   - RULE-SET,Game,GameAndPayPal
+#   - RULE-SET,YouTube,YouTube
+#   - GEOSITE,youtube,YouTube
+#   - RULE-SET,GlobalMedia,GlobalMedia
+#   - RULE-SET,Bilibili,Bilibili
+#   - GEOSITE,bilibili,Bilibili
+#   - GEOSITE,biliintl,Bilibili
+#   - DOMAIN-SUFFIX,cnbeta.com.tw,Proxy
+#   - DOMAIN,cnbeta.com.tw,Proxy
+#   - RULE-SET,PROXY,Proxy
+#   - GEOSITE,geolocation-!cn,Proxy
+#   - GEOSITE,apple,AppleAndMicrosoft
+#   - GEOSITE,microsoft,AppleAndMicrosoft
+#   - RULE-SET,SpeedTest,SpeedTest
+#   - RULE-SET,Domestic,Domestic
+#   - RULE-SET,MainlandMedia,Domestic
+#   - GEOSITE,CN,Domestic
+#   - GEOIP,CN,Domestic
+#   - MATCH,Others
+
+rule-anchor:
+  ip: &ip { type: http, interval: 86400, behavior: ipcidr, format: yaml }
+  domain: &domain { type: http, interval: 86400, behavior: domain, format: yaml }
+  classical: &classical { type: http, interval: 86400, behavior: classical, format: yaml }
+  mrs: &mrs { type: http, interval: 86400, behavior: domain, format: mrs }
+
+rule-providers:
+  fakeip-filter:
+    <<: *mrs
+    path: ./rules/fakeip-filter.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter-lite.mrs"
+  trackerslist:
+    <<: *mrs
+    path: ./rules/trackerslist.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.mrs"
+  private:
+    <<: *mrs
+    path: ./rules/private.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.mrs"
+  cn:
+    <<: *mrs
+    path: ./rules/cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs"
+  Direct:
+    <<: *classical
+    path: "./rules/Direct.yaml"
+    url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Direct.yaml"
+  # Domestic:
+  #   <<: *classical
+  #   path: "./rules/Domestic.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Domestic.yaml"
+  OceanDNS:
+   <<: *classical
+   path: "./rules/OceanDNS.yaml"
+   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/Other/OceanDNS.yaml"
+  
+  # WeChat:
+  #   <<: *classical
+  #   path: "./rules/WeChat.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script/refs/heads@master/rule/Clash/WeChat/WeChat_No_Resolve.yaml"
+  # Game:
+  #   <<: *classical
+  #   path: "./rules/Game.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Game.yaml"
+  # GlobalMedia:
+  #   <<: *classical
+  #   path: "./rules/GlobalMedia.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/GlobalMediaNoYoutube.yaml"
+  # YouTube:
+  #   <<: *classical
+  #   path: "./rules/YouTube.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/GlobalMedia/YouTube.yaml"
+  # MainlandMedia:
+  #   <<: *classical
+  #   path: "./rules/MainlandMedia.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/MainlandMediaNoBilibili.yaml"
+  # Bilibili:
+  #   <<: *classical
+  #   path: "./rules/Bilibili.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/MainlandMedia/Bilibili.yaml"
+  # PROXY:
+  #   <<: *classical
+  #   path: "./rules/PROXY.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Proxy.yaml"
+  # Reject:
+  #   <<: *classical
+  #   path: "./rules/Reject.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Reject.yaml"
+  # Apple:
+  #   <<: *classical
+  #   path: "./rules/Apple.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Apple.yaml"
+  # Microsoft:
+  #   <<: *classical
+  #   path: "./rules/Microsoft.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/Microsoft.yaml"
+  # PayPal:
+  #   <<: *classical
+  #   path: "./rules/PayPal.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/PayPal.yaml"
+  PCDN:
+    <<: *classical
+    path: "./rules/PCDN.yaml"
+    url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Complete/Other/PCDN.yaml"
+  # SpeedTest:
+  #   <<: *classical
+  #   path: "./rules/SpeedTest.yaml"
+  #   url: "https://testingcf.jsdelivr.net/gh/zzcabc/Rules@master/Rules_Provider/Integrate/SpeedTest.yaml"
